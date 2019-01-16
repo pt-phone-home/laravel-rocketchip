@@ -1,0 +1,17 @@
+// Buttons
+
+.btn {
+    color: $grey1;
+    background-color: $complementary;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    z-index: 15;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $complementary-light;
+        color: $grey6;
+        cursor: pointer;
+    }
+}

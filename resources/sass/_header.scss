@@ -1,0 +1,110 @@
+.header {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.5fr;
+    align-items: center;
+    align-content: center;
+    grid-column-gap: 2rem;
+    position: sticky;
+    top: 0;
+    height: 9rem;
+    background-color: $grey1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid $grey2;
+    z-index: 100;
+
+    @media (max-width: 1100px) {
+        height: 7rem;
+    }
+
+    .logo {
+        height: inherit;
+        z-index: 10;
+        a {
+            img {
+                position: absolute;
+                top: 1rem;
+                height: 80%;
+                width: auto;
+            }
+        }
+    }
+
+    .nav {
+        display: grid;
+        z-index: 10;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        align-items: center;
+        justify-items: center;
+        padding-left: 6rem;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+
+            &:hover {
+                color: $text-color-secondary;
+            }
+
+            // &:visited {
+            //     text-decoration: none;
+            //     color: black;
+            // }
+        }
+
+        .contact_us {
+            background-color: $complementary;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+
+            &:hover {
+                color: black;
+                background-color: $complementary-light;
+            }
+        }
+
+        @media (max-width: 1100px) {
+            visibility: hidden;
+        }
+    }
+
+    .sidenavbutton {
+        display: none;
+        text-align: center;
+        z-index: 10;
+
+        @media (max-width: 1100px) {
+            display: block;
+        }
+    }
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        to bottom right,
+        $color-primary-dark,
+        2%,
+        $grey1,
+        90%,
+        $complementary
+    );
+    opacity: 0.4;
+}
+
+.small {
+    height: 7rem;
+}

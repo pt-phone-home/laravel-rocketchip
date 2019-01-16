@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 65%;
+}
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 520px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: black;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 7rem repeat(10, 1fr) 7rem;
+}
+
+.push {
+  height: 60rem;
+}
+
+.banner {
+  grid-column: 1/-1;
+  display: grid;
+  position: relative;
+  height: 60vh;
+  background: url("/images/main-header.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.banner:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top right, #b32400, 15%, #f8f8f8, 90%, #00b279);
+  opacity: 0.4;
+}
+
+.banner .banner-logo {
+  justify-self: center;
+  position: absolute;
+  top: 6rem;
+  z-index: 10;
+}
+
+.banner .banner-logo img {
+  height: 10rem;
+  width: auto;
+}
+
+.banner .banner-text {
+  justify-self: center;
+  position: absolute;
+  top: 20rem;
+  font-size: 2.5rem;
+  z-index: 10;
+}
+
+.banner .banner-text span {
+  color: #b32400;
+  font-size: 3rem;
+}
+
+.banner .banner-cta {
+  justify-self: center;
+  position: absolute;
+  bottom: 12rem;
+  z-index: 10;
+}
+
+.about-container {
+  grid-column: 1/-1;
+  height: 50rem;
+  background: #00b279;
+  z-index: -1;
+  display: grid;
+  justify-items: center;
+}
+
+.about-container .about {
+  width: 80%;
+  border: 1px solid #000;
+  height: 20rem;
+}
+
+.svg-divider {
+  grid-column: 1/-1;
+  height: 10rem;
+}
+
+.svg-divider img {
+  width: 100%;
+}
+
+.header {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 3fr 0.5fr;
+  align-items: center;
+  align-content: center;
+  grid-column-gap: 2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 9rem;
+  background-color: #f8f8f8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 1px solid #e8e8e8;
+  z-index: 100;
+}
+
+@media (max-width: 1100px) {
+  .header {
+    height: 7rem;
+  }
+}
+
+.header .logo {
+  height: inherit;
+  z-index: 10;
+}
+
+.header .logo a img {
+  position: absolute;
+  top: 1rem;
+  height: 80%;
+  width: auto;
+}
+
+.header .nav {
+  display: grid;
+  z-index: 10;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding-left: 6rem;
+}
+
+.header .nav li {
+  list-style: none;
+}
+
+.header .nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.header .nav a:hover {
+  color: #ff4212;
+}
+
+.header .nav .contact_us {
+  background-color: #00b279;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.header .nav .contact_us:hover {
+  color: black;
+  background-color: #00ffa9;
+}
+
+@media (max-width: 1100px) {
+  .header .nav {
+    visibility: hidden;
+  }
+}
+
+.header .sidenavbutton {
+  display: none;
+  text-align: center;
+  z-index: 10;
+}
+
+@media (max-width: 1100px) {
+  .header .sidenavbutton {
+    display: block;
+  }
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, #b32400, 2%, #f8f8f8, 90%, #00b279);
+  opacity: 0.4;
+}
+
+.small {
+  height: 7rem;
+}
+
+.btn {
+  color: #f8f8f8;
+  background-color: #00b279;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  z-index: 15;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #00ffa9;
+  color: #2f4f4f;
+  cursor: pointer;
+}
+
