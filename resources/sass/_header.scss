@@ -61,13 +61,15 @@
 
         .contact_us {
             background-color: $complementary;
-            color: white;
+            color: $grey1;
             padding: 0.5rem 1rem;
             border-radius: 5px;
+            border: 1px solid $complementary;
 
             &:hover {
-                color: black;
-                background-color: $complementary-light;
+                color: $complementary;
+                background-color: $grey1;
+                border: $grey3 1px solid;
             }
         }
 

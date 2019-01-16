@@ -10,8 +10,9 @@
     text-decoration: none;
 
     &:hover {
-        background-color: $complementary-light;
-        color: $grey6;
+        background-color: $grey2;
+        color: $complementary;
+        border: $grey4 1px solid;
         cursor: pointer;
     }
 }

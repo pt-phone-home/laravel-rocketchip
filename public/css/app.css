@@ -196,14 +196,16 @@ body {
 
 .header .nav .contact_us {
   background-color: #00b279;
-  color: white;
+  color: #f8f8f8;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  border: 1px solid #00b279;
 }
 
 .header .nav .contact_us:hover {
-  color: black;
-  background-color: #00ffa9;
+  color: #00b279;
+  background-color: #f8f8f8;
+  border: #d3d3d3 1px solid;
 }
 
 @media (max-width: 1100px) {
@@ -250,8 +252,9 @@ body {
 }
 
 .btn:hover {
-  background-color: #00ffa9;
-  color: #2f4f4f;
+  background-color: #e8e8e8;
+  color: #00b279;
+  border: #b8b8b8 1px solid;
   cursor: pointer;
 }
 
