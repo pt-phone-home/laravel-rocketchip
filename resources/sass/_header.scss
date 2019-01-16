@@ -66,9 +66,10 @@
             border-radius: 5px;
             border: 1px solid $complementary;
 
-            &:hover {
+            &:hover,
+            &:active {
                 color: $complementary;
-                background-color: $grey1;
+                background-color: $grey3;
                 border: $grey3 1px solid;
             }
         }

@@ -1,12 +1,8 @@
-.push {
-    height: 60rem;
-}
-
 .banner {
     grid-column: 1 / -1;
     display: grid;
     position: relative;
-    height: 60vh;
+    height: 70vh;
     background: url("/images/main-header.jpg");
     background-position: top;
     background-size: cover;
@@ -72,19 +68,52 @@
 
     .about {
         width: 80%;
-        border: 1px solid #000;
+        margin-top: 10rem;
         height: 20rem;
+
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        &-title {
+            align-self: center;
+            padding-left: 2rem 5rem;
+            h1 {
+                font-size: 4rem;
+                border-top: 5px solid $grey1;
+                padding-top: 1rem;
+                color: $grey1;
+            }
+        }
+
+        &-content {
+            p {
+                padding: 2rem 7rem;
+                color: $grey1;
+                font-size: 1.7rem;
+                letter-spacing: 1.2px;
+                line-height: 2.3;
+                // border-bottom: 5px solid $grey1;
+
+                &:first-child:first-letter {
+                    font-size: 5rem;
+                    line-height: 1.7;
+                    color: $grey3;
+                    margin-bottom: -2rem;
+                }
+            }
+        }
     }
 }
 
 .svg-divider {
     grid-column: 1 / -1;
     height: 20rem;
-    margin-top: -10rem;
+    margin-top: -15rem;
     z-index: 1;
 
     img {
-        width: 100%;
+        width: inherit;
+        height: inherit;
     }
 }
 
@@ -92,11 +121,33 @@
     grid-column: 1 / -1;
     display: grid;
     justify-items: center;
+    align-items: center;
+    // justify-content: center;
+    // align-content: center;
     background-color: $grey1;
-    margin-top: 0rem;
-    height: 15rem;
+    margin-top: -5rem;
+    height: 30rem;
 
     .technologies {
-        font-size: 2rem;
+        z-index: 3;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        justify-items: center;
+
+        &-each {
+            i {
+                font-size: 10rem;
+                color: $color-primary;
+                margin-bottom: 1rem;
+            }
+
+            h5 {
+                font-size: 2rem;
+                color: $color-primary-dark;
+                text-align: center;
+            }
+        }
     }
 }
