@@ -57,7 +57,7 @@ body {
   grid-column: 1/-1;
   display: grid;
   position: relative;
-  height: 70vh;
+  height: 75vh;
   background: url("/images/main-header.jpg");
   background-position: top;
   background-size: cover;
@@ -117,7 +117,7 @@ body {
 
 .about-container .about {
   width: 80%;
-  margin-top: 10rem;
+  margin-top: 5rem;
   height: 20rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -146,11 +146,12 @@ body {
 .about-container .about-content p:first-child:first-letter {
   font-size: 5rem;
   line-height: 1.7;
-  color: #d3d3d3;
+  color: #b8b8b8;
   margin-bottom: -2rem;
 }
 
 .svg-divider {
+  position: relative;
   grid-column: 1/-1;
   height: 20rem;
   margin-top: -15rem;
@@ -162,7 +163,20 @@ body {
   height: inherit;
 }
 
+.svg-divider-title {
+  position: absolute;
+  bottom: 2rem;
+  left: -24rem;
+}
+
+.svg-divider-title img {
+  height: 15rem;
+  width: auto;
+  z-index: 45;
+}
+
 .technologies-container {
+  position: relative;
   grid-column: 1/-1;
   display: grid;
   justify-items: center;
@@ -191,6 +205,57 @@ body {
   font-size: 2rem;
   color: #b32400;
   text-align: center;
+}
+
+.services-container {
+  grid-column: 1/-1;
+  display: grid;
+  background-color: #d3d3d3;
+  height: 40rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.services-container .services {
+  width: 80%;
+  height: 35rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.services-container .services-heading {
+  grid-column: 1/-1;
+  height: 4rem;
+  justify-self: center;
+  font-size: 2rem;
+  color: #2f4f4f;
+}
+
+.services-container .services .custom-design i,
+.services-container .services .management i,
+.services-container .services .graphic-design i {
+  font-size: 10rem;
+  color: #ff4212;
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.services-container .services .custom-design h2,
+.services-container .services .management h2,
+.services-container .services .graphic-design h2 {
+  color: #2f4f4f;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.services-container .services-cta {
+  grid-column: 1/-1;
+  justify-self: center;
+  align-self: center;
 }
 
 .header {

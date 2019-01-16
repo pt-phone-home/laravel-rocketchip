@@ -28,7 +28,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             <h1>About Us</h1>
         </div>
         <div class="about-content">
-            <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Éire. We pride ourselves on providing unique solutions for small and medium business in Ireland. We develop bespoke solutions to suit a wide variety of business needs. 
+            <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Éire. We pride ourselves on providing unique solutions for small and medium business in Ireland. We develop bespoke solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications.
             </p>
         </div>
 
@@ -37,6 +37,9 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 </div>
 <div class="svg-divider">
     <img src="/images/divider2.svg" alt="">
+    <div class="svg-divider-title">
+            <img src="/images/rocket-logo-red.png" alt="">
+    </div>
 </div>
 
 <div class="technologies-container">
@@ -68,6 +71,45 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </div> --}}
         
 
+    </div>
+
+   
+</div>
+<div class="services-container">
+    <div class="services">
+        <div class="services-heading">
+            <h1>What We Do</h1>
+        </div>
+        <div class="custom-design">
+                <i class="fas fa-object-group"></i>
+                <h2>Custom Design &amp; Development</h2>
+            Custom Design / Responsive Design/ SEO
+        </div>
+        <div class="management">
+                <i class="fas fa-cogs"></i>
+                <h2>Hosting &amp; Additional Services</h2>
+                Email/Hosting/Maintanence
+        </div>
+        <div class="graphic-design">
+                <i class="far fa-images"></i>
+                <h2>Graphic Design</h2>
+                Logo Design / Graphic Design
+        </div>
+        <div class="services-cta">
+                <a href="#!" class="btn">Find out more</a>
+        </div>
+    </div>
+</div>
+
+<div class="choose-us-container">
+    <div class="choose-us">
+            
+    </div>
+</div>
+
+<div class="difference-container">
+    <div class="difference">
+        SME Specialists / Personal Service / Social Responsibility
     </div>
 </div>
 
