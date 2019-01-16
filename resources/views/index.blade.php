@@ -28,13 +28,13 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
 </div>
 <div class="svg-divider">
-    <img src="/images/divider.svg" alt="">
+    <img src="/images/divider2.svg" alt="">
 </div>
 
 <div class="technologies-container">
 
     <div class="technologies">
-
+        Testing
 
     </div>
 </div>

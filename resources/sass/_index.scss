@@ -79,9 +79,24 @@
 
 .svg-divider {
     grid-column: 1 / -1;
-    height: 10rem;
+    height: 20rem;
+    margin-top: -10rem;
+    z-index: 1;
 
     img {
         width: 100%;
+    }
+}
+
+.technologies-container {
+    grid-column: 1 / -1;
+    display: grid;
+    justify-items: center;
+    background-color: $grey1;
+    margin-top: 0rem;
+    height: 15rem;
+
+    .technologies {
+        font-size: 2rem;
     }
 }
