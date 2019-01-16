@@ -97,7 +97,7 @@
                 &:first-child:first-letter {
                     font-size: 5rem;
                     line-height: 1.7;
-                    color: $grey4;
+                    color: $grey1;
                     margin-bottom: -2rem;
                 }
             }
@@ -187,7 +187,7 @@
 
         &-heading {
             grid-column: 1 / -1;
-            height: 4rem;
+            height: 6rem;
             justify-self: center;
             font-size: 2rem;
             color: $grey6;
@@ -217,4 +217,13 @@
             align-self: center;
         }
     }
+}
+
+.svg-divider2 {
+    position: relative;
+    grid-column: 1 / -1;
+    height: 20rem;
+    background-color: blue;
+    // margin-top: -15rem;
+    z-index: 1;
 }

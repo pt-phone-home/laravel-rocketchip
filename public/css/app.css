@@ -146,7 +146,7 @@ body {
 .about-container .about-content p:first-child:first-letter {
   font-size: 5rem;
   line-height: 1.7;
-  color: #b8b8b8;
+  color: #f8f8f8;
   margin-bottom: -2rem;
 }
 
@@ -228,7 +228,7 @@ body {
 
 .services-container .services-heading {
   grid-column: 1/-1;
-  height: 4rem;
+  height: 6rem;
   justify-self: center;
   font-size: 2rem;
   color: #2f4f4f;
@@ -256,6 +256,14 @@ body {
   grid-column: 1/-1;
   justify-self: center;
   align-self: center;
+}
+
+.svg-divider2 {
+  position: relative;
+  grid-column: 1/-1;
+  height: 20rem;
+  background-color: blue;
+  z-index: 1;
 }
 
 .header {

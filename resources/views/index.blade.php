@@ -100,10 +100,12 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </div>
     </div>
 </div>
-
+<div class="svg-divider2">
+    SVG DIVIDER HERE
+</div>
 <div class="choose-us-container">
     <div class="choose-us">
-            
+            We are different!
     </div>
 </div>
 
