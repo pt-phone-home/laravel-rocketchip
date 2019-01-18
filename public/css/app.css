@@ -140,7 +140,7 @@ body {
   color: #f8f8f8;
   font-size: 1.7rem;
   letter-spacing: 1.2px;
-  line-height: 2.3;
+  line-height: 2.5;
 }
 
 .about-container .about-content p:first-child:first-letter {
@@ -156,6 +156,7 @@ body {
   height: 20rem;
   margin-top: -15rem;
   z-index: 1;
+  width: 100%;
 }
 
 .svg-divider img {
@@ -262,6 +263,8 @@ body {
   position: relative;
   grid-column: 1/-1;
   height: 20rem;
+  width: 100%;
+  margin-top: -1rem;
   z-index: 1;
 }
 
@@ -272,7 +275,7 @@ body {
 
 .choose-us-container {
   grid-column: 1/-1;
-  margin-top: -0.25rem;
+  margin-top: -1rem;
   display: grid;
   background-color: #ff4212;
   height: 20rem;

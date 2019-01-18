@@ -91,7 +91,7 @@
                 color: $grey1;
                 font-size: 1.7rem;
                 letter-spacing: 1.2px;
-                line-height: 2.3;
+                line-height: 2.5;
                 // border-bottom: 5px solid $grey1;
 
                 &:first-child:first-letter {
@@ -111,6 +111,7 @@
     height: 20rem;
     margin-top: -15rem;
     z-index: 1;
+    width: 100%;
 
     img {
         width: inherit;
@@ -223,7 +224,8 @@
     position: relative;
     grid-column: 1 / -1;
     height: 20rem;
-    // margin-top: -15rem;
+    width: 100%;
+    margin-top: -1rem;
     z-index: 1;
 
     img {
@@ -234,7 +236,7 @@
 
 .choose-us-container {
     grid-column: 1 / -1;
-    margin-top: -0.25rem;
+    margin-top: -1rem;
     display: grid;
     background-color: $color-primary;
     height: 20rem;
