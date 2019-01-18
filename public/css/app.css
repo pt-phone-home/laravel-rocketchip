@@ -156,7 +156,7 @@ body {
   height: 20rem;
   margin-top: -15rem;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
 }
 
 .svg-divider img {
@@ -212,14 +212,15 @@ body {
   grid-column: 1/-1;
   display: grid;
   background-color: #d3d3d3;
-  height: 40rem;
+  height: 65rem;
   justify-items: center;
-  align-items: center;
+  align-items: start;
 }
 
 .services-container .services {
   width: 80%;
-  height: 35rem;
+  height: 55rem;
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -233,6 +234,12 @@ body {
   justify-self: center;
   font-size: 2rem;
   color: #2f4f4f;
+}
+
+.services-container .services .custom-design,
+.services-container .services .management,
+.services-container .services .graphic-design {
+  margin-bottom: 1rem;
 }
 
 .services-container .services .custom-design i,
@@ -253,18 +260,26 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.services-container .services .custom-design p,
+.services-container .services .management p,
+.services-container .services .graphic-design p {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  font-size: 1.7rem;
+}
+
 .services-container .services-cta {
   grid-column: 1/-1;
   justify-self: center;
   align-self: center;
+  z-index: 20;
 }
 
 .svg-divider2 {
   position: relative;
   grid-column: 1/-1;
-  height: 20rem;
-  width: 100%;
-  margin-top: -1rem;
+  height: 30rem;
+  width: 100vw;
+  margin-top: -20rem;
   z-index: 1;
 }
 
@@ -275,7 +290,7 @@ body {
 
 .choose-us-container {
   grid-column: 1/-1;
-  margin-top: -1rem;
+  margin-top: -7rem;
   display: grid;
   background-color: #ff4212;
   height: 20rem;
@@ -298,7 +313,7 @@ body {
 
 .difference-container {
   grid-column: 1/-1;
-  height: 30rem;
+  height: 50rem;
   background-color: #e8e8e8;
   display: grid;
 }
@@ -316,7 +331,7 @@ body {
 .difference-container .difference-heading {
   grid-column: 1/-1;
   justify-self: center;
-  height: 7rem;
+  height: 5rem;
   color: #2f4f4f;
   text-transform: capitalize;
   font-size: 2rem;
@@ -338,6 +353,13 @@ body {
   color: #2f4f4f;
   text-align: center;
   margin-bottom: 1.5rem;
+}
+
+.difference-container .difference-sme p,
+.difference-container .difference-personal p,
+.difference-container .difference-charity p {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  font-size: 1.7rem;
 }
 
 .header {
@@ -463,5 +485,56 @@ body {
   color: #00b279;
   border: #b8b8b8 1px solid;
   cursor: pointer;
+}
+
+.footer-container {
+  grid-column: 1/-1;
+  height: 30rem;
+  background-color: #2f4f4f;
+  display: grid;
+  justify-items: center;
+}
+
+.footer-container .footer {
+  padding-top: 8rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+
+.footer-container .footer-sitemap h2,
+.footer-container .footer-location h2,
+.footer-container .footer-connect h2,
+.footer-container .footer-contact h2 {
+  color: #b8b8b8;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.footer-container .footer-sitemap ul li,
+.footer-container .footer-location ul li,
+.footer-container .footer-connect ul li,
+.footer-container .footer-contact ul li {
+  list-style: none;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #989898;
+}
+
+.footer-container .footer-sitemap p,
+.footer-container .footer-location p,
+.footer-container .footer-connect p,
+.footer-container .footer-contact p {
+  color: #989898;
+  margin-bottom: 1rem;
+}
+
+.footer-container .footer-sitemap p i,
+.footer-container .footer-location p i,
+.footer-container .footer-connect p i,
+.footer-container .footer-contact p i {
+  font-size: 3rem;
+  padding-right: 2rem;
 }
 

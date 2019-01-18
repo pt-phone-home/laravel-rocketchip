@@ -28,7 +28,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             <h1>About Us</h1>
         </div>
         <div class="about-content">
-            <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Éire. We pride ourselves on providing unique solutions for small and medium business in Ireland. We develop bespoke solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications.
+            <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Ireland. We pride ourselves on providing unique solutions for small and medium business. We develop bespoke solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications.
             </p>
         </div>
 
@@ -83,17 +83,17 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         <div class="custom-design">
                 <i class="fas fa-object-group"></i>
                 <h2>Custom Design &amp; Development</h2>
-            Custom Design / Responsive Design/ SEO
+                <p>Web sites and web applications built from the ground up to match your specifications</p>
         </div>
         <div class="management">
                 <i class="fas fa-cogs"></i>
                 <h2>Hosting &amp; Additional Services</h2>
-                Email/Hosting/Maintanence
+                <p>Website hosting, email addresses and ongoing support packages available </p>
         </div>
         <div class="graphic-design">
                 <i class="far fa-images"></i>
                 <h2>Graphic Design</h2>
-                Logo Design / Graphic Design
+                <p>Custom logo design service. PDF flyers and brochures created to order</p> 
         </div>
         <div class="services-cta">
                 <a href="#!" class="btn">Find out more</a>
@@ -119,16 +119,19 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         <div class="difference-sme">
             <i class="fas fa-user-tie"></i>
             <h2>SME Specialists</h2>
+            <p>As a small business, we understand the needs of other small businesses. We specialise in creating effective, agile web applications for SME's.</p>
 
         </div>
         <div class="difference-personal">
             <i class="fas fa-hands"></i>
             <h2>Personal Service</h2>
+            <p>We believe in developing lasting relationships through face-to-face meetings and consultation.</p>
 
         </div>
         <div class="difference-charity">
             <i class="fas fa-hand-holding-heart"></i>
             <h2>Give Something Back</h2>
+            <p>We are a socially responsible company, giving a percentage of our profits to Dublin-based charities.</p>
 
         </div>
     </div>
