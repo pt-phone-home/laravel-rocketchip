@@ -95,7 +95,7 @@ body {
 }
 
 .banner .banner-text span {
-  color: #b32400;
+  color: #ff4212;
   font-size: 3rem;
 }
 
@@ -262,8 +262,79 @@ body {
   position: relative;
   grid-column: 1/-1;
   height: 20rem;
-  background-color: blue;
   z-index: 1;
+}
+
+.svg-divider2 img {
+  height: inherit;
+  width: inherit;
+}
+
+.choose-us-container {
+  grid-column: 1/-1;
+  margin-top: -0.25rem;
+  display: grid;
+  background-color: #ff4212;
+  height: 20rem;
+}
+
+.choose-us-container .choose-us {
+  width: 80%;
+  justify-self: center;
+  display: grid;
+  color: #f8f8f8;
+}
+
+.choose-us-container .choose-us h1 {
+  justify-self: center;
+  margin-top: 4rem;
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #f8f8f8;
+}
+
+.difference-container {
+  grid-column: 1/-1;
+  height: 30rem;
+  background-color: #e8e8e8;
+  display: grid;
+}
+
+.difference-container .difference {
+  justify-self: center;
+  padding-top: 4rem;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.difference-container .difference-heading {
+  grid-column: 1/-1;
+  justify-self: center;
+  height: 7rem;
+  color: #2f4f4f;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.difference-container .difference-sme i,
+.difference-container .difference-personal i,
+.difference-container .difference-charity i {
+  font-size: 10rem;
+  color: #ff4212;
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.difference-container .difference-sme h2,
+.difference-container .difference-personal h2,
+.difference-container .difference-charity h2 {
+  color: #2f4f4f;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .header {

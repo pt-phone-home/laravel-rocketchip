@@ -101,17 +101,36 @@ Rocket.Chip Web Solutions - Helping you launch your business online
     </div>
 </div>
 <div class="svg-divider2">
-    SVG DIVIDER HERE
+    <img src="/images/divider-red-grey.svg" alt="">
 </div>
+
 <div class="choose-us-container">
     <div class="choose-us">
-            We are different!
+            <h1>We are different</h1>
     </div>
 </div>
 
 <div class="difference-container">
     <div class="difference">
-        SME Specialists / Personal Service / Social Responsibility
+
+        <div class="difference-heading">
+            <h1>What makes us unique?</h1>
+        </div>
+        <div class="difference-sme">
+            <i class="fas fa-user-tie"></i>
+            <h2>SME Specialists</h2>
+
+        </div>
+        <div class="difference-personal">
+            <i class="fas fa-hands"></i>
+            <h2>Personal Service</h2>
+
+        </div>
+        <div class="difference-charity">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h2>Give Something Back</h2>
+
+        </div>
     </div>
 </div>
 
