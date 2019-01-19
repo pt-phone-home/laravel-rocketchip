@@ -33,7 +33,7 @@
 
 .about-us-container {
     grid-column: 1 / -1;
-    height: 35rem;
+    height: 45rem;
     background-color: $grey3;
     background-position: center;
     background-size: cover;
@@ -42,7 +42,7 @@
     .about-us {
         justify-self: center;
         width: 80%;
-        height: 35rem;
+        height: 45rem;
         padding-top: 7rem;
 
         display: grid;
@@ -74,6 +74,44 @@
                         color: $color-primary;
                     }
                 }
+            }
+        }
+
+        &-cta {
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
+    }
+}
+
+.clients-container {
+    grid-column: 1 / -1;
+    height: 70rem;
+    background-color: $grey5;
+    display: grid;
+
+    .clients {
+        justify-self: center;
+        align-self: end;
+        height: 90%;
+        width: 90%;
+        // margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 1rem;
+        justify-items: center;
+
+        &-heading {
+            grid-column: 1 / -1;
+            justify-self: center;
+            height: 5rem;
+
+            h2 {
+                text-align: center;
+                text-transform: capitalize;
+                margin-bottom: 1rem;
+                color: $grey6;
+                font-size: 4rem;
             }
         }
     }

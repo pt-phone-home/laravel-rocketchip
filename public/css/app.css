@@ -574,7 +574,7 @@ body {
 
 .about-us-container {
   grid-column: 1/-1;
-  height: 35rem;
+  height: 45rem;
   background-color: #d3d3d3;
   background-position: center;
   background-size: cover;
@@ -584,7 +584,7 @@ body {
 .about-us-container .about-us {
   justify-self: center;
   width: 80%;
-  height: 35rem;
+  height: 45rem;
   padding-top: 7rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -618,5 +618,42 @@ body {
 .about-us-container .about-us-what ul li i {
   margin-right: 1rem;
   color: #ff4212;
+}
+
+.about-us-container .about-us-cta {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.clients-container {
+  grid-column: 1/-1;
+  height: 70rem;
+  background-color: #989898;
+  display: grid;
+}
+
+.clients-container .clients {
+  justify-self: center;
+  align-self: end;
+  height: 90%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  justify-items: center;
+}
+
+.clients-container .clients-heading {
+  grid-column: 1/-1;
+  justify-self: center;
+  height: 5rem;
+}
+
+.clients-container .clients-heading h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: #2f4f4f;
+  font-size: 4rem;
 }
 
