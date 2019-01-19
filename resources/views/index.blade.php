@@ -136,7 +136,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </div>
 
         <div class="difference-cta">
-            <a href="/" class="btn">Find out more</a>
+            <a href="/about" class="btn">Find out more</a>
         </div>
     </div>
 </div>
