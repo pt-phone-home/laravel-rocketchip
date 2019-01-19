@@ -134,6 +134,10 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             <p>We are a socially responsible company, giving a percentage of our profits to Dublin-based charities.</p>
 
         </div>
+
+        <div class="difference-cta">
+            <a href="/" class="btn">Find out more</a>
+        </div>
     </div>
 </div>
 

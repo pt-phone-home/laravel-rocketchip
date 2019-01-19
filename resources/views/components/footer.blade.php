@@ -3,8 +3,9 @@
         <div class="footer-sitemap">
             <h2>Links</h2>
             <ul>
+                <li>About Us</li>
                 <li>Services</li>
-                <li>Projects</li>
+                <li>Portfolio</li>
                 <li>Contact Us</li>
             </ul>
         </div>

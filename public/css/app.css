@@ -362,6 +362,11 @@ body {
   font-size: 1.7rem;
 }
 
+.difference-container .difference-cta {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
 .header {
   grid-column: 1/-1;
   display: grid;
@@ -536,5 +541,66 @@ body {
 .footer-container .footer-contact p i {
   font-size: 3rem;
   padding-right: 2rem;
+}
+
+.about-banner {
+  grid-column: 1/-1;
+  position: relative;
+  background: url("/images/laptop-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  display: grid;
+}
+
+.about-banner::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00b279, #004d34);
+  opacity: 0.5;
+}
+
+.about-banner h1 {
+  align-self: center;
+  justify-self: center;
+  font-size: 6rem;
+  color: #f8f8f8;
+  z-index: 5;
+}
+
+.about-us-container {
+  grid-column: 1/-1;
+  height: 30rem;
+  background-color: #d3d3d3;
+  display: grid;
+}
+
+.about-us-container .about-us {
+  justify-self: center;
+  width: 80%;
+  height: 35rem;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4rem;
+}
+
+.about-us-container .about-us-who h2,
+.about-us-container .about-us-vision h2,
+.about-us-container .about-us-what h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.about-us-container .about-us-who p,
+.about-us-container .about-us-vision p,
+.about-us-container .about-us-what p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
