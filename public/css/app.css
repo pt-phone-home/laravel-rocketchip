@@ -108,7 +108,7 @@ body {
 
 .about-container {
   grid-column: 1/-1;
-  height: 50rem;
+  height: 40rem;
   background: #00b279;
   z-index: -1;
   display: grid;
@@ -153,13 +153,12 @@ body {
 .svg-divider {
   position: relative;
   grid-column: 1/-1;
-  height: 20rem;
-  margin-top: -15rem;
+  margin-top: -1rem;
   z-index: 1;
   width: 100vw;
 }
 
-.svg-divider img {
+.svg-divider svg {
   width: inherit;
   height: inherit;
 }
@@ -277,23 +276,23 @@ body {
 .svg-divider2 {
   position: relative;
   grid-column: 1/-1;
-  height: 30rem;
   width: 100vw;
-  margin-top: -20rem;
-  z-index: 1;
+  margin-top: -1rem;
+  z-index: 2;
 }
 
-.svg-divider2 img {
+.svg-divider2 svg {
   height: inherit;
   width: inherit;
 }
 
 .choose-us-container {
   grid-column: 1/-1;
-  margin-top: -7rem;
+  margin-top: -0.5rem;
   display: grid;
   background-color: #ff4212;
   height: 20rem;
+  z-index: 1;
 }
 
 .choose-us-container .choose-us {
@@ -712,15 +711,14 @@ body {
 
 .svg-divider-services {
   grid-column: 1/-1;
-  height: 20rem;
   width: 100vw;
-  margin-top: -2.2rem;
+  margin-top: -1rem;
   z-index: 5;
 }
 
-.svg-divider-services img {
+.svg-divider-services svg {
   height: inherit;
-  width: 100%;
+  width: inherit;
 }
 
 .services-summary-container {
@@ -764,31 +762,58 @@ body {
   font-size: 1.7rem;
 }
 
-.design-process-container {
+.services-divider1 {
   grid-column: 1/-1;
-  height: 100rem;
-  display: grid;
-  background-color: #b8b8b8;
+  width: 100vw;
+  margin-top: -1rem;
+  z-index: 2;
 }
 
-.design-process-container .design-process {
+.services-divider1 svg {
+  height: inherit;
+  width: inherit;
+}
+
+.design-process-header-container {
+  grid-column: 1/-1;
+  height: 20rem;
+  margin-top: -1rem;
+  display: grid;
+  background-color: #ff4212;
+}
+
+.design-process-header-container .design-process-header {
   justify-self: center;
   height: 90%;
   width: 80%;
+}
+
+.design-process-header-container .design-process-header h1,
+.design-process-header-container .design-process-header p {
+  color: #f8f8f8;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.design-process-header-container .design-process-header p {
+  font-size: 1.7rem;
+  line-height: 2;
+}
+
+.design-process-1-container {
+  grid-column: 1/-1;
+  height: 20rem;
+  background-color: #e8e8e8;
   display: grid;
 }
 
-.design-process-container .design-process-header {
+.design-process-1-container .design-process-1 {
+  height: 90%;
+  width: 95%;
   justify-self: center;
-  height: 5rem;
-}
-
-.design-process-container .design-process-1,
-.design-process-container .design-process-2,
-.design-process-container .design-process-3,
-.design-process-container .design-process-4 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 1rem;
+  grid-template-columns: 1fr 2fr 0.5fr;
+  border: 1px solid #000;
 }
 

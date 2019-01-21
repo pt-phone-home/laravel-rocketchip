@@ -59,7 +59,7 @@
 
 .about-container {
     grid-column: 1 / -1;
-    height: 50rem;
+    height: 40rem;
     background: $complementary;
     z-index: -1;
 
@@ -108,12 +108,12 @@
 .svg-divider {
     position: relative;
     grid-column: 1 / -1;
-    height: 20rem;
-    margin-top: -15rem;
+    // height: 20rem;
+    margin-top: -1rem;
     z-index: 1;
     width: 100vw;
 
-    img {
+    svg {
         width: inherit;
         height: inherit;
     }
@@ -233,12 +233,12 @@
 .svg-divider2 {
     position: relative;
     grid-column: 1 / -1;
-    height: 30rem;
+    // height: 30rem;
     width: 100vw;
-    margin-top: -20rem;
-    z-index: 1;
+    margin-top: -1rem;
+    z-index: 2;
 
-    img {
+    svg {
         height: inherit;
         width: inherit;
     }
@@ -246,10 +246,11 @@
 
 .choose-us-container {
     grid-column: 1 / -1;
-    margin-top: -7rem;
+    margin-top: -0.5rem;
     display: grid;
     background-color: $color-primary;
     height: 20rem;
+    z-index: 1;
 
     .choose-us {
         width: 80%;

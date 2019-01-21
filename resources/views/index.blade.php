@@ -36,7 +36,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
 </div>
 <div class="svg-divider">
-    <img src="/images/divider2.svg" alt="">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 221.28"><title>divider-green-grey</title><polygon points="0.5 219.5 0.5 0.58 1433.35 219.5 0.5 219.5" fill="#f8f8f8"/><path d="M1,275.16,1426.77,493H1V275.16M0,274V494H1439.94L0,274Z" transform="translate(0 -274)" fill="#f8f8f8"/><polygon points="6.64 1.77 1439.5 1.77 1439.5 220.69 6.64 1.77" fill="#00b279"/><path d="M13.23,276.27H1439V494.11L13.23,276.27m-13.17-1L1440,495.28v-220Z" transform="translate(0 -274)" fill="#00b279"/></svg>
     <div class="svg-divider-title">
             <img src="/images/rocket-logo-red.png" alt="">
     </div>
@@ -100,8 +100,8 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </div>
     </div>
 </div>
-<div class="svg-divider2">
-    <img src="/images/divider-red-grey.svg" alt="">
+<div class="svg-divider2" data-name="Layer 2">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921 265.13"><title>divider-red-grey</title><polygon points="0.5 264.56 1920.5 264.56 1920.5 0.56 0.5 234.56 0.5 264.56" fill="#ff4212" stroke="#ff4212" stroke-miterlimit="10"/><polygon points="0.5 0.56 1920.5 0.56 1920.5 33.08 0.5 264.56 0.5 0.56" fill="#d3d3d3" stroke="#d3d3d3" stroke-miterlimit="10"/></svg>
 </div>
 
 <div class="choose-us-container">
