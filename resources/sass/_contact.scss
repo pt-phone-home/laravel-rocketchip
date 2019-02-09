@@ -1,0 +1,97 @@
+.contact-general-container {
+    grid-column: 1 / -1;
+    background: $grey2;
+    display: grid;
+
+    .contact-general {
+        justify-self: center;
+        width: 70%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+        &-phone {
+            margin-bottom: 1rem;
+            font-size: 1.7rem;
+            i {
+                color: $color-primary;
+                margin-right: 3rem;
+                font-size: 3rem;
+            }
+        }
+
+        &-email {
+            margin-bottom: 1rem;
+            font-size: 1.7rem;
+
+            i {
+                color: $color-primary;
+                margin-right: 2rem;
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+.contact-form-container {
+    grid-column: 1 / -1;
+    background: $grey3;
+    display: grid;
+
+    .form {
+        position: relative;
+        background: url("/images/mobile.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 60%;
+        justify-self: center;
+        box-shadow: $box-shadow;
+
+        &-header {
+            color: $grey6;
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        &-group {
+            padding: 1rem 2rem;
+        }
+
+        &-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 1.7rem;
+        }
+
+        &-input {
+            display: block;
+            margin-bottom: 1rem;
+            width: 50%;
+            height: 3rem;
+            border-radius: 5px;
+            background: $grey3;
+        }
+
+        &-textarea {
+            display: block;
+            margin-bottom: 1rem;
+            width: 50%;
+            border-radius: 5px;
+            background: $grey3;
+        }
+
+        &-button {
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(to right bottom, $grey1, 50%, $grey4);
+            opacity: 0.5;
+        }
+    }
+}

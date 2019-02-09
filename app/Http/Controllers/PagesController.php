@@ -20,4 +20,7 @@ class PagesController extends Controller
     public function portfolio() {
         return view('portfolio');
     }
+    public function contact() {
+        return view('contact');
+    }
 }

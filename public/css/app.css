@@ -902,10 +902,10 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
   grid-column: 1/-1;
-  width: 70%;
+  width: 75%;
   justify-self: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 1rem;
 }
 
@@ -918,10 +918,11 @@ body {
 
 .design-process-container .design-process .design-step-img {
   position: relative;
+  height: 20rem;
 }
 
 .design-process-container .design-process .design-step-img img {
-  height: 30rem;
+  height: 100%;
   width: 100%;
 }
 
@@ -965,6 +966,14 @@ body {
 }
 
 .design-process-container .design-process .design-step-2 .design-step-img-heading {
+  background-color: #b32400;
+}
+
+.design-process-container .design-process .design-step-3 .design-step-img::after {
+  background: linear-gradient(to right, #ff4212, 70%, #b32400);
+}
+
+.design-process-container .design-process .design-step-3 .design-step-img-heading {
   background-color: #ff4212;
 }
 
@@ -999,7 +1008,7 @@ body {
 
 .portfolio-container {
   grid-column: 1/-1;
-  background-color: #ff9980;
+  background-color: #e8e8e8;
   display: grid;
 }
 
@@ -1008,12 +1017,16 @@ body {
   margin-bottom: 2rem;
   justify-self: center;
   width: 70%;
+  color: #2f4f4f;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
 
 .portfolio-container .portfolio-item-img {
   display: grid;
+  border-right: 4px solid #2f4f4f;
+  border-top: 4px solid #2f4f4f;
+  border-left: 4px solid #2f4f4f;
 }
 
 .portfolio-container .portfolio-item-img a {
@@ -1028,6 +1041,7 @@ body {
 
 .portfolio-container .portfolio-item-info {
   padding: 1rem 3rem;
+  border-bottom: 4px solid #2f4f4f;
 }
 
 .portfolio-container .portfolio-item-info-about {
@@ -1038,7 +1052,111 @@ body {
   margin-bottom: 1rem;
 }
 
+.portfolio-container .portfolio-item-info-project {
+  margin-bottom: 1rem;
+}
+
 .portfolio-container .portfolio-item-info-project h2 {
   margin-bottom: 1rem;
+}
+
+.portfolio-container-2 {
+  background: #b8b8b8;
+}
+
+.contact-general-container {
+  grid-column: 1/-1;
+  background: #e8e8e8;
+  display: grid;
+}
+
+.contact-general-container .contact-general {
+  justify-self: center;
+  width: 70%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-general-container .contact-general-phone {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.contact-general-container .contact-general-phone i {
+  color: #ff4212;
+  margin-right: 3rem;
+  font-size: 3rem;
+}
+
+.contact-general-container .contact-general-email {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.contact-general-container .contact-general-email i {
+  color: #ff4212;
+  margin-right: 2rem;
+  font-size: 3rem;
+}
+
+.contact-form-container {
+  grid-column: 1/-1;
+  background: #d3d3d3;
+  display: grid;
+}
+
+.contact-form-container .form {
+  position: relative;
+  background: url("/images/mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 60%;
+  justify-self: center;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-container .form-header {
+  color: #2f4f4f;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact-form-container .form-group {
+  padding: 1rem 2rem;
+}
+
+.contact-form-container .form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.contact-form-container .form-input {
+  display: block;
+  margin-bottom: 1rem;
+  width: 50%;
+  height: 3rem;
+  border-radius: 5px;
+  background: #d3d3d3;
+}
+
+.contact-form-container .form-textarea {
+  display: block;
+  margin-bottom: 1rem;
+  width: 50%;
+  border-radius: 5px;
+  background: #d3d3d3;
+}
+
+.contact-form-container .form::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right bottom, #f8f8f8, 50%, #b8b8b8);
+  opacity: 0.5;
 }
 

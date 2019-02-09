@@ -71,7 +71,7 @@ Services | Rocket.Chip Web Solutions
 
                     <h3 class="design-step-info-heading"> Getting Started</h3>
                     
-                    <p class="design-step-info-text">Folling our initial meeting, a member of our team will begin working on a prototype of your website. This wireframe design will allow you to visualise the overall layout of your website, its components and the functionality you require. This stage of the process is important in ensuring you are happy with the overall concept of your website, before the more intricate design elements are put in place. </p>
+                    <p class="design-step-info-text">Following an initial meeting, a member of our team will begin working on a prototype of your website. This wireframe design will allow you to visualise the overall layout of your website, its components and the functionality you require. This stage of the process is important in ensuring you are happy with the overall concept of your website, before the more intricate design elements are put in place. </p>
 
 
                 </div>
@@ -80,16 +80,31 @@ Services | Rocket.Chip Web Solutions
                     <div class="design-step-img">
                             <img src="/images/firstdraft.jpg" alt="">
                             <h3 class="design-step-img-heading">First Draft &amp; Consultation</h3>
-                        </div>
+                    </div>
                         
-                        <div class="design-step-info">
-        
-                            <h3 class="design-step-info-heading"> Getting Started</h3>
-                            
-                            <p class="design-step-info-text">Folling our initial meeting, a member of our team will begin working on a prototype of your website. This wireframe design will allow you to visualise the overall layout of your website, its components and the functionality you require. This stage of the process is important in ensuring you are happy with the overall concept of your website, before the more intricate design elements are put in place. </p>
-        
-        
-                        </div>
+                    <div class="design-step-info">
+    
+                        <h3 class="design-step-info-heading"> Refining Design</h3>
+                        
+                        <p class="design-step-info-text">Once adjustments have been made based on your review of the prototype design, our team will begin work on the first draft of your website, including all design elements, images, and any interactive features. You will then be given the opportunity to review this draft and make suggestions for adjustments or alterations.</p>
+    
+    
+                    </div>
+            </div>
+            <div class="design-step design-step-3">
+                    <div class="design-step-img">
+                            <img src="/images/website-complete.jpg" alt="">
+                            <h3 class="design-step-img-heading">Website Completion  &amp; Review</h3>
+                    </div>
+                        
+                    <div class="design-step-info">
+    
+                        <h3 class="design-step-info-heading"> Final Touches</h3>
+                        
+                        <p class="design-step-info-text">Finally, based on your feedback and consultation, we will produce the complete version of the website. At this stage of the process, final checks can be made that all required features are in place and your objectives have been met.</p>
+    
+    
+                    </div>
             </div>
         </div>
     </div>

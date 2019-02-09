@@ -33,7 +33,7 @@
 
 .portfolio-container {
     grid-column: 1 / -1;
-    background-color: $color-primary-light;
+    background-color: $grey2;
     display: grid;
 
     .portfolio-item {
@@ -41,12 +41,16 @@
         margin-bottom: 2rem;
         justify-self: center;
         width: 70%;
+        color: $grey6;
 
         display: grid;
         grid-template-columns: 1fr 3fr;
 
         &-img {
             display: grid;
+            border-right: 4px solid $grey6;
+            border-top: 4px solid $grey6;
+            border-left: 4px solid $grey6;
 
             a {
                 justify-self: center;
@@ -60,6 +64,7 @@
 
         &-info {
             padding: 1rem 3rem;
+            border-bottom: 4px solid $grey6;
 
             &-about {
                 margin-bottom: 2rem;
@@ -72,6 +77,7 @@
             }
 
             &-project {
+                margin-bottom: 1rem;
                 h2 {
                     margin-bottom: 1rem;
                 }
@@ -81,4 +87,8 @@
             }
         }
     }
+}
+
+.portfolio-container-2 {
+    background: $grey4;
 }
