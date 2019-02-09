@@ -1,0 +1,61 @@
+.portfolio-banner {
+    grid-column: 1 / -1;
+    position: relative;
+    background: url("/images/laptop-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    display: grid;
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            to right,
+            $complementary,
+            $complementary-dark-2
+        );
+        opacity: 0.5;
+    }
+
+    h1 {
+        align-self: center;
+        justify-self: center;
+        font-size: 6rem;
+        color: $grey1;
+        z-index: 5;
+    }
+}
+
+.portfolio-container {
+    grid-column: 1 / -1;
+    background-color: $color-primary-light;
+    display: grid;
+
+    .portfolio-item {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        justify-self: center;
+        width: 70%;
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+        &-img {
+            display: grid;
+
+            a {
+                justify-self: center;
+                align-self: center;
+                img {
+                    height: 15rem;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
