@@ -50,54 +50,28 @@ About Us | Rocket.Chip Web Solutions
     </div>
 </div>
 
+<div class="samples-container">
+    <div class="samples">
+        <div class="samples-heading">
+            <h2>Samples</h2>
+            <p>We work with a variety of clients from a wide range of sectors. Some of our recent clients are listen here.</p>
+        </div>
+    </div>
+</div>
+
 <div class="clients-container">
     <div class="clients">
         <div class="clients-heading">
             <h2>projects</h2>
             <p>We work with a variety of clients from a wide range of sectors. Some of our recent clients are listen here.</p>
         </div>
-        <div>   
-            1
+        <div class="clients-client">   
+            <a href="https://www.larrysdiy.ie" target="_blank"><img class="clients-client-img"src="/images/larryslogo_trans.png" alt="" ></a>
         </div>
-        <div>
-            2
+        <div class="clients-client">   
+            <a href="https://www.drumcondrafc.com" target="_blank"><img class="clients-client-img"src="/images/drumcondra_logo.png" alt="" ></a>
         </div>
-        <div>
-            3
-        </div>
-        <div>
-            4
-        </div>
-        <div>
-            5
-        </div>
-        <div>
-            6
-        </div>
-        <div>
-            7
-        </div>
-        <div>
-            8
-        </div>
-        <div>
-            9
-        </div>
-        <div>
-            10
-        </div>
-        <div>
-            11
-        </div>
-        <div>
-            12
-        </div>
-        <div>
-            13
-        </div>
-        <div>
-            14
-        </div>
+        
     </div>
 </div>
 

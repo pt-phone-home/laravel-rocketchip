@@ -635,9 +635,36 @@ body {
   justify-self: center;
 }
 
+.samples-container {
+  grid-column: 1/-1;
+  background-color: #ff4212;
+  display: grid;
+}
+
+.samples-container .samples {
+  justify-self: center;
+  width: 90%;
+  display: grid;
+}
+
+.samples-container .samples-heading {
+  justify-self: center;
+}
+
+.samples-container .samples-heading h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: #f8f8f8;
+  font-size: 4rem;
+}
+
+.samples-container .samples-heading p {
+  color: #f8f8f8;
+}
+
 .clients-container {
   grid-column: 1/-1;
-  height: 70rem;
   background-color: #989898;
   display: grid;
 }
@@ -645,7 +672,6 @@ body {
 .clients-container .clients {
   justify-self: center;
   align-self: end;
-  height: 90%;
   width: 90%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -654,9 +680,10 @@ body {
 }
 
 .clients-container .clients-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   grid-column: 1/-1;
   justify-self: center;
-  height: 5rem;
 }
 
 .clients-container .clients-heading h2 {
@@ -665,6 +692,11 @@ body {
   margin-bottom: 1rem;
   color: #2f4f4f;
   font-size: 4rem;
+}
+
+.clients-container .clients-client-img {
+  height: 10rem;
+  width: 10rem;
 }
 
 .services-banner {
