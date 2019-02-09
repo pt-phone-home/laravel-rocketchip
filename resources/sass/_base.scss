@@ -12,17 +12,36 @@ html {
     @media (max-width: 1250px) {
         font-size: 62.5%;
     }
-
-    @media (max-width: 1000px) {
-        font-size: 60%;
+    @media (max-width: 1150px) {
+        font-size: 60.5%;
+    }
+    @media (max-width: 1050px) {
+        font-size: 58.5%;
+    }
+    @media (max-width: 950px) {
+        font-size: 56.5%;
+    }
+    @media (max-width: 850px) {
+        font-size: 55.5%;
+    }
+    @media (max-width: 750px) {
+        font-size: 53.5%;
+    }
+    @media (max-width: 650px) {
+        font-size: 51.5%;
+    }
+    @media (max-width: 550px) {
+        font-size: 49.5%;
+    }
+    @media (max-width: 450px) {
+        font-size: 47.5%;
+    }
+    @media (max-width: 350px) {
+        font-size: 45.5%;
     }
 
-    @media (max-width: 520px) {
-        font-size: 55%;
-    }
-
-    @media (max-width: 480px) {
-        font-size: 50%;
+    @media (min-width: 1500px) {
+        font-size: 75%;
     }
 }
 

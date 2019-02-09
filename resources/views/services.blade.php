@@ -59,9 +59,38 @@ Services | Rocket.Chip Web Solutions
             </div>
     </div>
 
-    <div class="design-process-1-container">
-        <div class="design-process-1">
-            testing
+    <div class="design-process-container">
+        <div class="design-process">
+            <div class="design-step design-step-1">
+                <div class="design-step-img">
+                    <img src="/images/sketch.jpg" alt="">
+                    <h3 class="design-step-img-heading">Initial Meeting &amp; Prototype</h3>
+                </div>
+                
+                <div class="design-step-info">
+
+                    <h3 class="design-step-info-heading"> Getting Started</h3>
+                    
+                    <p class="design-step-info-text">Folling our initial meeting, a member of our team will begin working on a prototype of your website. This wireframe design will allow you to visualise the overall layout of your website, its components and the functionality you require. This stage of the process is important in ensuring you are happy with the overall concept of your website, before the more intricate design elements are put in place. </p>
+
+
+                </div>
+            </div>
+            <div class="design-step design-step-2">
+                    <div class="design-step-img">
+                            <img src="/images/firstdraft.jpg" alt="">
+                            <h3 class="design-step-img-heading">First Draft &amp; Consultation</h3>
+                        </div>
+                        
+                        <div class="design-step-info">
+        
+                            <h3 class="design-step-info-heading"> Getting Started</h3>
+                            
+                            <p class="design-step-info-text">Folling our initial meeting, a member of our team will begin working on a prototype of your website. This wireframe design will allow you to visualise the overall layout of your website, its components and the functionality you require. This stage of the process is important in ensuring you are happy with the overall concept of your website, before the more intricate design elements are put in place. </p>
+        
+        
+                        </div>
+            </div>
         </div>
     </div>
 
