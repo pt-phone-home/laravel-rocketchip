@@ -924,3 +924,19 @@ body {
   width: auto;
 }
 
+.portfolio-container .portfolio-item-info {
+  padding: 1rem 3rem;
+}
+
+.portfolio-container .portfolio-item-info-about {
+  margin-bottom: 2rem;
+}
+
+.portfolio-container .portfolio-item-info-about h2 {
+  margin-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-item-info-project h2 {
+  margin-bottom: 1rem;
+}
+
