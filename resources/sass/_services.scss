@@ -32,13 +32,15 @@
 
 .services-header {
     grid-column: 1 / -1;
-    height: 20rem;
+    // height: 20rem;
     background-color: $complementary;
+    padding-bottom: 4rem;
 
     display: grid;
 
     h2 {
         margin-top: 3rem;
+        margin-bottom: 3rem;
         justify-self: center;
         font-size: 4rem;
         color: $grey2;
@@ -52,6 +54,7 @@
         justify-self: center;
         font-size: 3rem;
         color: $grey2;
+        margin-bottom: 2rem;
     }
 }
 
@@ -72,13 +75,14 @@
     grid-column: 1 / -1;
     margin-top: -3rem;
     background-color: $grey1;
-    height: 20rem;
+    // height: 20rem;
     display: grid;
 
     .services-summary {
-        margin-top: 4rem;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
         justify-self: center;
-        height: 90%;
+        // height: 90%;
         width: 95%;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -120,15 +124,16 @@
 
 .design-process-header-container {
     grid-column: 1 / -1;
-    height: 20rem;
+    // height: 20rem;
     margin-top: -1rem;
     display: grid;
     background-color: $color-primary;
 
     .design-process-header {
         justify-self: center;
-        height: 90%;
+        // height: 90%;
         width: 80%;
+        margin-bottom: 3rem;
 
         h1,
         p {

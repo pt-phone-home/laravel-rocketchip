@@ -108,7 +108,6 @@ body {
 
 .about-container {
   grid-column: 1/-1;
-  height: 40rem;
   background: #00b279;
   z-index: -1;
   display: grid;
@@ -118,7 +117,6 @@ body {
 .about-container .about {
   width: 80%;
   margin-top: 5rem;
-  height: 20rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -183,11 +181,12 @@ body {
   align-items: center;
   background-color: #f8f8f8;
   margin-top: -5rem;
-  height: 30rem;
 }
 
 .technologies-container .technologies {
   z-index: 3;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
   width: 90%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -211,14 +210,12 @@ body {
   grid-column: 1/-1;
   display: grid;
   background-color: #d3d3d3;
-  height: 65rem;
   justify-items: center;
   align-items: start;
 }
 
 .services-container .services {
   width: 80%;
-  height: 55rem;
   padding-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -229,7 +226,8 @@ body {
 
 .services-container .services-heading {
   grid-column: 1/-1;
-  height: 6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   justify-self: center;
   font-size: 2rem;
   color: #2f4f4f;
@@ -238,7 +236,8 @@ body {
 .services-container .services .custom-design,
 .services-container .services .management,
 .services-container .services .graphic-design {
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .services-container .services .custom-design i,
@@ -291,7 +290,6 @@ body {
   margin-top: -0.5rem;
   display: grid;
   background-color: #ff4212;
-  height: 20rem;
   z-index: 1;
 }
 
@@ -305,6 +303,7 @@ body {
 .choose-us-container .choose-us h1 {
   justify-self: center;
   margin-top: 4rem;
+  margin-bottom: 6rem;
   font-size: 4rem;
   text-transform: capitalize;
   color: #f8f8f8;
@@ -312,7 +311,6 @@ body {
 
 .difference-container {
   grid-column: 1/-1;
-  height: 50rem;
   background-color: #e8e8e8;
   display: grid;
 }
@@ -328,12 +326,19 @@ body {
 }
 
 .difference-container .difference-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   grid-column: 1/-1;
   justify-self: center;
-  height: 5rem;
   color: #2f4f4f;
   text-transform: capitalize;
   font-size: 2rem;
+}
+
+.difference-container .difference-sme,
+.difference-container .difference-personal,
+.difference-container .difference-charity {
+  margin-bottom: 3rem;
 }
 
 .difference-container .difference-sme i,
@@ -362,6 +367,7 @@ body {
 }
 
 .difference-container .difference-cta {
+  margin-bottom: 5rem;
   grid-column: 1/-1;
   justify-self: center;
 }
@@ -493,7 +499,6 @@ body {
 
 .footer-container {
   grid-column: 1/-1;
-  height: 30rem;
   background-color: #2f4f4f;
   display: grid;
   justify-items: center;
@@ -502,6 +507,7 @@ body {
 .footer-container .footer {
   padding-top: 8rem;
   width: 80%;
+  margin-bottom: 5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
@@ -573,7 +579,6 @@ body {
 
 .about-us-container {
   grid-column: 1/-1;
-  height: 45rem;
   background-color: #d3d3d3;
   background-position: center;
   background-size: cover;
@@ -583,11 +588,16 @@ body {
 .about-us-container .about-us {
   justify-self: center;
   width: 80%;
-  height: 45rem;
   padding-top: 7rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 4rem;
+}
+
+.about-us-container .about-us-who,
+.about-us-container .about-us-vision,
+.about-us-container .about-us-what {
+  margin-bottom: 3rem;
 }
 
 .about-us-container .about-us-who h2,
@@ -620,6 +630,7 @@ body {
 }
 
 .about-us-container .about-us-cta {
+  margin-bottom: 5rem;
   grid-column: 1/-1;
   justify-self: center;
 }
@@ -687,13 +698,14 @@ body {
 
 .services-header {
   grid-column: 1/-1;
-  height: 20rem;
   background-color: #00b279;
+  padding-bottom: 4rem;
   display: grid;
 }
 
 .services-header h2 {
   margin-top: 3rem;
+  margin-bottom: 3rem;
   justify-self: center;
   font-size: 4rem;
   color: #e8e8e8;
@@ -707,6 +719,7 @@ body {
   justify-self: center;
   font-size: 3rem;
   color: #e8e8e8;
+  margin-bottom: 2rem;
 }
 
 .svg-divider-services {
@@ -725,14 +738,13 @@ body {
   grid-column: 1/-1;
   margin-top: -3rem;
   background-color: #f8f8f8;
-  height: 20rem;
   display: grid;
 }
 
 .services-summary-container .services-summary {
-  margin-top: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
   justify-self: center;
-  height: 90%;
   width: 95%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -776,7 +788,6 @@ body {
 
 .design-process-header-container {
   grid-column: 1/-1;
-  height: 20rem;
   margin-top: -1rem;
   display: grid;
   background-color: #ff4212;
@@ -784,8 +795,8 @@ body {
 
 .design-process-header-container .design-process-header {
   justify-self: center;
-  height: 90%;
   width: 80%;
+  margin-bottom: 3rem;
 }
 
 .design-process-header-container .design-process-header h1,

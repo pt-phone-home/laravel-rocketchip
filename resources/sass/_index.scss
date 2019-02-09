@@ -59,7 +59,7 @@
 
 .about-container {
     grid-column: 1 / -1;
-    height: 40rem;
+    // height: 40rem;
     background: $complementary;
     z-index: -1;
 
@@ -69,7 +69,7 @@
     .about {
         width: 80%;
         margin-top: 5rem;
-        height: 20rem;
+        // height: 20rem;
 
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -141,10 +141,12 @@
     // align-content: center;
     background-color: $grey1;
     margin-top: -5rem;
-    height: 30rem;
+    // height: 30rem;
 
     .technologies {
         z-index: 3;
+        margin-top: 7rem;
+        margin-bottom: 5rem;
         width: 90%;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -171,13 +173,13 @@
     grid-column: 1 / -1;
     display: grid;
     background-color: $grey3;
-    height: 65rem;
+    // height: 65rem;
     justify-items: center;
     align-items: start;
 
     .services {
         width: 80%;
-        height: 55rem;
+        // height: 55rem;
         // padding: 2rem 3rem;
         padding-top: 2rem;
 
@@ -189,7 +191,9 @@
 
         &-heading {
             grid-column: 1 / -1;
-            height: 6rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            // height: 6rem;
             justify-self: center;
             font-size: 2rem;
             color: $grey6;
@@ -198,7 +202,8 @@
         .custom-design,
         .management,
         .graphic-design {
-            margin-bottom: 1rem;
+            margin-top: 3rem;
+            margin-bottom: 5rem;
             i {
                 font-size: 10rem;
                 color: $color-primary;
@@ -249,7 +254,7 @@
     margin-top: -0.5rem;
     display: grid;
     background-color: $color-primary;
-    height: 20rem;
+    // height: 20rem;
     z-index: 1;
 
     .choose-us {
@@ -261,6 +266,7 @@
         h1 {
             justify-self: center;
             margin-top: 4rem;
+            margin-bottom: 6rem;
             font-size: 4rem;
             text-transform: capitalize;
             color: $grey1;
@@ -270,7 +276,7 @@
 
 .difference-container {
     grid-column: 1 / -1;
-    height: 50rem;
+    // height: 50rem;
     background-color: $grey2;
 
     display: grid;
@@ -286,9 +292,11 @@
         grid-row-gap: 1rem;
 
         &-heading {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
             grid-column: 1 / -1;
             justify-self: center;
-            height: 5rem;
+            // height: 5rem;
             color: $grey6;
             text-transform: capitalize;
             font-size: 2rem;
@@ -297,6 +305,7 @@
         &-sme,
         &-personal,
         &-charity {
+            margin-bottom: 3rem;
             i {
                 font-size: 10rem;
                 color: $color-primary;
@@ -317,6 +326,7 @@
             }
         }
         &-cta {
+            margin-bottom: 5rem;
             grid-column: 1 / -1;
             justify-self: center;
         }

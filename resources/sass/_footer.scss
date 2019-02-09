@@ -1,6 +1,6 @@
 .footer-container {
     grid-column: 1 / -1;
-    height: 30rem;
+    // height: 30rem;
     background-color: $grey6;
 
     display: grid;
@@ -9,6 +9,7 @@
     .footer {
         padding-top: 8rem;
         width: 80%;
+        margin-bottom: 5rem;
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
