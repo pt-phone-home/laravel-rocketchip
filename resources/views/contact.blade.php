@@ -15,28 +15,36 @@ Contact Us | Rocket.Chip Web Solutions
     </div>
 </div>
 
+@include('inc.messages')
+
 <div class="contact-form-container">
-    <form action="" class="form" method="POST">
+    <form action="/contact" class="form" method="POST">
         @csrf
         <h1 class="form-header">Send us a message</h1>
         <div class="form-group">
             <label for="name" class="form-label">Name: </label>
-            <input type="text" class="form-input" name="name" required>
+        <input type="text" class="form-input" name="name" required value="{{old('name')}}">
         </div>
         <div class="form-group">
             <label for="email" class="form-label">Email: </label>
-            <input type="email" class="form-input" name="email" required>
+        <input type="email" class="form-input" name="email" required value="{{old('email')}}">
         </div>
         <div class="form-group">
             <label for="number" class="form-label">Contact Number: </label>
-            <input type="number" class="form-input" name="number">
+        <input type="number" class="form-input" name="number" value="{{old('number')}}">
         </div>
         <div class="form-group">
             <label for="message" class="form-label"> Message: </label>
-            <textarea class="form-textarea" name="message" id="message" cols="30" rows="10"></textarea>
+        <textarea class="form-textarea" name="message" id="message" cols="30" rows="10" required>{{old('message')}}</textarea>
         </div>
-
-        <button class="form-button">Send</button>
+        <div class="form-group">
+            <label for="ReCaptcha" class="form-label">Recaptcha: </label>
+            {!! NoCaptcha::renderJs(array('required' => 'required')) !!}
+            {!! NoCaptcha::display() !!}
+        </div>
+        <div class="form-group">
+            <button class="btn form-button">Send</button>
+        </div>
     </form>
 </div>
 @endsection

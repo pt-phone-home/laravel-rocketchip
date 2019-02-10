@@ -33,18 +33,32 @@
 }
 
 .contact-form-container {
+    position: relative;
     grid-column: 1 / -1;
-    background: $grey3;
+    background: url("/images/mobile.jpg");
+    background-size: cover;
+    background-position: center;
     display: grid;
 
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right bottom, $grey1, 50%, $grey4);
+        opacity: 0.5;
+    }
+
     .form {
-        position: relative;
-        background: url("/images/mobile.jpg");
-        background-size: cover;
-        background-position: center;
-        width: 60%;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        background: $grey3;
+        width: 50%;
         justify-self: center;
         box-shadow: $box-shadow;
+        z-index: 10;
 
         &-header {
             color: $grey6;
@@ -66,32 +80,49 @@
         &-input {
             display: block;
             margin-bottom: 1rem;
-            width: 50%;
+            width: 70%;
             height: 3rem;
             border-radius: 5px;
-            background: $grey3;
+            background: $grey1;
+            z-index: 5;
+            font-size: 1.5rem;
+
+            &:focus {
+                outline: none;
+                background: $grey2;
+            }
         }
 
         &-textarea {
             display: block;
             margin-bottom: 1rem;
-            width: 50%;
+            width: 70%;
             border-radius: 5px;
-            background: $grey3;
+            background: $grey1;
+            font-size: 1.5rem;
+
+            &:focus {
+                outline: none;
+                background: $grey2;
+            }
         }
 
         &-button {
+            display: block;
+            margin-bottom: 2rem;
         }
+    }
+}
 
-        &::after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background: linear-gradient(to right bottom, $grey1, 50%, $grey4);
-            opacity: 0.5;
-        }
+.messages-container {
+    grid-column: 1 / -1;
+    background: $grey5;
+    display: grid;
+
+    .messages {
+        justify-self: center;
+        width: 60%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 }

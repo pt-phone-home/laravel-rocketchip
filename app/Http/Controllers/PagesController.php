@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\MessageFromWebsite;
+use App\Mail;
 
 class PagesController extends Controller
 {
@@ -22,5 +24,27 @@ class PagesController extends Controller
     }
     public function contact() {
         return view('contact');
+    }
+
+    public function sendMail(Request $request) {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+            'g-recaptcha-response' => 'required|captcha'
+        ]);
+
+        $email = new Mail;
+
+        $email->name = $request['name'];
+        $email->email = $request['email'];
+        $email->number = $request['number'];
+        $email->message = $request['message'];
+
+        \Mail::to('ptiernan@gmail.com')->send(
+            new MessageFromWebsite($email)
+        );
+
+        return redirect('/contact')->with('mail', 'Thanks for getting in touch. A member of the team will contact you shortly');
     }
 }
