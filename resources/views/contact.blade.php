@@ -38,7 +38,7 @@ Contact Us | Rocket.Chip Web Solutions
         <textarea class="form-textarea" name="message" id="message" cols="30" rows="10" required>{{old('message')}}</textarea>
         </div>
         <div class="form-group">
-            <label for="ReCaptcha" class="form-label">Recaptcha: </label>
+            <label for="ReCaptcha" class="form-label">Let us know you're human!: </label>
             {!! NoCaptcha::renderJs(array('required' => 'required')) !!}
             {!! NoCaptcha::display() !!}
         </div>

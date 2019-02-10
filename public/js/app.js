@@ -47937,6 +47937,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./header */ "./resources/js/header.js");
 
+__webpack_require__(/*! ./sidenav */ "./resources/js/sidenav.js");
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -48102,6 +48104,23 @@ window.addEventListener("scroll", function () {
   } else {
     header.classList = "header";
   }
+});
+
+/***/ }),
+
+/***/ "./resources/js/sidenav.js":
+/*!*********************************!*\
+  !*** ./resources/js/sidenav.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var sideNavBtn = document.getElementById("sidenavbutton");
+var sideNav = document.getElementById("sidenav");
+sideNavBtn.addEventListener("click", function () {
+  window.getComputedStyle(sideNav).display === "none" ? (sideNav.style.display = "block", sideNav.style.width = "100%") : sideNav.style.display = "none"; // sideNavBtn.addEventListener("click", function() {
+  //     sideNavBtn.classList.add("rotate");
+  // });
 });
 
 /***/ }),

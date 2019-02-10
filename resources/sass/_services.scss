@@ -7,6 +7,10 @@
     height: 20rem;
     display: grid;
 
+    @media (max-width: 600px) {
+        height: 15rem;
+    }
+
     &::after {
         position: absolute;
         content: "";
@@ -45,6 +49,10 @@
         font-size: 4rem;
         color: $grey2;
 
+        @media (max-width: 550px) {
+            font-size: 3.5rem;
+        }
+
         span {
             color: $color-primary-light;
         }
@@ -55,6 +63,13 @@
         font-size: 3rem;
         color: $grey2;
         margin-bottom: 2rem;
+
+        @media (max-width: 550px) {
+            font-size: 2.6rem;
+        }
+        @media (max-width: 450px) {
+            font-size: 2.4rem;
+        }
     }
 }
 
@@ -88,6 +103,14 @@
         grid-template-columns: repeat(6, 1fr);
         justify-content: center;
         justify-items: center;
+
+        @media (max-width: 1200px) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 4rem;
+        }
+        @media (max-width: 750px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
 
         &-custom,
         &-responsive,
@@ -166,6 +189,26 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 1rem;
+
+        @media (max-width: 1300px) {
+            width: 90%;
+        }
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+            // width: 40%;
+            grid-row-gap: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            grid-template-columns: 1fr;
+            width: 60%;
+        }
+        @media (max-width: 500px) {
+            width: 70%;
+        }
+        @media (max-width: 450px) {
+            width: 80%;
+        }
 
         .design-step {
             background-color: $grey1;

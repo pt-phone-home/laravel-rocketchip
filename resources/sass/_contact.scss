@@ -9,9 +9,20 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
 
+        @media (max-width: 900px) {
+            width: 90%;
+        }
+        @media (max-width: 700px) {
+            width: 95%;
+        }
+
         &-phone {
             margin-bottom: 1rem;
             font-size: 1.7rem;
+
+            @media (max-width: 900px) {
+                margin-bottom: 2rem;
+            }
             i {
                 color: $color-primary;
                 margin-right: 3rem;
@@ -60,6 +71,19 @@
         box-shadow: $box-shadow;
         z-index: 10;
 
+        @media (max-width: 1250px) {
+            width: 60%;
+        }
+        @media (max-width: 1000px) {
+            width: 70%;
+        }
+        @media (max-width: 850px) {
+            width: 80%;
+        }
+        @media (max-width: 650px) {
+            width: 90%;
+        }
+
         &-header {
             color: $grey6;
             text-align: center;
@@ -87,6 +111,14 @@
             z-index: 5;
             font-size: 1.5rem;
 
+            @media (max-width: 520px) {
+                width: 80%;
+            }
+
+            @media (max-width: 430px) {
+                width: 90%;
+            }
+
             &:focus {
                 outline: none;
                 background: $grey2;
@@ -100,6 +132,13 @@
             border-radius: 5px;
             background: $grey1;
             font-size: 1.5rem;
+
+            @media (max-width: 520px) {
+                width: 80%;
+            }
+            @media (max-width: 430px) {
+                width: 90%;
+            }
 
             &:focus {
                 outline: none;
