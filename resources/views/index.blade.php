@@ -96,7 +96,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
                 <p>Custom logo design service. PDF flyers and brochures created to order</p> 
         </div>
         <div class="services-cta">
-                <a href="#!" class="btn">Find out more</a>
+                <a href="/services" class="btn">Find out more</a>
         </div>
     </div>
 </div>

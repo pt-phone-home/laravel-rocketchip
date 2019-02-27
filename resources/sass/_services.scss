@@ -295,5 +295,12 @@
                 background-color: $color-primary;
             }
         }
+
+        &-cta {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
     }
 }
