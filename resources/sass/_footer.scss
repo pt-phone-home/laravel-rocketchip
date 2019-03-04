@@ -52,10 +52,18 @@
                 color: $grey5;
                 margin-bottom: 1rem;
 
-                i {
-                    font-size: 3rem;
-                    padding-right: 2rem;
-                    // margin-left: 1rem;
+                a {
+                    color: $grey5;
+
+                    i {
+                        font-size: 3rem;
+                        padding-right: 2rem;
+                        // margin-left: 1rem;
+
+                        &:hover {
+                            color: $grey2;
+                        }
+                    }
                 }
             }
         }

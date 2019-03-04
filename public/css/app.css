@@ -764,12 +764,26 @@ body {
   margin-bottom: 1rem;
 }
 
-.footer-container .footer-sitemap p i,
-.footer-container .footer-location p i,
-.footer-container .footer-connect p i,
-.footer-container .footer-contact p i {
+.footer-container .footer-sitemap p a,
+.footer-container .footer-location p a,
+.footer-container .footer-connect p a,
+.footer-container .footer-contact p a {
+  color: #989898;
+}
+
+.footer-container .footer-sitemap p a i,
+.footer-container .footer-location p a i,
+.footer-container .footer-connect p a i,
+.footer-container .footer-contact p a i {
   font-size: 3rem;
   padding-right: 2rem;
+}
+
+.footer-container .footer-sitemap p a i:hover,
+.footer-container .footer-location p a i:hover,
+.footer-container .footer-connect p a i:hover,
+.footer-container .footer-contact p a i:hover {
+  color: #e8e8e8;
 }
 
 .about-banner {

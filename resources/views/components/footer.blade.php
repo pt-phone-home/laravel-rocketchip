@@ -17,7 +17,10 @@
         
         <div class="footer-connect">
             <h2>Connect</h2>
-            <p><i class="fab fa-twitter"></i><i class="fab fa-facebook-square"></i></p>
+            <p>
+                <a href="https://twitter.com/chip_rocket?lang=en" target="_blank"><i class="fab fa-twitter"></a></i>
+                <a href="https://www.facebook.com/Rocket.ChipWebSolutions/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </p>
         </div>
 
         <div class="footer-contact">
