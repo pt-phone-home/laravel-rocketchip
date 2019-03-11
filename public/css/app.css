@@ -1346,9 +1346,19 @@ body {
   align-self: center;
 }
 
-.portfolio-container .portfolio-item-img a img {
+.portfolio-container .portfolio-item-img a .larrys-img {
   height: 15rem;
   width: auto;
+}
+
+.portfolio-container .portfolio-item-img a .drumcondra-img {
+  height: 15rem;
+  width: 13rem;
+}
+
+.portfolio-container .portfolio-item-img a .islandferries-img {
+  height: 7rem;
+  width: 20rem;
 }
 
 .portfolio-container .portfolio-item-info {
