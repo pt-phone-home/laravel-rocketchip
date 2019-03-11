@@ -134,6 +134,7 @@ body {
   top: 20rem;
   font-size: 2.5rem;
   z-index: 10;
+  padding: 0 2rem;
 }
 
 @media (max-width: 750px) {
@@ -205,6 +206,7 @@ body {
   font-size: 1.7rem;
   letter-spacing: 1.2px;
   line-height: 2.5;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 1000px) {
@@ -374,6 +376,7 @@ body {
   justify-self: center;
   align-self: center;
   z-index: 20;
+  margin-bottom: 2rem;
 }
 
 .svg-divider2 {

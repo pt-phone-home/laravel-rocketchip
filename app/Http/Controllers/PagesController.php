@@ -41,7 +41,7 @@ class PagesController extends Controller
         $email->number = $request['number'];
         $email->message = $request['message'];
 
-        \Mail::to('ptiernan@gmail.com')->send(
+        \Mail::to('info@rocketchipwebsolutions.ie')->send(
             new MessageFromWebsite($email)
         );
 
