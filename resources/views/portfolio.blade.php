@@ -30,7 +30,7 @@ Portfolio | Rocket.Chip Web Solutions
         </div>
     </div>
 </div>
-{{-- <div class="portfolio-container portfolio-container-2">
+<div class="portfolio-container portfolio-container-2">
     <div class="portfolio-item">
         <div class="portfolio-item-img">
             <a href="http://www.drumcondrafc.com" target="_blank"><img src="/images/drumcondra_logo.png" alt="" class="drumcondra-img"></a>
@@ -50,7 +50,7 @@ Portfolio | Rocket.Chip Web Solutions
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 <div class="portfolio-container portfolio-container-3">
     <div class="portfolio-item">
         <div class="portfolio-item-img">
