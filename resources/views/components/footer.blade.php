@@ -25,7 +25,7 @@
 
         <div class="footer-contact">
             <h2>Contact</h2>
-            <p><i class="fas fa-mobile-alt"></i> 087 681 6114</p>
+            <p><i class="fas fa-mobile-alt"></i> 083 319 0143</p>
             <p><i class="fas fa-at"></i>info@rocketchipwebsolutions.ie</p>
         </div>
     </div>
