@@ -71,9 +71,9 @@ About Us | Rocket.Chip Web Solutions
         <div class="clients-client">   
             <a href="https://www.islandferries.net" target="_blank"><img class="clients-client-img" src="/images/logoifn.jpg" alt=""   ></a>
         </div>
-        {{-- <div class="clients-client">   
+        <div class="clients-client">   
             <a href="http://www.drumcondrafc.com" target="_blank"><img class="clients-client-img"src="/images/drumcondra_logo.png" alt="" ></a>
-        </div> --}}
+        </div>
         
     </div>
 </div>
