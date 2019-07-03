@@ -14,14 +14,12 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(
-            to top right,
-            $color-primary-dark,
-            15%,
-            $grey1,
-            90%,
-            $complementary
-        );
+        background: linear-gradient(to top right,
+                $color-primary-dark,
+                15%,
+                $grey1,
+                90%,
+                $complementary);
         opacity: 0.4;
     }
 
@@ -30,6 +28,7 @@
         position: absolute;
         top: 6rem;
         z-index: 10;
+
         img {
             height: 10rem;
             width: auto;
@@ -42,7 +41,7 @@
         top: 20rem;
         font-size: 2.5rem;
         z-index: 10;
-        padding: 0 2rem;
+        padding: 0 6rem;
 
         @media (max-width: 750px) {
             font-size: 2rem;
@@ -94,6 +93,7 @@
             @media (max-width: 1000px) {
                 justify-self: center;
             }
+
             h1 {
                 font-size: 4rem;
                 border-top: 5px solid $grey1;
@@ -115,6 +115,7 @@
                 @media (max-width: 1000px) {
                     padding: 2rem 4rem;
                 }
+
                 @media (max-width: 550px) {
                     padding: 1rem 2rem;
                 }
@@ -182,6 +183,7 @@
             grid-template-columns: repeat(3, 1fr);
             grid-row-gap: 2rem;
         }
+
         @media (max-width: 500px) {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -225,6 +227,7 @@
         @media (max-width: 1200px) {
             width: 90%;
         }
+
         @media (max-width: 1150px) {
             width: 95%;
         }
@@ -253,6 +256,7 @@
         .graphic-design {
             margin-top: 3rem;
             margin-bottom: 5rem;
+
             i {
                 font-size: 10rem;
                 color: $color-primary;
@@ -364,6 +368,7 @@
         &-personal,
         &-charity {
             margin-bottom: 3rem;
+
             i {
                 font-size: 10rem;
                 color: $color-primary;
@@ -383,6 +388,7 @@
                 font-size: 1.7rem;
             }
         }
+
         &-cta {
             margin-bottom: 5rem;
             grid-column: 1 / -1;

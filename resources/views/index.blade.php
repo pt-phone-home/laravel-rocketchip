@@ -11,7 +11,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         <img src="/images/color_logo_transparent.png" alt="">
     </div>
     <div class="banner-text">
-        Custom Web Design &amp; Development <span>|</span> Website Re-designs <span>|</span> Graphic Design
+        Software Development <span>|</span> E-commerce <span>|</span> Custom Web Design &amp; Development <span>|</span> Website Re-designs <span>|</span> Graphic Design
     </div>
 
     <div class="banner-cta">
