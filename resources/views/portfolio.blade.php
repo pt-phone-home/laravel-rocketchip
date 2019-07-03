@@ -19,12 +19,12 @@ Portfolio | Rocket.Chip Web Solutions
         <div class="portfolio-item-info">
             <div class="portfolio-item-info-about">
                 <h2>About</h2>
-                <p>Taking your business online is crucial, and it may not be as complicated or expensive as you think</p>
-                <p>This e-commerce application demonstrates our ability to create a custom online shop where you can sell your products and services</p>
+                <p>Taking your business online is crucial, and it may not be as complicated or expensive as you think.</p>
+                <p>This e-commerce application demonstrates our ability to create a custom online shop where you can sell your products and services to the world.</p>
             </div>
             <div class="portfolio-item-info-project">
                 <h2>The Project</h2>
-                <p>E-commerce applications allow business to sell their products around the world, reaching a wider potential audience</p>
+                <p>E-commerce applications allow businesses to sell their products globally, reaching a wider potential audience.</p>
                 <p>Our E-commerce sites feature full STRIPE integration, allowing you to take payments securely and manage these payments online.</p>
 
             </div>
