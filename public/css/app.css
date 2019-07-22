@@ -1364,6 +1364,11 @@ body {
   width: 20rem;
 }
 
+.portfolio-container .portfolio-item-img a .om-img {
+  height: 15rem;
+  width: 17rem;
+}
+
 .portfolio-container .portfolio-item-info {
   padding: 1rem 3rem;
   border-bottom: 4px solid #2f4f4f;

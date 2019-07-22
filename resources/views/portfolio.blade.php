@@ -10,6 +10,26 @@ Portfolio | Rocket.Chip Web Solutions
 <div class="about-banner">
     <h1>Portfolio</h1>
 </div>
+<div class="portfolio-container portfolio-container-2">
+    <div class="portfolio-item">
+        <div class="portfolio-item-img" style="padding: 5px">
+            <a href="https://www.omahonymeats.ie" target="_blank"><img src="/images/OM_meats.png" alt="" class="om-img"></a>
+        </div>
+
+        <div class="portfolio-item-info">
+            <div class="portfolio-item-info-about">
+                <h2>About</h2>
+                <p>O'Mahony Meats are an SME based in Dublin. They supply meat to both the catering trade and the general public. They sell over 600 products. They customer-driven products</p>
+            </div>
+            <div class="portfolio-item-info-project">
+                <h2>The Project</h2>
+                <p>Rocket.Chip Web Solutions worked closely with O'Mahony Meats to develop a custom web solution to suit their style, brand identity and specific requirements.
+                <p>The website features a unique navigation and page structure, which was designed in conjuction with the client. It aslo features a custom back-end which enables the client to post employment opportunities, special offers, recipes and more.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
 <div class="portfolio-container portfolio-container">
     <div class="portfolio-item">
         <div class="portfolio-item-img">
