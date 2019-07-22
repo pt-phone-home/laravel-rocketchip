@@ -12,7 +12,7 @@ Portfolio | Rocket.Chip Web Solutions
 </div>
 <div class="portfolio-container portfolio-container-2">
     <div class="portfolio-item">
-        <div class="portfolio-item-img" style="padding: 5px">
+        <div class="portfolio-item-img">
             <a href="https://www.omahonymeats.ie" target="_blank"><img src="/images/OM_meats.png" alt="" class="om-img"></a>
         </div>
 
