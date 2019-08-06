@@ -10,7 +10,7 @@ Contact Us | Rocket.Chip Web Solutions
 </div>
 <div class="contact-general-container">
     <div class="contact-general">
-        <p class="contact-general-phone"><i class="fas fa-mobile-alt"></i> Call us on 087 681 6114 to talk to us about your website or web application plans</p>
+        <p class="contact-general-phone"><i class="fas fa-mobile-alt"></i> Call us on 083 319 0143 to talk to us about your website or web application plans</p>
         <p class="contact-general-email"><i class="fas fa-at"></i> Email us at info@rocketchipwebsolutions.ie for more information or request a quote</p>
     </div>
 </div>

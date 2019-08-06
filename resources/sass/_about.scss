@@ -1,7 +1,7 @@
 .about-banner {
     grid-column: 1 / -1;
     position: relative;
-    background: url("/images/laptop-banner.jpg");
+    background: url("/images/laptop-banner2.jpg");
     background-position: center;
     background-size: cover;
     height: 20rem;
@@ -18,11 +18,9 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(
-            to right,
-            $complementary,
-            $complementary-dark-2
-        );
+        background: linear-gradient(to right,
+                $complementary,
+                $complementary-dark-2);
         opacity: 0.5;
     }
 
@@ -61,6 +59,7 @@
         &-vision,
         &-what {
             margin-bottom: 3rem;
+
             h2 {
                 $color: $grey6;
                 font-size: 3rem;
@@ -164,6 +163,7 @@
         &-client {
             margin-top: 1rem;
             margin-bottom: 1rem;
+
             &-img {
                 height: 12rem;
                 width: auto;
