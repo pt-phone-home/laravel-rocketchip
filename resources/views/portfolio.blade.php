@@ -14,6 +14,7 @@ Portfolio | Rocket.Chip Web Solutions
     <div class="portfolio-item">
         <div class="portfolio-item-img">
             <a href="https://www.omahonymeats.ie" target="_blank"><img src="/images/OM_meats.png" alt="" class="om-img"></a>
+            <h2 style="text-align:center">O'Mahony Meats Ltd.</h2>
         </div>
 
         <div class="portfolio-item-info">
@@ -33,7 +34,8 @@ Portfolio | Rocket.Chip Web Solutions
 <div class="portfolio-container portfolio-container">
     <div class="portfolio-item">
         <div class="portfolio-item-img">
-            <a href="https://herbalshop.netlify.com/" target="_blank"><img src="/images/herbal_logo.png" alt="" class="larrys-img"></a>
+            <a href="https://sample-online-shop.netlify.com/" target="_blank"><i class="fad fa-scarf" style="font-size: 12rem; color:darkslategrey"></i></a>
+            <h2 style="text-align:center">Clothing4U</h2>
         </div>
 
         <div class="portfolio-item-info">

@@ -6,6 +6,7 @@
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/de93c2514e.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125112334-3"></script>
