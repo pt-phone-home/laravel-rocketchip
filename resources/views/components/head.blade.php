@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125112334-3"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

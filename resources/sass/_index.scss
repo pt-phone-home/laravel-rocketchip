@@ -7,6 +7,10 @@
     background-position: top;
     background-size: cover;
 
+    @media (max-width: 800px) {
+        height: 45rem;
+    }
+
     &:after {
         position: absolute;
         content: "";
@@ -14,12 +18,14 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(to top right,
-                $color-primary-dark,
-                15%,
-                $grey1,
-                90%,
-                $complementary);
+        background: linear-gradient(
+            to top right,
+            $color-primary-dark,
+            15%,
+            $grey1,
+            90%,
+            $complementary
+        );
         opacity: 0.4;
     }
 
@@ -35,21 +41,26 @@
         }
     }
 
-    .banner-text {
+    .banner-text,
+    #messenger {
         justify-self: center;
         position: absolute;
-        top: 20rem;
-        font-size: 2.5rem;
+        text-align: center;
+        top: 25rem;
+        width: 50%;
+        font-size: 3.5rem;
         z-index: 10;
         padding: 0 6rem;
+        // border-left: 2px solid $color-primary-dark;
+        // border-right: 2px solid $color-primary-dark;
 
         @media (max-width: 750px) {
             font-size: 2rem;
         }
 
         span {
-            color: $color-primary;
-            font-size: 3rem;
+            color: darkslategray;
+            font-size: 3.4rem;
 
             @media (max-width: 750px) {
                 font-size: 2rem;
@@ -63,6 +74,12 @@
         bottom: 12rem;
         z-index: 10;
     }
+}
+
+// Cursor
+.txt-type > .txt {
+    border-right: 0.2rem solid $color-primary-dark;
+    color: darkslategray;
 }
 
 .about-container {
@@ -130,6 +147,37 @@
         }
     }
 }
+
+// .new-banner {
+//     grid-column: 1 / -1;
+//     display: grid;
+//     position: relative;
+//     height: 40rem;
+//     display: flex;
+//     background: url("/images/hero.jpg");
+//     background-position: top;
+//     background-size: cover;
+
+//     &:after {
+//         position: absolute;
+//         content: "";
+//         top: 0;
+//         left: 0;
+//         height: 100%;
+//         width: 100%;
+//         background: $color-primary-dark;
+//         opacity: 0.9;
+//     }
+
+//     &-left {
+//         display: flex;
+//         flex-direction: column;
+//         padding: 4rem;
+//         font-size: 3rem;
+//         color: white;
+//         z-index: 10;
+//     }
+// }
 
 .svg-divider {
     position: relative;

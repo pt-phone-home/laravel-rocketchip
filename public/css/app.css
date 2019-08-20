@@ -105,6 +105,12 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 800px) {
+  .banner {
+    height: 45rem;
+  }
+}
+
 .banner:after {
   position: absolute;
   content: "";
@@ -128,28 +134,34 @@ body {
   width: auto;
 }
 
-.banner .banner-text {
+.banner .banner-text,
+.banner #messenger {
   justify-self: center;
   position: absolute;
-  top: 20rem;
-  font-size: 2.5rem;
+  text-align: center;
+  top: 25rem;
+  width: 50%;
+  font-size: 3.5rem;
   z-index: 10;
   padding: 0 6rem;
 }
 
 @media (max-width: 750px) {
-  .banner .banner-text {
+  .banner .banner-text,
+  .banner #messenger {
     font-size: 2rem;
   }
 }
 
-.banner .banner-text span {
-  color: #ff4212;
-  font-size: 3rem;
+.banner .banner-text span,
+.banner #messenger span {
+  color: darkslategray;
+  font-size: 3.4rem;
 }
 
 @media (max-width: 750px) {
-  .banner .banner-text span {
+  .banner .banner-text span,
+  .banner #messenger span {
     font-size: 2rem;
   }
 }
@@ -159,6 +171,11 @@ body {
   position: absolute;
   bottom: 12rem;
   z-index: 10;
+}
+
+.txt-type > .txt {
+  border-right: 0.2rem solid #b32400;
+  color: darkslategray;
 }
 
 .about-container {

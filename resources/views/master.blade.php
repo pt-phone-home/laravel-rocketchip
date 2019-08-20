@@ -8,9 +8,9 @@
 <body>
     <div class="container">
       @include('components.header')
-      
-      
-      
+
+
+
         @yield('content')
 
 
@@ -19,6 +19,10 @@
     </div>
 
     <script src="/js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
     @yield('scripts')
 
