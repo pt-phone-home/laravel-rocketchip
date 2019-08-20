@@ -84,7 +84,7 @@ About Us | Rocket.Chip Web Solutions
             <div class="om_meats">
                     <div class="om_meats-pop">
                             <div>
-                                <img src="/images/om_meats.png" alt="" class="cityfarmlogo-small" style="z-index: 100;">
+                                <img src="/images/OM_meats.png" alt="" class="cityfarmlogo-small" style="z-index: 100;">
                             </div>
                             <div class="project-btn-container">
                                 <a href="https://www.omahonymeats.ie" class="project-btn" target="_blank">Visit Site</a>
