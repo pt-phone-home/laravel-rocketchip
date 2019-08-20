@@ -21,28 +21,28 @@ Services | Rocket.Chip Web Solutions
 
     <div class="services-summary-container">
         <div class="services-summary">
-            <div class="services-summary-custom">
+            <div class="services-summary-custom" data-aos="fade-up" data-aos-easing="ease-in-out">
                 <i class="far fa-object-group"></i>
                 <h2>Custom Web Design</h2>
             </div>
-            <div class="services-summary-responsive">
+            <div class="services-summary-responsive" data-aos="fade-up" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <i class="fas fa-mobile-alt"></i>
                 <h2>Responsive Design</h2>
             </div>
 
-            <div class="services-summary-redesign">
+            <div class="services-summary-redesign" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out">
                 <i class="fas fa-laptop"></i>
                 <h2>Website Redesign</h2>
             </div>
-            <div class="services-summary-maintenance">
+            <div class="services-summary-maintenance" data-aos="fade-up" data-aos-delay="150" data-aos-easing="ease-in-out">
                 <i class="fas fa-users-cog"></i>
                 <h2>Website Maintenance</h2>
             </div>
-            <div class="services-summary-seo">
+            <div class="services-summary-seo" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
                 <i class="fas fa-search"></i>
                 <h2>Search Engine Optimisation</h2>
             </div>
-            <div class="services-summary-graphic">
+            <div class="services-summary-graphic" data-aos="fade-up" data-aos-delay="250" data-aos-easing="ease-in-out">
                 <i class="fas fa-pen-fancy"></i>
                 <h2>Graphic Design</h2>
             </div>
@@ -61,49 +61,49 @@ Services | Rocket.Chip Web Solutions
 
     <div class="design-process-container">
         <div class="design-process">
-            <div class="design-step design-step-1">
+            <div class="design-step design-step-1" data-aos="flip-left" data-aos-easing="ease-in-out">
                 <div class="design-step-img">
                     <img src="/images/sketch.jpg" alt="">
                     <h3 class="design-step-img-heading">Initial Meeting &amp; Prototype</h3>
                 </div>
-                
+
                 <div class="design-step-info">
 
                     <h3 class="design-step-info-heading"> Getting Started</h3>
-                    
+
                     <p class="design-step-info-text">Following an initial meeting, a member of our team will begin working on a prototype of your website. This wireframe design will allow you to visualise the overall layout of your website, its components and the functionality you require. This stage of the process is important in ensuring you are happy with the overall concept of your website, before the more intricate design elements are put in place. </p>
 
 
                 </div>
             </div>
-            <div class="design-step design-step-2">
+            <div class="design-step design-step-2" data-aos="flip-left" data-aos-delay="50" data-aos-easing="ease-in-out">
                     <div class="design-step-img">
                             <img src="/images/firstdraft.jpg" alt="">
                             <h3 class="design-step-img-heading">First Draft &amp; Consultation</h3>
                     </div>
-                        
+
                     <div class="design-step-info">
-    
+
                         <h3 class="design-step-info-heading"> Refining Design</h3>
-                        
+
                         <p class="design-step-info-text">Once adjustments have been made based on your review of the prototype design, our team will begin work on the first draft of your website, including all design elements, images, and any interactive features. You will then be given the opportunity to review this draft and make suggestions for adjustments or alterations.</p>
-    
-    
+
+
                     </div>
             </div>
-            <div class="design-step design-step-3">
+            <div class="design-step design-step-3" data-aos="flip-left" data-aos-delay="100" data-aos-easing="ease-in-out">
                     <div class="design-step-img">
                             <img src="/images/website-complete.jpg" alt="">
                             <h3 class="design-step-img-heading">Website Completion  &amp; Review</h3>
                     </div>
-                        
+
                     <div class="design-step-info">
-    
+
                         <h3 class="design-step-info-heading"> Final Touches</h3>
-                        
+
                         <p class="design-step-info-text">Finally, based on your feedback and consultation, we will produce the complete version of the website. At this stage of the process, final checks can be made that all required features are in place and your objectives have been met.</p>
-    
-    
+
+
                     </div>
             </div>
         </div>
