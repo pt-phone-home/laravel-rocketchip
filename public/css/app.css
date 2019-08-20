@@ -934,51 +934,147 @@ body {
 }
 
 .clients-container {
+  position: relative;
   grid-column: 1/-1;
   background-color: #989898;
-  display: grid;
+  display: flex;
+  background: url("/images/hero.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-.clients-container .clients {
-  justify-self: center;
-  align-self: end;
+.clients-container:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #989898;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.clients {
+  margin: 0 auto;
   width: 90%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 1rem;
-  grid-column-gap: 1rem;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
 }
 
-@media (max-width: 500px) {
-  .clients-container .clients {
-    grid-template-columns: 1fr;
+.clients-heading {
+  font-size: 1.7rem;
+}
+
+.clients-heading h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.clients-grid {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.city-farm,
+.om_meats {
+  position: relative;
+  background: url("/images/cityfarmbackground.png");
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  width: 50rem;
+  transition: all 0.2s ease-in-out;
+  padding: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .city-farm,
+  .om_meats {
+    margin-bottom: 2rem;
   }
 }
 
-.clients-container .clients-heading {
+.city-farm:hover,
+.om_meats:hover {
+  cursor: pointer;
+}
+
+.city-farm:hover .city-farm-pop,
+.city-farm:hover .om_meats-pop,
+.om_meats:hover .city-farm-pop,
+.om_meats:hover .om_meats-pop {
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+
+.om_meats {
+  background: url("/images/om_meatsbackground.png");
+}
+
+.city-farm-pop,
+.om_meats-pop {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00b279;
+  z-index: 100;
+  opacity: 0.1;
+}
+
+.city-farm-pop:hover,
+.om_meats-pop:hover {
+  opacity: 0.9;
+  transition: all 0.4s ease-in-out;
+}
+
+.om_meats-pop {
+  background: #823a45;
+  z-index: 100;
+}
+
+.cityfarmlogo-small {
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  grid-column: 1/-1;
-  justify-self: center;
-}
-
-.clients-container .clients-heading h2 {
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 1rem;
-  color: #2f4f4f;
-  font-size: 4rem;
-}
-
-.clients-container .clients-client {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.clients-container .clients-client-img {
-  height: 12rem;
+  height: 8rem;
   width: auto;
+  z-index: 100;
+}
+
+.project-btn-container {
+  margin-top: 4rem;
+}
+
+.project-btn {
+  margin-top: 7rem;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.project-btn:active,
+.project-btn:visited {
+  color: white;
+}
+
+.project-btn:hover {
+  background: white;
+  color: darkslategray;
+  border: 2px solid white;
 }
 
 .services-banner {
