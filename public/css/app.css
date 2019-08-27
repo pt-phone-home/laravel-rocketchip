@@ -1786,6 +1786,7 @@ body {
 @media (max-width: 820px) {
   .image-container {
     width: 90%;
+    margin-top: -2rem;
   }
 }
 
