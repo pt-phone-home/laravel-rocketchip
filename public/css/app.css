@@ -1754,7 +1754,7 @@ body {
 
 @media (max-width: 820px) {
   .modal-responsive {
-    height: 90vh;
+    height: 80vh;
   }
 }
 
