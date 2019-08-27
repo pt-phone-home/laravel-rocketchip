@@ -2100,3 +2100,36 @@ body {
   z-index: 2000;
 }
 
+.index-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d3d3d3;
+  height: 15rem;
+}
+
+.index-services-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index-service {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+.service-top {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+
+.service-hr {
+  width: 30%;
+  border-bottom: #b32400 2px solid;
+}
+

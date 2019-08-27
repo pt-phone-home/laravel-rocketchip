@@ -36,6 +36,18 @@ Rocket.Chip Web Solutions - Helping you launch your business online
     </div>
 
 </div>
+<div class="index-services">
+    <div class="index-services-container">
+        <div class="index-service basic-website">
+            <div class="service-top">
+                <hr class="service-hr">
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="about-container">
 

@@ -349,3 +349,36 @@
     left: 0;
     z-index: 2000;
 }
+
+// Services Summary on Index Page
+
+.index-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $grey3;
+    height: 15rem;
+}
+
+.index-services-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index-service {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    background: $grey1;
+    border-radius: 5px;
+}
+.service-top {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+}
+.service-hr {
+    width: 30%;
+    border-bottom: $color-primary-dark 2px solid;
+}
