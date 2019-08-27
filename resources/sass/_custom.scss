@@ -356,8 +356,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $grey3;
-    height: 15rem;
+    background: $grey2;
+    // height: 15rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .index-services-container {
@@ -367,11 +369,14 @@
 }
 
 .index-service {
-    width: 33%;
+    width: 30%;
     display: flex;
+    margin: 1rem;
     flex-direction: column;
     background: $grey1;
     border-radius: 5px;
+    border: $color-primary-dark 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 4px 4px;
 }
 .service-top {
     display: flex;
@@ -381,4 +386,10 @@
 .service-hr {
     width: 30%;
     border-bottom: $color-primary-dark 2px solid;
+}
+
+.service-main {
+    display: flex;
+    flex-direction: column;
+    border-top: $color-primary-dark 1px solid;
 }

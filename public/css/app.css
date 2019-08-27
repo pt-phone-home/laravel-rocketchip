@@ -2104,8 +2104,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #d3d3d3;
-  height: 15rem;
+  background: #e8e8e8;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .index-services-container {
@@ -2115,11 +2116,14 @@ body {
 }
 
 .index-service {
-  width: 33%;
+  width: 30%;
   display: flex;
+  margin: 1rem;
   flex-direction: column;
   background: #f8f8f8;
   border-radius: 5px;
+  border: #b32400 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 4px 4px;
 }
 
 .service-top {
@@ -2131,5 +2135,11 @@ body {
 .service-hr {
   width: 30%;
   border-bottom: #b32400 2px solid;
+}
+
+.service-main {
+  display: flex;
+  flex-direction: column;
+  border-top: #b32400 1px solid;
 }
 

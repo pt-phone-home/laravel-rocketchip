@@ -42,8 +42,42 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             <div class="service-top">
                 <hr class="service-hr">
             </div>
-            <div>
-
+            <div class="service-main">
+                <div>
+                    <span>from</span><h2>€499</h2>
+                </div>
+                <div>
+                    <h2>Brochure Website</h2>
+                    <p>Clean, professional design</p>
+                </div>
+            </div>
+        </div>
+        <div class="index-service basic-website">
+            <div class="service-top">
+                <hr class="service-hr">
+            </div>
+            <div class="service-main">
+                <div>
+                    <span>from</span><h2>€499</h2>
+                </div>
+                <div>
+                    <h2>Brochure Website</h2>
+                    <p>Clean, professional design</p>
+                </div>
+            </div>
+        </div>
+        <div class="index-service basic-website">
+            <div class="service-top">
+                <hr class="service-hr">
+            </div>
+            <div class="service-main">
+                <div>
+                    <span>from</span><h2>€499</h2>
+                </div>
+                <div>
+                    <h2>Brochure Website</h2>
+                    <p>Clean, professional design</p>
+                </div>
             </div>
         </div>
     </div>
