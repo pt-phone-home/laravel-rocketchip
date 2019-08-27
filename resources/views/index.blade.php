@@ -59,7 +59,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
     </div> --}}
 </div>
 
-<div class="technologies-container"">
+<div class="technologies-container">
 
     <div class="technologies" data-aos="fade-up">
         <div class="technologies-each">

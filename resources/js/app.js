@@ -23,8 +23,10 @@ window.Vue = require("vue");
 
 Vue.component(
     "example-component",
-    require("./components/ExampleComponent.vue").default
+    require("./components/ExampleComponent.vue").default,
 );
+// Vue.component("portfolio", require("./views/Portfolio.vue").defualt);
+import Portfolio from "./views/Portfolio.vue";
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -34,4 +36,7 @@ Vue.component(
 
 const app = new Vue({
     el: "#app",
+    components: {
+        Portfolio,
+    },
 });

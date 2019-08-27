@@ -6,7 +6,8 @@
     align-content: center;
     grid-column-gap: 2rem;
     position: sticky;
-    top: 0;
+    position: -webkit-sticky;
+    top: 0rem;
     height: 9rem;
     background-color: $grey1;
     padding-top: 1rem;

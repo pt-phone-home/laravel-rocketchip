@@ -10,8 +10,10 @@
       @include('components.header')
 
 
+        <div id="app">
+                @yield('content')
+        </div>
 
-        @yield('content')
 
 
 
@@ -20,6 +22,8 @@
 
     <script src="/js/app.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/js/TimelineMax.min.js"></script>
+    <script src="/js/TweenMax.min.js"></script>
   <script>
     AOS.init();
   </script>
