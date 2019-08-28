@@ -141,7 +141,7 @@ body {
   text-align: center;
   top: 25rem;
   width: 50%;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   z-index: 10;
   padding: 0 6rem;
 }
@@ -149,8 +149,10 @@ body {
 @media (max-width: 750px) {
   .banner .banner-text,
   .banner #messenger {
-    font-size: 2rem;
+    font-size: 4.5rem;
     top: 20rem;
+    width: 80%;
+    padding: 0 2rem;
   }
 }
 
@@ -2113,6 +2115,7 @@ body {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .index-service {
@@ -2122,14 +2125,60 @@ body {
   flex-direction: column;
   background: #f8f8f8;
   border-radius: 5px;
-  border: #b32400 1px solid;
+  border: #008057 1px solid;
   box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 4px 4px;
+}
+
+@media (max-width: 1400px) {
+  .index-service {
+    width: 40%;
+  }
+}
+
+@media (max-width: 920px) {
+  .index-service {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .index-service {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .index-service {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .index-service {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .index-service {
+    width: 90%;
+  }
+}
+
+.ecommerce-website .service-top {
+  background: #b32400;
 }
 
 .service-top {
   display: flex;
   justify-content: center;
   padding: 3rem 0rem;
+  background: #008057;
+}
+
+.service-top-heading {
+  font-size: 3rem;
+  color: #f8f8f8;
 }
 
 .service-hr {
@@ -2140,6 +2189,43 @@ body {
 .service-main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   border-top: #b32400 1px solid;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: #2f4f4f;
+}
+
+.service-main-heading {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.service-main-from {
+  font-size: 1.2rem;
+  margin-bottom: -0.5rem;
+}
+
+.service-main-price {
+  font-size: 3.8rem;
+  margin-bottom: 3rem;
+}
+
+.service-main-icon {
+  font-size: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-main-detail {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0rem 0.5rem;
+}
+
+.services-cta-top {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 

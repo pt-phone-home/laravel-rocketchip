@@ -48,15 +48,17 @@
         text-align: center;
         top: 25rem;
         width: 50%;
-        font-size: 3.5rem;
+        font-size: 4.5rem;
         z-index: 10;
         padding: 0 6rem;
         // border-left: 2px solid $color-primary-dark;
         // border-right: 2px solid $color-primary-dark;
 
         @media (max-width: 750px) {
-            font-size: 2rem;
+            font-size: 4.5rem;
             top: 20rem;
+            width: 80%;
+            padding: 0 2rem;
         }
 
         span {
