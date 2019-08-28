@@ -1731,8 +1731,6 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: 2000;
 }
 
@@ -1754,7 +1752,7 @@ body {
 
 @media (max-width: 820px) {
   .modal-responsive {
-    height: 95%;
+    height: 80vh;
   }
 }
 
@@ -1786,6 +1784,7 @@ body {
 @media (max-width: 820px) {
   .image-container {
     width: 90%;
+    margin-top: -2rem;
   }
 }
 
@@ -1961,6 +1960,7 @@ body {
 
 .portfolio-element {
   margin-top: 1rem;
+  position: relative;
   width: 33%;
   display: flex;
   flex-direction: column;
