@@ -2258,7 +2258,7 @@ body {
 .review-grid-left {
   position: absolute;
   top: calc(50%);
-  left: 4rem;
+  left: 1rem;
   z-index: 100;
   display: none;
 }
@@ -2277,7 +2277,7 @@ body {
 .review-grid-right {
   position: absolute;
   top: calc(50%);
-  right: 4rem;
+  right: 1rem;
   z-index: 100;
   display: none;
 }
