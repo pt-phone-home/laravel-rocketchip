@@ -199,6 +199,44 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </div>
     </div>
 </div>
+<div class="review-section">
+    <div class="review-section-container">
+        <div class="review-intro">
+            <h2>What our customers say</h2>
+        </div>
+        <div class="reviews-grid">
+            {{-- @include('partials.review') --}}
+            @component('partials.review')
+                @slot('image')
+                /images/logoifn.jpg
+                @endslot
+                @slot('content')
+                A big thank you to Rocket.Chip Web Solutions on doing an AMAZING job on our new website. Very Professional and easy to deal with staff. Really happy with the results.
+                @endslot
+            @endcomponent
+            @component('partials.review')
+                @slot('image')
+                /images/larryslogo_trans.png
+                @endslot
+                @slot('content')
+
+                    Completed our Website for Larry’s Diy and we are delighted. Highly recommend using Rocket.Chip Web Solutions and thank you so much for all your help, advice and hard work. -Larry’s DIY team.
+
+                @endslot
+            @endcomponent
+            @component('partials.review')
+                @slot('image')
+                /images/cityfarm.png
+                @endslot
+                @slot('content')
+
+                Thank you for Dublin City Farm amazing website! We are absolutely delighted with the website! 5* service.
+
+                @endslot
+            @endcomponent
+        </div>
+    </div>
+</div>
 
 @endsection
 
