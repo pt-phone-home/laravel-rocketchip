@@ -204,7 +204,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         <div class="review-intro">
             <h2>What our customers say</h2>
         </div>
-        <div class="reviews-grid">
+        <div class="reviews-grid" id="reviews-grid">
             {{-- @include('partials.review') --}}
             @component('partials.review')
                 @slot('image')
@@ -234,10 +234,10 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
                 @endslot
             @endcomponent
-            <div class="review-grid-left">
+            <div class="review-grid-left" id="reviews-left">
                 <i class="fal fa-chevron-circle-left review-grid-left-icon"></i>
             </div>
-            <div class="review-grid-right">
+            <div class="review-grid-right" id="reviews-right">
                 <i class="fal fa-chevron-circle-right review-grid-right-icon"></i>
             </div>
         </div>
@@ -417,8 +417,33 @@ var messenger = new Messenger($('#messenger'));
         new TypeWriter(txtElement, words, wait);
     }
 
+</script>
+
+<script>
+    const leftArrow = document.getElementById('reviews-left')
+    const rightArrow = document.getElementById('reviews-right');
+    const reviewsContainer = document.getElementById('reviews-grid');
+    let currentXPosition = reviewsContainer.getAttribute('scrollLeft')
+    const scrollAmount = document.querySelector('.review').style.width;
+
+    leftArrow.addEventListener('click', shiftLeft);
+    rightArrow.addEventListener('click', shiftRight);
+    // reviewsContainer.addEventListener('scroll', showPosition);
+
+    function showPosition() {
+        console.log(reviewsContainer.scrollLeft);
+    }
 
 
+    function shiftLeft() {
+        // console.log(scrollAmount)
+        reviewsContainer.scrollLeft -= 250;
 
+
+    }
+    function shiftRight() {
+        reviewsContainer.scrollLeft += 250;
+
+    }
 </script>
 @endsection

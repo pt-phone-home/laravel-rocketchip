@@ -1,5 +1,5 @@
-<div class="review-container">
-    <div class="review">
+<div class="review-container" id="review-container">
+    <div class="review" id="review">
         <div class="review-top">
             <img src="{{ $image }}" alt="" class="review-top-image">
         </div>

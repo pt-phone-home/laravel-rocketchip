@@ -2261,6 +2261,7 @@ body {
   left: 1rem;
   z-index: 100;
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1360px) {
@@ -2270,7 +2271,7 @@ body {
 }
 
 .review-grid-left-icon {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #b32400;
 }
 
@@ -2280,6 +2281,7 @@ body {
   right: 1rem;
   z-index: 100;
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 1360px) {
@@ -2289,7 +2291,7 @@ body {
 }
 
 .review-grid-right-icon {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #b32400;
 }
 
@@ -2299,6 +2301,7 @@ body {
   padding: 1rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 500px) {
