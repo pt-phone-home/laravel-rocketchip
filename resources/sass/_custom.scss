@@ -472,6 +472,7 @@
 // Review Section
 
 .review-section {
+    position: relative;
     // height: 20rem;
     display: flex;
     justify-content: center;
@@ -500,6 +501,40 @@
     overflow-x: scroll;
 }
 
+.review-grid-left {
+    position: absolute;
+    top: calc(50%);
+    left: 4rem;
+    z-index: 100;
+    display: none;
+
+    @media (max-width: 1360px) {
+        display: inline-block;
+    }
+
+    &-icon {
+        font-size: 5rem;
+        color: $color-primary-dark;
+    }
+}
+
+.review-grid-right {
+    position: absolute;
+    top: calc(50%);
+    right: 4rem;
+    z-index: 100;
+    display: none;
+
+    @media (max-width: 1360px) {
+        display: inline-block;
+    }
+
+    &-icon {
+        font-size: 5rem;
+        color: $color-primary-dark;
+    }
+}
+
 // Review Component
 .review-container {
     display: flex;
@@ -507,6 +542,10 @@
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+    @media (max-width: 500px) {
+        width: 450px;
+    }
 }
 
 .review {
@@ -516,6 +555,10 @@
 
     border: 1px $color-primary-dark solid;
     border-radius: 5px;
+
+    @media (max-width: 500px) {
+        width: 280px;
+    }
 }
 
 .review-top {

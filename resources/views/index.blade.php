@@ -234,6 +234,12 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
                 @endslot
             @endcomponent
+            <div class="review-grid-left">
+                <i class="fal fa-chevron-circle-left review-grid-left-icon"></i>
+            </div>
+            <div class="review-grid-right">
+                <i class="fal fa-chevron-circle-right review-grid-right-icon"></i>
+            </div>
         </div>
     </div>
 </div>

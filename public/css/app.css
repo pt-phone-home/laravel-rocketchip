@@ -2230,6 +2230,7 @@ body {
 }
 
 .review-section {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -2254,6 +2255,44 @@ body {
   overflow-x: scroll;
 }
 
+.review-grid-left {
+  position: absolute;
+  top: calc(50%);
+  left: 4rem;
+  z-index: 100;
+  display: none;
+}
+
+@media (max-width: 1360px) {
+  .review-grid-left {
+    display: inline-block;
+  }
+}
+
+.review-grid-left-icon {
+  font-size: 5rem;
+  color: #b32400;
+}
+
+.review-grid-right {
+  position: absolute;
+  top: calc(50%);
+  right: 4rem;
+  z-index: 100;
+  display: none;
+}
+
+@media (max-width: 1360px) {
+  .review-grid-right {
+    display: inline-block;
+  }
+}
+
+.review-grid-right-icon {
+  font-size: 5rem;
+  color: #b32400;
+}
+
 .review-container {
   display: flex;
   width: 500px;
@@ -2262,12 +2301,24 @@ body {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 500px) {
+  .review-container {
+    width: 450px;
+  }
+}
+
 .review {
   width: 350px;
   display: flex;
   flex-direction: column;
   border: 1px #b32400 solid;
   border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .review {
+    width: 280px;
+  }
 }
 
 .review-top {
