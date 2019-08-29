@@ -111,5 +111,47 @@ Services | Rocket.Chip Web Solutions
             <a href="/contact" class="btn">Work with us today</a>
         </div>
     </div>
+    <div class="index-services">
+        <div class="index-services-container">
+            <div class="index-service basic-website">
+                <div class="service-top">
+                    <h4 class="service-top-heading">Getting Started</h4>
+                </div>
+                <div class="service-main">
+                    <h2 class="service-main-heading">Brochure Website</h2>
+                    <i class="fal fa-browser service-main-icon"></i>
+                    <p class="service-main-from">from</p>
+                    <h2 class="service-main-price">€499<h2>
+                    <p class="service-main-detail">Clean, professional design.</p>
+                    <p class="service-main-detail">Let the world know about your products and services.</p>
+                </div>
+            </div>
+            <div class="index-service ecommerce-website">
+                <div class="service-top">
+                    <h4 class="service-top-heading">Grow your business online</h4>
+                </div>
+                <div class="service-main">
+                    <h2 class="service-main-heading">E-commerce Website</h2>
+                    <i class="fal fa-shopping-cart service-main-icon"></i>
+                    <p class="service-main-from">from</p>
+                    <h2 class="service-main-price">€799<h2>
+                    <p class="service-main-detail">Fully integrated e-commerce application.</p>
+                    <p class="service-main-detail">Sell your products globally and grow your business.</p>
+                </div>
+            </div>
+            <div class="index-service custom-website">
+                <div class="service-top">
+                    <h4 class="service-top-heading">Bespoke web application</h4>
+                </div>
+                <div class="service-main">
+                    <h2 class="service-main-heading">Custom web application</h2>
+                    <i class="fal fa-pencil-ruler service-main-icon"></i>
+                    <p class="service-main-from">from</p>
+                    <h2 class="service-main-price">€1500<h2>
+                    <p class="service-main-detail">Build something great with us: <br><br> Your big App idea | Customer Management Systems | Order Management Systems |  </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection
