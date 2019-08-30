@@ -620,6 +620,7 @@
 .new-banner-left {
     width: 50%;
     background-color: rgba(232, 232, 232, 0.8);
+    // background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -636,6 +637,13 @@
 }
 
 .new-banner-left-text {
+    p {
+        text-align: center;
+        font-size: 4rem;
+        color: darkslategray;
+        // color: $grey1;
+        line-height: 1.4;
+    }
 }
 .new-banner-img {
     justify-self: flex-start;

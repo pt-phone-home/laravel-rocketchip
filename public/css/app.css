@@ -2387,6 +2387,13 @@ body {
   height: auto;
 }
 
+.new-banner-left-text p {
+  text-align: center;
+  font-size: 4rem;
+  color: darkslategray;
+  line-height: 1.4;
+}
+
 .new-banner-img {
   justify-self: flex-start;
   align-self: flex-start;
