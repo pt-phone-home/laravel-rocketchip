@@ -58115,14 +58115,14 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var header = document.querySelector(".header");
-window.addEventListener("scroll", function () {
-  if (window.pageYOffset >= 50) {
-    header.classList += " small";
-  } else {
-    header.classList = "header";
-  }
-});
+// let header = document.querySelector(".header");
+// window.addEventListener("scroll", function() {
+//     if (window.pageYOffset >= 50) {
+//         header.classList += " small";
+//     } else {
+//         header.classList = "header";
+//     }
+// });
 
 /***/ }),
 

@@ -18,7 +18,31 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
 </div>
 </div> --}}
+<div class="new-banner">
 
+    <div class="new-banner-left">
+        <img src="/images/divices.png" class="new-banner-left-image" alt="">
+        <div class="new-banner-left-text">
+            Professional &amp; Affortable
+        </div>
+    </div>
+    <div class="new-banner-right">
+        <div class="new-banner-text">
+                <p class="slide">Custom Web Design</p>
+                <p class="slide">E-commerce Development</p>
+                <p class="slide">Software Development</p>
+                <p class="slide">Website Re-designs</p>
+                <p class="slide">Search Engine Optimisation</p>
+                <p class="slide">Graphic Design</p>
+            {{-- <div class="split-text" id="split-text" data-wait="3000" data-words='["Software Development", "E-commerce Development", "Custom Web Design", "Website Re-designs", "Graphic Design", "Search Engine Optimisation"]'>
+            </div> --}}
+        </div>
+    </div>
+    <div class="new-banner-cta">
+            <a href="/contact" class="btn new-banner-btn">Work with us today</a>
+    </div>
+
+</div>
 <div class="banner">
     <div class="banner-logo">
         <img src="/images/color_logo_transparent.png" alt="">
@@ -206,105 +230,6 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 @endsection
 
 @section('scripts')
-{{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js">
-</script> --}}
-{{-- <script>
-    var Messenger = function(el){
-  'use strict';
-  var m = this;
-
-  m.init = function(){
-    m.codeletters = "&#*+%?£@§$";
-    m.message = 0;
-    m.current_length = 0;
-    m.fadeBuffer = false;
-    m.messages = [
-      'Software Development',
-      'E-Commerce Applications',
-      'Custom Web Design & Development',
-      'Website Redesigns',
-      'Graphic Design',
-      'Search Engine Optimisation'
-    ];
-
-    setTimeout(m.animateIn, 100);
-  };
-
-  m.generateRandomString = function(length){
-    var random_text = '';
-    while(random_text.length < length){
-      random_text += m.codeletters.charAt(Math.floor(Math.random()*m.codeletters.length));
-    }
-
-    return random_text;
-  };
-
-  m.animateIn = function(){
-    if(m.current_length < m.messages[m.message].length){
-      m.current_length = m.current_length + 2;
-      if(m.current_length > m.messages[m.message].length) {
-        m.current_length = m.messages[m.message].length;
-      }
-
-      var message = m.generateRandomString(m.current_length);
-      $(el).html(message);
-
-      setTimeout(m.animateIn, 20);
-    } else {
-      setTimeout(m.animateFadeBuffer, 20);
-    }
-  };
-
-  m.animateFadeBuffer = function(){
-    if(m.fadeBuffer === false){
-      m.fadeBuffer = [];
-      for(var i = 0; i < m.messages[m.message].length; i++){
-        m.fadeBuffer.push({c: (Math.floor(Math.random()*12))+1, l: m.messages[m.message].charAt(i)});
-      }
-    }
-
-    var do_cycles = false;
-    var message = '';
-
-    for(var i = 0; i < m.fadeBuffer.length; i++){
-      var fader = m.fadeBuffer[i];
-      if(fader.c > 0){
-        do_cycles = true;
-        fader.c--;
-        message += m.codeletters.charAt(Math.floor(Math.random()*m.codeletters.length));
-      } else {
-        message += fader.l;
-      }
-    }
-
-    $(el).html(message);
-
-    if(do_cycles === true){
-      setTimeout(m.animateFadeBuffer, 50);
-    } else {
-      setTimeout(m.cycleText, 2000);
-    }
-  };
-
-  m.cycleText = function(){
-    m.message = m.message + 1;
-    if(m.message >= m.messages.length){
-      m.message = 0;
-    }
-
-    m.current_length = 0;
-    m.fadeBuffer = false;
-    $(el).html('');
-
-    setTimeout(m.animateIn, 200);
-  };
-
-  m.init();
-}
-
-console.clear();
-var messenger = new Messenger($('#messenger'));
-</script> --}}
 
 <script>
     const TypeWriter = function (txtElement, words, wait = 3000) {
@@ -369,7 +294,7 @@ var messenger = new Messenger($('#messenger'));
     // Init
 
     function init() {
-        const txtElement = document.querySelector('.txt-type');
+        const txtElement = document.querySelector('.split-text');
         const words = JSON.parse(txtElement.getAttribute('data-words'));
         const wait = txtElement.getAttribute('data-wait');
 
@@ -404,5 +329,26 @@ var messenger = new Messenger($('#messenger'));
         reviewsContainer.scrollLeft += 250;
 
     }
+</script>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("slide");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    setTimeout(showSlides, 3000);
+}
 </script>
 @endsection
