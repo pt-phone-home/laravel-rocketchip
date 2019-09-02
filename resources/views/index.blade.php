@@ -20,8 +20,8 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 </div> --}}
 <div class="new-banner">
 
-    <div class="new-banner-left">
-        {{-- <img src="/images/divices.png" class="new-banner-left-image" alt=""> --}}
+    {{-- <div class="new-banner-left">
+
         <div class="new-banner-left-text">
             <p>
                 Everything you need to get your business online
@@ -29,8 +29,11 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             <br>
             <p>Professional &amp; Affordable</p>
         </div>
-    </div>
+    </div> --}}
     <div class="new-banner-right">
+        <div class="new-banner-text-top">
+            <p class="text-top">Innovative solutions for your business</p>
+        </div>
         <div class="new-banner-text">
                 <p class="slide">Custom Web Design</p>
                 <p class="slide">E-commerce Development</p>
@@ -41,10 +44,11 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             {{-- <div class="split-text" id="split-text" data-wait="3000" data-words='["Software Development", "E-commerce Development", "Custom Web Design", "Website Re-designs", "Graphic Design", "Search Engine Optimisation"]'>
             </div> --}}
         </div>
-    </div>
-    <div class="new-banner-cta">
+        <div class="new-banner-cta">
             <a href="/contact" class="btn new-banner-btn">Work with us today</a>
+         </div>
     </div>
+
 
 </div>
 {{-- <div class="banner">
