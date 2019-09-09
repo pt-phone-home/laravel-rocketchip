@@ -54,7 +54,7 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.grid-container {
     display: grid;
     grid-template-columns: 7rem repeat(10, 1fr) 7rem;
 }

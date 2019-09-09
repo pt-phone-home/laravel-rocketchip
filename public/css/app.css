@@ -90,7 +90,7 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.grid-container {
   display: grid;
   grid-template-columns: 7rem repeat(10, 1fr) 7rem;
 }
@@ -746,6 +746,10 @@ body {
   }
 }
 
+.footer-container .footer .footer-location p {
+  margin-right: 1rem;
+}
+
 .footer-container .footer-sitemap h2,
 .footer-container .footer-location h2,
 .footer-container .footer-connect h2,
@@ -809,7 +813,7 @@ body {
   background: url("/images/laptop-banner2.jpg");
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 15rem;
   display: grid;
 }
 
@@ -1522,7 +1526,7 @@ body {
 
 .contact-general-container {
   grid-column: 1/-1;
-  background: #e8e8e8;
+  background: #f8f8f8;
   display: grid;
 }
 
@@ -1531,9 +1535,12 @@ body {
   width: 70%;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: darkslategray;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .contact-general-container .contact-general {
     width: 90%;
   }
@@ -1542,6 +1549,55 @@ body {
 @media (max-width: 700px) {
   .contact-general-container .contact-general {
     width: 95%;
+  }
+}
+
+.contact-general-container .contact-general .contact-general-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap {
+  width: 45%;
+}
+
+@media (max-width: 890px) {
+  .contact-general-container .contact-general .contact-general-info .contact-general-info-nap {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap-heading,
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap-info,
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours-info {
+  line-height: 1.4;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours {
+  padding-top: 1.4rem;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-map {
+  width: 45%;
+  align-self: center;
+}
+
+@media (max-width: 890px) {
+  .contact-general-container .contact-general .contact-general-info .contact-general-map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -1573,6 +1629,12 @@ body {
   font-size: 3rem;
 }
 
+.contact-general-container .contact-map {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
 .contact-form-container {
   position: relative;
   grid-column: 1/-1;
@@ -1596,8 +1658,8 @@ body {
 .contact-form-container .form {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  background: #d3d3d3;
-  width: 50%;
+  background: rgba(211, 211, 211, 0.9);
+  width: 70%;
   justify-self: center;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   z-index: 10;
@@ -1605,7 +1667,7 @@ body {
 
 @media (max-width: 1250px) {
   .contact-form-container .form {
-    width: 60%;
+    width: 70%;
   }
 }
 

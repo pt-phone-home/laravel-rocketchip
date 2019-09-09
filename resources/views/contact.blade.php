@@ -8,15 +8,37 @@ Contact Us | Rocket.Chip Web Solutions
 <div class="about-banner">
     <h1>Contact Us</h1>
 </div>
-<div class="contact-general-container">
-    <div class="contact-general">
-        <p class="contact-general-phone"><i class="fas fa-mobile-alt"></i> Call us on 083 319 0143 to talk to us about your website or web application plans</p>
-        <p class="contact-general-email"><i class="fas fa-at"></i> Email us at info@rocketchipwebsolutions.ie for more information or request a quote</p>
-    </div>
+<div>
+    @include('inc.messages')
 </div>
 
-@include('inc.messages')
+<div class="contact-general-container">
+        <div class="contact-general">
 
+            <div class="contact-general-info">
+                <div class="contact-general-info-nap">
+                    <h3 class="contact-general-info-nap-heading">More info</h3>
+                    <p class="contact-general-info-nap-info">
+                        Are you a small business that needs help setting up your website or e-commerce application? Is your business looking to improve its online presence? Get in touch today to find out about our range of web development services for small business.
+                    </p>
+                    <p class="contact-general-info-nap-info"><strong>Phone:</strong> 083 319 0143</p>
+                    <p class="contact-general-info-nap-info"><strong>Email:</strong> info@rocketchipwebsolutions.ie</p>
+                    <p class="contact-general-info-nap-info"><strong>Location:</strong> Springdale Road, Raheny, Dublin 5</p>
+                    {{-- <p class="contact-general-phone"><i class="fas fa-mobile-alt"></i> Call us on 083 319 0143 to talk to us about your website or web application plans</p>
+                    <p class="contact-general-email"><i class="fas fa-at"></i> Email us at info@rocketchipwebsolutions.ie for more information or request a quote</p> --}}
+                    <div class="contact-general-info-hours">
+                        <h3 class="contact-general-info-hours-heading">Opening Hours</h3>
+                        <p class="contact-general-info-hours-info">Mon - Fri: 9am - 9pm</p>
+                        <p class="contact-general-info-hours-info">Sat & Sun: 9am - 5pm</p>
+                    </div>
+                </div>
+
+                <div class="contact-general-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38076.72737854936!2d-6.193356!3d53.3827091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670fec3a04971d%3A0x93ad0c444c86bd7e!2sSpringdale%20Rd%2C%20Donaghmede%2C%20Dublin!5e0!3m2!1sen!2sie!4v1568029462944!5m2!1sen!2sie" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 <div class="contact-form-container">
     <form action="/contact" class="form" method="POST">
         @csrf
@@ -30,7 +52,7 @@ Contact Us | Rocket.Chip Web Solutions
         <input type="email" class="form-input" name="email" required value="{{old('email')}}">
         </div>
         <div class="form-group">
-            <label for="number" class="form-label">Contact Number: </label>
+            <label for="number" class="form-label">Contact Number: (Optional) </label>
         <input type="number" class="form-input" name="number" value="{{old('number')}}">
         </div>
         <div class="form-group">
@@ -47,4 +69,5 @@ Contact Us | Rocket.Chip Web Solutions
         </div>
     </form>
 </div>
+
 @endsection

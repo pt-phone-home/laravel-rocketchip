@@ -12,9 +12,9 @@
 
         <div class="footer-location">
             <h2>Location</h2>
-            <p>Dublin, Ireland</p>
+            <p>Springdale Road, Raheny, Dublin 5, Ireland</p>
         </div>
-        
+
         <div class="footer-connect">
             <h2>Connect</h2>
             <p>
