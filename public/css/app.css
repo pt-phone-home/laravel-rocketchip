@@ -326,7 +326,8 @@ body {
   align-self: flex-start;
   margin-top: 1rem;
   font-size: 1.7rem;
-  width: 35%;
+  line-height: 1.7;
+  width: 40%;
 }
 
 .services-container .services .website-design-development-container {

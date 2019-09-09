@@ -108,11 +108,11 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </p>
         <div class="website-design-development-container">
             <div class="website-design-development-services">
-                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'serviceTitle' => 'Custom Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs ", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'serviceTitle' => 'Custom Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs.", 'serviceLink' => "#!"])
 
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online.", 'serviceLink' => "#!"])
                 @endcomponent
 
                 @component('partials.webfeature', ['icon' => "fal fa-browser", 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!"])
@@ -133,7 +133,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
     </div>
 </div>
 <div class="svg-divider2" data-name="Layer 2">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921 265.13"><title>divider-red-grey</title><polygon points="0.5 264.56 1920.5 264.56 1920.5 0.56 0.5 234.56 0.5 264.56" fill="#ff4212" stroke="#ff4212" stroke-miterlimit="10"/><polygon points="0.5 0.56 1920.5 0.56 1920.5 33.08 0.5 264.56 0.5 0.56" fill="#d3d3d3" stroke="#d3d3d3" stroke-miterlimit="10"/></svg>
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1921 265.13"><title>divider-red-grey</title><polygon points="0.5 264.56 1920.5 264.56 1920.5 0.56 0.5 234.56 0.5 264.56" fill="#ff4212" stroke="#ff4212" stroke-miterlimit="10"/><polygon points="0.5 0.56 1920.5 0.56 1920.5 33.08 0.5 264.56 0.5 0.56" fill="#F8F8F8" stroke="##F8F8F8" stroke-miterlimit="10"/></svg>
 </div>
 
 <div class="choose-us-container">
