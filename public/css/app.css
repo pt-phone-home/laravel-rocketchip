@@ -193,7 +193,7 @@ body {
   width: 80%;
   margin-top: 5rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
 }
 
 @media (max-width: 1000px) {
@@ -205,18 +205,23 @@ body {
 .about-container .about-title {
   align-self: center;
   padding-left: 2rem 5rem;
-}
-
-@media (max-width: 1000px) {
-  .about-container .about-title {
-    justify-self: center;
-  }
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-container .about-title h1 {
   font-size: 4rem;
-  border-top: 5px solid #f8f8f8;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.about-container .about-title h2 {
+  text-align: center;
+  font-size: 3rem;
   color: #f8f8f8;
 }
 
@@ -261,69 +266,20 @@ body {
   height: inherit;
 }
 
-.technologies-container {
-  position: relative;
-  grid-column: 1/-1;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  background-color: #f8f8f8;
-  margin-top: -5rem;
-}
-
-.technologies-container .technologies {
-  z-index: 3;
-  margin-top: 7rem;
-  margin-bottom: 5rem;
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: center;
-  justify-items: center;
-}
-
-@media (max-width: 800px) {
-  .technologies-container .technologies {
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 2rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .technologies-container .technologies {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.technologies-container .technologies-each i {
-  font-size: 10rem;
-  color: #ff4212;
-  margin-bottom: 1rem;
-}
-
-.technologies-container .technologies-each h5 {
-  font-size: 2rem;
-  color: #b32400;
-  text-align: center;
-}
-
 .services-container {
+  margin-top: -1rem;
   grid-column: 1/-1;
-  display: grid;
-  background-color: #d3d3d3;
-  justify-items: center;
-  align-items: start;
+  display: flex;
+  background-color: #f8f8f8;
+  justify-content: center;
+  align-items: flex-start;
   overflow: hidden;
 }
 
 .services-container .services {
   width: 80%;
-  padding-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 1200px) {
@@ -352,12 +308,36 @@ body {
 }
 
 .services-container .services-heading {
-  grid-column: 1/-1;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  justify-self: center;
+  align-self: center;
   font-size: 2rem;
-  color: #2f4f4f;
+  color: darkslategray;
+}
+
+.services-container .services .website-design-development-heading {
+  color: #008057;
+  align-self: flex-start;
+  font-size: 2.1rem;
+}
+
+.services-container .services .website-design-development-info {
+  color: darkslategray;
+  align-self: flex-start;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  width: 35%;
+}
+
+.services-container .services .website-design-development-container {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.services-container .services .website-design-development-container .website-design-development-services {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .services-container .services .custom-design,
@@ -511,6 +491,55 @@ body {
   margin-bottom: 5rem;
   grid-column: 1/-1;
   justify-self: center;
+}
+
+.webfeature {
+  margin-top: 2.5rem;
+  width: 400px;
+  display: flex;
+}
+
+.webfeature-leftPanel {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-rightPanel {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: slategray;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-icon {
+  color: #008057;
+  font-size: 3rem;
 }
 
 .header {

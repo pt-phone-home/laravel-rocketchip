@@ -76,13 +76,14 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
     <div class="about">
 
-        <div class="about-title" data-aos="fade-left">
-            <h1>About Us</h1>
+        <div class="about-title">
+            <h1 data-aos="fade-down">Website, E-commerce &amp; SEO solutions for small business</h1>
+            <h2 data-aos="fade-left" data-aos-delay="300">Everything your business needs to succeed online</h2>
         </div>
-        <div class="about-content" data-aos="fade-right">
+        {{-- <div class="about-content" data-aos="fade-right">
             <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Ireland. We pride ourselves on providing unique solutions for small and medium business. We develop bespoke solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications.
             </p>
-        </div>
+        </div> --}}
 
     </div>
 
@@ -94,59 +95,38 @@ Rocket.Chip Web Solutions - Helping you launch your business online
     </div> --}}
 </div>
 
-<div class="technologies-container">
-
-    <div class="technologies" data-aos="fade-up">
-        <div class="technologies-each">
-            <i class="fab fa-html5"></i>
-            <h5>HTML 5</h5>
-        </div>
-        <div class="technologies-each">
-            <i class="fab fa-css3-alt"></i>
-            <h5>CSS 3</h5>
-        </div>
-        <div class="technologies-each">
-            <i class="fab fa-laravel"></i>
-            <h5>Laravel</h5>
-        </div>
-        <div class="technologies-each">
-            <i class="fab fa-php"></i>
-            <h5>PHP</h5>
-        </div>
-        <div class="technologies-each">
-            <i class="fab fa-js"></i>
-            <h5>JavaScript</h5>
-        </div>
-        {{-- <div class="technologies-each">
-            <i class="fab fa-adobe"></i>
-            <h5>Adobe Creative Suite</h5>
-        </div> --}}
-
-
-    </div>
-
-
-</div>
 <div class="services-container">
     <div class="services">
         <div class="services-heading">
             <h1>What We Do</h1>
         </div>
-        <div class="custom-design" data-aos="fade-right">
-                <i class="fas fa-object-group"></i>
-                <h2>Custom Design &amp; Development</h2>
-                <p>Web sites and web applications built from the ground up to match your specifications</p>
+        <h2 class="website-design-development-heading">
+            Website Design &amp; Development
+        </h2>
+        <p class="website-design-development-info">
+            Using the latest design and development tools, we work with our clients to realise their online business goals.
+        </p>
+        <div class="website-design-development-container">
+            <div class="website-design-development-services">
+                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'serviceTitle' => 'Custom Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs ", 'serviceLink' => "#!"])
+
+                @endcomponent
+
+                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online", 'serviceLink' => "#!"])
+                @endcomponent
+
+                @component('partials.webfeature', ['icon' => "fal fa-browser", 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!"])
+                @endcomponent
+
+                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!"])
+                @endcomponent
+            </div>
+            <div class="website-design-development-feature">
+
+            </div>
         </div>
-        <div class="management" data-aos="fade-down">
-                <i class="fas fa-cogs"></i>
-                <h2>Hosting &amp; Additional Services</h2>
-                <p>Website hosting, email addresses and ongoing support packages available </p>
-        </div>
-        <div class="graphic-design" data-aos="fade-left">
-                <i class="far fa-images"></i>
-                <h2>Graphic Design</h2>
-                <p>Custom logo design service. PDF flyers and brochures created to order</p>
-        </div>
+
+
         <div class="services-cta">
                 <a href="/services" class="btn">Find out more</a>
         </div>
