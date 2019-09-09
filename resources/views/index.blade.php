@@ -118,14 +118,15 @@ Rocket.Chip Web Solutions - Helping you launch your business online
                 @component('partials.webfeature', ['icon' => "fal fa-browser", 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!"])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Have an old website that needs some attention? We can update your website so that it is more in line with modern design trends and has the functionality that customers have come to expect from a modern website.", 'serviceLink' => "#!"])
                 @endcomponent
             </div>
             <div class="website-design-development-feature">
+                @component('partials.designCallout', ['designCalloutImage' => '/images/services-callout.jpg', 'designCalloutImageAlt' => 'Importance of having an online presence'])
 
+                @endcomponent
             </div>
         </div>
-
 
         <div class="services-cta">
                 <a href="/services" class="btn">Find out more</a>

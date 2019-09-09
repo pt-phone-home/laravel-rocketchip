@@ -291,6 +291,12 @@
                 display: flex;
                 flex-direction: column;
             }
+
+            .website-design-development-feature {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
 
         .custom-design,
@@ -490,4 +496,40 @@
 .webfeature-icon {
     color: $complementary-dark;
     font-size: 3rem;
+}
+
+// design callout
+
+.design-callout {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 8px 5px -1px rgba(0, 0, 0, 0.52);
+
+    &-top {
+        height: 25rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &-image {
+        border-radius: 10px 10px 0px 0px;
+        height: auto;
+        width: 100%;
+    }
+
+    &-main {
+        padding: 2rem;
+        background: white;
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+
+        &-heading {
+            font-family: "Gothic A1", sans-serif;
+            text-transform: uppercase;
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+    }
 }

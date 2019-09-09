@@ -341,6 +341,12 @@ body {
   flex-direction: column;
 }
 
+.services-container .services .website-design-development-container .website-design-development-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .services-container .services .custom-design,
 .services-container .services .management,
 .services-container .services .graphic-design {
@@ -541,6 +547,42 @@ body {
 .webfeature-icon {
   color: #008057;
   font-size: 3rem;
+}
+
+.design-callout {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 8px 5px -1px rgba(0, 0, 0, 0.52);
+}
+
+.design-callout-top {
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.design-callout-image {
+  border-radius: 10px 10px 0px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.design-callout-main {
+  padding: 2rem;
+  background: white;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.design-callout-main-heading {
+  font-family: "Gothic A1", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 .header {
