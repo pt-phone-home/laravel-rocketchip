@@ -1,7 +1,7 @@
 <div class="webfeature">
     <div class="webfeature-leftPanel">
         <div>
-            <i class="{{ $icon }} webfeature-icon"></i>
+            <i class="{{ $icon }} {{ $iconClass }}"></i>
         </div>
         <div>
 
@@ -11,7 +11,7 @@
         <h2 class="service-title"> {{ $serviceTitle }}</h2>
         <p class="service-info"> {{ $serviceInfo }}</p>
         <div class="service-link-container">
-            <a href="{{ $serviceLink }}" class="service-link">more</a>
+            <a href="{{ $serviceLink }}" class="{{ $serviceLinkClass }}">more</a>
         </div>
     </div>
 </div>

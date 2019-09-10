@@ -267,13 +267,20 @@
             color: darkslategray;
         }
 
-        .website-design-development-heading {
+        .website-design-development-heading,
+        .essential-services-heading {
             color: $complementary-dark;
             align-self: flex-start;
-            font-size: 2.1rem;
+            font-size: 2.5rem;
         }
 
-        .website-design-development-info {
+        .essential-services-heading {
+            color: $color-primary-dark;
+            margin-top: 4rem;
+        }
+
+        .website-design-development-info,
+        .essential-services-info {
             color: darkslategray;
             align-self: flex-start;
             margin-top: 1rem;
@@ -282,11 +289,13 @@
             width: 40%;
         }
 
-        .website-design-development-container {
+        .website-design-development-container,
+        .essential-services-container {
             margin-top: 2rem;
             display: flex;
 
-            .website-design-development-services {
+            .website-design-development-services,
+            .essential-services {
                 width: 50%;
                 display: flex;
                 flex-direction: column;
@@ -332,6 +341,7 @@
             justify-self: center;
             align-self: center;
             z-index: 20;
+            margin-top: 3rem;
             margin-bottom: 2rem;
         }
     }
@@ -489,12 +499,26 @@
                     text-decoration: underline;
                 }
             }
+
+            .service-link-alt {
+                color: $color-primary-dark;
+                text-decoration: none;
+                font-size: 1.6rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
 
 .webfeature-icon {
     color: $complementary-dark;
+    font-size: 3rem;
+}
+.webfeature-icon-alt {
+    color: $color-primary-dark;
     font-size: 3rem;
 }
 
@@ -521,7 +545,7 @@
     &-main {
         padding: 2rem;
         background: white;
-        height: 30rem;
+        height: auto;
         display: flex;
         flex-direction: column;
 
@@ -530,6 +554,12 @@
             text-transform: uppercase;
             font-size: 2rem;
             font-weight: bolder;
+        }
+
+        p {
+            color: slategray;
+            line-height: 1.5;
+            margin-bottom: 1rem;
         }
     }
 }

@@ -3,16 +3,16 @@
 .btn {
     color: $grey1;
     background-color: $complementary;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
     font-size: 2rem;
     z-index: 15;
     text-decoration: none;
 
     &:hover {
-        background-color: $grey3;
+        background-color: $grey1;
         color: $complementary;
-        border: $grey4 1px solid;
+        border: $complementary 1px solid;
         cursor: pointer;
     }
 }

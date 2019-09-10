@@ -108,28 +108,53 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         </p>
         <div class="website-design-development-container">
             <div class="website-design-development-services">
-                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'serviceTitle' => 'Custom Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs.", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'iconClass' => 'webfeature-icon', 'serviceTitle' => 'Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link'])
 
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online.", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'iconClass' => 'webfeature-icon', 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-browser", 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => "fal fa-browser", 'iconClass' => 'webfeature-icon', 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Have an old website that needs some attention? We can update your website so that it is more in line with modern design trends and has the functionality that customers have come to expect from a modern website.", 'serviceLink' => "#!"])
+                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'iconClass' => 'webfeature-icon', 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Have an old website that needs some attention? We can update your website so that it is more in line with modern design trends and has the functionality that customers have come to expect from a modern website.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link'])
                 @endcomponent
             </div>
             <div class="website-design-development-feature">
-                @component('partials.designCallout', ['designCalloutImage' => '/images/services-callout.jpg', 'designCalloutImageAlt' => 'Importance of having an online presence'])
+                @component('partials.designCallout', ['designCalloutImage' => '/images/services-callout.jpg', 'designCalloutImageAlt' => 'Importance of having an online presence', 'designCalloutParagraphOne' => "Customers research, compare and make purchase decisions based on their online searches. Having a website provides them with information about your business, while offering the opportunity to grow your customer base.", 'designCalloutParagraphTwo' => " Your website is your digital business card, at any given time your next potential customer could be looking for you online. If you have no online presence, then you risk losing genuine leads."])
 
+                @endcomponent
+            </div>
+        </div>
+        <h2 class="essential-services-heading">
+            Essential Web Services
+        </h2>
+        <p class="essential-services-info">
+            We provide a range of support services for small businesses, helping you to maintain and enhance your online presence.
+        </p>
+        <div class="essential-services-container">
+            <div class="essential-services">
+                @component('partials.webfeature', ['icon' => 'fal fa-search-plus', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'Search Engine Optimisation', 'serviceInfo' => "Search Engine Optimisation (SEO) is the process of increasing the quantity and quality of traffic to your website. We can work with you to ensure your website ranks highly in Google searches.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link-alt'])
+                @endcomponent
+
+                @component('partials.webfeature', ['icon' => 'fal fa-cogs', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'Website Hosting & Maintenance', 'serviceInfo' => "All of our websites and web applications are hosted on the world class Digital Ocean cloud hosting platform. We also offer website maintenance packages, so you can leave the management of your website to us.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link-alt'])
+                @endcomponent
+
+                @component('partials.webfeature', ['icon' => 'fal fa-swatchbook', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'Graphic Design', 'serviceInfo' => "In addition to our web design and development services, we can also design a range of print media such as flyers, business cards, brochures and menus.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link-alt'])
+                @endcomponent
+
+                @component('partials.webfeature', ['icon' => 'fal fa-pencil-paintbrush', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'Logo Design', 'serviceInfo' => "Your business logo is an important part of your overall brand image. We provide a range of options for logo creation to suit all budgets.", 'serviceLink' => "#!", 'serviceLinkClass' => 'service-link-alt'])
+                @endcomponent
+            </div>
+            <div class="website-design-development-feature">
+                @component('partials.designCallout', ['designCalloutImage' => '/images/seo-callout.jpg', 'designCalloutImageAlt' => 'Importance of having an online presence', 'designCalloutParagraphOne' => 'Having a website means you are always open for business. Customers can find you, find out more about you, buy from you, or connect from you.', 'designCalloutParagraphTwo' => "Small businesses may not have the time to engage with their customers frequently through social media, so maintaining a website with engaging content can be extremely beneficial."])
                 @endcomponent
             </div>
         </div>
 
         <div class="services-cta">
-                <a href="/services" class="btn">Find out more</a>
+                <a href="/contact" class="btn">Work with us</a>
         </div>
     </div>
 </div>

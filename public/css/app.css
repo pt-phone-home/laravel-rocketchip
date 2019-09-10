@@ -315,13 +315,20 @@ body {
   color: darkslategray;
 }
 
-.services-container .services .website-design-development-heading {
+.services-container .services .website-design-development-heading,
+.services-container .services .essential-services-heading {
   color: #008057;
   align-self: flex-start;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 
-.services-container .services .website-design-development-info {
+.services-container .services .essential-services-heading {
+  color: #b32400;
+  margin-top: 4rem;
+}
+
+.services-container .services .website-design-development-info,
+.services-container .services .essential-services-info {
   color: darkslategray;
   align-self: flex-start;
   margin-top: 1rem;
@@ -330,18 +337,23 @@ body {
   width: 40%;
 }
 
-.services-container .services .website-design-development-container {
+.services-container .services .website-design-development-container,
+.services-container .services .essential-services-container {
   margin-top: 2rem;
   display: flex;
 }
 
-.services-container .services .website-design-development-container .website-design-development-services {
+.services-container .services .website-design-development-container .website-design-development-services,
+.services-container .services .website-design-development-container .essential-services,
+.services-container .services .essential-services-container .website-design-development-services,
+.services-container .services .essential-services-container .essential-services {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.services-container .services .website-design-development-container .website-design-development-feature {
+.services-container .services .website-design-development-container .website-design-development-feature,
+.services-container .services .essential-services-container .website-design-development-feature {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,6 +396,7 @@ body {
   justify-self: center;
   align-self: center;
   z-index: 20;
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -544,8 +557,23 @@ body {
   text-decoration: underline;
 }
 
+.webfeature-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
 .webfeature-icon {
   color: #008057;
+  font-size: 3rem;
+}
+
+.webfeature-icon-alt {
+  color: #b32400;
   font-size: 3rem;
 }
 
@@ -573,7 +601,7 @@ body {
 .design-callout-main {
   padding: 2rem;
   background: white;
-  height: 30rem;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -583,6 +611,12 @@ body {
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bolder;
+}
+
+.design-callout-main p {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .header {
@@ -775,7 +809,7 @@ body {
 .btn {
   color: #f8f8f8;
   background-color: #00b279;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   border-radius: 5px;
   font-size: 2rem;
   z-index: 15;
@@ -783,9 +817,9 @@ body {
 }
 
 .btn:hover {
-  background-color: #d3d3d3;
+  background-color: #f8f8f8;
   color: #00b279;
-  border: #b8b8b8 1px solid;
+  border: #00b279 1px solid;
   cursor: pointer;
 }
 
