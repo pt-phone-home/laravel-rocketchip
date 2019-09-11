@@ -35,10 +35,30 @@
     }
 }
 
+.about-us-header-container {
+    background: $complementary;
+    display: flex;
+    justify-content: center;
+
+    .about-us-header {
+        width: 80%;
+        display: flex;
+        padding: 2rem;
+        color: $grey1;
+
+        p {
+            font-size: 2rem;
+            line-height: 2;
+            padding: 2rem;
+            text-align: center;
+        }
+    }
+}
 .about-us-container {
+    margin-top: -1rem;
     grid-column: 1 / -1;
     // height: 45rem;
-    background-color: $grey3;
+    background-color: $grey1;
     background-position: center;
     background-size: cover;
     display: grid;
@@ -50,20 +70,32 @@
         padding-top: 7rem;
 
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 4rem;
 
         @media (max-width: 850px) {
             grid-template-columns: 1fr;
         }
 
-        &-who,
-        &-vision,
+        &-heading {
+            grid-column: 1 / -1;
+            justify-self: center;
+            margin-top: -4rem;
+            font-size: 4rem;
+            color: darkslategray;
+            margin-bottom: 4rem;
+        }
+
         &-what {
+            margin-top: 3rem;
             margin-bottom: 3rem;
+            grid-column: 1 / -1;
+            background: white;
+            width: 80%;
+            justify-self: center;
 
             h2 {
-                $color: $grey6;
+                color: darkslategray;
                 font-size: 3rem;
                 margin-bottom: 1.5rem;
                 text-transform: capitalize;
@@ -264,4 +296,44 @@
         color: darkslategray;
         border: 2px solid white;
     }
+}
+
+// About Feature
+.aboutfeature {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    display: flex;
+
+    &-leftPanel {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-rightPanel {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        .about-title {
+            font-size: 2rem;
+            color: darkslategray;
+        }
+
+        .about-info {
+            font-size: 1.5rem;
+            color: slategray;
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+    }
+}
+.aboutfeature-icon {
+    color: $complementary-dark;
+    font-size: 3rem;
+}
+.aboutfeature-icon-alt {
+    color: $color-primary-dark;
+    font-size: 3rem;
 }

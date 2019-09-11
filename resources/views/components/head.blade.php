@@ -16,6 +16,35 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
     {{-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> --}}
+    <script type='application/ld+json'>
+        {
+          "@context": "http://www.schema.org",
+          "@type": "LocalBusiness",
+          "name": "RocketChip Web Solutions",
+          "url": "https://www.rocketchipwebsolutions.ie",
+          "sameAs": [
+             "https://www.facebook.com/Rocket.ChipWebSolutions/",
+             ""
+          ],
+          "logo": "https://www.rocketchipwebsolutions.ie/images/color_logo_transparent.png",
+          "description": "Rocket.Chip Web Solutions are an innovative web design & development company based in Dublin, Ireland. We pride ourselves on providing unique solutions for small and medium business. We develop bespoke solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications",
+          "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "Springdale Road",
+             "addressLocality": "Raheny",
+             "addressRegion": "Dublin",
+             "postalCode": "D5",
+             "addressCountry": "Ireland"
+          },
+          "geo": {
+             "@type": "GeoCoordinates",
+             "latitude": "53.383113",
+             "longitude": "-6.181140"
+          },
+          "hasMap": "https://goo.gl/maps/JQSzxFSyK2ktFFBQ9",
+           "openingHours": "Mo 09:00-21:00 Tu 09:00-21:00 We 09:00-21:00 Th 09:00-21:00 Fr 09:00-21:00 Sa 09:00-17:00 Su 09:00-17:00"
+        }
+        </script>
 
 
 <script>

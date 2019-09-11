@@ -122,7 +122,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
                 @endcomponent
             </div>
             <div class="website-design-development-feature">
-                @component('partials.designCallout', ['designCalloutImage' => '/images/services-callout.jpg', 'designCalloutImageAlt' => 'Importance of having an online presence', 'designCalloutParagraphOne' => "Customers research, compare and make purchase decisions based on their online searches. Having a website provides them with information about your business, while offering the opportunity to grow your customer base.", 'designCalloutParagraphTwo' => " Your website is your digital business card, at any given time your next potential customer could be looking for you online. If you have no online presence, then you risk losing genuine leads."])
+                @component('partials.designCallout', ['designCalloutImage' => '/images/website-design-development-dublin.jpg', 'designCalloutImageAlt' => 'Website Design and Development Dublin', 'designCalloutImageTitle' => 'Website Design and Development Services Dublin', 'designCalloutParagraphOne' => "Customers research, compare and make purchase decisions based on their online searches. Having a website provides them with information about your business, while offering the opportunity to grow your customer base.", 'designCalloutParagraphTwo' => " Your website is your digital business card, at any given time your next potential customer could be looking for you online. If you have no online presence, then you risk losing genuine leads."])
 
                 @endcomponent
             </div>
@@ -148,7 +148,9 @@ Rocket.Chip Web Solutions - Helping you launch your business online
                 @endcomponent
             </div>
             <div class="website-design-development-feature">
-                @component('partials.designCallout', ['designCalloutImage' => '/images/seo-callout.jpg', 'designCalloutImageAlt' => 'Importance of having an online presence', 'designCalloutParagraphOne' => 'Having a website means you are always open for business. Customers can find you, find out more about you, buy from you, or connect from you.', 'designCalloutParagraphTwo' => "Small businesses may not have the time to engage with their customers frequently through social media, so maintaining a website with engaging content can be extremely beneficial."])
+                @component('partials.designCallout', ['designCalloutImage' => '/images/seo-and-support-services-dublin.jpg', 'designCalloutImageAlt' => 'SEO and Support Services Dublin',
+                'designCalloutImageTitle' => 'Search Engine Optimisation and Support Services Dublin',
+                'designCalloutParagraphOne' => 'Having a website means you are always open for business. Customers can find you, find out more about you, buy from you, or connect from you.', 'designCalloutParagraphTwo' => "Small businesses may not have the time to engage with their customers frequently through social media, so maintaining a website with engaging content can be extremely beneficial."])
                 @endcomponent
             </div>
         </div>
@@ -164,7 +166,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
 
 <div class="choose-us-container">
     <div class="choose-us">
-            <h1>We are different</h1>
+        <h1>We are different</h1>
     </div>
 </div>
 
@@ -174,7 +176,17 @@ Rocket.Chip Web Solutions - Helping you launch your business online
         <div class="difference-heading">
             <h1>What makes us unique?</h1>
         </div>
-        <div class="difference-sme" data-aos="fade-right">
+        <div class="difference-container">
+            @component('partials.webfeature', ['icon' => 'fal fa-user-tie', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'SME Specialists', 'serviceInfo' => "As a small business, we understand the needs of other small businesses. We specialise in creating effective, agile websites and web applications for SME's, all at a price that works for you.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @endcomponent
+
+            @component('partials.webfeature', ['icon' => 'fal fa-hands', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'Personal Service', 'serviceInfo' => "We believe in developing lasting relationships through face-to-face meetings and consultation. We work with you through the entire <a href='/about' class='service-link-alt'> design and development process </a>.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @endcomponent
+
+            @component('partials.webfeature', ['icon' => 'fal fa-hand-holding-heart', 'iconClass' => 'webfeature-icon-alt', 'serviceTitle' => 'Give Something Back', 'serviceInfo' => "We are a socially responsible company, giving a percentage of our profits to Dublin-based charities.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @endcomponent
+        </div>
+        {{-- <div class="difference-sme" data-aos="fade-right">
             <i class="fas fa-user-tie"></i>
             <h2>SME Specialists</h2>
             <p>As a small business, we understand the needs of other small businesses. We specialise in creating effective, agile web applications for SME's.</p>
@@ -191,7 +203,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
             <h2>Give Something Back</h2>
             <p>We are a socially responsible company, giving a percentage of our profits to Dublin-based charities.</p>
 
-        </div>
+        </div> --}}
 
         <div class="difference-cta">
             <a href="/about" class="btn">Find out more</a>

@@ -4,6 +4,8 @@
     @include('components.head')
     @include('components.scripts')
     <title>@yield('title')</title>
+    {{-- @yield('page-head') --}}
+
 </head>
 <body>
     <div class="grid-container">
