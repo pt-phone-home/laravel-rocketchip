@@ -46,7 +46,10 @@ About Us | Rocket.Chip Web Solutions
         </div> --}}
 
         <div class="about-us-what" data-aos="fade-left">
-            <h2>our services</h2>
+            @component('partials.ourpromise')
+
+            @endcomponent
+            {{-- <h2>our services</h2>
             <p>We offer a wide range of services including:</p>
 
             <ul>
@@ -58,7 +61,7 @@ About Us | Rocket.Chip Web Solutions
                 <li><i class="fas fa-arrow-circle-right"></i>Graphic Design</li>
                 <li><i class="fas fa-arrow-circle-right"></i>Website Hosting</li>
                 <li><i class="fas fa-arrow-circle-right"></i>Business Email </li>
-            </ul>
+            </ul> --}}
 
         </div>
 
