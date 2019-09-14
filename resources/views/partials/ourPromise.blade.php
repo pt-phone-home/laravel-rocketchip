@@ -14,25 +14,25 @@
 
                     <i class="fal fa-info"></i>
                 <p>
-                    We offer the following services
+                    We are fully certified providers
                 </p>
             </div>
             <div class="ourpromise-main-top-section-right">
                 <div class="ourpromise-main-top-section-right-top">
-                    <h3>Website Design &amp; Development Services</h3>
-                        <li> Website Design &amp; Development </li>
-                        <li> E-Commerce Design &amp; Development </li>
-                        <li> Web Application Development </li>
-                        <li> Website Redesign </li>
+                    <h3 class="ourpromise-main-top-section-right-top-heading">Website Design &amp; Development Services</h3>
+                        <li class="ourpromise-main-top-section-right-top-list"> <a href="#!">Website Design &amp; Development</a> </li>
+                        <li class="ourpromise-main-top-section-right-top-list"> <a href="#!">E-Commerce Design &amp; Development</a> </li>
+                        <li class="ourpromise-main-top-section-right-top-list"> <a href="#!">Web Application Development</a> </li>
+                        <li class="ourpromise-main-top-section-right-top-list"> <a href="#!">Website Redesign</a> </li>
 
 
                 </div>
                 <div class="ourpromise-main-top-section-right-bottom">
-                        <h3>Essential Web Services</h3>
-                            <li> Search Engine Optimisation </li>
-                            <li> Website Hosting &amp; Maintenance </li>
-                            <li> Graphic Design </li>
-                            <li> Logo Design </li>
+                        <h3 class="ourpromise-main-top-section-right-bottom-heading">Essential Web Services</h3>
+                            <li class="ourpromise-main-top-section-right-bottom-list"> <a href="#!">Search Engine Optimisation</a> </li>
+                            <li class="ourpromise-main-top-section-right-bottom-list"> <a href="#!">Website Hosting &amp; Maintenance</a> </li>
+                            <li class="ourpromise-main-top-section-right-bottom-list"> <a href="#!">Graphic Design </a></li>
+                            <li class="ourpromise-main-top-section-right-bottom-list"> <a href="#!">Logo Design</a> </li>
                 </div>
             </div>
         </div>
@@ -44,8 +44,12 @@
             Our philosophy is built on the importance of collaboration and consultation and our aim is to help you to refine your vision and turn it into reality.
         </p>
 
-        <p>
-            Our design process is
-        </p>
+        <div class="process-horizontal">
+
+            <img src="/images/desing-process.png" alt="">
+        </div>
+        <div class="process-vertical">
+                <img src="/images/desing-process-vertical.png" alt="">
+        </div>
     </div>
 </div>

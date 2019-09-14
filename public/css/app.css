@@ -991,7 +991,7 @@ body {
   margin-bottom: 3rem;
   grid-column: 1/-1;
   background: white;
-  width: 80%;
+  width: 100%;
   justify-self: center;
 }
 
@@ -1088,6 +1088,7 @@ body {
 
 .clients-heading h2 {
   font-size: 4rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -1293,6 +1294,7 @@ body {
 .ourpromise .ourpromise-main {
   display: flex;
   width: 100%;
+  background-color: #e8e8e8;
 }
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section {
@@ -1302,10 +1304,24 @@ body {
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section-left {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-left i {
+  color: #ff4212;
+  font-size: 7rem;
+  align-self: center;
+  margin-bottom: 1rem;
 }
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section-left p {
   color: darkslategray;
+  font-size: 3rem;
+  align-self: center;
+  text-align: center;
 }
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section-right {
@@ -1317,6 +1333,71 @@ body {
 .ourpromise .ourpromise-main .ourpromise-main-top-section-right-top {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-top-heading {
+  color: #00b279;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-top-list {
+  margin-bottom: 0.5rem;
+  list-style-type: circle;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom-heading {
+  color: #b32400;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom-list {
+  margin-bottom: 0.5rem;
+  list-style-type: circle;
+}
+
+.ourpromise .ourpromise-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.ourpromise .ourpromise-bottom p {
+  font-size: 1.7rem;
+  line-height: 1.8;
+  color: darkslategray;
+}
+
+.ourpromise .ourpromise-bottom .process-horizontal {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.ourpromise .ourpromise-bottom .process-horizontal img {
+  width: 100%;
+  height: auto;
+}
+
+.ourpromise .ourpromise-bottom .process-vertical {
+  display: none;
 }
 
 .services-banner {

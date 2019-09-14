@@ -91,7 +91,7 @@
             margin-bottom: 3rem;
             grid-column: 1 / -1;
             background: white;
-            width: 80%;
+            width: 100%;
             justify-self: center;
 
             h2 {
@@ -194,6 +194,7 @@
 
         h2 {
             font-size: 4rem;
+            margin-top: 1rem;
             margin-bottom: 1rem;
             text-align: center;
         }
@@ -394,6 +395,7 @@
     .ourpromise-main {
         display: flex;
         width: 100%;
+        background-color: $grey2;
 
         .ourpromise-main-top-section {
             display: flex;
@@ -401,8 +403,22 @@
 
             &-left {
                 width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    color: $color-primary;
+                    font-size: 7rem;
+                    align-self: center;
+                    margin-bottom: 1rem;
+                }
                 p {
                     color: darkslategray;
+                    font-size: 3rem;
+                    align-self: center;
+                    text-align: center;
                 }
             }
 
@@ -414,8 +430,72 @@
                 &-top {
                     display: flex;
                     flex-direction: column;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+
+                    &-heading {
+                        color: $complementary;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    &-list {
+                        margin-bottom: 0.5rem;
+                        list-style-type: circle;
+                    }
+                }
+                &-bottom {
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+
+                    &-heading {
+                        color: $color-primary-dark;
+                        margin-top: 1rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    &-list {
+                        margin-bottom: 0.5rem;
+                        list-style-type: circle;
+                    }
                 }
             }
+        }
+    }
+
+    .ourpromise-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+
+        p {
+            font-size: 1.7rem;
+            line-height: 1.8;
+            color: darkslategray;
+        }
+
+        .process-horizontal {
+            width: 80%;
+            height: auto;
+            align-self: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .process-vertical {
+            display: none;
         }
     }
 }
