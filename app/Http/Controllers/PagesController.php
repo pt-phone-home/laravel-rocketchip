@@ -8,25 +8,36 @@ use App\Mail;
 
 class PagesController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         return view('index');
     }
 
-    public function about() {
+    public function about()
+    {
         return view('about');
     }
 
-    public function services() {
+    public function services()
+    {
         return view('services');
     }
-    public function portfolio() {
+
+    public function webdesign()
+    {
+        return view('services.webdesign');
+    }
+    public function portfolio()
+    {
         return view('portfolio');
     }
-    public function contact() {
+    public function contact()
+    {
         return view('contact');
     }
 
-    public function sendMail(Request $request) {
+    public function sendMail(Request $request)
+    {
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',

@@ -921,8 +921,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #00b279, #004d34);
-  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .about-banner h1 {
@@ -1237,6 +1236,13 @@ body {
   font-size: 3rem;
 }
 
+.ourpromise-top-section-wrapper {
+  background-image: url("/images/website_design_development_services.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
 .ourpromise {
   display: flex;
   flex-direction: column;
@@ -1294,7 +1300,7 @@ body {
 .ourpromise .ourpromise-main {
   display: flex;
   width: 100%;
-  background-color: #e8e8e8;
+  background-color: rgba(232, 232, 232, 0.9);
 }
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section {
@@ -1346,8 +1352,18 @@ body {
 }
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section-right-top-list {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
   list-style-type: circle;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-top-list a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-top-list a:hover {
+  color: #00b279;
+  text-decoration: underline;
 }
 
 .ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom {
@@ -1368,6 +1384,16 @@ body {
 .ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom-list {
   margin-bottom: 0.5rem;
   list-style-type: circle;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom-list a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+.ourpromise .ourpromise-main .ourpromise-main-top-section-right-bottom-list a:hover {
+  color: #b32400;
+  text-decoration: underline;
 }
 
 .ourpromise .ourpromise-bottom {
