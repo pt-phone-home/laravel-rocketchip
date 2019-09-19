@@ -12,6 +12,7 @@
 
 @include('partials.servicesnav')
 
+@yield('serviceContent')
 @endsection
 
 

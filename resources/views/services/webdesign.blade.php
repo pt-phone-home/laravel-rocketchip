@@ -1,7 +1,11 @@
 @extends('servicesmaster')
 
 @section('serviceTitle')
-    Web Design
+    Website Design & Development
+@endsection
+
+@section('serviceContent')
+Testing
 @endsection
 
 

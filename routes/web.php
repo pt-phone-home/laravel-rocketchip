@@ -20,4 +20,12 @@ Route::get('/portfolio', 'PagesController@portfolio');
 Route::get('/contact', 'PagesController@contact');
 Route::post('/contact', 'PagesController@sendMail');
 
-Route::get('/webdesign', 'PagesController@webdesign');
+Route::get('/web_design_development', 'PagesController@webdesign')->name('webdesign');
+Route::get('/ecommerce_design_development', 'PagesController@ecommerce')->name('ecommerce');
+Route::get('/web_application_development', 'PagesController@webapp')->name('webapp');
+Route::get('/website_redesign', 'PagesController@redesign')->name('redesign');
+
+Route::get('/search_engine_optimisation', 'PagesController@seo')->name('seo');
+Route::get('/website_hosting_maintenance', 'PagesController@hosting')->name('hosting');
+Route::get('/graphic_design', 'PagesController@design')->name('design');
+Route::get('/logo_design', 'PagesController@logo')->name('logo');

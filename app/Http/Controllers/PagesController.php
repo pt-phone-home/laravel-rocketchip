@@ -27,6 +27,43 @@ class PagesController extends Controller
     {
         return view('services.webdesign');
     }
+
+    public function ecommerce()
+    {
+        return view('services.ecommerce');
+    }
+
+    public function webapp()
+    {
+        return view('services.webapp');
+    }
+
+    public function redesign()
+    {
+        return view('services.redesign');
+    }
+
+    public function seo()
+    {
+        return view('services.seo');
+    }
+
+    public function hosting()
+    {
+        return view('services.hosting');
+    }
+
+    public function design()
+    {
+        return view('services.design');
+    }
+
+    public function logo()
+    {
+        return view('services.logo');
+    }
+
+
     public function portfolio()
     {
         return view('portfolio');
