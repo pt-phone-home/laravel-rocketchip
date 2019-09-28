@@ -10,8 +10,9 @@
 .servicesnav-top,
 .servicesnav-bottom {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    width: 80%;
+    width: 100%;
     // margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -26,7 +27,7 @@
 .servicesnav-link {
     text-align: center;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-bottom: 0.5rem;
 
     &-top {
         color: $complementary;
@@ -58,3 +59,79 @@
         }
     }
 }
+
+.service-content-header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: $grey2;
+}
+.service-content-header {
+    background: $grey2;
+    display: flex;
+    width: 80%;
+
+    &-left {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    &-right {
+        width: 30%;
+    }
+}
+
+//
+.webdesign-page-header {
+    display: flex;
+    flex-direction: column;
+
+    &-heading {
+        color: darkslategray;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &-subheading {
+        color: $complementary;
+        // font-size: 2rem;
+        // text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    &-info {
+        color: darkslategray;
+        font-size: 1.8rem;
+    }
+
+    hr {
+        margin-top: 4rem;
+        width: 50%;
+        align-self: center;
+        border-bottom: 1px solid $complementary;
+    }
+}
+
+// Web Design Service Page
+
+.webdesign-page-section-1-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.webdesign-page-section-1 {
+    width: 80%;
+    display: flex;
+
+    &-left {
+        width: 50%;
+    }
+
+    &-right {
+        width: 50%;
+    }
+}
+
+// clip-path: polygon(85% 0, 36% 100%, 0 100%, 0 0);
