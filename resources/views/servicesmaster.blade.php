@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-
+    @yield('servicePageTitle')
 @endsection
 
 @section('content')
