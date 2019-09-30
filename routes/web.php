@@ -17,7 +17,7 @@ Route::get('/about', 'PagesController@about');
 
 Route::get('/services', 'PagesController@services');
 Route::get('/portfolio', 'PagesController@portfolio');
-Route::get('/contact', 'PagesController@contact');
+Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::post('/contact', 'PagesController@sendMail');
 
 Route::get('/web_design_development', 'PagesController@webdesign')->name('webdesign');

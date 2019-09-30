@@ -1,5 +1,7 @@
 @extends('master')
-
+@section('pageDescription')
+<meta name="description" content="Welcome to Rocket.Chip Web Solutions. Dublin-based web design and development company who specialise in creating websites for small and medium businesses">
+@endsection
 @section('title')
 Rocket.Chip Web Solutions - Helping you launch your business online
 @endsection
@@ -32,7 +34,7 @@ Rocket.Chip Web Solutions - Helping you launch your business online
     </div> --}}
     <div class="new-banner-right">
         <div class="new-banner-text-top">
-            <p class="text-top">Innovative solutions for your business</p>
+            <p class="text-top">Innovative online solutions for your business</p>
         </div>
         <div class="new-banner-text">
                 <p class="slide">Custom Web Design</p>

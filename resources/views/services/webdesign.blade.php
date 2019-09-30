@@ -22,7 +22,7 @@
     <div class="webdesign-page-section-1">
         <div class="webdesign-page-section-1-left">
             <h1 class="webdesign-page-section-1-left-heading">Client Driven Website Design &amp; Development</h1>
-            <p class="webdesign-page-section-1-left-info">Your website is an important part of your business. It is an essential element in attracting new customers and letting existing customers know what you offer. We understand this and, through our design process, we help to ensure your website acts as an effective marketing and communications tool.</p>
+            <p class="webdesign-page-section-1-left-info">Rocket.Chip Web Solutions are one of Ireland's most innovative website design and development companies. We know that your website is an important part of your business. It is an essential element in attracting new customers and letting existing customers know what you offer. We understand this and, through our design process, we help to ensure your website acts as an effective marketing and communications tool.</p>
 
 
             @component('partials.webfeature', ['icon' => 'fal fa-paint-brush-alt', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid', 'serviceTitle' => 'Proven Design Principles', 'serviceInfo' => "All our websites are created using proven design principles. Your website will be fast-loading and mobile ready. The interface will be clear and consistent meaning your users will easily find the information they need.", 'serviceLink' => "", 'serviceLinkClass' => ''])
@@ -42,6 +42,11 @@
         <div class="webdesign-page-section-1-right">
 
         </div>
+    </div>
+</div>
+<div class="webdesign-page-section-2-wrapper">
+    <div class="webdesign-page-section-2">
+        <a class="webdesign-page-section-2-button" href="{{ route('contact') }}">Work With Us Today</a>
     </div>
 </div>
 @endsection
