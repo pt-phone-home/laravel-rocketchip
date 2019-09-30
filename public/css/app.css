@@ -3403,3 +3403,60 @@ body {
   cursor: pointer;
 }
 
+.webdesign-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website design and development dublin rocketchip web solutions offer.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.webdesign-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.8);
+}
+
+.webdesign-page-section-3 {
+  display: flex;
+  width: 80%;
+  z-index: 50;
+}
+
+.webdesign-page-section-3-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.webdesign-page-section-3-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.webdesign-page-section-3-left-heading span {
+  color: #00b279;
+  font-size: 2.7rem;
+}
+
+.webdesign-page-section-3-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-3-right {
+  width: 40%;
+}
+

@@ -21,7 +21,7 @@
 <div class="webdesign-page-section-1-wrapper">
     <div class="webdesign-page-section-1">
         <div class="webdesign-page-section-1-left">
-            <h1 class="webdesign-page-section-1-left-heading">Client Driven Website Design &amp; Development</h1>
+            <h2 class="webdesign-page-section-1-left-heading">Client Driven Website Design &amp; Development</h2>
             <p class="webdesign-page-section-1-left-info">Rocket.Chip Web Solutions are one of Ireland's most innovative website design and development companies. We know that your website is an important part of your business. It is an essential element in attracting new customers and letting existing customers know what you offer. We understand this and, through our design process, we help to ensure your website acts as an effective marketing and communications tool.</p>
 
 
@@ -47,6 +47,23 @@
 <div class="webdesign-page-section-2-wrapper">
     <div class="webdesign-page-section-2">
         <a class="webdesign-page-section-2-button" href="{{ route('contact') }}">Work With Us Today</a>
+    </div>
+</div>
+
+<div class="webdesign-page-section-3-wrapper">
+    <div class="webdesign-page-section-3">
+        <div class="webdesign-page-section-3-left">
+            <h2 class="webdesign-page-section-3-left-heading">
+                Complete Brochure Website for SME’s / Sole Traders from <span>€349</span>
+            </h2>
+            <p class="webdesign-page-section-3-left-info">
+                    All businesses need a website that can attract customers and inform them about your products and services. A professional website is an essential part of any modern marketing or sales strategy. Rocket.Chip Web Solutions can work with you to create a sleek, feature-rich website that promotes your work and gives customers access to your portfolio.
+            </p>
+
+        </div>
+        <div class="webdesing-page-section-3-right">
+
+        </div>
     </div>
 </div>
 @endsection
