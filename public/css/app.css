@@ -542,6 +542,61 @@ body {
   text-decoration: underline;
 }
 
+.webfeature-mid {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 60rem;
+  display: flex;
+}
+
+.webfeature-mid-leftPanel {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-mid-rightPanel {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-mid-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-mid-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: slategray;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-mid-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
 .service-link-alt {
   color: #b32400;
   text-decoration: none;

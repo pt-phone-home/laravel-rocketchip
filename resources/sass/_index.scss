@@ -525,6 +525,61 @@
     }
 }
 
+.webfeature-mid {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 60rem;
+    display: flex;
+
+    &-leftPanel {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-rightPanel {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+
+        .service-title {
+            font-size: 2rem;
+            color: darkslategray;
+        }
+
+        .service-info {
+            font-size: 1.5rem;
+            color: slategray;
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+
+        .service-link-container {
+            margin-top: 1rem;
+
+            .service-link {
+                color: $complementary;
+                text-decoration: none;
+                font-size: 1.6rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .service-link-alt {
+                color: $color-primary-dark;
+                text-decoration: none;
+                font-size: 1.6rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
 .service-link-alt {
     color: $color-primary-dark;
     text-decoration: none;

@@ -1,5 +1,5 @@
-<div class="webfeature">
-    <div class="webfeature-leftPanel">
+<div class=" {{ $featureClass }}">
+    <div class="{{ $featureClass }}-leftPanel">
         <div>
             <i class="{{ $icon }} {{ $iconClass }}"></i>
         </div>
@@ -7,7 +7,7 @@
 
         </div>
     </div>
-    <div class="webfeature-rightPanel">
+    <div class="{{ $featureClass }}-rightPanel">
         <h2 class="service-title"> {{ $serviceTitle }}</h2>
         <p class="service-info"> {!! $serviceInfo !!}</p>
         @if ($serviceLink)
