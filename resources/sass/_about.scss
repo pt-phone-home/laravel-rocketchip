@@ -1,7 +1,7 @@
 .about-banner {
     grid-column: 1 / -1;
     position: relative;
-    background: url("/images/laptop-banner2.jpg");
+    background: url("/images/Website Design and Development Dublin - About RocketChip Web Solutions.jpg");
     background-position: center;
     background-size: cover;
     height: 15rem;
@@ -23,7 +23,8 @@
         //     $complementary,
         //     $complementary-dark-2
         // );
-        background: rgba(black, 0.6);
+        // background: rgba(black, 0.6);
+        background: rgba(darkslategray, 0.8);
         // opacity: 0.5;
     }
 
@@ -163,7 +164,7 @@
     // height: 70rem;
     background-color: $grey5;
     display: flex;
-    background: url("/images/hero.jpg");
+    background: url("/images/Web Design and Development Dublin - RocketChip Web Solutions Example Projects.jpg");
     background-position: center;
     background-size: cover;
 
