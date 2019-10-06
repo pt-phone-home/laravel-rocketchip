@@ -247,6 +247,56 @@
             line-height: 1.5;
             margin-bottom: 1rem;
         }
+
+        &-points {
+            color: darken(slategray, 10%);
+            line-height: 1.5;
+            margin-top: 2rem;
+            margin-left: 1rem;
+
+            &-point {
+                font-size: 1.6rem;
+                margin-bottom: 0.7rem;
+
+                i {
+                    margin-right: 1rem;
+                    font-size: 2rem;
+                    color: $complementary;
+                    text-align: center;
+                    vertical-align: center;
+                }
+
+                span {
+                    margin-left: 2.7rem;
+                }
+            }
+        }
+
+        &-more {
+            color: darken(slategray, 10%);
+            line-height: 1.5;
+            margin-top: 2rem;
+            margin-left: 1rem;
+
+            &-heading {
+                font-size: 2rem;
+                margin-left: -1rem;
+                margin-bottom: 1rem;
+            }
+
+            &-info {
+                margin-bottom: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: $complementary;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
 
     &-right {

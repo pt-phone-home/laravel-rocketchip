@@ -54,11 +54,33 @@
     <div class="webdesign-page-section-3">
         <div class="webdesign-page-section-3-left">
             <h2 class="webdesign-page-section-3-left-heading">
-                Complete Brochure Website for SME’s / Sole Traders from <span>€349</span>
+                Complete Website for SME’s / Sole Traders from <span>€349</span>
             </h2>
             <p class="webdesign-page-section-3-left-info">
                     All businesses need a website that can attract customers and inform them about your products and services. A professional website is an essential part of any modern marketing or sales strategy. Rocket.Chip Web Solutions can work with you to create a sleek, feature-rich website that promotes your work and gives customers access to your portfolio.
             </p>
+            <div class="webdesign-page-section-3-left-points">
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> 5 Pages of content: <br>
+                <span>E.g. Home | Services | About | Porfolio | Contact</span>
+                </p>
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> SEO optimised pages
+                </p>
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Premium images
+                </p>
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Business email address for your website domain
+                </p>
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Google maps integration
+                </p>
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Secure website certficiate
+                </p>
+                <p class="webdesign-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> 1st year domain registration
+                </p>
+            </div>
+            <div class="webdesign-page-section-3-left-more">
+                <h4 class="webdesign-page-section-3-left-more-heading">Looking for something more complex?</h4>
+                <p class="webdesign-page-section-3-left-more-info">Our team of experienced web developers can craft a wide variety of interactive feateures for your business - such as: Interactive Event Calendars, Appointment Booking Systems, Company News pages, Employee contact pages, and much more </p>
+                <p class="webdesign-page-section-3-left-more-info"><a href="/contact">Contact us</a> for more information</p>
+            </div>
 
         </div>
         <div class="webdesing-page-section-3-right">
@@ -66,5 +88,12 @@
         </div>
     </div>
 </div>
+
+<div class="webdesign-page-section-2-wrapper">
+    <div class="webdesign-page-section-2">
+        <a class="webdesign-page-section-2-button" href="{{ route('contact') }}">Get Started</a>
+    </div>
+</div>
+
 @endsection
 

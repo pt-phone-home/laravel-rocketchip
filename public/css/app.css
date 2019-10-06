@@ -3456,6 +3456,56 @@ body {
   margin-bottom: 1rem;
 }
 
+.webdesign-page-section-3-left-points {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.webdesign-page-section-3-left-points-point {
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.webdesign-page-section-3-left-points-point i {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #00b279;
+  text-align: center;
+  vertical-align: center;
+}
+
+.webdesign-page-section-3-left-points-point span {
+  margin-left: 2.7rem;
+}
+
+.webdesign-page-section-3-left-more {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.webdesign-page-section-3-left-more-heading {
+  font-size: 2rem;
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-3-left-more-info {
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-3-left-more-info a {
+  text-decoration: none;
+  color: #00b279;
+}
+
+.webdesign-page-section-3-left-more-info a:hover {
+  text-decoration: underline;
+}
+
 .webdesign-page-section-3-right {
   width: 40%;
 }
