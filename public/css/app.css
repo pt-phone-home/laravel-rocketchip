@@ -3904,3 +3904,93 @@ body {
   color: #00b279;
 }
 
+.seo-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/search engine optimisation services dublin rocket chip web solutions.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.seo-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.seo-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+.seo-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.7);
+  padding: 2rem;
+}
+
+.seo-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.seo-page-section-1-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.seo-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.seo-page-section-1-right {
+  width: 20%;
+}
+
+.seo-page-section-2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #b32400;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.seo-page-section-2-wrapper .seo-page-section-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.seo-page-section-2-wrapper .seo-page-section-2-button {
+  border: 2px solid #f8f8f8;
+  background: #b32400;
+  padding: 1rem 2rem;
+  color: #f8f8f8;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.seo-page-section-2-wrapper .seo-page-section-2-button:hover {
+  border: 2px #b32400 solid;
+  background: #f8f8f8;
+  color: #b32400;
+  cursor: pointer;
+}
+

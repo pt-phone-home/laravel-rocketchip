@@ -43,26 +43,31 @@
     </div>
 </div>
 <div class="redesign-page-section-2-wrapper">
-        <div class="redesign-page-section-2">
-            <div class="redesign-page-section-2-left">
+    <div class="redesign-page-section-2">
+        <div class="redesign-page-section-2-left">
 
-            </div>
-            <div class="redesign-page-section-2-right">
-                <h2 class="redesign-page-section-2-right-heading">Redesign Process</h2>
-                <p class="redesign-page-section-2-right-info">Rocket.Chip Web Solutions will work with you to identify areas in which your website needs updating. We will help you to modernise the content and structure of your site so that it is more appealing to your customers.</p>
-                <p class="redesign-page-section-2-right-info">It may be the case that your content is relevant and up to date, however it needs to be designed in a more appealing way. Whatever the case, your redesign doesn't need to be a costly exercise and may only involve some minor adjustments and tweaks.</p>
+        </div>
+        <div class="redesign-page-section-2-right">
+            <h2 class="redesign-page-section-2-right-heading">Redesign Process</h2>
+            <p class="redesign-page-section-2-right-info">Rocket.Chip Web Solutions will work with you to identify areas in which your website needs updating. We will help you to modernise the content and structure of your site so that it is more appealing to your customers.</p>
+            <p class="redesign-page-section-2-right-info">It may be the case that your content is relevant and up to date, however it needs to be designed in a more appealing way. Whatever the case, your redesign doesn't need to be a costly exercise and may only involve some minor adjustments and tweaks.</p>
 
 
-                <h2 class="redesign-page-section-2-right-heading">Redesigns Include</h2>
-                <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Updating Content</p>
-                <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>High Quality Images</p>
-                <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Security Check (SSL Certificate)</p>
-                <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Website Speed Check</p>
-                <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>SEO Optimisation</p>
-                <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Content Refresh</p>
-            </div>
+            <h2 class="redesign-page-section-2-right-heading">Redesigns Include</h2>
+            <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Updating Content</p>
+            <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>High Quality Images</p>
+            <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Security Check (SSL Certificate)</p>
+            <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Website Speed Check</p>
+            <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>SEO Optimisation</p>
+            <p class="redesign-page-section-2-right-info"><i class="fal fa-check-circle"></i>Content Refresh</p>
         </div>
     </div>
+</div>
+<div class="webdesign-page-section-2-wrapper">
+    <div class="webdesign-page-section-2">
+        <a class="webdesign-page-section-2-button" href="{{ route('contact') }}">Get Started</a>
+    </div>
+</div>
 @endsection
 
 
