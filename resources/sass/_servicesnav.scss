@@ -98,6 +98,11 @@
         // font-size: 2rem;
         // text-transform: uppercase;
         margin-bottom: 1rem;
+
+        &-alt {
+            color: $color-primary-dark;
+            margin-bottom: 1rem;
+        }
     }
 
     &-info {
@@ -105,12 +110,12 @@
         font-size: 1.8rem;
     }
 
-    hr {
-        margin-top: 4rem;
-        width: 50%;
-        align-self: center;
-        border-bottom: 1px solid $complementary;
-    }
+    // hr {
+    //     margin-top: 4rem;
+    //     width: 50%;
+    //     align-self: center;
+    //     border-bottom: 1px solid $complementary;
+    // }
     &-hr {
         margin-top: 4rem;
         width: 50%;

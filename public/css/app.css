@@ -3364,16 +3364,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.webdesign-page-header-subheading-alt {
+  color: #b32400;
+  margin-bottom: 1rem;
+}
+
 .webdesign-page-header-info {
   color: darkslategray;
   font-size: 1.8rem;
-}
-
-.webdesign-page-header hr {
-  margin-top: 4rem;
-  width: 50%;
-  align-self: center;
-  border-bottom: 1px solid #00b279;
 }
 
 .webdesign-page-header-hr {
