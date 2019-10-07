@@ -1,0 +1,112 @@
+.redesign-page-section-1-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url("/images/website redesign dublin rocketchip web solutions.jpg");
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($grey2, 0.4);
+    }
+}
+
+.redesign-page-section-1 {
+    z-index: 50;
+    width: 80%;
+    display: flex;
+
+    &-left {
+        width: 80%;
+        background: rgba($grey1, 0.9);
+        padding: 2rem;
+
+        &-heading {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: darkslategray;
+        }
+
+        &-info {
+            color: slategray;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+
+            i {
+                font-size: 2rem;
+                margin-right: 1rem;
+                color: $complementary;
+            }
+        }
+    }
+
+    &-right {
+        width: 20%;
+    }
+}
+.redesign-page-section-2-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url("/images/website redesign process dublin rocketchip web solutions.jpg");
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($grey2, 0.4);
+    }
+}
+
+.redesign-page-section-2 {
+    z-index: 50;
+    width: 80%;
+    display: flex;
+
+    &-left {
+        width: 20%;
+    }
+
+    &-right {
+        width: 80%;
+        background: rgba($grey1, 0.9);
+        padding: 2rem;
+
+        &-heading {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: darkslategray;
+        }
+
+        &-info {
+            color: slategray;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+
+            i {
+                font-size: 2rem;
+                margin-right: 1rem;
+                color: $complementary;
+            }
+        }
+    }
+}

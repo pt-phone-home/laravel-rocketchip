@@ -111,6 +111,19 @@
         align-self: center;
         border-bottom: 1px solid $complementary;
     }
+    &-hr {
+        margin-top: 4rem;
+        width: 50%;
+        align-self: center;
+        border-bottom: 1px solid $complementary;
+    }
+
+    &-hr-alt {
+        margin-top: 4rem;
+        width: 50%;
+        align-self: center;
+        border-bottom: 1px solid $color-primary-dark;
+    }
 }
 
 // Web Design Service Page

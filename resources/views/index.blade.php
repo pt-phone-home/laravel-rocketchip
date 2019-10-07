@@ -3,7 +3,7 @@
 <meta name="description" content="Welcome to Rocket.Chip Web Solutions. Dublin-based web design and development company who specialise in creating websites for small and medium businesses">
 @endsection
 @section('title')
-Rocket.Chip Web Solutions - Helping you launch your business online
+Innovative Online Solutions | Rocket.Chip Web Solutions
 @endsection
 
 @section('content')
