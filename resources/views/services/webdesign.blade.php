@@ -1,6 +1,6 @@
 @extends('servicesmaster')
 @section('servicePageTitle')
-    Website Design & Development | Rocket.Chip Websolutions
+    Website Design & Development | Rocket.Chip Web Solutions
 @endsection
 @section('serviceTitle')
     Website Design & Development

@@ -1,6 +1,6 @@
 @extends('servicesmaster')
 @section('servicePageTitle')
-    Web Application Development | Rocket.Chip Websolutions
+    Web Application Development | Rocket.Chip Web Solutions
 @endsection
 @section('serviceTitle')
     Web Application Development
