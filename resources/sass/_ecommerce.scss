@@ -35,6 +35,10 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
             color: darkslategray;
+
+            span {
+                color: $complementary;
+            }
         }
 
         &-info {
@@ -46,5 +50,111 @@
 
     &-right {
         width: 20%;
+    }
+}
+.ecommerce-page-section-3-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url("/images/ecommerce website dublin rocketchip web solutions details.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($grey1, 0.8);
+    }
+}
+
+.ecommerce-page-section-3 {
+    display: flex;
+    width: 80%;
+    z-index: 50;
+
+    &-left {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        &-heading {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: darkslategray;
+
+            span {
+                color: $complementary;
+                font-size: 2.7rem;
+            }
+        }
+
+        &-info {
+            color: darken(slategray, 10%);
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        &-points {
+            color: darken(slategray, 10%);
+            line-height: 1.5;
+            margin-top: 2rem;
+            margin-left: 1rem;
+
+            &-point {
+                font-size: 1.6rem;
+                margin-bottom: 0.7rem;
+
+                i {
+                    margin-right: 1rem;
+                    font-size: 2rem;
+                    color: $complementary;
+                    text-align: center;
+                    vertical-align: center;
+                }
+
+                span {
+                    margin-left: 2.7rem;
+                }
+            }
+        }
+
+        &-more {
+            color: darken(slategray, 10%);
+            line-height: 1.5;
+            margin-top: 2rem;
+            margin-left: 1rem;
+
+            &-heading {
+                font-size: 2rem;
+                margin-left: -1rem;
+                margin-bottom: 1rem;
+            }
+
+            &-info {
+                margin-bottom: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: $complementary;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    &-right {
+        width: 40%;
     }
 }

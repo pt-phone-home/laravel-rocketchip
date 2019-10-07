@@ -21,26 +21,72 @@
     <div class="ecommerce-page-section-1">
         <div class="ecommerce-page-section-1-left">
             <h2 class="ecommerce-page-section-1-left-heading">Flexible E-Commerce Solutions to Suit Your Business</h2>
-            <p class="ecommerce-page-section-1-left-info">Rocket.Chip Web Solutions are one of Ireland's most innovative website design and development companies. We know that your website is an important part of your business. It is an essential element in attracting new customers and letting existing customers know what you offer. We understand this and, through our design process, we help to ensure your website acts as an effective marketing and communications tool.</p>
+            <p class="ecommerce-page-section-1-left-info">Rocket.Chip Web Solutions offer a range of e-commerce options to suit businesses of all sizes. We can provide simple one-click integrations for businesses that sell one or two products / services, up to fully customised e-commerce stores that offer hundreds of products. </p>
 
 
-            @component('partials.webfeature', ['icon' => 'fal fa-paint-brush-alt', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid-dark', 'serviceTitle' => 'Proven Design Principles', 'serviceInfo' => "All our websites are created using proven design principles. Your website will be fast-loading and mobile ready. The interface will be clear and consistent meaning your users will easily find the information they need.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @component('partials.webfeature', ['icon' => 'fab fa-stripe-s', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid-dark', 'serviceTitle' => 'One-Click Stripe Integration', 'serviceInfo' => "If you are just getting started with your online business, or you only sell one or two products / services online. We can integrate a simple one-click sale option on your store. This option provides businesses with a fast, simple solution to start selling online.", 'serviceLink' => "", 'serviceLinkClass' => ''])
             @endcomponent
-            @component('partials.webfeature', ['icon' => 'fal fa-search-plus', 'iconClass' => 'webfeature-icon',
+
+            @component('partials.webfeature', ['icon' => 'fal fa-bags-shopping', 'iconClass' => 'webfeature-icon',
 
             'featureClass' => 'webfeature-mid-dark',
 
-            'serviceTitle' => 'Google Search Engine Optimised', 'serviceInfo' => "Search Engine Optimisation (SEO) is the process of increasing the quality and quantity of traffic to your website. Our websites are built using SEO techniques, this means that your website will rank highly in Google searches, without the need for expensive Google Ads.", 'serviceLink' => "/search_engine_optimisation", 'serviceLinkClass' => 'service-link'])
-            @endcomponent
-            @component('partials.webfeature', ['icon' => 'fal fa-mobile', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid-dark', 'serviceTitle' => 'Responsive Design', 'serviceInfo' => "Responsive design is an approach to web design where the website responds or resizes itself depending on the size of the device it is being viewed on. This means that a website will adjust its overall size, the size of certain components, and/or the layout of components, when it is viewed on a deskop, laptop or mobile device. With the growth of mobile devices, responsive design is essential for any business website, ensuring your content is accessible regardless of where your customer is.", 'serviceLink' => "", 'serviceLinkClass' => ''])
-            @endcomponent
-            @component('partials.webfeature', ['icon' => 'fal fa-briefcase-medical', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid-dark', 'serviceTitle' => 'Painless Process', 'serviceInfo' => "We understand you want to focus on what you do best, that's why we take the pain out of web development by utilising a streamlined development process. We gather all the information we need from you during the initial stages of development and utilise this to make your website work for you", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            'serviceTitle' => 'Fully Integrated Online Store',
+
+            'serviceInfo' => "Our fully integrated e-commerce solutions allow your business to sell any number of products online. They are powered by world-class technology which provides the flexibiliy and control you need to manage and maintain your online store. Our Search Engine Optimisation (SEO) techniques also ensure that your products rank highly in Google Search. We provide a number of options for integrated e-commerce solutions, such as Shopify and WooCommerce.",
+
+            'serviceLink' => "",
+
+            'serviceLinkClass' => ''])
             @endcomponent
 
+            <div>
+                <h3 class="ecommerce-page-section-1-left-heading">Talk to us today to start an online store from as little as <span>€599</span></h3>
+            </div>
+
         </div>
+
         <div class="ecommerce-page-section-1-right">
 
         </div>
+    </div>
+</div>
+<div class="webdesign-page-section-2-wrapper">
+    <div class="webdesign-page-section-2">
+        <a class="webdesign-page-section-2-button" href="{{ route('contact') }}">Work With Us Today</a>
+    </div>
+</div>
+<div class="ecommerce-page-section-3-wrapper">
+    <div class="ecommerce-page-section-3">
+        <div class="ecommerce-page-section-3-left">
+            <h2 class="ecommerce-page-section-3-left-heading">
+                E-commerce Design that Works for Your Business
+            </h2>
+            <p class="ecommerce-page-section-3-left-info">
+                Our team of experienced e-commerce developers have detailed knowledge of the range of tools and options that are available to SME's and sole traders. We will work with you to select and build the e-commerce approach that is right for you. Your online store will include:
+            </p>
+            <div class="ecommerce-page-section-3-left-points">
+                <p class="ecommerce-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Branding and marketing integration
+                </p>
+                <p class="ecommerce-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Product management options
+                </p>
+                <p class="ecommerce-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> A number of payment gateway options
+                </p>
+                <p class="ecommerce-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> SEO optimised product listings
+                </p>
+                <p class="ecommerce-page-section-3-left-points-point"><i class="fal fa-check-circle"></i> Optional technical support
+                </p>
+            </div>
+
+        </div>
+        <div class="webdesing-page-section-3-right">
+
+        </div>
+    </div>
+</div>
+<div class="webdesign-page-section-2-wrapper">
+    <div class="webdesign-page-section-2">
+        <a class="webdesign-page-section-2-button" href="{{ route('contact') }}">Get Started</a>
     </div>
 </div>
 @endsection
