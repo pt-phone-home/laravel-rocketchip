@@ -4230,7 +4230,7 @@ body {
 .design-page-section-1-left-info i {
   font-size: 2rem;
   margin-right: 1rem;
-  color: #b32400;
+  color: whitesmoke;
 }
 
 .design-page-section-1-left-info a {
@@ -4248,14 +4248,105 @@ body {
   margin-left: 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
 }
 
 .design-page-section-1-right-image {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: auto;
   padding: 5rem;
   position: absolute;
+}
+
+.design-page-section-2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #f8f8f8;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.design-page-section-2-wrapper .design-page-section-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.design-page-section-2-wrapper .design-page-section-2-button {
+  border: 2px solid #00b279;
+  background: #f8f8f8;
+  padding: 1rem 2rem;
+  color: #00b279;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.design-page-section-2-wrapper .design-page-section-2-button:hover {
+  border: 2px #00b279 solid;
+  background: #00b279;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.hosting-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/graphic design services dublin rocket chip web solutions consistency.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hosting-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.hosting-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+.hosting-page-section-3-left {
+  width: 20%;
+}
+
+.hosting-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+.hosting-page-section-3-right-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: darkslategray;
+}
+
+.hosting-page-section-3-right-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.hosting-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
 }
 
