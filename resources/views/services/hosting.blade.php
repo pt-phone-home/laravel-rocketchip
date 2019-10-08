@@ -49,14 +49,15 @@
         </div>
         <div class="hosting-page-section-3-right">
             <h2 class="hosting-page-section-3-right-heading">Website Maintenance</h2>
-            <p class="hosting-page-section-3-right-info">Our team are experts in SEO for SME's and sole traders in Dublin and Ireland. We provide our clients with top quality search engine optimisation services which improve your visiblity online and increase quality traffic to your website.</p>
-            <p class="hosting-page-section-3-right-info">Our experts conduct a comprehensive SEO review of your site, your competition and your industry. This allows us to tailor our SEO efforts for maximum impact.</p>
-            <p class="hosting-page-section-3-right-info">An SEO review with Rocket.Chip Web Solutions involves:</p>
+            <p class="hosting-page-section-3-right-info">Maintaining your website's speed, security and relevance is just as important as the intial design. Our team can support you by providing security updates, content refreshes and general ongoing maintenance. Minor updates and ammendments can be included for a reasonable annual fee. Larger modifications or feature requests can be negotiated when needed.</p>
+
             <h2 class="hosting-page-section-3-right-heading">Content Writing that Promotes Your Business</h2>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-search"></i><strong>On-page SEO</strong> including a complete review of your website content, heading tags, meta data and page descriptions</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-search"></i><strong>Local SEO</strong> including Google My Business Set-up, identification of local <strong>keywords</strong>, and confirmation of your company's contact information</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-search"></i><strong>Competition SEO</strong> including a review of your competitors SEO performance and keword targeting</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-search"></i><strong>Security SEO</strong> - Google takes website security very seriously. Our team conduct a full security audit of your site and take necessary steps to improve problem areas. </p>
+            <p class="hosting-page-section-3-right-info">Looking to increase your online presence and influence? Want to have a voice in your industry? Our content writers can work with you to create engaging and relevant content for your website's blog or email communications.</p>
+
+            <p class="hosting-page-section-3-right-info">Becoming a content creator in your industry has a number of benefits:</p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Drive traffic</strong> to your website by giving users content they want.</p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Influence</strong> your customers decision making by becoming their source of information and advice</p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Increase brand recognition</strong> through engagement and social media interaction based on your stories and insights.</p>
 
         </div>
     </div>
