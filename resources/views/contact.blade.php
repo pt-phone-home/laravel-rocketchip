@@ -44,7 +44,7 @@ Contact Us | Rocket.Chip Web Solutions
 <div class="contact-form-container">
     <form action="/contact" class="form" method="POST">
         @csrf
-        <h1 class="form-header">Send us a message</h1>
+        <h2 class="form-header">Send us a message</h2>
         <div class="form-group">
             <label for="name" class="form-label">Name: </label>
         <input type="text" class="form-input" name="name" required value="{{old('name')}}">

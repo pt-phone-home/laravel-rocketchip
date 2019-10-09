@@ -54,7 +54,7 @@ Services | Rocket.Chip Web Solutions
     </div>
     <div class="design-process-header-container">
             <div class="design-process-header">
-                <h1>Our Design Process</h1>
+                <h2>Our Design Process</h2>
                 <p>Your website is an important part of your business. It is an essential element in attracting new customers and letting existing customers know what you offer. We understand this and through our design process, we help to ensure your website acts as an effective marketing and communications tool.</p>
             </div>
     </div>

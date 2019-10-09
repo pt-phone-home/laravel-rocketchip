@@ -100,7 +100,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
 <div class="services-container">
     <div class="services">
         <div class="services-heading">
-            <h1>What We Do</h1>
+            <h2>What We Do</h2>
         </div>
         <h2 class="website-design-development-heading">
             Website Design &amp; Development
@@ -168,7 +168,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
 
 <div class="choose-us-container">
     <div class="choose-us">
-        <h1>We are different</h1>
+        <h2>We are different</h2>
     </div>
 </div>
 
@@ -176,7 +176,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
     <div class="difference">
 
         <div class="difference-heading">
-            <h1>What makes us unique?</h1>
+            <h2>What makes us unique?</h2>
         </div>
         <div class="difference-container">
             @component('partials.webfeature', ['icon' => 'fal fa-user-tie', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'SME Specialists', 'serviceInfo' => "As a small business, we understand the needs of other small businesses. We specialise in creating effective, agile websites and web applications for SME's, all at a price that works for you.", 'serviceLink' => "", 'serviceLinkClass' => ''])

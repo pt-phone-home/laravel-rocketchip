@@ -311,7 +311,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
   align-self: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: darkslategray;
 }
 
@@ -428,7 +428,7 @@ body {
   color: #f8f8f8;
 }
 
-.choose-us-container .choose-us h1 {
+.choose-us-container .choose-us h2 {
   justify-self: center;
   margin-top: 4rem;
   margin-bottom: 6rem;
@@ -465,7 +465,7 @@ body {
   text-align: center;
   color: darkslategray;
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 @media (max-width: 420px) {
@@ -1705,7 +1705,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.design-process-header-container .design-process-header h1,
+.design-process-header-container .design-process-header h2,
 .design-process-header-container .design-process-header p {
   color: #f8f8f8;
   text-align: center;
@@ -1716,6 +1716,10 @@ body {
 .design-process-header-container .design-process-header p {
   font-size: 1.7rem;
   line-height: 2;
+}
+
+.design-process-header-container .design-process-header h2 {
+  font-size: 3.5rem;
 }
 
 .design-process-container {
@@ -2150,6 +2154,7 @@ body {
 .contact-form-container .form-header {
   color: #2f4f4f;
   text-align: center;
+  font-size: 3.5rem;
   margin-top: 2rem;
   margin-bottom: 4rem;
 }

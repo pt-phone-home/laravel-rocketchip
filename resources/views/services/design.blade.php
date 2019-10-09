@@ -26,7 +26,7 @@
             <h2 class="design-page-section-1-left-heading">Design Solutions include:</h2>
             <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Promotional Flyers & Posters</strong> - advertising special offers or upcoming events</p>
             <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Infographics</strong> - providing your customers with detailed promotional information on your products or services and their benefits</p>
-            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Business Card & Leaflets</strong> - professional designs to markget your businiess</p>
+            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Business Cards & Leaflets</strong> - professional designs to markget your businiess</p>
             <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Menus</strong> - clean and professional designs</p>
             <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Brochures</strong> - high quality brochures to give potential customers an overview of what your business does best</p>
         </div>
@@ -61,16 +61,17 @@
 
         </div>
         <div class="hosting-page-section-3-right">
-            <h2 class="hosting-page-section-3-right-heading">Website Maintenance</h2>
-            <p class="hosting-page-section-3-right-info">Maintaining your website's speed, security and relevance is just as important as the intial design. Our team can support you by providing security updates, content refreshes and general ongoing maintenance. Minor updates and ammendments can be included for a reasonable annual fee. Larger modifications or feature requests can be negotiated when needed.</p>
+            <h2 class="hosting-page-section-3-right-heading">Graphic Design Matters</h2>
+            <p class="hosting-page-section-3-right-info">Whether you are a sole trader looking for local business or an SME looking to expand your reach, graphic design is an essential form of communication between you and your (potential) customers</p>
+            <p class="hosting-page-section-3-right-info">Good graphic design helps you to stand out from the competition, makes customers take notice and helps your message to be seen in what can sometimes be a noisy marketplace.</p>
 
-            <h2 class="hosting-page-section-3-right-heading">Content Writing that Promotes Your Business</h2>
-            <p class="hosting-page-section-3-right-info">Looking to increase your online presence and influence? Want to have a voice in your industry? Our content writers can work with you to create engaging and relevant content for your website's blog or email communications.</p>
+            <h2 class="hosting-page-section-3-right-heading">Our Graphic Design Philosophy</h2>
+            <p class="hosting-page-section-3-right-info">Our team work closely with each of our clients to ensure your branding and message is clear and professional, encouraging your customers to take action</p>
 
-            <p class="hosting-page-section-3-right-info">Becoming a content creator in your industry has a number of benefits:</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Drive traffic</strong> to your website by giving users content they want.</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Influence</strong> your customers decision making by becoming their source of information and advice</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Increase brand recognition</strong> through engagement and social media interaction based on your stories and insights.</p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>First Impressions Count</strong> - Your design will be eye-catching, clean and professional</p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Consistency</strong> - Colours, fonts and overall marketing message remain consistent across designs</p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Creative</strong> - designs that stand out from the competition and encourage engagement </p>
+            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Message is King</strong> - while creativity is important, it is equally important that style does not overshadow substance. Your message will be the center of your design </p>
 
         </div>
     </div>
