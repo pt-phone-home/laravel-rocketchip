@@ -851,6 +851,7 @@ body {
   transition: all 1s ease-in-out;
   -webkit-transform-origin: top right;
           transform-origin: top right;
+  overflow: scroll;
 }
 
 .sidenav #sideNavDropdownBtn {
@@ -864,10 +865,10 @@ body {
 .sidenav-item-link {
   display: block;
   text-align: center;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   color: #f8f8f8;
   width: 100%;
@@ -903,10 +904,10 @@ body {
 .sidenav-dropdown-item-link {
   display: block;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 1rem;
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   color: #f8f8f8;
   width: 100%;

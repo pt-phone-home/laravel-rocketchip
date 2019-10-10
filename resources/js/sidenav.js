@@ -19,7 +19,7 @@ sideNavBtn.addEventListener("click", function() {
 });
 
 sideNavClose.addEventListener("click", function() {
-    alert("hello");
+    sideNav.style.display = "none";
 });
 
 sideNavDropdownBtn.addEventListener("click", function() {
