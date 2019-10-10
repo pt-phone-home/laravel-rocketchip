@@ -36510,10 +36510,20 @@ if (token) {
 
 var sideNavBtn = document.getElementById("sidenavbutton");
 var sideNav = document.getElementById("sidenav");
+var sideNavClose = document.getElementById("sideNavClose");
+var sideNavDropdownBtn = document.getElementById("sideNavDropdownBtn");
+var sideNavDropdownMenu = document.getElementById("sideNavDropdownMenu");
 sideNavBtn.addEventListener("click", function () {
   window.getComputedStyle(sideNav).display === "none" ? (sideNav.style.display = "block", sideNav.style.width = "100%") : sideNav.style.display = "none"; // sideNavBtn.addEventListener("click", function() {
   //     sideNavBtn.classList.add("rotate");
   // });
+});
+sideNavClose.addEventListener("click", function () {
+  alert("hello");
+});
+sideNavDropdownBtn.addEventListener("click", function () {
+  console.log("hello");
+  window.getComputedStyle(sideNavDropdownMenu).display === "none" ? sideNavDropdownMenu.style.display = "block" : sideNavDropdownMenu.style.display = "none";
 });
 
 /***/ }),

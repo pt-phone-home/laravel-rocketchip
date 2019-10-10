@@ -837,7 +837,7 @@ body {
 
 .sidenav {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0rem;
   width: 0%;
@@ -851,6 +851,10 @@ body {
   transition: all 1s ease-in-out;
   -webkit-transform-origin: top right;
           transform-origin: top right;
+}
+
+.sidenav #sideNavDropdownBtn {
+  cursor: pointer;
 }
 
 .sidenav-item {
@@ -871,6 +875,45 @@ body {
 }
 
 .sidenav-item-link:hover {
+  background: #008057;
+}
+
+.sidenav-item-close {
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  width: 100%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.sidenav-dropdown {
+  display: none;
+}
+
+.sidenav-dropdown-item {
+  list-style: none;
+}
+
+.sidenav-dropdown-item-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #f8f8f8;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.sidenav-dropdown-item-link:hover {
   background: #008057;
 }
 

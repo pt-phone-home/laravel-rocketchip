@@ -140,7 +140,7 @@
 
 .sidenav {
     display: none; // change from none
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0rem;
     width: 0%; // change from 0rem with animation
@@ -151,6 +151,10 @@
     animation-duration: 0.5s;
     transition: all 1s ease-in-out;
     transform-origin: top right;
+
+    #sideNavDropdownBtn {
+        cursor: pointer;
+    }
 
     &-item {
         list-style: none;
@@ -169,6 +173,48 @@
 
             &:hover {
                 background: $complementary-dark;
+            }
+        }
+
+        &-close {
+            display: inline-block;
+            text-align: right;
+            margin-bottom: 3rem;
+            margin-top: 2rem;
+            text-decoration: none;
+            font-size: 1.7rem;
+            text-transform: uppercase;
+            color: $grey1;
+            width: 100%;
+            padding: 1rem 2rem;
+            cursor: pointer;
+
+            // &:hover {
+            //     background: $complementary-dark;
+            // }
+        }
+    }
+
+    &-dropdown {
+        display: none;
+        &-item {
+            list-style: none;
+
+            &-link {
+                display: block;
+                text-align: center;
+                margin-bottom: 2rem;
+                margin-top: 1rem;
+                text-decoration: none;
+                font-size: 1.7rem;
+                text-transform: capitalize;
+                color: $grey1;
+                width: 100%;
+                padding: 1rem 0rem;
+
+                &:hover {
+                    background: $complementary-dark;
+                }
             }
         }
     }

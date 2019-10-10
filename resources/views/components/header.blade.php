@@ -89,9 +89,21 @@
 </div>
 
     <div class="sidenav" id="sidenav">
-        <li class="sidenav-item"><a href="/" class="sidenav-item-link">Home</a></li>
+        <li class="sidenav-item" ><a class="sidenav-item-close" id="sideNavClose">Close X</a></li>
+        <li class="sidenav-item"><a href="/" class="sidenav-item-link" >Home</a></li>
         <li class="sidenav-item"><a href="/about" class="sidenav-item-link">About Us</a></li>
-        <li class="sidenav-item"><a href="/services" class="sidenav-item-link">Services</a></li>
+        <li class="sidenav-item" id="sideNavDropdownBtn"><a class="sidenav-item-link">Services</a>
+            <ul class="sidenav-dropdown" id="sideNavDropdownMenu">
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('webdesign') }}">Website Design & Development</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('ecommerce') }}">E-Commerce Design & Development</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('webapp') }}">Web Application Development</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('redesign') }}">Website Redesign</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('seo') }}">Search Engine Optimisation</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('hosting') }}">Website Hosting & Maintenance</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('design') }}">Graphic Design</a></li>
+                <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('logo') }}">Logo Design</a></li>
+            </ul>
+        </li>
         <li class="sidenav-item"><a href="/portfolio" class="sidenav-item-link">Portfolio</a></li>
         <li class="sidenav-item"><a href="/contact" class="contact_us sidenav-item-link">Contact Us</a></li>
     </div>
