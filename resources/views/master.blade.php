@@ -13,7 +13,8 @@
 
 
 
-                @yield('content')
+
+        @yield('content')
 
 
 

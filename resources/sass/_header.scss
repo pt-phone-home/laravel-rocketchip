@@ -5,8 +5,9 @@
     align-items: center;
     align-content: center;
     grid-column-gap: 2rem;
-    position: sticky;
-    position: -webkit-sticky;
+    // position: sticky;
+    // position: -webkit-sticky;
+    position: relative;
     top: 0rem;
     height: 7rem;
     background-color: $grey1;
@@ -24,6 +25,7 @@
     .logo {
         height: inherit;
         z-index: 10;
+        position: relative;
         a {
             img {
                 position: absolute;
@@ -41,6 +43,14 @@
         align-items: center;
         justify-items: center;
         padding-left: 6rem;
+
+        #services-nav-item {
+            &:hover {
+                .hovernav {
+                    display: flex;
+                }
+            }
+        }
 
         li {
             list-style: none;
@@ -160,6 +170,34 @@
                 background: $complementary-dark;
             }
         }
+    }
+}
+
+// #services-nav-item {
+//     position: relative;
+
+//     &:hover {
+//         .hovernav {
+//             display: flex;
+//         }
+//     }
+// }
+.hovernav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10rem;
+    // display: flex;
+    flex-direction: column;
+    background: $grey2;
+    height: 4rem;
+    border: 2px $complementary solid;
+
+    &-row1 {
+        display: flex;
+        justify-content: space-around;
     }
 }
 

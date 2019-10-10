@@ -17,35 +17,33 @@
 @section('serviceInfo', 'A creative, clear logo for all your print and online materials')
 
 @section('serviceContent')
-<div class="design-page-section-1-wrapper">
-    <div class="design-page-section-1">
-        <div class="design-page-section-1-left">
-            <h2 class="design-page-section-1-left-heading">Professional Graphic Design Services</h2>
-            <p class="design-page-section-1-left-info">Our team of experienced designers understand that your website is only part of your overall marketing strategy. Using the latest desktop publishing tools we can work with your business to create print / online materials for a variety of purposes and occasions.</p>
+<div class="logo-page-section-1-wrapper">
+    <div class="logo-page-section-1">
+        <div class="logo-page-section-1-left">
+            <h2 class="logo-page-section-1-left-heading">Professional Logo Design</h2>
+            <p class="logo-page-section-1-left-info">Your logo is very often the first thing customers notice about your business. A logo is much more than just a collection of images and text; it should help customers to reconise <strong>your</strong> brand and what it is that your business does.</p>
+            <p class="logo-page-section-1-left-info">A well-designed logo conveys to customers that your business is professional, trustworthy and provides top quality goods or services.</p>
 
-            <h2 class="design-page-section-1-left-heading">Design Solutions include:</h2>
-            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Promotional Flyers & Posters</strong> - advertising special offers or upcoming events</p>
-            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Infographics</strong> - providing your customers with detailed promotional information on your products or services and their benefits</p>
-            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Business Cards & Leaflets</strong> - professional designs to markget your businiess</p>
-            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Menus</strong> - clean and professional designs</p>
-            <p class="design-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Brochures</strong> - high quality brochures to give potential customers an overview of what your business does best</p>
+            <h2 class="logo-page-section-1-left-heading">Great Logo Design</h2>
+            <p class="logo-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Recognition</strong> - your logo should be easy to recognise and associate with your business</p>
+            <p class="logo-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Simplicity & Clarity</strong> - your logo should be simple enough to work across various formats, from FaceBook to Business Cards</p>
+            <p class="logo-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Colours & Fonts</strong> - different colours and fonts convey different meanings to potential customers, it is important that the ones you select match the image your business is trying to portray</p>
+            <p class="logo-page-section-1-left-info"><i class="fal fa-check-circle"></i><strong>Shapes & Images</strong> - Images and shapes must be carefully selected so that your logo delivers the correct message about your business</p>
+
         </div>
-        <div class="design-page-section-1-right">
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions island ferries.jpg" alt="graphic design services dublin rocket chip web solutions island ferries" title="graphic design services dublin rocket chip web solutions island ferries">
+        <div class="logo-page-section-1-right">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 1.png" alt="logo design dublin rocket chip web solutions example 1" title="logo design dublin rocket chip web solutions example 1">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 2.png" alt="logo design dublin rocket chip web solutions example 2" title="logo design dublin rocket chip web solutions example 2">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 3.png" alt="logo design dublin rocket chip web solutions example 3" title="logo design dublin rocket chip web solutions example 3">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 4.png" alt="logo design dublin rocket chip web solutions example 4" title="logo design dublin rocket chip web solutions example 4">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 5.png" alt="logo design dublin rocket chip web solutions example 5" title="logo design dublin rocket chip web solutions example 5">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 6.png" alt="logo design dublin rocket chip web solutions example 6" title="logo design dublin rocket chip web solutions example 6">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 7.png" alt="logo design dublin rocket chip web solutions example 7" title="logo design dublin rocket chip web solutions example 7">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 8.png" alt="logo design dublin rocket chip web solutions example 8" title="logo design dublin rocket chip web solutions example 8">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 9.png" alt="logo design dublin rocket chip web solutions example 9" title="logo design dublin rocket chip web solutions example 9">
+            <img class="sample-logo logo-page-section-1-right-image" src="/images/logos/logo design dublin rocket chip web solutions example 10.png" alt="logo design dublin rocket chip web solutions example 10" title="logo design dublin rocket chip web solutions example 10">
 
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions flyer.jpg" alt="graphic design services dublin rocket chip web solutions flyer" title="graphic design services dublin rocket chip web solutions flyer">
 
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions infographic.jpg" alt="graphic design services dublin rocket chip web solutions infographic" title="graphic design services dublin rocket chip web solutions infographic">
-
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions poster.jpg" alt="graphic design services dublin rocket chip web solutions poster" title="graphic design services dublin rocket chip web solutions poster">
-
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions business card.jpg" alt="graphic design services dublin rocket chip web solutions business card" title="graphic design services dublin rocket chip web solutions business card">
-
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions instagram.jpg" alt="graphic design services dublin rocket chip web solutions instagram" title="graphic design services dublin rocket chip web solutions instagram">
-
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions trifold.jpg" alt="graphic design services dublin rocket chip web solutions trifold" title="graphic design services dublin rocket chip web solutions trifold">
-
-            <img class="slide design-page-section-1-right-image" src="/images/graphic design/graphic design services dublin rocket chip web solutions menu.jpg" alt="graphic design services dublin rocket chip web solutions menu" title="graphic design services dublin rocket chip web solutions menu">
 
         </div>
     </div>
@@ -55,8 +53,50 @@
         <a class="design-page-section-2-button" href="{{ route('contact') }}">Work With Us Today</a>
     </div>
 </div>
-@endsection
+<div class="logo-page-section-3-wrapper">
+    <div class="logo-page-section-3">
+        <div class="logo-page-section-3-left">
 
+        </div>
+        <div class="logo-page-section-3-right">
+            <h2 class="logo-page-section-3-right-heading">Logo Design to Fit Your Budget</h2>
+            <p class="logo-page-section-3-right-info">At Rocket.Chip Web Solutions we have a number of different logo design options available to our customers, each suited to your budget.</p>
+            <p class="logo-page-section-3-right-info">As a web development agency we have access to a number of logo creation tools that might suit are clients who are working on a limited budget. This will provide you with a professional logo, without lengthy design time or high costs.</p>
+            <p class="logo-page-section-3-right-info">Alternatively, one of our designers can work with you step-by-step to create a bespoke logo which matches your company vision and brand personality.</p>
+
+        </div>
+    </div>
+</div>
+<div class="seo-page-section-4-wrapper">
+    <div class="seo-page-section-4">
+        <a class="seo-page-section-4-button" href="{{ route('contact') }}">Get Started</a>
+    </div>
+</div>
+@endsection
+@section('scripts')
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let logos = document.getElementsByClassName("sample-logo");
+            for (i = 0; i < logos.length; i++) {
+                logos[i].style.display = "none";
+            }
+
+            slideIndex++;
+
+            if (slideIndex > logos.length) {
+                slideIndex = 1;
+            }
+
+            logos[slideIndex - 1].style.display = "block";
+
+            setTimeout(showSlides, 4000);
+        }
+    </script>
+@endsection
 
 
 

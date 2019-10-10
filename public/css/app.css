@@ -721,8 +721,7 @@ body {
   align-items: center;
   align-content: center;
   grid-column-gap: 2rem;
-  position: sticky;
-  position: -webkit-sticky;
+  position: relative;
   top: 0rem;
   height: 7rem;
   background-color: #f8f8f8;
@@ -736,6 +735,7 @@ body {
 .header .logo {
   height: inherit;
   z-index: 10;
+  position: relative;
 }
 
 .header .logo a img {
@@ -752,6 +752,10 @@ body {
   align-items: center;
   justify-items: center;
   padding-left: 6rem;
+}
+
+.header .nav #services-nav-item:hover .hovernav {
+  display: flex;
 }
 
 .header .nav li {
@@ -867,6 +871,24 @@ body {
 
 .sidenav-item-link:hover {
   background: #008057;
+}
+
+.hovernav {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  flex-direction: column;
+  background: #e8e8e8;
+  height: 4rem;
+  border: 2px #00b279 solid;
+}
+
+.hovernav-row1 {
+  display: flex;
+  justify-content: space-around;
 }
 
 @-webkit-keyframes trans {
@@ -4298,7 +4320,7 @@ body {
   cursor: pointer;
 }
 
-.hosting-page-section-3-wrapper {
+.design-page-section-3-wrapper {
   position: relative;
   display: flex;
   width: 100%;
@@ -4311,7 +4333,7 @@ body {
   padding-bottom: 2rem;
 }
 
-.hosting-page-section-3-wrapper:after {
+.design-page-section-3-wrapper:after {
   content: "";
   position: absolute;
   top: 0;
@@ -4321,35 +4343,168 @@ body {
   background-color: rgba(232, 232, 232, 0.4);
 }
 
-.hosting-page-section-3 {
+.design-page-section-3 {
   z-index: 50;
   width: 80%;
   display: flex;
 }
 
-.hosting-page-section-3-left {
+.design-page-section-3-left {
   width: 20%;
 }
 
-.hosting-page-section-3-right {
+.design-page-section-3-right {
   width: 80%;
   background: rgba(248, 248, 248, 0.9);
   padding: 2rem;
 }
 
-.hosting-page-section-3-right-heading {
+.design-page-section-3-right-heading {
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: darkslategray;
 }
 
-.hosting-page-section-3-right-info {
+.design-page-section-3-right-info {
   color: darkslategray;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
 
-.hosting-page-section-3-right-info i {
+.design-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.logo-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logo-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00b279;
+}
+
+.logo-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.logo-page-section-1-left {
+  width: 50%;
+}
+
+.logo-page-section-1-left-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+
+.logo-page-section-1-left-info {
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.logo-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: whitesmoke;
+}
+
+.logo-page-section-1-left-info a {
+  text-decoration: none;
+  color: #b32400;
+}
+
+.logo-page-section-1-left-info a:hover {
+  text-decoration: underline;
+}
+
+.logo-page-section-1-right {
+  width: 50%;
+  background: rgba(248, 248, 248, 0.9);
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-page-section-1-right-image {
+  width: 70%;
+  height: auto;
+  padding: 5rem;
+  position: absolute;
+}
+
+.logo-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/logo design services dublin rocket chip web solutions process.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logo-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.logo-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+.logo-page-section-3-left {
+  width: 20%;
+}
+
+.logo-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+.logo-page-section-3-right-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: darkslategray;
+}
+
+.logo-page-section-3-right-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.logo-page-section-3-right-info i {
   font-size: 2rem;
   margin-right: 1rem;
   color: #b32400;
