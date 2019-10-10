@@ -30,8 +30,8 @@ Contact Us | Rocket.Chip Web Solutions
                     <p class="contact-general-email"><i class="fas fa-at"></i> Email us at info@rocketchipwebsolutions.ie for more information or request a quote</p> --}}
                     <div class="contact-general-info-hours">
                         <h3 class="contact-general-info-hours-heading">Opening Hours</h3>
-                        <p class="contact-general-info-hours-info">Mon - Fri: 9am - 9pm</p>
-                        <p class="contact-general-info-hours-info">Sat & Sun: 9am - 5pm</p>
+                        <p class="contact-general-info-hours-info">Mon - Thur: 9am - 9pm</p>
+                        <p class="contact-general-info-hours-info">Fri - Sun: 9am - 5pm</p>
                     </div>
                 </div>
 

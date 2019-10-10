@@ -8,25 +8,74 @@
         <li id="services-nav-item"><a href="/services">Services</a>
             <div class="hovernav">
                 <div class="hovernav-row1">
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-object-group"></i>
+                        </div>
                         <div>
                             <p><a href="{{ route('webdesign') }}">Website Design & Development</a></p>
-                            <p>Professional & Affordable Website Design</p>
+                        </div>
+                    </div>
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-shopping-cart"></i>
                         </div>
                         <div>
                             <p><a href="{{ route('ecommerce') }}">E-Commerce Design & Development</a></p>
-                            <p></p>
+                        </div>
+                    </div>
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-browser"></i>
                         </div>
                         <div>
                             <p><a href="{{ route('webapp') }}">Web Application Development</a></p>
-                            <p></p>
+                        </div>
+                    </div>
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-redo-alt"></i>
                         </div>
                         <div>
                             <p><a href="{{ route('redesign') }}">Website Redesign</a></p>
-                            <p></p>
                         </div>
                     </div>
-                    <div>
+                </div>
+                <div class="hovernav-row1">
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-search-plus"></i>
+                        </div>
+                        <div>
+                            <p><a href="{{ route('seo') }}">Search Engine Optimisation</a></p>
+                        </div>
+                    </div>
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-cogs"></i>
+                        </div>
+                        <div>
+                            <p><a href="{{ route('hosting') }}">Website Hosting & Maintenance</a></p>
+                        </div>
 
+                    </div>
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-swatchbook"></i>
+                        </div>
+                        <div>
+                            <p><a href="{{ route('design') }}">Graphic Design</a></p>
+                        </div>
+                    </div>
+                    <div class="hovernav-row1-item">
+                        <div>
+                            <i class="fal fa-pencil-paintbrush"></i>
+                        </div>
+                        <div>
+                            <p><a href="{{ route('logo') }}">Logo Design</a></p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </li>

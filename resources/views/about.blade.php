@@ -6,6 +6,10 @@ About Us | Rocket.Chip Web Solutions
 
 @endsection
 
+@section('pageDescription')
+<meta name="description" content="We are an innovative website design and development agency based in Dublin, Ireland. We provide innovative web solutions for SME's and sole traders in Dublin, Ireland and Northern Ireland. We offer additional services such as Search Engine Optmisation, Graphic Design and Logo Design.">
+@endsection
+
 @section('content')
 
 <div class="about-banner">
