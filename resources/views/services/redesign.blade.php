@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     Website Redesign | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="Website redesign and upgrade for SME's and sole traders in Dublin, Ireland and Northern Ireland. Let Rocket.Chip Web Solutions transform your website and help you attract more customers.">
+@endsection
 @section('serviceTitle')
     Website Redesign
 @endsection

@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     Search Engine Optimisation | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="Search Engine Optimisation services for SME's and sole traders in Dublin, Ireland and Northern Ireland. Let Rocket.Chip Web Solutions help you been seen online with our thorough SEO review and implementation.">
+@endsection
 @section('serviceTitle')
     Search Engine Optimisation
 @endsection

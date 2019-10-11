@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     Graphic Design Services | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="Professional and affordable graphic design services for SME's and sole traders in Dublin, Ireland and Northern Ireland. Rocket.Chip Web Solutions - catering for all your graphic design needs.">
+@endsection
 @section('serviceTitle')
     Graphic Design Services
 @endsection

@@ -3,7 +3,9 @@
 @section('title')
 Contact Us | Rocket.Chip Web Solutions
 @endsection
-
+@section('pageDescription')
+<meta name="description" content="Contact Rocket.Chip Web Solutions - One of Ireland's most innovative website design and development agencies. Get a quote or request more informaiton.">
+@endsection
 
 
 @section('content')

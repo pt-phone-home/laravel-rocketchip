@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     Website Hosting & Maintenance | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="Website hosting and maintenance packages from Rocket.Chip Web Solutions. Taking the hassle out of managing your website. Packages to suit all budgets.">
+@endsection
 @section('serviceTitle')
     Website Hosting & Maintenance
 @endsection

@@ -106,6 +106,10 @@
             grid-template-columns: 1fr;
         }
 
+        @media (max-width: 880px) {
+            margin-top: 2rem;
+        }
+
         &-title {
             align-self: center;
             padding-left: 2rem 5rem;
@@ -121,12 +125,21 @@
                 padding-bottom: 1rem;
                 color: $grey1;
                 text-align: center;
+
+                @media (max-width: 880px) {
+                    padding-top: 0.2rem;
+                    font-size: 3rem;
+                }
             }
 
             h2 {
                 text-align: center;
                 font-size: 3rem;
                 color: $grey1;
+
+                @media (max-width: 700px) {
+                    font-size: 2rem;
+                }
             }
         }
 
@@ -287,6 +300,10 @@
             font-size: 1.7rem;
             line-height: 1.7;
             width: 40%;
+
+            @media (max-width: 880px) {
+                width: 80%;
+            }
         }
 
         .website-design-development-container,
@@ -294,17 +311,29 @@
             margin-top: 2rem;
             display: flex;
 
+            @media (max-width: 880px) {
+                flex-wrap: wrap;
+            }
+
             .website-design-development-services,
             .essential-services {
                 width: 50%;
                 display: flex;
                 flex-direction: column;
+
+                @media (max-width: 880px) {
+                    width: 100%;
+                }
             }
 
             .website-design-development-feature {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                @media (max-width: 880px) {
+                    width: 100%;
+                }
             }
         }
 
@@ -464,231 +493,6 @@
             margin-bottom: 5rem;
             grid-column: 1 / -1;
             align-self: center;
-        }
-    }
-}
-
-// Web Feature Partial
-
-.webfeature {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    width: 400px;
-    display: flex;
-
-    &-leftPanel {
-        width: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    &-rightPanel {
-        width: 350px;
-        display: flex;
-        flex-direction: column;
-
-        .service-title {
-            font-size: 2rem;
-            color: darkslategray;
-        }
-
-        .service-info {
-            font-size: 1.5rem;
-            color: slategray;
-            margin-top: 1rem;
-            line-height: 1.6;
-        }
-
-        .service-link-container {
-            margin-top: 1rem;
-
-            .service-link {
-                color: $complementary;
-                text-decoration: none;
-                font-size: 1.6rem;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-
-            .service-link-alt {
-                color: $color-primary-dark;
-                text-decoration: none;
-                font-size: 1.6rem;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
-
-.webfeature-mid {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    width: 90%;
-    display: flex;
-
-    &-leftPanel {
-        width: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    &-rightPanel {
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-
-        .service-title {
-            font-size: 2rem;
-            color: darkslategray;
-        }
-
-        .service-info {
-            font-size: 1.5rem;
-            color: slategray;
-            margin-top: 1rem;
-            line-height: 1.6;
-        }
-
-        .service-link-container {
-            margin-top: 1rem;
-
-            .service-link {
-                color: $complementary;
-                text-decoration: none;
-                font-size: 1.6rem;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-
-            .service-link-alt {
-                color: $color-primary-dark;
-                text-decoration: none;
-                font-size: 1.6rem;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
-.webfeature-mid-dark {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    width: 90%;
-    display: flex;
-
-    &-leftPanel {
-        width: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    &-rightPanel {
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-
-        .service-title {
-            font-size: 2rem;
-            color: darkslategray;
-        }
-
-        .service-info {
-            font-size: 1.5rem;
-            color: darkslategray;
-            margin-top: 1rem;
-            line-height: 1.6;
-        }
-
-        .service-link-container {
-            margin-top: 1rem;
-
-            .service-link {
-                color: $complementary;
-                text-decoration: none;
-                font-size: 1.6rem;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-
-            .service-link-alt {
-                color: $color-primary-dark;
-                text-decoration: none;
-                font-size: 1.6rem;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
-.service-link-alt {
-    color: $color-primary-dark;
-    text-decoration: none;
-    font-size: 1.6rem;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-.webfeature-icon {
-    color: $complementary-dark;
-    font-size: 3rem;
-}
-.webfeature-icon-alt {
-    color: $color-primary-dark;
-    font-size: 3rem;
-}
-
-// design callout
-
-.design-callout {
-    width: 45rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 6px 8px 5px -1px rgba(0, 0, 0, 0.52);
-
-    &-top {
-        height: 25rem;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    &-image {
-        border-radius: 10px 10px 0px 0px;
-        height: auto;
-        width: 100%;
-    }
-
-    &-main {
-        padding: 2rem;
-        background: white;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-
-        &-heading {
-            font-family: "Gothic A1", sans-serif;
-            text-transform: uppercase;
-            font-size: 2rem;
-            font-weight: bolder;
-        }
-
-        p {
-            color: slategray;
-            line-height: 1.5;
-            margin-bottom: 1rem;
         }
     }
 }

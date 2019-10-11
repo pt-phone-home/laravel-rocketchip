@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     Logo Design Services | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="Logo design services for SME's and sole traders in Dublin, Ireland and Northern Ireland. Rocket.Chip Web Solutions provide professional and affordable logo design services.">
+@endsection
 @section('serviceTitle')
     Logo Design Services
 @endsection

@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     Web Application Development | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="Web application development services for SME's and sole traders in Dublin, Ireland and Northern Ireland. Talk to Rocket.Chip Web Solutions today about developing a web application to drive sales or improve processes.">
+@endsection
 @section('serviceTitle')
     Web Application Development
 @endsection

@@ -8,7 +8,7 @@
         <li id="services-nav-item"><a href="/services">Services</a>
             <div class="hovernav">
                 <div class="hovernav-row1">
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/website-design-development';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-object-group"></i>
                         </div>
@@ -16,7 +16,7 @@
                             <p><a href="{{ route('webdesign') }}">Website Design & Development</a></p>
                         </div>
                     </div>
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/ecommerce-design-development';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-shopping-cart"></i>
                         </div>
@@ -24,7 +24,7 @@
                             <p><a href="{{ route('ecommerce') }}">E-Commerce Design & Development</a></p>
                         </div>
                     </div>
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/web-application-development';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-browser"></i>
                         </div>
@@ -32,7 +32,7 @@
                             <p><a href="{{ route('webapp') }}">Web Application Development</a></p>
                         </div>
                     </div>
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/website-redesign';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-redo-alt"></i>
                         </div>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="hovernav-row1">
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/search-engine-optimisation';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-search-plus"></i>
                         </div>
@@ -50,7 +50,7 @@
                             <p><a href="{{ route('seo') }}">Search Engine Optimisation</a></p>
                         </div>
                     </div>
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/website-hosting-maintenance';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-cogs"></i>
                         </div>
@@ -59,7 +59,7 @@
                         </div>
 
                     </div>
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/graphic-design';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-swatchbook"></i>
                         </div>
@@ -67,7 +67,7 @@
                             <p><a href="{{ route('design') }}">Graphic Design</a></p>
                         </div>
                     </div>
-                    <div class="hovernav-row1-item">
+                    <div class="hovernav-row1-item" onclick="location.href= '/logo-design';" style="cursor:pointer;">
                         <div>
                             <i class="fal fa-pencil-paintbrush"></i>
                         </div>

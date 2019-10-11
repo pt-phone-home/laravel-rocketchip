@@ -1,6 +1,6 @@
 @extends('master')
 @section('pageDescription')
-<meta name="description" content="Welcome to Rocket.Chip Web Solutions. Dublin-based web design and development company who specialise in creating websites for small and medium businesses">
+<meta name="description" content="Welcome to Rocket.Chip Web Solutions. Dublin-based web design and development company that specialise in website development, e-commerce development and search engine optimisation services for SME's and sole traders in Dublin, Ireland and Northern Ireland.">
 @endsection
 @section('title')
 Innovative Online Solutions | Rocket.Chip Web Solutions
@@ -110,17 +110,17 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
         </p>
         <div class="website-design-development-container">
             <div class="website-design-development-services">
-                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs.", 'serviceLink' => "/web_design_development", 'serviceLinkClass' => 'service-link'])
+                @component('partials.webfeature', ['icon' => 'fal fa-object-group', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'Website Design & Development', 'serviceInfo' => "We work closely with our clients to design and develop a website from the ground up that captures their identity and their message. We don't use any templates or 'cookie cutter' designs.", 'serviceLink' => "/web-design-development", 'serviceLinkClass' => 'service-link'])
 
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online.", 'serviceLink' => "/ecommerce_design_development", 'serviceLinkClass' => 'service-link'])
+                @component('partials.webfeature', ['icon' => "fal fa-shopping-cart", 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'E-commerce Design & Development', 'serviceInfo' => "Making your products and/or services available online opens up a world of opportunities for your business. We help small businesses select the right strategy and appropriate platform to start selling online.", 'serviceLink' => "/ecommerce-design-development", 'serviceLinkClass' => 'service-link'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-browser", 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "/web_application_development", 'serviceLinkClass' => 'service-link'])
+                @component('partials.webfeature', ['icon' => "fal fa-browser", 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'Web Application Development', 'serviceInfo' => "Looking for something more complex? Talk to us about creating a bespoke web application for your business.", 'serviceLink' => "/web-application-development", 'serviceLinkClass' => 'service-link'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Have an old website that needs some attention? We can update your website so that it is more in line with modern design trends and has the functionality that customers have come to expect from a modern website.", 'serviceLink' => "/website_redesign", 'serviceLinkClass' => 'service-link'])
+                @component('partials.webfeature', ['icon' => "fal fa-redo-alt", 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature', 'serviceTitle' => 'Website Redesign', 'serviceInfo' => "Have an old website that needs some attention? We can update your website so that it is more in line with modern design trends and has the functionality that customers have come to expect from a modern website.", 'serviceLink' => "/website-redesign", 'serviceLinkClass' => 'service-link'])
                 @endcomponent
             </div>
             <div class="website-design-development-feature">
@@ -137,16 +137,16 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
         </p>
         <div class="essential-services-container">
             <div class="essential-services">
-                @component('partials.webfeature', ['icon' => 'fal fa-search-plus', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Search Engine Optimisation', 'serviceInfo' => "Search Engine Optimisation (SEO) is the process of increasing the quantity and quality of traffic to your website. We can work with you to ensure your website ranks highly in Google searches.", 'serviceLink' => "/search_engine_optimisation", 'serviceLinkClass' => 'service-link-alt'])
+                @component('partials.webfeature', ['icon' => 'fal fa-search-plus', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Search Engine Optimisation', 'serviceInfo' => "Search Engine Optimisation (SEO) is the process of increasing the quantity and quality of traffic to your website. We can work with you to ensure your website ranks highly in Google searches.", 'serviceLink' => "/search-engine-optimisation", 'serviceLinkClass' => 'service-link-alt'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => 'fal fa-cogs', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Website Hosting & Maintenance', 'serviceInfo' => "All of our websites and web applications are hosted on the world class Digital Ocean cloud hosting platform. We also offer website maintenance packages, so you can leave the management of your website to us.", 'serviceLink' => "/website_hosting_maintenance", 'serviceLinkClass' => 'service-link-alt'])
+                @component('partials.webfeature', ['icon' => 'fal fa-cogs', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Website Hosting & Maintenance', 'serviceInfo' => "All of our websites and web applications are hosted on the world class Digital Ocean cloud hosting platform. We also offer website maintenance packages, so you can leave the management of your website to us.", 'serviceLink' => "/website-hosting-maintenance", 'serviceLinkClass' => 'service-link-alt'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => 'fal fa-swatchbook', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Graphic Design', 'serviceInfo' => "In addition to our web design and development services, we can also design a range of print media such as flyers, business cards, brochures and menus.", 'serviceLink' => "/graphic_design", 'serviceLinkClass' => 'service-link-alt'])
+                @component('partials.webfeature', ['icon' => 'fal fa-swatchbook', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Graphic Design', 'serviceInfo' => "In addition to our web design and development services, we can also design a range of print media such as flyers, business cards, brochures and menus.", 'serviceLink' => "/graphic-design", 'serviceLinkClass' => 'service-link-alt'])
                 @endcomponent
 
-                @component('partials.webfeature', ['icon' => 'fal fa-pencil-paintbrush', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Logo Design', 'serviceInfo' => "Your business logo is an important part of your overall brand image. We provide a range of options for logo creation to suit all budgets.", 'serviceLink' => "/logo_design", 'serviceLinkClass' => 'service-link-alt'])
+                @component('partials.webfeature', ['icon' => 'fal fa-pencil-paintbrush', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Logo Design', 'serviceInfo' => "Your business logo is an important part of your overall brand image. We provide a range of options for logo creation to suit all budgets.", 'serviceLink' => "/logo-design", 'serviceLinkClass' => 'service-link-alt'])
                 @endcomponent
             </div>
             <div class="website-design-development-feature">

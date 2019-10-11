@@ -2,6 +2,9 @@
 @section('servicePageTitle')
     E-Commerce Design & Development | Rocket.Chip Web Solutions
 @endsection
+@section('pageDescription')
+<meta name="description" content="E-commerce design and development services for SME's and sole traders in Dublin, Ireland and Northern Ireland. Professional and affordable e-commerce solutions from Rocket.Chip Web Solutions.">
+@endsection
 @section('serviceTitle')
     E-Commerce Design & Development
 @endsection

@@ -1,9 +1,10 @@
 @extends('master')
 
 @section('title')
-
 Portfolio | Rocket.Chip Web Solutions
-
+@endsection
+@section('pageDescription')
+<meta name="description" content="Portfolio of work developed by Rocket.Chip Web Solutions - one of Ireland's most innovative web design agencies. Contact us for more information about our services.">
 @endsection
 
 @section('content')
