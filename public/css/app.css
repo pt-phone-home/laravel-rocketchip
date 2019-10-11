@@ -1049,7 +1049,7 @@ body {
 .about-us-container .about-us {
   justify-self: center;
   width: 80%;
-  padding-top: 7rem;
+  padding-top: 3rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 4rem;
@@ -1105,6 +1105,191 @@ body {
   margin-bottom: 5rem;
   grid-column: 1/-1;
   justify-self: center;
+}
+
+.about-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website design and development services Dublin Rocket chip web solutions.jpg");
+  background-position: left;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.about-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+.about-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+.about-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.about-page-section-1-left-heading-alt {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #00b279;
+  font-size: 1.7rem;
+}
+
+.about-page-section-1-left-heading-alt-red {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #b32400;
+  font-size: 1.7rem;
+}
+
+.about-page-section-1-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #00b279;
+}
+
+.about-page-section-1-left-info i.alt {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.about-page-section-1-left-info a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.about-page-section-1-left-info a:hover {
+  color: #00b279;
+}
+
+.about-page-section-1-left-info a.alt {
+  text-decoration: none;
+  color: slategray;
+}
+
+.about-page-section-1-left-info a.alt:hover {
+  color: #b32400;
+}
+
+.about-page-section-1-right {
+  width: 20%;
+}
+
+.about-page-section-2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #00b279;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-page-section-2-wrapper .about-page-section-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.about-page-section-2-wrapper .about-page-section-2-button {
+  border: 2px solid #f8f8f8;
+  background: #00b279;
+  padding: 1rem 2rem;
+  color: #f8f8f8;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.about-page-section-2-wrapper .about-page-section-2-button:hover {
+  border: 2px #00b279 solid;
+  background: #f8f8f8;
+  color: #00b279;
+  cursor: pointer;
+}
+
+.about-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/search engine optimisation services dublin rocket chip web solutions process.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.about-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+.about-page-section-3-left {
+  width: 20%;
+}
+
+.about-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+.about-page-section-3-right-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.about-page-section-3-right-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
 }
 
 .samples-container {

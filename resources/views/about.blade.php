@@ -30,7 +30,6 @@ About Us | Rocket.Chip Web Solutions
 
 <div class="about-us-container">
     <div class="about-us">
-        <h2 class="about-us-heading">More about us</h2>
         {{-- <div class="about-us-who" data-aos="fade-right">
             <h2>Who we are</h2>
             <p>We are a Dublin-based Web Design and Development Company with experience in a wide-rage of digital technologies and solutions. </p>
@@ -53,25 +52,70 @@ About Us | Rocket.Chip Web Solutions
             @component('partials.ourpromise')
 
             @endcomponent
-            {{-- <h2>our services</h2>
-            <p>We offer a wide range of services including:</p>
 
-            <ul>
-                <li><i class="fas fa-arrow-circle-right"></i>Web Design &amp; Development</li>
-                <li><i class="fas fa-arrow-circle-right"></i>E-commerce Development</li>
-                <li><i class="fas fa-arrow-circle-right"></i>Search Engine Optimisation (SEO)</li>
-                <li><i class="fas fa-arrow-circle-right"></i>Website Redesigns</li>
-                <li><i class="fas fa-arrow-circle-right"></i>Logo Design</li>
-                <li><i class="fas fa-arrow-circle-right"></i>Graphic Design</li>
-                <li><i class="fas fa-arrow-circle-right"></i>Website Hosting</li>
-                <li><i class="fas fa-arrow-circle-right"></i>Business Email </li>
-            </ul> --}}
 
         </div>
 
         <div class="about-us-cta">
             <a href="/contact" class="btn">Work with us today</a>
         </div>
+    </div>
+</div>
+<div class="about-page-section-1-wrapper">
+    <div class="about-page-section-1">
+        <div class="about-page-section-1-left">
+            <h2 class="about-page-section-1-left-heading">Fully Certified Providers</h2>
+            <p class="about-page-section-1-left-info">Rocket.Chip Web Solutions are a team of fully qualified web design and development professionals. Our staff are trained in a wide range of technologies and essential development skills. We ensure that your product is built with the most up-to-date technology and design solutions.</p>
+
+            <h2 class="about-page-section-1-left-heading">Our Services</h2>
+            <h2 class="about-page-section-1-left-heading-alt">Website Design & Development Services</h2>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle"></i><a href="{{ route('webdesign') }}">Website Design & Development</a></p>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle"></i><a href="{{ route('ecommerce') }}">E-commerce Design & Development</a></p>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle"></i><a href="{{ route('webapp') }}">Web Application Development</a></p>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle"></i><a href="{{ route('redesign') }}">Website Redesign</a></p>
+
+            <h2 class="about-page-section-1-left-heading-alt-red">Essential Web Services</h2>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle alt"></i><a class="alt" href="{{ route('seo') }}">Search Engine Optimisation</a></p>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle alt"></i><a class="alt" href="{{ route('hosting') }}">Website Hosting & Maintenance</a></p>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle alt"></i><a class="alt" href="{{ route('design') }}">Graphic Design</a></p>
+            <p class="about-page-section-1-left-info"><i class="fal fa-check-circle alt"></i><a class="alt" href="{{ route('logo') }}">Logo Design</a></p>
+
+
+        </div>
+        <div class="webapp-page-section-1-right">
+
+        </div>
+    </div>
+</div>
+<div class="about-page-section-2-wrapper">
+    <div class="about-page-section-2">
+        <a class="about-page-section-2-button" href="{{ route('contact') }}">Work With Us Today</a>
+    </div>
+</div>
+<div class="about-page-section-3-wrapper">
+    <div class="about-page-section-3">
+        <div class="about-page-section-3-left">
+
+        </div>
+        <div class="about-page-section-3-right">
+            <h2 class="about-page-section-3-right-heading">Redesign Process</h2>
+            <p class="about-page-section-3-right-info">Rocket.Chip Web Solutions will work with you to identify areas in which your website needs updating. We will help you to modernise the content and structure of your site so that it is more appealing to your customers.</p>
+            <p class="about-page-section-3-right-info">It may be the case that your content is relevant and up to date, however it needs to be designed in a more appealing way. Whatever the case, your redesign doesn't need to be a costly exercise and may only involve some minor adjustments and tweaks.</p>
+
+
+            <h2 class="about-page-section-3-right-heading">Redesigns Include</h2>
+            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Updating Content</p>
+            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>High Quality Images</p>
+            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Security Check (SSL Certificate)</p>
+            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Website Speed Check</p>
+            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>SEO Optimisation</p>
+            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Content Refresh</p>
+        </div>
+    </div>
+</div>
+<div class="about-page-section-2-wrapper">
+    <div class="about-page-section-2">
+        <a class="about-page-section-2-button" href="{{ route('contact') }}">Get Started</a>
     </div>
 </div>
 
