@@ -4316,10 +4316,40 @@ body {
   display: flex;
 }
 
+@media (max-width: 1200px) {
+  .hosting-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-1 {
+    width: 95%;
+  }
+}
+
 .hosting-page-section-1-left {
   width: 80%;
   background: rgba(248, 248, 248, 0.85);
   padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hosting-page-section-1-left {
+    width: 100%;
+  }
 }
 
 .hosting-page-section-1-left-heading {
@@ -4353,12 +4383,24 @@ body {
   width: 20%;
 }
 
+@media (max-width: 1200px) {
+  .hosting-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-1-right {
+    display: none;
+  }
+}
+
 .hosting-page-section-3-wrapper {
   position: relative;
   display: flex;
   width: 100%;
   justify-content: center;
-  background-image: url("/images/search engine optimisation services dublin rocket chip web solutions process.jpg");
+  background-image: url("/images/website hosting and maintenance dublin rocket chip web solutions details.jpg");
   background-position: right;
   background-attachment: fixed;
   background-size: cover;
@@ -4382,14 +4424,56 @@ body {
   display: flex;
 }
 
+@media (max-width: 1200px) {
+  .hosting-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-3 {
+    width: 95%;
+  }
+}
+
 .hosting-page-section-3-left {
   width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-3-left {
+    display: none;
+  }
 }
 
 .hosting-page-section-3-right {
   width: 80%;
   background: rgba(248, 248, 248, 0.9);
   padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hosting-page-section-3-right {
+    width: 100%;
+  }
 }
 
 .hosting-page-section-3-right-heading {
@@ -4437,8 +4521,32 @@ body {
   margin-bottom: 4rem;
 }
 
+@media (max-width: 1200px) {
+  .design-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-1 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 750px) {
+  .design-page-section-1 {
+    flex-wrap: wrap;
+  }
+}
+
 .design-page-section-1-left {
   width: 50%;
+}
+
+@media (max-width: 750px) {
+  .design-page-section-1-left {
+    width: 100%;
+  }
 }
 
 .design-page-section-1-left-heading {
@@ -4477,6 +4585,15 @@ body {
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 750px) {
+  .design-page-section-1-right {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40rem;
+    margin-left: 0;
+  }
 }
 
 .design-page-section-1-right-image {
@@ -4548,14 +4665,56 @@ body {
   display: flex;
 }
 
+@media (max-width: 1200px) {
+  .design-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-3 {
+    width: 95%;
+  }
+}
+
 .design-page-section-3-left {
   width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .design-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-3-left {
+    display: none;
+  }
 }
 
 .design-page-section-3-right {
   width: 80%;
   background: rgba(248, 248, 248, 0.9);
   padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .design-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .design-page-section-3-right {
+    width: 100%;
+  }
 }
 
 .design-page-section-3-right-heading {
@@ -4603,8 +4762,32 @@ body {
   margin-bottom: 4rem;
 }
 
+@media (max-width: 1200px) {
+  .logo-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-1 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1 {
+    flex-wrap: wrap;
+  }
+}
+
 .logo-page-section-1-left {
   width: 50%;
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1-left {
+    width: 100%;
+  }
 }
 
 .logo-page-section-1-left-heading {
@@ -4645,11 +4828,29 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 750px) {
+  .logo-page-section-1-right {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40rem;
+    margin-left: 0;
+  }
+}
+
 .logo-page-section-1-right-image {
   width: 70%;
   height: auto;
   padding: 5rem;
   position: absolute;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1-right-image {
+    width: auto;
+    height: 80%;
+  }
 }
 
 .logo-page-section-3-wrapper {
@@ -4681,14 +4882,56 @@ body {
   display: flex;
 }
 
+@media (max-width: 1200px) {
+  .logo-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-3 {
+    width: 95%;
+  }
+}
+
 .logo-page-section-3-left {
   width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .logo-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-3-left {
+    display: none;
+  }
 }
 
 .logo-page-section-3-right {
   width: 80%;
   background: rgba(248, 248, 248, 0.9);
   padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .logo-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo-page-section-3-right {
+    width: 100%;
+  }
 }
 
 .logo-page-section-3-right-heading {
@@ -4725,7 +4968,7 @@ body {
 }
 
 .webfeature-rightPanel {
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 }

@@ -58,23 +58,23 @@
         <a class="design-page-section-2-button" href="{{ route('contact') }}">Work With Us Today</a>
     </div>
 </div>
-<div class="hosting-page-section-3-wrapper">
-    <div class="hosting-page-section-3">
-        <div class="hosting-page-section-3-left">
+<div class="design-page-section-3-wrapper">
+    <div class="design-page-section-3">
+        <div class="design-page-section-3-left">
 
         </div>
-        <div class="hosting-page-section-3-right">
-            <h2 class="hosting-page-section-3-right-heading">Graphic Design Matters</h2>
-            <p class="hosting-page-section-3-right-info">Whether you are a sole trader looking for local business or an SME looking to expand your reach, graphic design is an essential form of communication between you and your (potential) customers</p>
-            <p class="hosting-page-section-3-right-info">Good graphic design helps you to stand out from the competition, makes customers take notice and helps your message to be seen in what can sometimes be a noisy marketplace.</p>
+        <div class="design-page-section-3-right">
+            <h2 class="design-page-section-3-right-heading">Graphic Design Matters</h2>
+            <p class="design-page-section-3-right-info">Whether you are a sole trader looking for local business or an SME looking to expand your reach, graphic design is an essential form of communication between you and your (potential) customers</p>
+            <p class="design-page-section-3-right-info">Good graphic design helps you to stand out from the competition, makes customers take notice and helps your message to be seen in what can sometimes be a noisy marketplace.</p>
 
-            <h2 class="hosting-page-section-3-right-heading">Our Graphic Design Philosophy</h2>
-            <p class="hosting-page-section-3-right-info">Our team work closely with each of our clients to ensure your branding and message is clear and professional, encouraging your customers to take action</p>
+            <h2 class="design-page-section-3-right-heading">Our Graphic Design Philosophy</h2>
+            <p class="design-page-section-3-right-info">Our team work closely with each of our clients to ensure your branding and message is clear and professional, encouraging your customers to take action</p>
 
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>First Impressions Count</strong> - Your design will be eye-catching, clean and professional</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Consistency</strong> - Colours, fonts and overall marketing message remain consistent across designs</p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Creative</strong> - designs that stand out from the competition and encourage engagement </p>
-            <p class="hosting-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Message is King</strong> - while creativity is important, it is equally important that style does not overshadow substance. Your message will be the center of your design </p>
+            <p class="design-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>First Impressions Count</strong> - Your design will be eye-catching, clean and professional</p>
+            <p class="design-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Consistency</strong> - Colours, fonts and overall marketing message remain consistent across designs</p>
+            <p class="design-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Creative</strong> - designs that stand out from the competition and encourage engagement </p>
+            <p class="design-page-section-3-right-info"><i class="fal fa-check-circle"></i><strong>Message is King</strong> - while creativity is important, it is equally important that style does not overshadow substance. Your message will be the center of your design </p>
 
         </div>
     </div>
