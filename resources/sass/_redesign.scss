@@ -26,10 +26,27 @@
     width: 80%;
     display: flex;
 
+    @media (max-width: 1200px) {
+        width: 90%;
+    }
+    @media (max-width: 900px) {
+        width: 95%;
+    }
+
     &-left {
         width: 80%;
         background: rgba($grey1, 0.9);
         padding: 2rem;
+
+        @media (max-width: 1200px) {
+            width: 90%;
+        }
+        @media (max-width: 900px) {
+            width: 95%;
+        }
+        @media (max-width: 700pc) {
+            width: 100%;
+        }
 
         &-heading {
             margin-top: 1rem;
@@ -52,6 +69,13 @@
 
     &-right {
         width: 20%;
+
+        @media (max-width: 1200px) {
+            width: 10%;
+        }
+        @media (max-width: 900px) {
+            display: none;
+        }
     }
 }
 .redesign-page-section-2-wrapper {
@@ -82,14 +106,38 @@
     width: 80%;
     display: flex;
 
+    @media (max-width: 1200px) {
+        width: 90%;
+    }
+    @media (max-width: 900px) {
+        width: 95%;
+    }
+
     &-left {
         width: 20%;
+
+        @media (max-width: 1200px) {
+            width: 10%;
+        }
+        @media (max-width: 900px) {
+            display: none;
+        }
     }
 
     &-right {
         width: 80%;
         background: rgba($grey1, 0.9);
         padding: 2rem;
+
+        @media (max-width: 1200px) {
+            width: 90%;
+        }
+        @media (max-width: 900px) {
+            width: 95%;
+        }
+        @media (max-width: 700px) {
+            width: 100%;
+        }
 
         &-heading {
             margin-top: 1rem;

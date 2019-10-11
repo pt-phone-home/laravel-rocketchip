@@ -5,7 +5,7 @@
     <div class="nav">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About Us</a></li>
-        <li id="services-nav-item"><a href="/services">Services</a>
+        <li id="services-nav-item"><a href="{{ route('webdesign') }}">Services</a>
             <div class="hovernav">
                 <div class="hovernav-row1">
                     <div class="hovernav-row1-item" onclick="location.href= '/website-design-development';" style="cursor:pointer;">

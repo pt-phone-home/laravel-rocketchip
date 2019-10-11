@@ -41,24 +41,6 @@ About Us | Rocket.Chip Web Solutions
 
         @component('partials.aboutfeature', ['icon' => 'fal fa-eye', 'iconClass' => 'aboutfeature-icon', 'aboutTitle' => 'Our Vision', 'aboutInfo' => "We believe that businesses, big and small, should have an online presence. <br> We specialise in working with SME's to develop this internet presence. Our team can create a brochure website or a more complex web application, depending on your needs. "])
         @endcomponent
-
-        {{-- <div class="about-us-vision" data-aos="fade-up">
-            <h2>Our Vision</h2>
-            <p>We believe that businesses, big and small, should have an online presence.</p>
-            <p>We specialise in working with SME's to develop this internet presence. Our team can create a brochure website or a more complex web application, depending on your needs.</p>
-        </div> --}}
-
-        <div class="about-us-what" data-aos="fade-left">
-            @component('partials.ourpromise')
-
-            @endcomponent
-
-
-        </div>
-
-        <div class="about-us-cta">
-            <a href="/contact" class="btn">Work with us today</a>
-        </div>
     </div>
 </div>
 <div class="about-page-section-1-wrapper">
@@ -82,7 +64,7 @@ About Us | Rocket.Chip Web Solutions
 
 
         </div>
-        <div class="webapp-page-section-1-right">
+        <div class="about-page-section-1-right">
 
         </div>
     </div>
@@ -98,18 +80,20 @@ About Us | Rocket.Chip Web Solutions
 
         </div>
         <div class="about-page-section-3-right">
-            <h2 class="about-page-section-3-right-heading">Redesign Process</h2>
-            <p class="about-page-section-3-right-info">Rocket.Chip Web Solutions will work with you to identify areas in which your website needs updating. We will help you to modernise the content and structure of your site so that it is more appealing to your customers.</p>
-            <p class="about-page-section-3-right-info">It may be the case that your content is relevant and up to date, however it needs to be designed in a more appealing way. Whatever the case, your redesign doesn't need to be a costly exercise and may only involve some minor adjustments and tweaks.</p>
+            <h2 class="about-page-section-3-right-heading">Our Promise</h2>
+            <p class="about-page-section-3-right-info">We have expertise in a wide range of web design and development services. Our fully trained staff use the latest technologies and tools to build effetive web applications to suite a variety of business needs.</p>
+            <p class="about-page-section-3-right-info">We promise to provide you with a service that is second to none. We pride ourselves on building lasting relationships with our small business customers and our mission is to ensure your needs are met.</p>
+            <p class="about-page-section-3-right-info">Our design process is built on the importance of collaboration and consultation with our clients. We will work with you at every step to refine your vision and turn your ideas into reality.</p>
 
+            <div class="about-page-section-3-right-image-container">
+                <div class="about-page-section-3-right-image-container-process-horizontal">
+                    <img src="/images/desing-process.png" alt="Rocket.Chip Web Solutions Design Process" title="Rocket.Chip Web Solutions Design Process">
+                </div>
+                <div class="about-page-section-3-right-image-container-process-vertical">
+                    <img src="/images/desing-process-vertical.png" alt="Rocket.Chip Web Solutions Design Process" title="Rocket.Chip Web Solutions Design Process">
+                </div>
+            </div>
 
-            <h2 class="about-page-section-3-right-heading">Redesigns Include</h2>
-            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Updating Content</p>
-            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>High Quality Images</p>
-            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Security Check (SSL Certificate)</p>
-            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Website Speed Check</p>
-            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>SEO Optimisation</p>
-            <p class="about-page-section-3-right-info"><i class="fal fa-check-circle"></i>Content Refresh</p>
         </div>
     </div>
 </div>
@@ -118,15 +102,6 @@ About Us | Rocket.Chip Web Solutions
         <a class="about-page-section-2-button" href="{{ route('contact') }}">Get Started</a>
     </div>
 </div>
-
-{{-- <div class="samples-container">
-    <div class="samples">
-        <div class="samples-heading">
-            <h2>Samples</h2>
-            <p>We work with a variety of clients from a wide range of sectors. Some of our recent clients are listen here.</p>
-        </div>
-    </div>
-</div> --}}
 
 <div class="clients-container">
     <div class="clients">
