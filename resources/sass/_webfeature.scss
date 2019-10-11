@@ -60,6 +60,70 @@
         }
     }
 }
+.webfeature-small {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: 40%;
+    display: flex;
+    margin-right: 1rem;
+
+    // @media (max-width: 880px) {
+    //     width: 700px;
+    // }
+
+    @media (max-width: 900px) {
+        width: 60%;
+    }
+
+    &-leftPanel {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+
+    &-rightPanel {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+        .service-title {
+            font-size: 2rem;
+            color: darkslategray;
+        }
+
+        .service-info {
+            font-size: 1.5rem;
+            color: darkslategrey;
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+
+        .service-link-container {
+            margin-top: 1rem;
+
+            .service-link {
+                color: $complementary;
+                text-decoration: none;
+                font-size: 1.6rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .service-link-alt {
+                color: $color-primary-dark;
+                text-decoration: none;
+                font-size: 1.6rem;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
 
 .webfeature-mid {
     margin-top: 2.5rem;

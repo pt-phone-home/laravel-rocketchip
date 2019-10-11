@@ -179,13 +179,13 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
             <h2>What makes us unique?</h2>
         </div>
         <div class="difference-container">
-            @component('partials.webfeature', ['icon' => 'fal fa-user-tie', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'SME Specialists', 'serviceInfo' => "As a small business, we understand the needs of other small businesses. We specialise in creating effective, agile websites and web applications for SME's, all at a price that works for you.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @component('partials.webfeature', ['icon' => 'fal fa-user-tie', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature-small', 'serviceTitle' => 'SME Specialists', 'serviceInfo' => "As a small business, we understand the needs of other small businesses. We specialise in creating effective, agile websites and web applications for SME's, all at a price that works for you.", 'serviceLink' => "", 'serviceLinkClass' => ''])
             @endcomponent
 
-            @component('partials.webfeature', ['icon' => 'fal fa-hands', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Personal Service', 'serviceInfo' => "We believe in developing lasting relationships through face-to-face meetings and consultation. We work with you through the entire <a href='/about' class='service-link-alt'> design and development process </a>.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @component('partials.webfeature', ['icon' => 'fal fa-hands', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature-small', 'serviceTitle' => 'Personal Service', 'serviceInfo' => "We believe in developing lasting relationships through face-to-face meetings and consultation. We work with you through the entire <a href='/about' class='service-link-alt'> design and development process </a>.", 'serviceLink' => "", 'serviceLinkClass' => ''])
             @endcomponent
 
-            @component('partials.webfeature', ['icon' => 'fal fa-hand-holding-heart', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature', 'serviceTitle' => 'Give Something Back', 'serviceInfo' => "We are a socially responsible company, giving a percentage of our profits to Dublin-based charities.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @component('partials.webfeature', ['icon' => 'fal fa-hand-holding-heart', 'iconClass' => 'webfeature-icon-alt', 'featureClass' => 'webfeature-small', 'serviceTitle' => 'Give Something Back', 'serviceInfo' => "We are a socially responsible company, giving a percentage of our profits to Dublin-based charities.", 'serviceLink' => "", 'serviceLinkClass' => ''])
             @endcomponent
         </div>
         {{-- <div class="difference-sme" data-aos="fade-right">

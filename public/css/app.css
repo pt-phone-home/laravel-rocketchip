@@ -5009,6 +5009,69 @@ body {
   text-decoration: underline;
 }
 
+.webfeature-small {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 40%;
+  display: flex;
+  margin-right: 1rem;
+}
+
+@media (max-width: 900px) {
+  .webfeature-small {
+    width: 60%;
+  }
+}
+
+.webfeature-small-leftPanel {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.webfeature-small-rightPanel {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-small-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-small-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: darkslategrey;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-small-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
 .webfeature-mid {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
