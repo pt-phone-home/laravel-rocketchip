@@ -89,10 +89,10 @@
 </div>
 
     <div class="sidenav" id="sidenav">
-        <li class="sidenav-item" ><a href="" class="sidenav-item-close" id="sideNavClose">Close X</a></li>
+        <li class="sidenav-item" ><a href="#!" class="sidenav-item-close" id="sideNavClose">Close X</a></li>
         <li class="sidenav-item"><a href="/" class="sidenav-item-link" >Home</a></li>
         <li class="sidenav-item"><a href="/about" class="sidenav-item-link">About Us</a></li>
-        <li class="sidenav-item" id="sideNavDropdownBtn"><a href="" class="sidenav-item-link">Services</a>
+        <li class="sidenav-item" id="sideNavDropdownBtn"><a href="#!" class="sidenav-item-link">Services</a>
             <ul class="sidenav-dropdown" id="sideNavDropdownMenu">
                 <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('webdesign') }}">Website Design & Development</a></li>
                 <li class="sidenav-dropdown-item"><a class="sidenav-dropdown-item-link" href="{{ route('ecommerce') }}">E-Commerce Design & Development</a></li>
