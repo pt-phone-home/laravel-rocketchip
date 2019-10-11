@@ -247,6 +247,16 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
 
                 @endslot
             @endcomponent
+            @component('partials.review')
+                @slot('image')
+                /images/OM_meats.png
+                @endslot
+                @slot('content')
+
+                Thank you for your great work on our project 👍. We are delighted with our new website! 👏👏👏
+
+                @endslot
+            @endcomponent
             <div class="review-grid-left" id="reviews-left">
                 <i class="fal fa-chevron-circle-left review-grid-left-icon"></i>
             </div>

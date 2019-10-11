@@ -529,6 +529,12 @@ body {
   flex-wrap: wrap;
 }
 
+@media (max-width: 900px) {
+  .difference-container .difference .difference-container {
+    justify-content: flex-start;
+  }
+}
+
 .difference-container .difference-cta {
   margin-top: 5rem;
   margin-bottom: 5rem;
