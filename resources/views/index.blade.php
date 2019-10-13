@@ -48,6 +48,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
         </div>
         <div class="new-banner-cta">
             <a href="/contact" class="btn new-banner-btn">Work with us today</a>
+            <a href="/web-design-development#offer" class="btn new-banner-btn-offer">€349 Website Offer</a>
          </div>
     </div>
 
@@ -79,7 +80,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
     <div class="about">
 
         <div class="about-title">
-            <h1 data-aos="fade-down">Website, E-commerce &amp; SEO solutions for small business</h1>
+            <h1 data-aos="fade-down">Website, E-commerce &amp; SEO solutions for small businesses</h1>
             <h2 data-aos="fade-left" data-aos-delay="300">Everything your business needs to succeed online</h2>
         </div>
         {{-- <div class="about-content" data-aos="fade-right">
@@ -133,7 +134,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
             Essential Web Services
         </h2>
         <p class="essential-services-info">
-            We provide a range of support services for small businesses, helping you to maintain and enhance your online presence.
+            We provide a range of support services for small businesses, helping to maintain and enhance your online presence.
         </p>
         <div class="essential-services-container">
             <div class="essential-services">
@@ -152,7 +153,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
             <div class="website-design-development-feature">
                 @component('partials.designCallout', ['designCalloutImage' => '/images/seo-and-support-services-dublin.jpg', 'designCalloutImageAlt' => 'SEO and Support Services Dublin',
                 'designCalloutImageTitle' => 'Search Engine Optimisation and Support Services Dublin',
-                'designCalloutParagraphOne' => 'Having a website means you are always open for business. Customers can find you, find out more about you, buy from you, or connect from you.', 'designCalloutParagraphTwo' => "Small businesses may not have the time to engage with their customers frequently through social media, so maintaining a website with engaging content can be extremely beneficial."])
+                'designCalloutParagraphOne' => 'Having a website means you are always open for business. Customers can find you, find out more about you, buy from you, or connect from you.', 'designCalloutParagraphTwo' => "Small businesses may not have the time to engage with their customers frequently through social media, so maintaining a website with up-to-date content can be extremely beneficial."])
                 @endcomponent
             </div>
         </div>

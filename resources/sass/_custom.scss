@@ -742,16 +742,47 @@
     // margin-top: 4rem;
     margin-left: 5rem;
     text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .new-banner-btn {
     color: $grey1;
     background-color: $complementary;
+    border: $complementary 1px solid;
     padding: 1.5rem 2.5rem;
     border-radius: 5px;
     font-size: 2rem;
     z-index: 15;
     text-decoration: none;
+
+    @media (max-width: 450px) {
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+
+    &-offer {
+        color: $grey1;
+        background-color: $color-primary;
+        border: $color-primary 1px solid;
+        padding: 1.5rem 2.5rem;
+        border-radius: 5px;
+        font-size: 2rem;
+        z-index: 15;
+        text-decoration: none;
+        margin-left: 1rem;
+        @media (max-width: 450px) {
+            width: 70%;
+            margin-left: 0;
+        }
+
+        &:hover {
+            background-color: $grey1;
+            color: $color-primary;
+            border: $grey1 1px solid;
+            cursor: pointer;
+        }
+    }
 
     &:hover {
         background-color: $grey1;

@@ -17,7 +17,7 @@ About Us | Rocket.Chip Web Solutions
 </div>
 <div class="about-us-header-container">
     <div class="about-us-header">
-        <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Ireland. We pride ourselves on providing unique solutions for small and medium business. We develop bespoke solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications.
+        <p>Rocket.Chip Web Solutions are an innovative web design &amp; development company based in Dublin, Ireland. We pride ourselves on providing unique web solutions for small and medium business. We develop bespoke web solutions to suit a wide variety of business needs, from small brochure websites to sophisticated web applications.
         </p>
     </div>
 </div>
@@ -36,10 +36,10 @@ About Us | Rocket.Chip Web Solutions
             <p>Our fully qualified staff are passionate about our work and are committed to providing you with quality &amp; personal service  </p>
 
         </div> --}}
-        @component('partials.aboutfeature', ['icon' => 'fal fa-address-card', 'iconClass' => 'aboutfeature-icon', 'aboutTitle' => 'Who we are', 'aboutInfo' => "We are a Dublin-based Web Design and Development Company with experience in a wide-rage of digital technologies and solutions. <br> Our fully qualified staff are passionate about our work and are committed to providing you with quality &amp; personal service ."])
+        @component('partials.aboutfeature', ['icon' => 'fal fa-address-card', 'iconClass' => 'aboutfeature-icon', 'aboutTitle' => 'Who we are', 'aboutInfo' => "We are a Dublin-based Web Design and Development Company with experience in a wide-rage of digital technologies and solutions. <br> Our fully qualified staff are passionate about our work and are committed to providing you with a quality &amp; personal service ."])
         @endcomponent
 
-        @component('partials.aboutfeature', ['icon' => 'fal fa-eye', 'iconClass' => 'aboutfeature-icon', 'aboutTitle' => 'Our Vision', 'aboutInfo' => "We believe that businesses, big and small, should have an online presence. <br> We specialise in working with SME's to develop this internet presence. Our team can create a brochure website or a more complex web application, depending on your needs. "])
+        @component('partials.aboutfeature', ['icon' => 'fal fa-eye', 'iconClass' => 'aboutfeature-icon', 'aboutTitle' => 'Our Vision', 'aboutInfo' => "We believe that businesses, big and small, should have an online presence. <br> We specialise in working with SME's to develop their online presence. Our team can create a brochure website or a more complex web application, depending on your needs. "])
         @endcomponent
     </div>
 </div>
