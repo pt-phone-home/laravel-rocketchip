@@ -23,16 +23,16 @@
 <div class="redesign-page-section-1-wrapper">
     <div class="redesign-page-section-1">
         <div class="redesign-page-section-1-left">
-            <h2 class="redesign-page-section-1-left-heading">Upgrade Your Website</h2>
+            <h2 class="redesign-page-section-1-left-heading">Upgrade your website</h2>
             <p class="redesign-page-section-1-left-info">How long has it been since you reviewed your website design? Does it look and feel outdated? Do your customers actively engage with your company through your website? Is it easy for them to find the information they need?</p>
-            <p class="redesign-page-section-1-left-info">Website design has changed significantly over the last number of years, changes in mobile device usage, search engine optimisation (SEO), and design practices, have a huge impact in how customers perceive your website.</p>
+            <p class="redesign-page-section-1-left-info">Website design has changed significantly over the last number of years with changes in mobile device usage, search engine optimisation (SEO), and design practices, having a huge impact on how customers perceive your website.</p>
 
-            <h2 class="redesign-page-section-1-left-heading">Benefits of a redesign</h2>
-            <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>Modern design will attract more customers to your site</p>
-            <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>SEO optimisation will ensure your site ranks highly in Google searches</p>
+            <h2 class="redesign-page-section-1-left-heading">Benefits of a Redesign</h2>
+            <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>Modern design will attract more customers to your website</p>
+            <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>SEO optimisation will ensure your website ranks highly in Google searches</p>
             <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>Responsive design practices will ensure your website looks great on all devices, including mobile phones</p>
             <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>Social media integration means you can reach more customers</p>
-            <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>Fresh content will improve the relevance of your site and improve its position in Google searches</p>
+            <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>Fresh content will improve the relevance of your website and improve its position in Google searches</p>
             <p class="redesign-page-section-1-left-info"><i class="fal fa-check-circle"></i>You will have the opportunity to add additional features and functionality</p>
         </div>
         <div class="redesign-page-section-1-right">

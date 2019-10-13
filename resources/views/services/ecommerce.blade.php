@@ -24,10 +24,10 @@
     <div class="ecommerce-page-section-1">
         <div class="ecommerce-page-section-1-left">
             <h2 class="ecommerce-page-section-1-left-heading">Flexible E-Commerce Solutions to Suit Your Business</h2>
-            <p class="ecommerce-page-section-1-left-info">Rocket.Chip Web Solutions offer a range of e-commerce options to suit businesses of all sizes. We can provide simple one-click integrations for businesses that sell one or two products / services, up to fully customised e-commerce stores that offer hundreds of products. </p>
+            <p class="ecommerce-page-section-1-left-info">Rocket.Chip Web Solutions offer a range of e-commerce options to suit businesses of all sizes. We can provide simple one-click integrations for businesses that sell one or two products/services, up to fully customised e-commerce stores that offer hundreds of products. </p>
 
 
-            @component('partials.webfeature', ['icon' => 'fab fa-stripe-s', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid-dark', 'serviceTitle' => 'One-Click Stripe Integration', 'serviceInfo' => "If you are just getting started with your online business, or you only sell one or two products / services online. We can integrate a simple one-click sale option on your store. This option provides businesses with a fast, simple solution to start selling online.", 'serviceLink' => "", 'serviceLinkClass' => ''])
+            @component('partials.webfeature', ['icon' => 'fab fa-stripe-s', 'iconClass' => 'webfeature-icon', 'featureClass' => 'webfeature-mid-dark', 'serviceTitle' => 'One-Click Stripe Integration', 'serviceInfo' => "If you are just getting started with your online business, or you only sell one or two products/services online. We can integrate a simple one-click sale option on your store. This option provides businesses with a fast, simple solution to start selling online.", 'serviceLink' => "", 'serviceLinkClass' => ''])
             @endcomponent
 
             @component('partials.webfeature', ['icon' => 'fal fa-bags-shopping', 'iconClass' => 'webfeature-icon',
@@ -36,7 +36,7 @@
 
             'serviceTitle' => 'Fully Integrated Online Store',
 
-            'serviceInfo' => "Our fully integrated e-commerce solutions allow your business to sell any number of products online. They are powered by world-class technology which provides the flexibiliy and control you need to manage and maintain your online store. Our Search Engine Optimisation (SEO) techniques also ensure that your products rank highly in Google Search. We provide a number of options for integrated e-commerce solutions, such as Shopify and WooCommerce.",
+            'serviceInfo' => "Our fully integrated e-commerce solutions allow your business to sell any number of products online. They are powered by world-class technology which provides the flexibiliy and control you need to manage and maintain your online store. Our Search Engine Optimisation (SEO) techniques also ensure that your products rank highly in a Google Search. We provide a number of options for integrated e-commerce solutions, such as Shopify and WooCommerce.",
 
             'serviceLink' => "",
 
