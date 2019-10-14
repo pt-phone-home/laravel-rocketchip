@@ -25,7 +25,7 @@ Contact Us | Rocket.Chip Web Solutions
                     <p class="contact-general-info-nap-info">
                         Are you a small business that needs help setting up your website or e-commerce application? Is your business looking to improve its online presence? Get in touch today to find out about our range of web development services for small business.
                     </p>
-                    <p class="contact-general-info-nap-info"><strong>Phone:</strong> 083 319 0143</p>
+                    <p class="contact-general-info-nap-info"><strong>Phone:</strong> 01 447 5963</p>
                     <p class="contact-general-info-nap-info"><strong>Email:</strong> info@rocketchipwebsolutions.ie</p>
                     <p class="contact-general-info-nap-info"><strong>Location:</strong> Springdale Road, Raheny, Dublin 5</p>
                     {{-- <p class="contact-general-phone"><i class="fas fa-mobile-alt"></i> Call us on 083 319 0143 to talk to us about your website or web application plans</p>
