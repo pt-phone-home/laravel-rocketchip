@@ -1,1 +1,5568 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar-laravel{background-color:#fff;box-shadow:0 2px 4px rgba(0,0,0,.04)}*,:after,:before{margin:0;padding:0;box-sizing:inherit}html{font-size:65%}@media (max-width:1250px){html{font-size:62.5%}}@media (max-width:1150px){html{font-size:60.5%}}@media (max-width:1050px){html{font-size:58.5%}}@media (max-width:950px){html{font-size:56.5%}}@media (max-width:850px){html{font-size:55.5%}}@media (max-width:750px){html{font-size:53.5%}}@media (max-width:650px){html{font-size:51.5%}}@media (max-width:550px){html{font-size:49.5%}}@media (max-width:450px){html{font-size:47.5%}}@media (max-width:350px){html{font-size:45.5%}}@media (min-width:1500px){html{font-size:75%}}body{font-family:Lato,sans-serif;font-weight:400;line-height:1.2;color:#000;font-size:1.5rem;box-sizing:border-box}.grid-container{display:grid;grid-template-columns:7rem repeat(10,1fr) 7rem}.banner{grid-column:1/-1;display:grid;position:relative;height:55rem;background:url(/images/main-header2.png);background-position:top;background-size:cover}@media (max-width:750px){.banner{height:45rem}}.banner:after{position:absolute;content:"";top:0;left:0;height:100%;width:100%;background:linear-gradient(to top right,#b32400,15%,#f8f8f8,90%,#00b279);opacity:.4}.banner .banner-logo{justify-self:center;position:absolute;top:6rem;z-index:10}.banner .banner-logo img{height:10rem;width:auto}.banner #messenger,.banner .banner-text{justify-self:center;position:absolute;text-align:center;top:25rem;width:50%;font-size:4.5rem;z-index:10;padding:0 6rem}@media (max-width:750px){.banner #messenger,.banner .banner-text{font-size:4.5rem;top:20rem;width:80%;padding:0 2rem}}.banner #messenger span,.banner .banner-text span{color:#2f4f4f;font-size:3.4rem}@media (max-width:750px){.banner #messenger span,.banner .banner-text span{font-size:2rem}}.banner .banner-cta{justify-self:center;position:absolute;bottom:12rem;z-index:10}.txt-type>.txt{border-right:.2rem solid #b32400;color:#2f4f4f}.about-container{grid-column:1/-1;background:#00b279;z-index:-1;display:grid;justify-items:center;overflow:hidden}.about-container .about{width:80%;margin-top:5rem;display:grid;grid-template-columns:1fr;overflow:hidden}@media (max-width:1000px){.about-container .about{grid-template-columns:1fr}}@media (max-width:880px){.about-container .about{margin-top:2rem}}.about-container .about-title{align-self:center;padding-left:2rem 5rem;justify-self:center;display:flex;flex-direction:column;justify-content:center}.about-container .about-title h1{font-size:4rem;padding-top:1rem;padding-bottom:1rem;color:#f8f8f8;text-align:center}@media (max-width:880px){.about-container .about-title h1{padding-top:.2rem;font-size:3rem}}.about-container .about-title h2{text-align:center;font-size:3rem;color:#f8f8f8}@media (max-width:700px){.about-container .about-title h2{font-size:2rem}}.about-container .about-content p{padding:2rem 7rem;color:#f8f8f8;font-size:1.7rem;letter-spacing:1.2px;line-height:2.5;margin-bottom:1rem}@media (max-width:1000px){.about-container .about-content p{padding:2rem 4rem}}@media (max-width:550px){.about-container .about-content p{padding:1rem 2rem}}.about-container .about-content p:first-child:first-letter{font-size:5rem;line-height:1.7;color:#f8f8f8;margin-bottom:-2rem}.svg-divider{position:relative;grid-column:1/-1;margin-top:-1rem;z-index:1;width:100vw}.svg-divider svg{width:inherit;height:inherit}.services-container{margin-top:-1rem;grid-column:1/-1;display:flex;background-color:#f8f8f8;justify-content:center;align-items:flex-start;overflow:hidden}.services-container .services{width:80%;display:flex;flex-direction:column}@media (max-width:1200px){.services-container .services{width:90%}}@media (max-width:1150px){.services-container .services{width:95%}}@media (max-width:930px){.services-container .services{grid-template-columns:1fr 1fr}}@media (max-width:550px){.services-container .services{grid-template-columns:1fr;grid-row-gap:.5rem}}.services-container .services-heading{margin-top:2rem;margin-bottom:2rem;align-self:center;font-size:2.5rem;color:#2f4f4f}.services-container .services .essential-services-heading,.services-container .services .website-design-development-heading{color:#008057;align-self:flex-start;font-size:2.5rem}.services-container .services .essential-services-heading{color:#b32400;margin-top:4rem}.services-container .services .essential-services-info,.services-container .services .website-design-development-info{color:#2f4f4f;align-self:flex-start;margin-top:1rem;font-size:1.7rem;line-height:1.7;width:40%}@media (max-width:880px){.services-container .services .essential-services-info,.services-container .services .website-design-development-info{width:80%}}.services-container .services .essential-services-container,.services-container .services .website-design-development-container{margin-top:2rem;display:flex}@media (max-width:880px){.services-container .services .essential-services-container,.services-container .services .website-design-development-container{flex-wrap:wrap}}.services-container .services .essential-services-container .essential-services,.services-container .services .essential-services-container .website-design-development-services,.services-container .services .website-design-development-container .essential-services,.services-container .services .website-design-development-container .website-design-development-services{width:50%;display:flex;flex-direction:column}@media (max-width:880px){.services-container .services .essential-services-container .essential-services,.services-container .services .essential-services-container .website-design-development-services,.services-container .services .website-design-development-container .essential-services,.services-container .services .website-design-development-container .website-design-development-services{width:100%}}.services-container .services .essential-services-container .website-design-development-feature,.services-container .services .website-design-development-container .website-design-development-feature{display:flex;justify-content:center;align-items:center}@media (max-width:880px){.services-container .services .essential-services-container .website-design-development-feature,.services-container .services .website-design-development-container .website-design-development-feature{width:100%}}.services-container .services .custom-design,.services-container .services .graphic-design,.services-container .services .management{margin-top:3rem;margin-bottom:5rem}.services-container .services .custom-design i,.services-container .services .graphic-design i,.services-container .services .management i{font-size:10rem;color:#ff4212;display:block;text-align:center;margin-bottom:1.5rem}.services-container .services .custom-design h2,.services-container .services .graphic-design h2,.services-container .services .management h2{color:#2f4f4f;text-align:center;margin-bottom:1.5rem}.services-container .services .custom-design p,.services-container .services .graphic-design p,.services-container .services .management p{padding:.5rem 1rem .5rem 2rem;font-size:1.7rem}.services-container .services-cta{grid-column:1/-1;justify-self:center;align-self:center;z-index:20;margin-top:3rem;margin-bottom:2rem}.svg-divider2{position:relative;grid-column:1/-1;width:100vw;margin-top:-1rem;z-index:2}.svg-divider2 svg{height:inherit;width:inherit}.choose-us-container{grid-column:1/-1;margin-top:-.5rem;display:grid;background-color:#ff4212;z-index:1}.choose-us-container .choose-us{width:80%;justify-self:center;display:grid;color:#f8f8f8}.choose-us-container .choose-us h2{justify-self:center;margin-top:4rem;margin-bottom:6rem;font-size:4rem;text-transform:capitalize;color:#f8f8f8}.difference-container{grid-column:1/-1;background-color:#e8e8e8;display:grid}.difference-container .difference{justify-self:center;padding-top:4rem;margin-bottom:4rem;width:80%;display:flex;flex-direction:column;overflow:hidden}@media (max-width:850px){.difference-container .difference{grid-template-columns:1fr}}.difference-container .difference-heading{margin-top:2rem;margin-bottom:4rem;text-align:center;color:#2f4f4f;text-transform:capitalize;font-size:2.5rem}@media (max-width:420px){.difference-container .difference-heading{font-size:1.6rem}}.difference-container .difference .difference-container{display:flex;justify-content:space-around;flex-wrap:wrap}@media (max-width:900px){.difference-container .difference .difference-container{justify-content:flex-start}}.difference-container .difference-cta{margin-top:5rem;margin-bottom:5rem;grid-column:1/-1;align-self:center}.header{grid-column:1/-1;display:grid;grid-template-columns:1fr 3fr .5fr;align-items:center;align-content:center;grid-column-gap:2rem;position:relative;top:0;height:7rem;background-color:#f8f8f8;padding-top:1rem;padding-bottom:1rem;transition:all .5s ease-in-out;border-bottom:1px solid #e8e8e8;z-index:100}.header .logo{height:inherit;z-index:10;position:relative}.header .logo a img{position:absolute;top:1rem;height:80%;width:auto}.header .nav{display:grid;z-index:10;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));align-items:center;justify-items:center;padding-left:6rem}.header .nav #services-nav-item:hover .hovernav{display:flex}.header .nav li{list-style:none;display:inline-block}.header .nav a{text-decoration:none;text-transform:uppercase;color:#000}.header .nav a:hover{color:#ff4212}.header .nav .contact_us{background-color:#00b279;color:#f8f8f8;padding:.5rem 1rem;border-radius:5px;border:1px solid #00b279}.header .nav .contact_us:active,.header .nav .contact_us:hover{color:#00b279;background-color:#f8f8f8;border:1px solid #00b279}@media (max-width:1100px){.header .nav{visibility:hidden}}.header .sidenavbutton{display:none;text-align:center;z-index:10;font-size:3rem;color:#ff4212;transition:all .2s ease-in-out}.header .sidenavbutton:hover{-webkit-transform:scale(1.2);transform:scale(1.2);cursor:pointer}@media (max-width:1100px){.header .sidenavbutton{display:block}}.rotate{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.header:after{content:"";position:absolute;top:0;left:0;height:100%;width:100%;background:linear-gradient(to bottom right,#b32400,2%,#f8f8f8,90%,#00b279);opacity:.4}.small{height:7rem}.sidenav{display:none;position:fixed;top:0;right:0;width:0;height:100%;z-index:100;background-color:#00b279;-webkit-animation-name:trans;animation-name:trans;-webkit-animation-duration:.5s;animation-duration:.5s;transition:all 1s ease-in-out;-webkit-transform-origin:top right;transform-origin:top right;overflow:scroll}.sidenav #sideNavDropdownBtn{cursor:pointer}.sidenav-item{list-style:none}.sidenav-item-link{display:block;text-align:center;margin-bottom:1rem;margin-top:1rem;text-decoration:none;font-size:1.6rem;text-transform:uppercase;color:#f8f8f8;width:100%;padding:1rem 0}.sidenav-item-link:hover{background:#008057}.sidenav-item-close{display:inline-block;text-align:right;margin-bottom:3rem;margin-top:2rem;text-decoration:none;font-size:1.7rem;text-transform:uppercase;color:#f8f8f8;width:100%;padding:1rem 2rem;cursor:pointer}.sidenav-dropdown{display:none}.sidenav-dropdown-item{list-style:none}.sidenav-dropdown-item-link{display:block;text-align:center;margin-bottom:1rem;margin-top:1rem;text-decoration:none;font-size:1.4rem;text-transform:capitalize;color:#f8f8f8;width:100%;padding:1rem 0}.sidenav-dropdown-item-link:hover{background:#008057}#services-nav-item{position:relative;display:flex;padding:2.5rem}#services-nav-item:hover .hovernav{padding:4rem 2rem 2rem;margin-top:-.2rem;z-index:-1;display:flex;flex-direction:column;align-content:space-evenly;position:absolute;top:7rem;left:-45rem;width:90rem;transition:all .2s ease-in-out;background:#e8e8e8;border:2px solid #00b279;border-radius:5px;z-index:-10}#services-nav-item:hover .hovernav-row1{display:flex;justify-content:flex-start;margin-bottom:1rem}#services-nav-item:hover .hovernav-row1-item{display:flex;justify-content:space-evenly;padding-top:.5rem;padding-bottom:1rem;margin-right:2rem}#services-nav-item:hover .hovernav-row1-item i{font-size:2rem;color:#00b279;margin-right:1rem}#services-nav-item:hover .hovernav-row1-item p{margin-bottom:.5rem;color:#708090}#services-nav-item:hover .hovernav-row1-item p a{text-transform:capitalize;color:#2f4f4f}#services-nav-item:hover .hovernav-row1-item p a:hover{color:#00b279}.hovernav{display:none}@-webkit-keyframes trans{0%{-webkit-transform:scale(0);transform:scale(0);width:0;height:0%}to{-webkit-transform:scale(1);transform:scale(1);width:100%;height:100%}}@keyframes trans{0%{-webkit-transform:scale(0);transform:scale(0);width:0;height:0%}to{-webkit-transform:scale(1);transform:scale(1);width:100%;height:100%}}@-webkit-keyframes flip-in-hor-top{0%{-webkit-transform:rotateX(-80deg);transform:rotateX(-80deg);opacity:0}to{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes flip-in-hor-top{0%{-webkit-transform:rotateX(-80deg);transform:rotateX(-80deg);opacity:0}to{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}.btn{color:#f8f8f8;background-color:#00b279;padding:1rem 2rem;border-radius:5px;font-size:2rem;z-index:15;text-decoration:none}.btn:hover{background-color:#f8f8f8;color:#00b279;border:1px solid #00b279;cursor:pointer}.footer-container{grid-column:1/-1;background-color:#2f4f4f;display:grid;justify-items:center}.footer-container .footer{padding-top:8rem;width:80%;margin-bottom:5rem;display:grid;grid-template-columns:repeat(4,1fr);justify-content:center}@media (max-width:880px){.footer-container .footer{grid-template-columns:repeat(2,1fr);grid-row-gap:1rem}}@media (max-width:500px){.footer-container .footer{grid-template-columns:1fr}}.footer-container .footer .footer-location p{margin-right:1rem}.footer-container .footer-connect h2,.footer-container .footer-contact h2,.footer-container .footer-location h2,.footer-container .footer-sitemap h2{color:#b8b8b8;font-size:2.7rem;margin-bottom:2rem}.footer-container .footer-connect ul li,.footer-container .footer-contact ul li,.footer-container .footer-location ul li,.footer-container .footer-sitemap ul li{list-style:none;margin-left:.5rem;margin-bottom:.5rem;color:#989898}.footer-container .footer-connect ul li a,.footer-container .footer-contact ul li a,.footer-container .footer-location ul li a,.footer-container .footer-sitemap ul li a{text-decoration:none;color:#b8b8b8}.footer-container .footer-connect p,.footer-container .footer-contact p,.footer-container .footer-location p,.footer-container .footer-sitemap p{color:#989898;margin-bottom:1rem}.footer-container .footer-connect p a,.footer-container .footer-contact p a,.footer-container .footer-location p a,.footer-container .footer-sitemap p a{color:#989898}.footer-container .footer-connect p a i,.footer-container .footer-contact p a i,.footer-container .footer-location p a i,.footer-container .footer-sitemap p a i{font-size:3rem;padding-right:2rem}.footer-container .footer-connect p a i:hover,.footer-container .footer-contact p a i:hover,.footer-container .footer-location p a i:hover,.footer-container .footer-sitemap p a i:hover{color:#e8e8e8}.about-banner{grid-column:1/-1;position:relative;background:url("/images/Website Design and Development Dublin - About RocketChip Web Solutions.jpg");background-position:50%;background-size:cover;height:15rem;display:grid}@media (max-width:600px){.about-banner{height:15rem}}.about-banner:after{position:absolute;content:"";top:0;left:0;width:100%;height:100%;background:rgba(47,79,79,.8)}.about-banner h1{align-self:center;justify-self:center;font-size:4.5rem;color:#f8f8f8;z-index:5}@media (max-width:650px){.about-banner h1{font-size:4rem}}@media (max-width:575px){.about-banner h1{font-size:3.5rem}}.about-us-header-container{background:#00b279;display:flex;justify-content:center}.about-us-header-container .about-us-header{width:80%;display:flex;padding:2rem;color:#f8f8f8}.about-us-header-container .about-us-header p{font-size:2rem;line-height:2;padding:2rem;text-align:center}.about-us-container{margin-top:-1rem;grid-column:1/-1;background-color:#f8f8f8;background-position:50%;background-size:cover;display:grid;padding-bottom:2rem}.about-us-container .about-us{justify-self:center;width:80%;padding-top:3rem;display:grid;grid-template-columns:repeat(2,1fr);grid-column-gap:4rem}@media (max-width:850px){.about-us-container .about-us{grid-template-columns:1fr}}.about-us-container .about-us-heading{grid-column:1/-1;justify-self:center;margin-top:-4rem;font-size:4rem;color:#2f4f4f;margin-bottom:4rem}.about-us-container .about-us-what{margin-top:3rem;margin-bottom:3rem;grid-column:1/-1;background:#fff;width:100%;justify-self:center}.about-us-container .about-us-what h2{color:#2f4f4f;font-size:3rem;margin-bottom:1.5rem;text-transform:capitalize}.about-us-container .about-us-what p{margin-bottom:1rem;font-size:1.5rem}.about-us-container .about-us-what ul li{margin-bottom:.5rem;list-style:none}.about-us-container .about-us-what ul li i{margin-right:1rem;color:#ff4212}.about-us-container .about-us-cta{margin-bottom:5rem;grid-column:1/-1;justify-self:center}.about-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/website design and development services Dublin Rocket chip web solutions.jpg");background-position:0;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.about-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.about-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.about-page-section-1{width:90%}}@media (max-width:900px){.about-page-section-1{width:95%}}.about-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.about-page-section-1-left{width:90%}}@media (max-width:900px){.about-page-section-1-left{width:95%}}@media (max-width:700px){.about-page-section-1-left{width:100%}}.about-page-section-1-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.about-page-section-1-left-heading-alt{margin-top:2rem;margin-bottom:1rem;color:#00b279;font-size:1.7rem}.about-page-section-1-left-heading-alt-red{margin-top:2rem;margin-bottom:1rem;color:#b32400;font-size:1.7rem}.about-page-section-1-left-info{color:#708090;line-height:1.5;margin-bottom:1rem}.about-page-section-1-left-info i{font-size:2rem;margin-right:1rem;color:#00b279}.about-page-section-1-left-info i.alt{font-size:2rem;margin-right:1rem;color:#b32400}.about-page-section-1-left-info a{text-decoration:none;color:#708090}.about-page-section-1-left-info a:hover{color:#00b279}.about-page-section-1-left-info a.alt{text-decoration:none;color:#708090}.about-page-section-1-left-info a.alt:hover{color:#b32400}.about-page-section-1-right{width:20%}@media (max-width:1200px){.about-page-section-1-right{width:10%}}@media (max-width:900px){.about-page-section-1-right{display:none}}.about-page-section-2-wrapper{display:flex;justify-content:center;align-items:center;width:100%;background:#00b279;padding-top:5rem;padding-bottom:5rem}.about-page-section-2-wrapper .about-page-section-2{display:flex;width:80%;justify-content:center}.about-page-section-2-wrapper .about-page-section-2-button{border:2px solid #f8f8f8;background:#00b279;padding:1rem 2rem;color:#f8f8f8;border-radius:5px;font-size:2rem;text-decoration:none}.about-page-section-2-wrapper .about-page-section-2-button:hover{border:2px solid #00b279;background:#f8f8f8;color:#00b279;cursor:pointer}.about-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/Website design and development dublin about rocket chip web solutions.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.about-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.about-page-section-3{z-index:50;width:80%;display:flex}@media (max-width:1200px){.about-page-section-3{width:90%}}@media (max-width:900px){.about-page-section-3{width:95%}}.about-page-section-3-left{width:20%}@media (max-width:1200px){.about-page-section-3-left{width:10%}}@media (max-width:900px){.about-page-section-3-left{display:none}}.about-page-section-3-right{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.about-page-section-3-right{width:90%}}@media (max-width:900px){.about-page-section-3-right{width:95%}}@media (max-width:700px){.about-page-section-3-right{width:100%}}.about-page-section-3-right-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.about-page-section-3-right-info{color:#708090;line-height:1.5;margin-bottom:1rem}.about-page-section-3-right-info i{font-size:2rem;margin-right:1rem;color:#b32400}.about-page-section-3-right-image-container{width:100%;display:flex;flex-direction:column;padding:2rem;margin-top:2rem}.about-page-section-3-right-image-container-process-horizontal{width:90%}.about-page-section-3-right-image-container-process-horizontal img{width:100%;height:auto;-o-object-fit:cover;object-fit:cover}.about-page-section-3-right-image-container-process-vertical{display:none}.clients-container{position:relative;grid-column:1/-1;background-color:#989898;display:flex;background:url("/images/Web Design and Development Dublin - RocketChip Web Solutions Example Projects.jpg");background-position:50%;background-size:cover}.clients-container:after{position:absolute;content:"";top:0;left:0;height:100%;width:100%;background:#989898;opacity:.9;z-index:1}.clients{margin:0 auto;width:90%;display:flex;flex-direction:column;align-items:center;z-index:10}.clients-heading{font-size:1.7rem}.clients-heading h2{font-size:4rem;margin-top:1rem;margin-bottom:1rem;text-align:center;color:#e8e8e8}.clients-heading p{text-align:center}.clients-grid{padding-top:2rem;padding-bottom:2rem;display:flex;flex-wrap:wrap;justify-content:space-evenly;width:100%}.city-farm,.om_meats{position:relative;background:url(/images/cityfarmbackground.png);background-size:cover;background-position:50%;height:30rem;width:50rem;transition:all .2s ease-in-out;padding:1rem}@media (max-width:1100px){.city-farm,.om_meats{margin-bottom:2rem}}.city-farm:hover,.om_meats:hover{cursor:pointer}.city-farm:hover .city-farm-pop,.city-farm:hover .om_meats-pop,.om_meats:hover .city-farm-pop,.om_meats:hover .om_meats-pop{display:flex;transition:all .2s ease-in-out}.om_meats{background:url(/images/om_meatsbackground.png)}.city-farm-pop,.om_meats-pop{display:none;flex-direction:column;align-items:center;content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:#00b279;z-index:100;opacity:.1}.city-farm-pop:hover,.om_meats-pop:hover{opacity:.9;transition:all .4s ease-in-out}.om_meats-pop{background:#823a45;z-index:100}.cityfarmlogo-small{margin-top:2rem;height:8rem;width:auto;z-index:100}.project-btn-container{margin-top:4rem}.project-btn{margin-top:7rem;padding:1rem 2rem;border:2px solid #fff;border-radius:10px;color:#fff;cursor:pointer}.project-btn:active,.project-btn:visited{color:#fff}.project-btn:hover{background:#fff;color:#2f4f4f;border:2px solid #fff}.aboutfeature{margin-top:2.5rem;margin-bottom:2.5rem;width:100%;display:flex}.aboutfeature-leftPanel{width:50px;display:flex;flex-direction:column}.aboutfeature-rightPanel{width:80%;display:flex;flex-direction:column}.aboutfeature-rightPanel .about-title{font-size:2rem;color:#2f4f4f}.aboutfeature-rightPanel .about-info{font-size:1.5rem;color:#708090;margin-top:1rem;line-height:1.6}.aboutfeature-icon{color:#008057;font-size:3rem}.aboutfeature-icon-alt{color:#b32400;font-size:3rem}.services-banner{grid-column:1/-1;position:relative;background:url(/images/laptop-banner2.jpg);background-position:50%;background-size:cover;height:20rem;display:grid}@media (max-width:600px){.services-banner{height:15rem}}.services-banner:after{position:absolute;content:"";top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,#00b279,#004d34);opacity:.5}.services-banner h1{align-self:center;justify-self:center;font-size:6rem;color:#f8f8f8;z-index:5}.services-header{grid-column:1/-1;background-color:#00b279;padding-bottom:4rem;display:grid}.services-header h2{margin-top:3rem;margin-bottom:3rem;justify-self:center;font-size:4rem;color:#e8e8e8}@media (max-width:550px){.services-header h2{font-size:3.5rem}}.services-header h2 span{color:#ff9980}.services-header p{justify-self:center;font-size:3rem;color:#e8e8e8;margin-bottom:2rem}@media (max-width:550px){.services-header p{font-size:2.6rem}}@media (max-width:450px){.services-header p{font-size:2.4rem}}.svg-divider-services{grid-column:1/-1;width:100vw;margin-top:-1rem;z-index:5}.svg-divider-services svg{height:inherit;width:inherit}.services-summary-container{grid-column:1/-1;margin-top:-3rem;background-color:#f8f8f8;display:grid}.services-summary-container .services-summary{margin-top:5rem;margin-bottom:4rem;justify-self:center;width:95%;display:grid;grid-template-columns:repeat(6,1fr);justify-content:center;justify-items:center}@media (max-width:1200px){.services-summary-container .services-summary{grid-template-columns:repeat(3,1fr);grid-row-gap:4rem}}@media (max-width:750px){.services-summary-container .services-summary{grid-template-columns:repeat(2,1fr)}}.services-summary-container .services-summary-custom i,.services-summary-container .services-summary-graphic i,.services-summary-container .services-summary-maintenance i,.services-summary-container .services-summary-redesign i,.services-summary-container .services-summary-responsive i,.services-summary-container .services-summary-seo i{display:block;font-size:5.5rem;color:#ff4212;text-align:center;margin-bottom:2rem}.services-summary-container .services-summary-custom h2,.services-summary-container .services-summary-graphic h2,.services-summary-container .services-summary-maintenance h2,.services-summary-container .services-summary-redesign h2,.services-summary-container .services-summary-responsive h2,.services-summary-container .services-summary-seo h2{font-size:1.7rem}.services-divider1{grid-column:1/-1;width:100vw;margin-top:-1rem;z-index:2}.services-divider1 svg{height:inherit;width:inherit}.design-process-header-container{grid-column:1/-1;margin-top:-1rem;display:grid;background-color:#ff4212}.design-process-header-container .design-process-header{justify-self:center;width:80%;margin-bottom:3rem}.design-process-header-container .design-process-header h2,.design-process-header-container .design-process-header p{color:#f8f8f8;text-align:center;margin-top:2rem;margin-bottom:2rem}.design-process-header-container .design-process-header p{font-size:1.7rem;line-height:2}.design-process-header-container .design-process-header h2{font-size:3.5rem}.design-process-container{grid-column:1/-1;background-color:#e8e8e8;display:grid}.design-process-container .design-process{margin-top:2rem;margin-bottom:2rem;grid-column:1/-1;width:75%;justify-self:center;display:grid;grid-template-columns:1fr 1fr 1fr;grid-column-gap:1rem}@media (max-width:1300px){.design-process-container .design-process{width:90%}}@media (max-width:1000px){.design-process-container .design-process{grid-template-columns:1fr 1fr;grid-row-gap:2rem}}@media (max-width:600px){.design-process-container .design-process{grid-template-columns:1fr;width:60%}}@media (max-width:500px){.design-process-container .design-process{width:70%}}@media (max-width:450px){.design-process-container .design-process{width:80%}}.design-process-container .design-process .design-step{background-color:#f8f8f8;box-shadow:0 .5rem 1rem rgba(0,0,0,.2);position:relative;display:grid}.design-process-container .design-process .design-step-img{position:relative;height:20rem}.design-process-container .design-process .design-step-img img{height:100%;width:100%}.design-process-container .design-process .design-step-img-heading{position:absolute;bottom:7rem;right:0;background-color:#00b279;border-radius:10px 0 0 10px;width:60%;padding:1rem 0 1rem 1rem;color:#f8f8f8;z-index:5}.design-process-container .design-process .design-step-img:after{position:absolute;content:"";width:100%;height:100%;top:0;left:0;background:linear-gradient(90deg,#00ffa9,70%,#008057);opacity:.4;z-index:1}.design-process-container .design-process .design-step-info{padding:2rem 3rem}.design-process-container .design-process .design-step-info-heading{color:#008057;margin-bottom:1rem;border-bottom:2px solid #004d34;padding-bottom:.5rem}.design-process-container .design-process .design-step-2 .design-step-img:after{background:linear-gradient(90deg,#ff9980,70%,#b32400)}.design-process-container .design-process .design-step-2 .design-step-img-heading{background-color:#b32400}.design-process-container .design-process .design-step-3 .design-step-img:after{background:linear-gradient(90deg,#ff4212,70%,#b32400)}.design-process-container .design-process .design-step-3 .design-step-img-heading{background-color:#ff4212}.design-process-container .design-process-cta{margin-top:2rem;margin-bottom:3rem;grid-column:1/-1;justify-self:center}.portfolio-banner{grid-column:1/-1;position:relative;background:url(/images/laptop-banner2.jpg);background-position:50%;background-size:cover;height:20rem;display:grid}.portfolio-banner:after{position:absolute;content:"";top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,#00b279,#004d34);opacity:.5}.portfolio-banner h1{align-self:center;justify-self:center;font-size:6rem;color:#f8f8f8;z-index:5}.portfolio-container{grid-column:1/-1;background-color:#e8e8e8;display:grid}.portfolio-container .portfolio-item{margin-top:2rem;margin-bottom:2rem;justify-self:center;width:70%;color:#2f4f4f;display:grid;grid-template-columns:1fr 3fr}@media (max-width:1200px){.portfolio-container .portfolio-item{width:80%}}@media (max-width:1000px){.portfolio-container .portfolio-item{width:90%}}@media (max-width:800px){.portfolio-container .portfolio-item{grid-template-columns:1fr}}.portfolio-container .portfolio-item-img{display:grid;border-right:4px solid #2f4f4f}@media (max-width:800px){.portfolio-container .portfolio-item-img{border-right:none}}.portfolio-container .portfolio-item-img a{justify-self:center;align-self:center}.portfolio-container .portfolio-item-img a .larrys-img{height:15rem;width:auto}.portfolio-container .portfolio-item-img a .drumcondra-img{height:15rem;width:13rem}.portfolio-container .portfolio-item-img a .islandferries-img{height:7rem;width:20rem}.portfolio-container .portfolio-item-img a .om-img{height:15rem;width:15rem}.portfolio-container .portfolio-item-info{padding:1rem 3rem;border-bottom:4px solid #2f4f4f}@media (max-width:800px){.portfolio-container .portfolio-item-info{border-bottom:none}}.portfolio-container .portfolio-item-info-about{margin-bottom:2rem}.portfolio-container .portfolio-item-info-about h2{margin-bottom:1rem}.portfolio-container .portfolio-item-info-about p{padding-top:1rem;padding-bottom:1rem}.portfolio-container .portfolio-item-info-project,.portfolio-container .portfolio-item-info-project h2{margin-bottom:1rem}.portfolio-container .portfolio-item-info-project p{padding-top:1rem;padding-bottom:1rem}.portfolio-container-2{background:#b8b8b8}.contact-general-container{grid-column:1/-1;background:#f8f8f8;display:grid}.contact-general-container .contact-general{justify-self:center;width:70%;margin-top:3rem;margin-bottom:3rem;display:flex;flex-wrap:wrap;color:#2f4f4f}@media (max-width:950px){.contact-general-container .contact-general{width:90%}}@media (max-width:700px){.contact-general-container .contact-general{width:95%}}.contact-general-container .contact-general .contact-general-info{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start}.contact-general-container .contact-general .contact-general-info .contact-general-info-nap{width:45%}@media (max-width:890px){.contact-general-container .contact-general .contact-general-info .contact-general-info-nap{width:100%;margin-bottom:1rem}}.contact-general-container .contact-general .contact-general-info .contact-general-info-nap-heading,.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours-heading{font-size:2.5rem;margin-bottom:1rem}.contact-general-container .contact-general .contact-general-info .contact-general-info-nap-info,.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours-info{line-height:1.4;font-size:1.7rem;margin-bottom:1rem}.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours{padding-top:1.4rem}.contact-general-container .contact-general .contact-general-info .contact-general-map{width:45%;align-self:center}@media (max-width:890px){.contact-general-container .contact-general .contact-general-info .contact-general-map{width:100%;display:flex;justify-content:center}}.contact-general-container .contact-general-phone{margin-bottom:1rem;font-size:1.7rem}@media (max-width:900px){.contact-general-container .contact-general-phone{margin-bottom:2rem}}.contact-general-container .contact-general-phone i{color:#ff4212;margin-right:3rem;font-size:3rem}.contact-general-container .contact-general-email{margin-bottom:1rem;font-size:1.7rem}.contact-general-container .contact-general-email i{color:#ff4212;margin-right:2rem;font-size:3rem}.contact-general-container .contact-map{width:70%;display:flex;justify-content:center}.contact-form-container{position:relative;grid-column:1/-1;background:url(/images/mobile2.jpg);background-size:cover;background-position:50%;display:grid}.contact-form-container:before{content:"";position:absolute;width:100%;height:100%;top:0;left:0;background:linear-gradient(to right bottom,#f8f8f8,50%,#b8b8b8);opacity:.5}.contact-form-container .form{margin-top:5rem;margin-bottom:5rem;background:hsla(0,0%,82.7%,.9);width:70%;justify-self:center;box-shadow:0 1rem 2rem rgba(0,0,0,.2);z-index:10}@media (max-width:1250px){.contact-form-container .form{width:70%}}@media (max-width:1000px){.contact-form-container .form{width:70%}}@media (max-width:850px){.contact-form-container .form{width:80%}}@media (max-width:650px){.contact-form-container .form{width:90%}}.contact-form-container .form-header{color:#2f4f4f;text-align:center;font-size:3.5rem;margin-top:2rem;margin-bottom:4rem}.contact-form-container .form-group{padding:1rem 2rem}.contact-form-container .form-label{display:block;margin-bottom:.5rem;font-size:1.7rem}.contact-form-container .form-input{display:block;margin-bottom:1rem;width:70%;height:3rem;border-radius:5px;background:#f8f8f8;z-index:5;font-size:1.5rem}@media (max-width:520px){.contact-form-container .form-input{width:80%}}@media (max-width:430px){.contact-form-container .form-input{width:90%}}.contact-form-container .form-input:focus{outline:none;background:#e8e8e8}.contact-form-container .form-textarea{display:block;margin-bottom:1rem;width:70%;border-radius:5px;background:#f8f8f8;font-size:1.5rem}@media (max-width:520px){.contact-form-container .form-textarea{width:80%}}@media (max-width:430px){.contact-form-container .form-textarea{width:90%}}.contact-form-container .form-textarea:focus{outline:none;background:#e8e8e8}.contact-form-container .form-button{display:block;margin-bottom:2rem}.messages-container{grid-column:1/-1;background:#989898;display:grid}.messages-container .messages{justify-self:center;width:60%;margin-top:3rem;margin-bottom:3rem}.window-cover{grid-column:1/-1;height:100vh;width:0;background-color:rgba(0,0,0,.9);display:none;justify-content:center;align-items:center;position:absolute;z-index:2000}.modal-responsive{width:70%;height:70%;background-color:hsla(0,0%,97.3%,.8);display:flex;flex-direction:column;justify-content:space-around;padding:1rem}@media (max-width:1200px){.modal-responsive{width:90%}}@media (max-width:820px){.modal-responsive{height:80vh}}.modal-top-section{height:95%;display:flex}@media (max-width:820px){.modal-top-section{flex-direction:column;align-items:center;width:100%}}.image-container{width:50%;height:90%;-o-object-fit:contain;object-fit:contain;-o-object-position:top center;object-position:top center;display:flex;justify-content:center;align-items:center}@media (max-width:820px){.image-container{width:90%;margin-top:-2rem}}.modal-image{width:90%;height:70%;-o-object-fit:contain;object-fit:contain;-o-object-position:center;object-position:center}.content-section{width:65%;padding:1rem;display:flex;flex-direction:column;justify-content:flex-start}@media (max-width:820px){.content-section{width:90%;height:100%;margin-top:-4rem}}.about-title,.project-title{font-size:2.5rem;margin-bottom:1rem;margin-top:1rem}.om-about-title,.om-project-title{color:#78303a}.cf-about-title,.cf-project-title{color:green}.c4u-about-title,.c4u-project-title{color:#000}.if-about-title,.if-project-title{color:#0781a6}.dc-about-title,.dc-project-title{color:#2a3074}.ld-about-title,.ld-project-title{color:#f89539}.about-content,.project-content{line-height:1.5}.bottom-section{width:100%;height:10%;display:flex}@media (max-width:820px){.bottom-section{height:5%}}.close-button{width:50%;background-color:#789;color:#f8f8f8;font-size:1.8rem;cursor:pointer}.close-button:hover{background-color:#5f6f7e}.link-button{width:50%;text-align:center;display:flex;justify-content:center;align-items:center;color:#f8f8f8;font-size:1.8rem;cursor:pointer;text-decoration:none}.om-link-button{background:#78303a}.om-link-button:hover{background:#542128}.cf-link-button{background:green}.cf-link-button:hover{background:#004d00}.c4u-link-button{background:#000}.c4u-link-button:hover{background:#1a1a1a}.if-link-button{background:#1ec3f5}.if-link-button:hover{background:#0aa7d6}.dc-link-button{background:#2a3074}.dc-link-button:hover{background:#383f99}.ld-link-button{background:#f89539}.ld-link-button:hover{background:#f57b09}.portfolio-grid{display:flex;width:100%;background-color:#d3d3d3;height:auto;justify-content:center;align-items:center}.portfolio-grid-inset{width:90%;padding:2rem;display:flex;flex-wrap:wrap;height:100%}.portfolio-element{margin-top:1rem;width:33%;display:flex;flex-direction:column;padding:1rem;position:relative}@media (max-width:1000px){.portfolio-element{width:48%}}@media (max-width:700px){.portfolio-element{width:90%}}.portfolio-element:after{display:none}.portfolio-element:hover{cursor:pointer}.portfolio-element:hover .portfolio-link-container{display:flex}.portfolio-element:hover .link{display:inline-block;opacity:1}.portfolio-element:hover .portfolio-element:after{position:absolute;content:"";top:0;left:0;width:100%;height:100%;background-color:#000;opacity:.5;z-index:10}.portfolio-element-img-container{height:20rem;width:100%}.portfolio-element-image{-o-object-fit:cover;object-fit:cover;height:100%;width:100%}.portfolio-heading-container{padding:1rem}.heading{font-size:1.9rem;text-align:center}.portfolio-link-container{position:absolute;top:0;left:0;width:100%;height:100%;display:none;justify-content:center;align-items:center;background-color:rgba(0,0,0,.5);transition:all 1s ease-in-out;z-index:1}.link{display:none;background:green;padding:1rem 2rem;border-radius:5px;color:#fff;z-index:200;opacity:1}.om_link{background:#78303a}.c4u_link{background:#000}.if_link{background:#1ec3f5}.dc_link{background:#2a3074}.ld_link{background:#f89539}.test-modal-window-close,.test-modal-window-open{height:100vh;width:0;background-color:rgba(0,0,0,.9);display:none;justify-content:center;align-items:center;position:absolute;top:0;left:0;z-index:2000}.index-services{display:flex;justify-content:center;align-items:center;background:#e8e8e8;padding-top:4rem;padding-bottom:4rem}.index-services-container{width:90%;display:flex;flex-wrap:wrap;justify-content:center}.index-service{width:30%;display:flex;margin:1rem;flex-direction:column;background:#f8f8f8;border-radius:5px;border:1px solid #008057;box-shadow:4px 4px 4px 4px rgba(0,0,0,.2)}@media (max-width:1400px){.index-service{width:40%}}@media (max-width:920px){.index-service{width:50%}}@media (max-width:800px){.index-service{width:60%}}@media (max-width:600px){.index-service{width:70%}}@media (max-width:500px){.index-service{width:80%}}@media (max-width:400px){.index-service{width:90%}}.ecommerce-website .service-top{background:#b32400}.service-top{display:flex;justify-content:center;padding:3rem 0;background:#008057}.service-top-heading{font-size:3rem;color:#f8f8f8}.service-hr{width:30%;border-bottom:2px solid #b32400}.service-main{display:flex;flex-direction:column;align-items:center;border-top:1px solid #b32400;padding-top:4rem;padding-bottom:2rem;color:#2f4f4f}.service-main-heading{font-size:3rem;margin-bottom:3rem;text-align:center}.service-main-from{font-size:1.2rem;margin-bottom:-.5rem}.service-main-price{font-size:3.8rem;margin-bottom:3rem}.service-main-icon{font-size:7rem;margin-bottom:1.5rem}.service-main-detail{font-size:2rem;text-align:center;margin-bottom:1rem;padding:0 .5rem}.services-cta-top{padding-top:4rem;padding-bottom:4rem}.review-section{position:relative;display:flex;justify-content:center}.review-section-container{width:90%;display:flex;flex-direction:column;align-items:center}.review-intro h2{color:#2f4f4f;font-size:4rem;margin-top:2rem;margin-bottom:2rem}.reviews-grid{width:90%;display:flex;overflow-x:scroll}.review-grid-left{position:absolute;top:50%;left:1rem;z-index:100;display:none;cursor:pointer}@media (max-width:1360px){.review-grid-left{display:inline-block}}.review-grid-left-icon{font-size:4rem;color:#b32400}.review-grid-right{position:absolute;top:50%;right:1rem;z-index:100;display:none;cursor:pointer}@media (max-width:1360px){.review-grid-right{display:inline-block}}.review-grid-right-icon{font-size:4rem;color:#b32400}.review-container{display:flex;width:500px;padding:1rem;margin-top:2rem;margin-bottom:2rem;scroll-behavior:smooth}@media (max-width:500px){.review-container{width:450px}}.review{width:350px;display:flex;flex-direction:column;border:1px solid #b32400;border-radius:5px}@media (max-width:500px){.review{width:280px}}.review-top{height:20rem;display:flex;justify-content:center;align-items:center;padding:1rem}.review-top-image{height:70%;width:90%;-o-object-fit:contain;object-fit:contain}.review-main{border-top:1px solid #b32400;padding:2rem;display:flex;flex-direction:column;justify-content:space-between;align-items:center;height:100%}.review-main p{line-height:1.4;letter-spacing:1px;text-align:center;color:#2f4f4f;font-size:1.7rem}.review-bottom{display:flex;justify-content:center;color:#b32400;font-size:1.6rem;margin-top:1rem;margin-bottom:1rem}.new-banner{position:relative;display:flex;width:100%;height:80vh;background:url("/images/website design and development dublin rocketchip web solutions.jpg");background-position:50%;background-size:cover}@media (max-width:550px){.new-banner{height:60vh}}.new-banner:after{content:"";position:absolute;left:0;right:0;top:0;bottom:0;background-color:rgba(47,79,79,.7)}.new-banner-right{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;z-index:10}.new-banner-text-top{margin-bottom:3rem;margin-left:5rem;margin-right:5rem;color:#2f4f4f;font-style:italic}.new-banner-text{min-width:50%;margin-bottom:5rem;margin-left:5rem;color:#f8f8f8}.text-top{font-size:5rem;color:#f8f8f8}@media (max-width:500px){.text-top{font-size:4rem}}.slide{font-size:5rem;color:#f8f8f8;-webkit-animation:tracking-in-expand 1s ease-in-out;animation:tracking-in-expand 1s ease-in-out}@media (max-width:500px){.slide{font-size:3rem}}.new-banner-cta{margin-left:5rem;text-transform:uppercase;display:flex;flex-wrap:wrap}.new-banner-btn{color:#f8f8f8;background-color:#00b279;border:1px solid #00b279;padding:1.5rem 2.5rem;border-radius:5px;font-size:2rem;z-index:15;text-decoration:none}@media (max-width:450px){.new-banner-btn{width:70%;margin-bottom:1.5rem}}.new-banner-btn-offer{color:#f8f8f8;background-color:#ff4212;border:1px solid #ff4212;padding:1.5rem 2.5rem;border-radius:5px;font-size:2rem;z-index:15;text-decoration:none;margin-left:1rem}@media (max-width:450px){.new-banner-btn-offer{width:70%;margin-left:0}}.new-banner-btn-offer:hover{color:#ff4212}.new-banner-btn-offer:hover,.new-banner-btn:hover{background-color:#f8f8f8;border:1px solid #f8f8f8;cursor:pointer}.new-banner-btn:hover{color:#00b279}@-webkit-keyframes fly-from-bottom{0%{-webkit-transform:translateY(9rem),translateZ(9rem);transform:translateY(9rem),translateZ(9rem);opacity:0}20%{-webkit-transform:translateY(-1rem);transform:translateY(-1rem)}25%,75%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}80%{-webkit-transform:translateY(1rem);transform:translateY(1rem)}to{-webkit-transform:translateY(-9rem) translateZ(-9rem);transform:translateY(-9rem) translateZ(-9rem);opacity:0}}@keyframes fly-from-bottom{0%{-webkit-transform:translateY(9rem),translateZ(9rem);transform:translateY(9rem),translateZ(9rem);opacity:0}20%{-webkit-transform:translateY(-1rem);transform:translateY(-1rem)}25%,75%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}80%{-webkit-transform:translateY(1rem);transform:translateY(1rem)}to{-webkit-transform:translateY(-9rem) translateZ(-9rem);transform:translateY(-9rem) translateZ(-9rem);opacity:0}}@-webkit-keyframes fly-from-btm{0%{-webkit-transform:translateY(5rem);transform:translateY(5rem)}30%{-webkit-transform:translateY(-1rem);transform:translateY(-1rem)}40%{-webkit-transform:translateY(0);transform:translateY(0)}70%{-webkit-transform:translateY(0);transform:translateY(0)}90%{-webkit-transform:translateY(-4rem);transform:translateY(-4rem)}to{-webkit-transform:translateY(-5rem);transform:translateY(-5rem)}}@keyframes fly-from-btm{0%{-webkit-transform:translateY(5rem);transform:translateY(5rem)}30%{-webkit-transform:translateY(-1rem);transform:translateY(-1rem)}40%{-webkit-transform:translateY(0);transform:translateY(0)}70%{-webkit-transform:translateY(0);transform:translateY(0)}90%{-webkit-transform:translateY(-4rem);transform:translateY(-4rem)}to{-webkit-transform:translateY(-5rem);transform:translateY(-5rem)}}@-webkit-keyframes fly-from-right{0%{-webkit-transform:translateX(20rem);transform:translateX(20rem);opacity:0}20%{-webkit-transform:translateX(8rem);transform:translateX(8rem);opacity:.8}28%{-webkit-transform:translateX(-5rem);transform:translateX(-5rem)}28%{-webkit-transform:translateX(-3rem);transform:translateX(-3rem);opacity:1}30%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}80%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}to{-webkit-transform:translateX(-50rem);transform:translateX(-50rem);opacity:0}}@keyframes fly-from-right{0%{-webkit-transform:translateX(20rem);transform:translateX(20rem);opacity:0}20%{-webkit-transform:translateX(8rem);transform:translateX(8rem);opacity:.8}28%{-webkit-transform:translateX(-5rem);transform:translateX(-5rem)}28%{-webkit-transform:translateX(-3rem);transform:translateX(-3rem);opacity:1}30%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}80%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}to{-webkit-transform:translateX(-50rem);transform:translateX(-50rem);opacity:0}}@-webkit-keyframes flip-horizontal-bottom{0%{-webkit-transform:rotateX(0);transform:rotateX(0)}to{-webkit-transform:rotateX(-180deg);transform:rotateX(-180deg)}}@keyframes flip-horizontal-bottom{0%{-webkit-transform:rotateX(0);transform:rotateX(0)}to{-webkit-transform:rotateX(-180deg);transform:rotateX(-180deg)}}@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}to{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}to{opacity:1}}.servicesnav{background:#e8e8e8;padding-top:2rem;padding-bottom:2rem;display:flex;flex-direction:column;align-items:center}@media (max-width:900px){.servicesnav{display:none}}.servicesnav-bottom,.servicesnav-top{display:flex;flex-direction:column;justify-content:flex-start;width:100%;margin-bottom:2rem}.servicesnav-top{margin-top:2rem}@media (max-width:900px){.servicesnav-top{margin-top:0;margin-right:1rem}}.servicesnav-link{text-align:center;text-decoration:none;margin-bottom:.5rem}.servicesnav-link-top{color:#00b279;padding:1rem 3rem;background:#fff;border-radius:5px;border:1px solid #00b279}.servicesnav-link-top-active,.servicesnav-link-top:hover{background:#00b279;color:#fff;cursor:pointer}.servicesnav-link-bottom{color:#b32400;padding:1rem 3rem;background:#fff;border-radius:5px;border:1px solid #b32400}.servicesnav-link-bottom-active,.servicesnav-link-bottom:hover{background:#b32400;color:#fff;cursor:pointer}.service-content-header-wrapper{width:100%;display:flex;justify-content:center;background:#e8e8e8}.service-content-header{background:#e8e8e8;display:flex;width:80%}@media (max-width:1050px){.service-content-header{width:90%}}@media (max-width:900px){.service-content-header{flex-wrap:wrap;flex-direction:column-reverse}}.service-content-header-left{width:70%;display:flex;align-items:center}@media (max-width:900px){.service-content-header-left{width:100%;padding-top:5rem;padding-bottom:5rem}}.service-content-header-right{width:30%}@media (max-width:900px){.service-content-header-right{width:100%}}.webdesign-page-header{display:flex;flex-direction:column}.webdesign-page-header-heading{color:#2f4f4f;font-size:3.5rem;margin-bottom:1rem}.webdesign-page-header-subheading{color:#00b279;margin-bottom:1rem}.webdesign-page-header-subheading-alt{color:#b32400;margin-bottom:1rem}.webdesign-page-header-info{color:#2f4f4f;font-size:1.8rem}.webdesign-page-header-hr{margin-top:4rem;width:50%;align-self:center;border-bottom:1px solid #00b279}.webdesign-page-header-hr-alt{margin-top:4rem;width:50%;align-self:center;border-bottom:1px solid #b32400}.ecommerce-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/ecommerce website dublin rocketchip web solutions.jpg");background-position:50%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.ecommerce-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.2)}.ecommerce-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.ecommerce-page-section-1{width:90%}}@media (max-width:900px){.ecommerce-page-section-1{width:95%}}@media (max-width:700px){.ecommerce-page-section-1{width:100%}}.ecommerce-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.8);padding:2rem}@media (max-width:1200px){.ecommerce-page-section-1-left{width:90%}}@media (max-width:900px){.ecommerce-page-section-1-left{width:95%}}@media (max-width:700px){.ecommerce-page-section-1-left{width:100%}}.ecommerce-page-section-1-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.ecommerce-page-section-1-left-heading span{color:#00b279}.ecommerce-page-section-1-left-info{color:#2f4f4f;line-height:1.5;margin-bottom:1rem}.ecommerce-page-section-1-right{width:20%}@media (max-width:1200px){.ecommerce-page-section-1-right{width:10%}}@media (max-width:900px){.ecommerce-page-section-1-right{display:none}}.ecommerce-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/ecommerce website dublin rocketchip web solutions details.jpg");background-position:50%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.ecommerce-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,97.3%,.8)}.ecommerce-page-section-3{display:flex;width:80%;z-index:50}@media (max-width:1200px){.ecommerce-page-section-3{width:90%}}@media (max-width:900px){.ecommerce-page-section-3{width:95%}}.ecommerce-page-section-3-left{width:80%;display:flex;flex-direction:column;justify-content:flex-start;background:hsla(0,0%,97.3%,.8);padding:2rem}@media (max-width:1200px){.ecommerce-page-section-3-left{width:90%}}@media (max-width:900px){.ecommerce-page-section-3-left{width:95%}}@media (max-width:700px){.ecommerce-page-section-3-left{width:100%}}.ecommerce-page-section-3-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.ecommerce-page-section-3-left-heading span{color:#00b279;font-size:2.7rem}.ecommerce-page-section-3-left-info{color:#5a6773;line-height:1.5;margin-bottom:1rem}.ecommerce-page-section-3-left-points{color:#5a6773;line-height:1.5;margin-top:2rem;margin-left:1rem}.ecommerce-page-section-3-left-points-point{font-size:1.6rem;margin-bottom:.7rem}.ecommerce-page-section-3-left-points-point i{margin-right:1rem;font-size:2rem;color:#00b279;text-align:center;vertical-align:center}.ecommerce-page-section-3-left-points-point span{margin-left:2.7rem}.ecommerce-page-section-3-left-more{color:#5a6773;line-height:1.5;margin-top:2rem;margin-left:1rem}.ecommerce-page-section-3-left-more-heading{font-size:2rem;margin-left:-1rem;margin-bottom:1rem}.ecommerce-page-section-3-left-more-info{margin-bottom:1rem}.ecommerce-page-section-3-left-more-info a{text-decoration:none;color:#00b279}.ecommerce-page-section-3-left-more-info a:hover{text-decoration:underline}.ecommerce-page-section-3-right{width:20%}@media (max-width:1200px){.ecommerce-page-section-3-right{width:10%}}@media (max-width:900px){.ecommerce-page-section-3-right{display:none}}.webapp-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/web application development dublin rocketchip web solutions.jpg");background-position:0;background-attachment:scroll;background-size:cover;padding-top:2rem;padding-bottom:2rem}.webapp-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.webapp-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.webapp-page-section-1{width:90%}}@media (max-width:900px){.webapp-page-section-1{width:95%}}.webapp-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.webapp-page-section-1-left{width:90%}}@media (max-width:900px){.webapp-page-section-1-left{width:95%}}@media (max-width:700px){.webapp-page-section-1-left{width:100%}}.webapp-page-section-1-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.webapp-page-section-1-left-info{color:#708090;line-height:1.5;margin-bottom:1rem}.webapp-page-section-1-right{width:20%}@media (max-width:1200px){.webapp-page-section-1-right{width:10%}}@media (max-width:900px){.webapp-page-section-1-right{display:none}}.redesign-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/website redesign dublin rocketchip web solutions.jpg");background-position:0;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.redesign-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.redesign-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.redesign-page-section-1{width:90%}}@media (max-width:900px){.redesign-page-section-1{width:95%}}.redesign-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.redesign-page-section-1-left{width:90%}}@media (max-width:900px){.redesign-page-section-1-left{width:95%}}@media (max-width:700pc){.redesign-page-section-1-left{width:100%}}.redesign-page-section-1-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.redesign-page-section-1-left-info{color:#708090;line-height:1.5;margin-bottom:1rem}.redesign-page-section-1-left-info i{font-size:2rem;margin-right:1rem;color:#00b279}.redesign-page-section-1-right{width:20%}@media (max-width:1200px){.redesign-page-section-1-right{width:10%}}@media (max-width:900px){.redesign-page-section-1-right{display:none}}.redesign-page-section-2-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/website redesign process dublin rocketchip web solutions.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.redesign-page-section-2-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.redesign-page-section-2{z-index:50;width:80%;display:flex}@media (max-width:1200px){.redesign-page-section-2{width:90%}}@media (max-width:900px){.redesign-page-section-2{width:95%}}.redesign-page-section-2-left{width:20%}@media (max-width:1200px){.redesign-page-section-2-left{width:10%}}@media (max-width:900px){.redesign-page-section-2-left{display:none}}.redesign-page-section-2-right{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.redesign-page-section-2-right{width:90%}}@media (max-width:900px){.redesign-page-section-2-right{width:95%}}@media (max-width:700px){.redesign-page-section-2-right{width:100%}}.redesign-page-section-2-right-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.redesign-page-section-2-right-info{color:#708090;line-height:1.5;margin-bottom:1rem}.redesign-page-section-2-right-info i{font-size:2rem;margin-right:1rem;color:#00b279}.seo-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/search engine optimisation services dublin rocket chip web solutions.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.seo-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.seo-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.seo-page-section-1{width:90%}}@media (max-width:900px){.seo-page-section-1{width:95%}}.seo-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.7);padding:2rem}@media (max-width:1200px){.seo-page-section-1-left{width:90%;background:hsla(0,0%,97.3%,.85)}}@media (max-width:900px){.seo-page-section-1-left{width:95%}}@media (max-width:700px){.seo-page-section-1-left{width:100%}}.seo-page-section-1-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.seo-page-section-1-left-info{color:#708090;line-height:1.5;margin-bottom:1rem}.seo-page-section-1-left-info i{font-size:2rem;margin-right:1rem;color:#b32400}.seo-page-section-1-right{width:20%}@media (max-width:1200px){.seo-page-section-1-right{width:10%}}@media (max-width:900px){.seo-page-section-1-right{display:none}}.seo-page-section-2-wrapper,.seo-page-section-4-wrapper{display:flex;justify-content:center;align-items:center;width:100%;background:#b32400;padding-top:5rem;padding-bottom:5rem}.seo-page-section-2-wrapper .seo-page-section-2,.seo-page-section-2-wrapper .seo-page-section-4,.seo-page-section-4-wrapper .seo-page-section-2,.seo-page-section-4-wrapper .seo-page-section-4{display:flex;width:80%;justify-content:center}.seo-page-section-2-wrapper .seo-page-section-2-button,.seo-page-section-2-wrapper .seo-page-section-4-button,.seo-page-section-4-wrapper .seo-page-section-2-button,.seo-page-section-4-wrapper .seo-page-section-4-button{border:2px solid #f8f8f8;background:#b32400;padding:1rem 2rem;color:#f8f8f8;border-radius:5px;font-size:2rem;text-decoration:none}.seo-page-section-2-wrapper .seo-page-section-2-button:hover,.seo-page-section-2-wrapper .seo-page-section-4-button:hover,.seo-page-section-4-wrapper .seo-page-section-2-button:hover,.seo-page-section-4-wrapper .seo-page-section-4-button:hover{border:2px solid #b32400;background:#f8f8f8;color:#b32400;cursor:pointer}.seo-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/search engine optimisation services dublin rocket chip web solutions process.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.seo-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.seo-page-section-3{z-index:50;width:80%;display:flex}@media (max-width:1200px){.seo-page-section-3{width:90%}}@media (max-width:900px){.seo-page-section-3{width:95%}}.seo-page-section-3-left{width:20%}@media (max-width:1200px){.seo-page-section-3-left{width:10%}}@media (max-width:900px){.seo-page-section-3-left{display:none}}.seo-page-section-3-right{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.seo-page-section-3-right{width:90%}}@media (max-width:900px){.seo-page-section-3-right{width:95%}}@media (max-width:700px){.seo-page-section-3-right{width:100%}}.seo-page-section-3-right-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.seo-page-section-3-right-info{color:#708090;line-height:1.5;margin-bottom:1rem}.seo-page-section-3-right-info i{font-size:2rem;margin-right:1rem;color:#b32400}.hosting-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/website hosting and maintenance dublin rocket chip web solutions.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.hosting-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.hosting-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.hosting-page-section-1{width:90%}}@media (max-width:900px){.hosting-page-section-1{width:95%}}.hosting-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.85);padding:2rem}@media (max-width:1200px){.hosting-page-section-1-left{width:90%}}@media (max-width:900px){.hosting-page-section-1-left{width:95%}}@media (max-width:700px){.hosting-page-section-1-left{width:100%}}.hosting-page-section-1-left-heading{margin-top:2rem;margin-bottom:2rem;color:#2f4f4f}.hosting-page-section-1-left-info{color:#2f4f4f;line-height:1.5;margin-bottom:1rem}.hosting-page-section-1-left-info i{font-size:2rem;margin-right:1rem;color:#b32400}.hosting-page-section-1-left-info a{text-decoration:none;color:#b32400}.hosting-page-section-1-left-info a:hover{text-decoration:underline}.hosting-page-section-1-right{width:20%}@media (max-width:1200px){.hosting-page-section-1-right{width:10%}}@media (max-width:900px){.hosting-page-section-1-right{display:none}}.hosting-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/website hosting and maintenance dublin rocket chip web solutions details.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.hosting-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.hosting-page-section-3{z-index:50;width:80%;display:flex}@media (max-width:1200px){.hosting-page-section-3{width:90%}}@media (max-width:900px){.hosting-page-section-3{width:95%}}.hosting-page-section-3-left{width:20%}@media (max-width:1200px){.hosting-page-section-3-left{width:10%}}@media (max-width:900px){.hosting-page-section-3-left{display:none}}.hosting-page-section-3-right{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.hosting-page-section-3-right{width:90%}}@media (max-width:900px){.hosting-page-section-3-right{width:95%}}@media (max-width:700px){.hosting-page-section-3-right{width:100%}}.hosting-page-section-3-right-heading{margin-top:2rem;margin-bottom:2rem;color:#2f4f4f}.hosting-page-section-3-right-info{color:#2f4f4f;line-height:1.5;margin-bottom:1rem}.hosting-page-section-3-right-info i{font-size:2rem;margin-right:1rem;color:#b32400}.design-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;padding-top:2rem;padding-bottom:2rem}.design-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:#00b279}.design-page-section-1{z-index:50;width:80%;display:flex;margin-top:4rem;margin-bottom:4rem}@media (max-width:1200px){.design-page-section-1{width:90%}}@media (max-width:900px){.design-page-section-1{width:95%}}@media (max-width:750px){.design-page-section-1{flex-wrap:wrap}}.design-page-section-1-left{width:50%}@media (max-width:750px){.design-page-section-1-left{width:100%}}.design-page-section-1-left-heading{margin-top:2rem;margin-bottom:2rem;color:#f5f5f5}.design-page-section-1-left-info{color:#f5f5f5;line-height:1.5;margin-bottom:1rem}.design-page-section-1-left-info i{font-size:2rem;margin-right:1rem;color:#f5f5f5}.design-page-section-1-left-info a{text-decoration:none;color:#b32400}.design-page-section-1-left-info a:hover{text-decoration:underline}.design-page-section-1-right{width:50%;background:hsla(0,0%,97.3%,.9);margin-left:2rem;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}@media (max-width:750px){.design-page-section-1-right{margin-top:2rem;width:100%;height:40rem;margin-left:0}}.design-page-section-1-right-image{width:80%;height:auto;padding:5rem;position:absolute}.design-page-section-2-wrapper{display:flex;justify-content:center;align-items:center;width:100%;background:#f8f8f8;padding-top:5rem;padding-bottom:5rem}.design-page-section-2-wrapper .design-page-section-2{display:flex;width:80%;justify-content:center}.design-page-section-2-wrapper .design-page-section-2-button{border:2px solid #00b279;background:#f8f8f8;padding:1rem 2rem;color:#00b279;border-radius:5px;font-size:2rem;text-decoration:none}.design-page-section-2-wrapper .design-page-section-2-button:hover{border:2px solid #00b279;background:#00b279;color:#f8f8f8;cursor:pointer}.design-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/graphic design services dublin rocket chip web solutions consistency.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.design-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.design-page-section-3{z-index:50;width:80%;display:flex}@media (max-width:1200px){.design-page-section-3{width:90%}}@media (max-width:900px){.design-page-section-3{width:95%}}.design-page-section-3-left{width:20%}@media (max-width:1200px){.design-page-section-3-left{width:10%}}@media (max-width:900px){.design-page-section-3-left{display:none}}.design-page-section-3-right{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.design-page-section-3-right{width:90%}}@media (max-width:900px){.design-page-section-3-right{width:95%}}@media (max-width:700px){.design-page-section-3-right{width:100%}}.design-page-section-3-right-heading{margin-top:2rem;margin-bottom:2rem;color:#2f4f4f}.design-page-section-3-right-info{color:#2f4f4f;line-height:1.5;margin-bottom:1rem}.design-page-section-3-right-info i{font-size:2rem;margin-right:1rem;color:#b32400}.logo-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;padding-top:2rem;padding-bottom:2rem}.logo-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:#00b279}.logo-page-section-1{z-index:50;width:80%;display:flex;margin-top:4rem;margin-bottom:4rem}@media (max-width:1200px){.logo-page-section-1{width:90%}}@media (max-width:900px){.logo-page-section-1{width:95%}}@media (max-width:750px){.logo-page-section-1{flex-wrap:wrap}}.logo-page-section-1-left{width:50%}@media (max-width:750px){.logo-page-section-1-left{width:100%}}.logo-page-section-1-left-heading{margin-top:2rem;margin-bottom:2rem;color:#f5f5f5}.logo-page-section-1-left-info{color:#f5f5f5;line-height:1.5;margin-bottom:1rem}.logo-page-section-1-left-info i{font-size:2rem;margin-right:1rem;color:#f5f5f5}.logo-page-section-1-left-info a{text-decoration:none;color:#b32400}.logo-page-section-1-left-info a:hover{text-decoration:underline}.logo-page-section-1-right{width:50%;background:hsla(0,0%,97.3%,.9);margin-left:2rem;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}@media (max-width:750px){.logo-page-section-1-right{margin-top:2rem;width:100%;height:40rem;margin-left:0}}.logo-page-section-1-right-image{width:70%;height:auto;padding:5rem;position:absolute;-o-object-fit:contain;object-fit:contain}@media (max-width:750px){.logo-page-section-1-right-image{width:auto;height:80%}}.logo-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/logo design services dublin rocket chip web solutions process.jpg");background-position:100%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.logo-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.4)}.logo-page-section-3{z-index:50;width:80%;display:flex}@media (max-width:1200px){.logo-page-section-3{width:90%}}@media (max-width:900px){.logo-page-section-3{width:95%}}.logo-page-section-3-left{width:20%}@media (max-width:1200px){.logo-page-section-3-left{width:10%}}@media (max-width:900px){.logo-page-section-3-left{display:none}}.logo-page-section-3-right{width:80%;background:hsla(0,0%,97.3%,.9);padding:2rem}@media (max-width:1200px){.logo-page-section-3-right{width:90%}}@media (max-width:900px){.logo-page-section-3-right{width:95%}}@media (max-width:700px){.logo-page-section-3-right{width:100%}}.logo-page-section-3-right-heading{margin-top:2rem;margin-bottom:2rem;color:#2f4f4f}.logo-page-section-3-right-info{color:#2f4f4f;line-height:1.5;margin-bottom:1rem}.logo-page-section-3-right-info i{font-size:2rem;margin-right:1rem;color:#b32400}.webfeature{margin-top:2.5rem;margin-bottom:2.5rem;width:100%;display:flex;margin-right:1rem}.webfeature-leftPanel{width:7%;display:flex;flex-direction:column;margin-right:1rem}.webfeature-rightPanel{width:80%;display:flex;flex-direction:column}.webfeature-rightPanel .service-title{font-size:2rem;color:#2f4f4f}.webfeature-rightPanel .service-info{font-size:1.5rem;color:#2f4f4f;margin-top:1rem;line-height:1.6}.webfeature-rightPanel .service-link-container{margin-top:1rem}.webfeature-rightPanel .service-link-container .service-link{color:#00b279;text-decoration:none;font-size:1.6rem}.webfeature-rightPanel .service-link-container .service-link:hover{text-decoration:underline}.webfeature-rightPanel .service-link-container .service-link-alt{color:#b32400;text-decoration:none;font-size:1.6rem}.webfeature-rightPanel .service-link-container .service-link-alt:hover{text-decoration:underline}.webfeature-small{margin-top:2.5rem;margin-bottom:2.5rem;width:40%;display:flex;margin-right:1rem}@media (max-width:900px){.webfeature-small{width:80%}}.webfeature-small-leftPanel{width:10%;display:flex;flex-direction:column;margin-right:2rem}.webfeature-small-rightPanel{width:90%;display:flex;flex-direction:column}.webfeature-small-rightPanel .service-title{font-size:2rem;color:#2f4f4f}.webfeature-small-rightPanel .service-info{font-size:1.5rem;color:#2f4f4f;margin-top:1rem;line-height:1.6}.webfeature-small-rightPanel .service-link-container{margin-top:1rem}.webfeature-small-rightPanel .service-link-container .service-link{color:#00b279;text-decoration:none;font-size:1.6rem}.webfeature-small-rightPanel .service-link-container .service-link:hover{text-decoration:underline}.webfeature-small-rightPanel .service-link-container .service-link-alt{color:#b32400;text-decoration:none;font-size:1.6rem}.webfeature-small-rightPanel .service-link-container .service-link-alt:hover{text-decoration:underline}.webfeature-mid{margin-top:2.5rem;margin-bottom:2.5rem;width:90%;display:flex}.webfeature-mid-leftPanel{width:7%;display:flex;flex-direction:column;margin-right:1rem}.webfeature-mid-rightPanel{width:90%;display:flex;flex-direction:column}.webfeature-mid-rightPanel .service-title{font-size:2rem;color:#2f4f4f}.webfeature-mid-rightPanel .service-info{font-size:1.5rem;color:#2f4f4f;margin-top:1rem;line-height:1.6}.webfeature-mid-rightPanel .service-link-container{margin-top:1rem}.webfeature-mid-rightPanel .service-link-container .service-link{color:#00b279;text-decoration:none;font-size:1.6rem}.webfeature-mid-rightPanel .service-link-container .service-link:hover{text-decoration:underline}.webfeature-mid-rightPanel .service-link-container .service-link-alt{color:#b32400;text-decoration:none;font-size:1.6rem}.webfeature-mid-rightPanel .service-link-container .service-link-alt:hover{text-decoration:underline}.webfeature-mid-dark{margin-top:2.5rem;margin-bottom:2.5rem;width:90%;display:flex}.webfeature-mid-dark-leftPanel{width:50px;display:flex;flex-direction:column}.webfeature-mid-dark-rightPanel{width:500px;display:flex;flex-direction:column}.webfeature-mid-dark-rightPanel .service-title{font-size:2rem;color:#2f4f4f}.webfeature-mid-dark-rightPanel .service-info{font-size:1.5rem;color:#2f4f4f;margin-top:1rem;line-height:1.6}.webfeature-mid-dark-rightPanel .service-link-container{margin-top:1rem}.webfeature-mid-dark-rightPanel .service-link-container .service-link{color:#00b279;text-decoration:none;font-size:1.6rem}.webfeature-mid-dark-rightPanel .service-link-container .service-link:hover{text-decoration:underline}.webfeature-mid-dark-rightPanel .service-link-container .service-link-alt{color:#b32400;text-decoration:none;font-size:1.6rem}.webfeature-mid-dark-rightPanel .service-link-container .service-link-alt:hover{text-decoration:underline}.service-link-alt{color:#b32400;text-decoration:none;font-size:1.6rem}.service-link-alt:hover{text-decoration:underline}.webfeature-icon{color:#008057;font-size:3rem}.webfeature-icon-alt{color:#b32400;font-size:3rem}.design-callout{width:45rem;display:flex;flex-direction:column;box-shadow:6px 8px 5px -1px rgba(0,0,0,.52)}.design-callout-top{height:25rem;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center}.design-callout-image{border-radius:10px 10px 0 0;height:auto;width:100%}.design-callout-main{padding:2rem;background:#fff;height:auto;display:flex;flex-direction:column}.design-callout-main-heading{font-family:Gothic A1,sans-serif;text-transform:uppercase;font-size:2rem;font-weight:bolder}.design-callout-main p{color:#708090;line-height:1.5;margin-bottom:1rem}.webdesign-page-section-1-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/Website Design and Development Rocketchip Web Solutions.jpg");background-position:50%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.webdesign-page-section-1-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,91%,.2)}.webdesign-page-section-1{z-index:50;width:80%;display:flex}@media (max-width:1200px){.webdesign-page-section-1{width:90%}}@media (max-width:900px){.webdesign-page-section-1{width:95%}}.webdesign-page-section-1-left{width:80%;background:hsla(0,0%,97.3%,.7);padding:2rem}@media (max-width:1200px){.webdesign-page-section-1-left{width:90%}}@media (max-width:900px){.webdesign-page-section-1-left{width:95%}}@media (max-width:700px){.webdesign-page-section-1-left{width:100%}}.webdesign-page-section-1-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.webdesign-page-section-1-left-info{color:#2f4f4f;line-height:1.5;margin-bottom:1rem}.webdesign-page-section-1-right{width:20%}@media (max-width:1200px){.webdesign-page-section-1-right{width:10%}}@media (max-width:900px){.webdesign-page-section-1-right{display:none}}.webdesign-page-section-2-wrapper{display:flex;justify-content:center;align-items:center;width:100%;background:#00b279;padding-top:5rem;padding-bottom:5rem}.webdesign-page-section-2-wrapper .webdesign-page-section-2{display:flex;width:80%;justify-content:center}.webdesign-page-section-2-wrapper .webdesign-page-section-2-button{border:2px solid #f8f8f8;background:#00b279;padding:1rem 2rem;color:#f8f8f8;border-radius:5px;font-size:2rem;text-decoration:none}.webdesign-page-section-2-wrapper .webdesign-page-section-2-button:hover{border:2px solid #00b279;background:#f8f8f8;color:#00b279;cursor:pointer}.webdesign-page-section-3-wrapper{position:relative;display:flex;width:100%;justify-content:center;background-image:url("/images/website design and development dublin rocketchip web solutions offer.jpg");background-position:50%;background-attachment:fixed;background-size:cover;padding-top:2rem;padding-bottom:2rem}.webdesign-page-section-3-wrapper:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background-color:hsla(0,0%,97.3%,.8)}.webdesign-page-section-3{display:flex;width:80%;z-index:50}@media (max-width:1200px){.webdesign-page-section-3{width:90%}}@media (max-width:900px){.webdesign-page-section-3{width:95%}}.webdesign-page-section-3-left{width:80%;display:flex;flex-direction:column;justify-content:flex-start;background:hsla(0,0%,97.3%,.7);padding:2rem}@media (max-width:1200px){.webdesign-page-section-3-left{width:90%}}@media (max-width:900px){.webdesign-page-section-3-left{width:95%}}@media (max-width:700px){.webdesign-page-section-3-left{width:100%}}.webdesign-page-section-3-left-heading{margin-top:1rem;margin-bottom:1rem;color:#2f4f4f}.webdesign-page-section-3-left-heading span{color:#00b279;font-size:2.7rem}.webdesign-page-section-3-left-info{color:#5a6773;line-height:1.5;margin-bottom:1rem}.webdesign-page-section-3-left-points{color:#5a6773;line-height:1.5;margin-top:2rem;margin-left:1rem}.webdesign-page-section-3-left-points-point{font-size:1.6rem;margin-bottom:.7rem}.webdesign-page-section-3-left-points-point i{margin-right:1rem;font-size:2rem;color:#00b279;text-align:center;vertical-align:center}.webdesign-page-section-3-left-points-point span{margin-left:2.7rem}.webdesign-page-section-3-left-more{color:#5a6773;line-height:1.5;margin-top:2rem;margin-left:1rem}.webdesign-page-section-3-left-more-heading{font-size:2rem;margin-left:-1rem;margin-bottom:1rem}.webdesign-page-section-3-left-more-info{margin-bottom:1rem}.webdesign-page-section-3-left-more-info a{text-decoration:none;color:#00b279}.webdesign-page-section-3-left-more-info a:hover{text-decoration:underline}.webdesign-page-section-3-right{width:20%}@media (max-width:1200px){.webdesign-page-section-3-right{width:10%}}@media (max-width:900pz){.webdesign-page-section-3-right{display:none}}
+@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 65%;
+}
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 58.5%;
+  }
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 56.5%;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 53.5%;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 51.5%;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 49.5%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 47.5%;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 45.5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: black;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 7rem repeat(10, 1fr) 7rem;
+}
+
+.banner {
+  grid-column: 1/-1;
+  display: grid;
+  position: relative;
+  height: 55rem;
+  background: url("/images/main-header2.png");
+  background-position: top;
+  background-size: cover;
+}
+
+@media (max-width: 750px) {
+  .banner {
+    height: 45rem;
+  }
+}
+
+.banner:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top right, #b32400, 15%, #f8f8f8, 90%, #00b279);
+  opacity: 0.4;
+}
+
+.banner .banner-logo {
+  justify-self: center;
+  position: absolute;
+  top: 6rem;
+  z-index: 10;
+}
+
+.banner .banner-logo img {
+  height: 10rem;
+  width: auto;
+}
+
+.banner .banner-text,
+.banner #messenger {
+  justify-self: center;
+  position: absolute;
+  text-align: center;
+  top: 25rem;
+  width: 50%;
+  font-size: 4.5rem;
+  z-index: 10;
+  padding: 0 6rem;
+}
+
+@media (max-width: 750px) {
+  .banner .banner-text,
+  .banner #messenger {
+    font-size: 4.5rem;
+    top: 20rem;
+    width: 80%;
+    padding: 0 2rem;
+  }
+}
+
+.banner .banner-text span,
+.banner #messenger span {
+  color: darkslategray;
+  font-size: 3.4rem;
+}
+
+@media (max-width: 750px) {
+  .banner .banner-text span,
+  .banner #messenger span {
+    font-size: 2rem;
+  }
+}
+
+.banner .banner-cta {
+  justify-self: center;
+  position: absolute;
+  bottom: 12rem;
+  z-index: 10;
+}
+
+.txt-type > .txt {
+  border-right: 0.2rem solid #b32400;
+  color: darkslategray;
+}
+
+.about-container {
+  grid-column: 1/-1;
+  background: #00b279;
+  z-index: -1;
+  display: grid;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.about-container .about {
+  width: 80%;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .about-container .about {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 880px) {
+  .about-container .about {
+    margin-top: 2rem;
+  }
+}
+
+.about-container .about-title {
+  align-self: center;
+  padding-left: 2rem 5rem;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-container .about-title h1 {
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+@media (max-width: 880px) {
+  .about-container .about-title h1 {
+    padding-top: 0.2rem;
+    font-size: 3rem;
+  }
+}
+
+.about-container .about-title h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #f8f8f8;
+}
+
+@media (max-width: 700px) {
+  .about-container .about-title h2 {
+    font-size: 2rem;
+  }
+}
+
+.about-container .about-content p {
+  padding: 2rem 7rem;
+  color: #f8f8f8;
+  font-size: 1.7rem;
+  letter-spacing: 1.2px;
+  line-height: 2.5;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .about-container .about-content p {
+    padding: 2rem 4rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .about-container .about-content p {
+    padding: 1rem 2rem;
+  }
+}
+
+.about-container .about-content p:first-child:first-letter {
+  font-size: 5rem;
+  line-height: 1.7;
+  color: #f8f8f8;
+  margin-bottom: -2rem;
+}
+
+.svg-divider {
+  position: relative;
+  grid-column: 1/-1;
+  margin-top: -1rem;
+  z-index: 1;
+  width: 100vw;
+}
+
+.svg-divider svg {
+  width: inherit;
+  height: inherit;
+}
+
+.services-container {
+  margin-top: -1rem;
+  grid-column: 1/-1;
+  display: flex;
+  background-color: #f8f8f8;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.services-container .services {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .services-container .services {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .services-container .services {
+    width: 95%;
+  }
+}
+
+@media (max-width: 930px) {
+  .services-container .services {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .services-container .services {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0.5rem;
+  }
+}
+
+.services-container .services-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-self: center;
+  font-size: 2.5rem;
+  color: darkslategray;
+}
+
+.services-container .services .website-design-development-heading,
+.services-container .services .essential-services-heading {
+  color: #008057;
+  align-self: flex-start;
+  font-size: 2.5rem;
+}
+
+.services-container .services .essential-services-heading {
+  color: #b32400;
+  margin-top: 4rem;
+}
+
+.services-container .services .website-design-development-info,
+.services-container .services .essential-services-info {
+  color: darkslategray;
+  align-self: flex-start;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  line-height: 1.7;
+  width: 40%;
+}
+
+@media (max-width: 880px) {
+  .services-container .services .website-design-development-info,
+  .services-container .services .essential-services-info {
+    width: 80%;
+  }
+}
+
+.services-container .services .website-design-development-container,
+.services-container .services .essential-services-container {
+  margin-top: 2rem;
+  display: flex;
+}
+
+@media (max-width: 880px) {
+  .services-container .services .website-design-development-container,
+  .services-container .services .essential-services-container {
+    flex-wrap: wrap;
+  }
+}
+
+.services-container .services .website-design-development-container .website-design-development-services,
+.services-container .services .website-design-development-container .essential-services,
+.services-container .services .essential-services-container .website-design-development-services,
+.services-container .services .essential-services-container .essential-services {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 880px) {
+  .services-container .services .website-design-development-container .website-design-development-services,
+  .services-container .services .website-design-development-container .essential-services,
+  .services-container .services .essential-services-container .website-design-development-services,
+  .services-container .services .essential-services-container .essential-services {
+    width: 100%;
+  }
+}
+
+.services-container .services .website-design-development-container .website-design-development-feature,
+.services-container .services .essential-services-container .website-design-development-feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 880px) {
+  .services-container .services .website-design-development-container .website-design-development-feature,
+  .services-container .services .essential-services-container .website-design-development-feature {
+    width: 100%;
+  }
+}
+
+.services-container .services .custom-design,
+.services-container .services .management,
+.services-container .services .graphic-design {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.services-container .services .custom-design i,
+.services-container .services .management i,
+.services-container .services .graphic-design i {
+  font-size: 10rem;
+  color: #ff4212;
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.services-container .services .custom-design h2,
+.services-container .services .management h2,
+.services-container .services .graphic-design h2 {
+  color: #2f4f4f;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.services-container .services .custom-design p,
+.services-container .services .management p,
+.services-container .services .graphic-design p {
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  font-size: 1.7rem;
+}
+
+.services-container .services-cta {
+  grid-column: 1/-1;
+  justify-self: center;
+  align-self: center;
+  z-index: 20;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.svg-divider2 {
+  position: relative;
+  grid-column: 1/-1;
+  width: 100vw;
+  margin-top: -1rem;
+  z-index: 2;
+}
+
+.svg-divider2 svg {
+  height: inherit;
+  width: inherit;
+}
+
+.choose-us-container {
+  grid-column: 1/-1;
+  margin-top: -0.5rem;
+  display: grid;
+  background-color: #ff4212;
+  z-index: 1;
+}
+
+.choose-us-container .choose-us {
+  width: 80%;
+  justify-self: center;
+  display: grid;
+  color: #f8f8f8;
+}
+
+.choose-us-container .choose-us h2 {
+  justify-self: center;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #f8f8f8;
+}
+
+.difference-container {
+  grid-column: 1/-1;
+  background-color: #e8e8e8;
+  display: grid;
+}
+
+.difference-container .difference {
+  justify-self: center;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (max-width: 850px) {
+  .difference-container .difference {
+    grid-template-columns: 1fr;
+  }
+}
+
+.difference-container .difference-heading {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: darkslategray;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 420px) {
+  .difference-container .difference-heading {
+    font-size: 1.6rem;
+  }
+}
+
+.difference-container .difference .difference-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .difference-container .difference .difference-container {
+    justify-content: flex-start;
+  }
+}
+
+.difference-container .difference-cta {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  grid-column: 1/-1;
+  align-self: center;
+}
+
+.header {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 3fr 0.5fr;
+  align-items: center;
+  align-content: center;
+  grid-column-gap: 2rem;
+  position: relative;
+  top: 0rem;
+  height: 7rem;
+  background-color: #f8f8f8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 1px solid #e8e8e8;
+  z-index: 100;
+}
+
+.header .logo {
+  height: inherit;
+  z-index: 10;
+  position: relative;
+}
+
+.header .logo a img {
+  position: absolute;
+  top: 1rem;
+  height: 80%;
+  width: auto;
+}
+
+.header .nav {
+  display: grid;
+  z-index: 10;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding-left: 6rem;
+}
+
+.header .nav #services-nav-item:hover .hovernav {
+  display: flex;
+}
+
+.header .nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header .nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+.header .nav a:hover {
+  color: #ff4212;
+}
+
+.header .nav .contact_us {
+  background-color: #00b279;
+  color: #f8f8f8;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #00b279;
+}
+
+.header .nav .contact_us:hover,
+.header .nav .contact_us:active {
+  color: #00b279;
+  background-color: #f8f8f8;
+  border: #00b279 1px solid;
+}
+
+@media (max-width: 1100px) {
+  .header .nav {
+    visibility: hidden;
+  }
+}
+
+.header .sidenavbutton {
+  display: none;
+  text-align: center;
+  z-index: 10;
+  font-size: 3rem;
+  color: #ff4212;
+  transition: all 0.2s ease-in-out;
+}
+
+.header .sidenavbutton:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .header .sidenavbutton {
+    display: block;
+  }
+}
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom right, #b32400, 2%, #f8f8f8, 90%, #00b279);
+  opacity: 0.4;
+}
+
+.small {
+  height: 7rem;
+}
+
+.sidenav {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0rem;
+  width: 0%;
+  height: 100%;
+  z-index: 100;
+  background-color: #00b279;
+  -webkit-animation-name: trans;
+          animation-name: trans;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  transition: all 1s ease-in-out;
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+  overflow: scroll;
+}
+
+.sidenav #sideNavDropdownBtn {
+  cursor: pointer;
+}
+
+.sidenav-item {
+  list-style: none;
+}
+
+.sidenav-item-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.sidenav-item-link:hover {
+  background: #008057;
+}
+
+.sidenav-item-close {
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #f8f8f8;
+  width: 100%;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.sidenav-dropdown {
+  display: none;
+}
+
+.sidenav-dropdown-item {
+  list-style: none;
+}
+
+.sidenav-dropdown-item-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #f8f8f8;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.sidenav-dropdown-item-link:hover {
+  background: #008057;
+}
+
+#services-nav-item {
+  position: relative;
+  display: flex;
+  padding: 2.5rem;
+}
+
+#services-nav-item:hover .hovernav {
+  padding: 2rem;
+  padding-top: 4rem;
+  margin-top: -0.2rem;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  position: absolute;
+  top: 7rem;
+  left: -45rem;
+  width: 90rem;
+  transition: all 0.2s ease-in-out;
+  background: #e8e8e8;
+  border: 2px #00b279 solid;
+  border-radius: 5px;
+  z-index: -10;
+}
+
+#services-nav-item:hover .hovernav-row1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+#services-nav-item:hover .hovernav-row1-item {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+#services-nav-item:hover .hovernav-row1-item i {
+  font-size: 2rem;
+  color: #00b279;
+  margin-right: 1rem;
+}
+
+#services-nav-item:hover .hovernav-row1-item p {
+  margin-bottom: 0.5rem;
+  color: slategray;
+}
+
+#services-nav-item:hover .hovernav-row1-item p a {
+  text-transform: capitalize;
+  color: darkslategray;
+}
+
+#services-nav-item:hover .hovernav-row1-item p a:hover {
+  color: #00b279;
+}
+
+.hovernav {
+  display: none;
+}
+
+@-webkit-keyframes trans {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    width: 0%;
+    height: 0%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes trans {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    width: 0%;
+    height: 0%;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-10-10 21:25:43
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation flip-in-hor-top
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes flip-in-hor-top {
+  0% {
+    -webkit-transform: rotateX(-80deg);
+    transform: rotateX(-80deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flip-in-hor-top {
+  0% {
+    -webkit-transform: rotateX(-80deg);
+    transform: rotateX(-80deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+
+.btn {
+  color: #f8f8f8;
+  background-color: #00b279;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  z-index: 15;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #f8f8f8;
+  color: #00b279;
+  border: #00b279 1px solid;
+  cursor: pointer;
+}
+
+.footer-container {
+  grid-column: 1/-1;
+  background-color: #2f4f4f;
+  display: grid;
+  justify-items: center;
+}
+
+.footer-container .footer {
+  padding-top: 8rem;
+  width: 80%;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+
+@media (max-width: 880px) {
+  .footer-container .footer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-container .footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-container .footer .footer-location p {
+  margin-right: 1rem;
+}
+
+.footer-container .footer-sitemap h2,
+.footer-container .footer-location h2,
+.footer-container .footer-connect h2,
+.footer-container .footer-contact h2 {
+  color: #b8b8b8;
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.footer-container .footer-sitemap ul li,
+.footer-container .footer-location ul li,
+.footer-container .footer-connect ul li,
+.footer-container .footer-contact ul li {
+  list-style: none;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #989898;
+}
+
+.footer-container .footer-sitemap ul li a,
+.footer-container .footer-location ul li a,
+.footer-container .footer-connect ul li a,
+.footer-container .footer-contact ul li a {
+  text-decoration: none;
+  color: #b8b8b8;
+}
+
+.footer-container .footer-sitemap p,
+.footer-container .footer-location p,
+.footer-container .footer-connect p,
+.footer-container .footer-contact p {
+  color: #989898;
+  margin-bottom: 1rem;
+}
+
+.footer-container .footer-sitemap p a,
+.footer-container .footer-location p a,
+.footer-container .footer-connect p a,
+.footer-container .footer-contact p a {
+  color: #989898;
+}
+
+.footer-container .footer-sitemap p a i,
+.footer-container .footer-location p a i,
+.footer-container .footer-connect p a i,
+.footer-container .footer-contact p a i {
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+.footer-container .footer-sitemap p a i:hover,
+.footer-container .footer-location p a i:hover,
+.footer-container .footer-connect p a i:hover,
+.footer-container .footer-contact p a i:hover {
+  color: #e8e8e8;
+}
+
+.about-banner {
+  grid-column: 1/-1;
+  position: relative;
+  background: url("/images/Website Design and Development Dublin - About RocketChip Web Solutions.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .about-banner {
+    height: 15rem;
+  }
+}
+
+.about-banner::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(47, 79, 79, 0.8);
+}
+
+.about-banner h1 {
+  align-self: center;
+  justify-self: center;
+  font-size: 4.5rem;
+  color: #f8f8f8;
+  z-index: 5;
+}
+
+@media (max-width: 650px) {
+  .about-banner h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-banner h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.about-us-header-container {
+  background: #00b279;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-header-container .about-us-header {
+  width: 80%;
+  display: flex;
+  padding: 2rem;
+  color: #f8f8f8;
+}
+
+.about-us-header-container .about-us-header p {
+  font-size: 2rem;
+  line-height: 2;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-us-container {
+  margin-top: -1rem;
+  grid-column: 1/-1;
+  background-color: #f8f8f8;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  padding-bottom: 2rem;
+}
+
+.about-us-container .about-us {
+  justify-self: center;
+  width: 80%;
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 4rem;
+}
+
+@media (max-width: 850px) {
+  .about-us-container .about-us {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-us-container .about-us-heading {
+  grid-column: 1/-1;
+  justify-self: center;
+  margin-top: -4rem;
+  font-size: 4rem;
+  color: darkslategray;
+  margin-bottom: 4rem;
+}
+
+.about-us-container .about-us-what {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  grid-column: 1/-1;
+  background: white;
+  width: 100%;
+  justify-self: center;
+}
+
+.about-us-container .about-us-what h2 {
+  color: darkslategray;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.about-us-container .about-us-what p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.about-us-container .about-us-what ul li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.about-us-container .about-us-what ul li i {
+  margin-right: 1rem;
+  color: #ff4212;
+}
+
+.about-us-container .about-us-cta {
+  margin-bottom: 5rem;
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.about-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website design and development services Dublin Rocket chip web solutions.jpg");
+  background-position: left;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.about-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .about-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page-section-1 {
+    width: 95%;
+  }
+}
+
+.about-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .about-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.about-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.about-page-section-1-left-heading-alt {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #00b279;
+  font-size: 1.7rem;
+}
+
+.about-page-section-1-left-heading-alt-red {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #b32400;
+  font-size: 1.7rem;
+}
+
+.about-page-section-1-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #00b279;
+}
+
+.about-page-section-1-left-info i.alt {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.about-page-section-1-left-info a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.about-page-section-1-left-info a:hover {
+  color: #00b279;
+}
+
+.about-page-section-1-left-info a.alt {
+  text-decoration: none;
+  color: slategray;
+}
+
+.about-page-section-1-left-info a.alt:hover {
+  color: #b32400;
+}
+
+.about-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .about-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page-section-1-right {
+    display: none;
+  }
+}
+
+.about-page-section-2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #00b279;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.about-page-section-2-wrapper .about-page-section-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.about-page-section-2-wrapper .about-page-section-2-button {
+  border: 2px solid #f8f8f8;
+  background: #00b279;
+  padding: 1rem 2rem;
+  color: #f8f8f8;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.about-page-section-2-wrapper .about-page-section-2-button:hover {
+  border: 2px #00b279 solid;
+  background: #f8f8f8;
+  color: #00b279;
+  cursor: pointer;
+}
+
+.about-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/Website design and development dublin about rocket chip web solutions.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.about-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .about-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page-section-3 {
+    width: 95%;
+  }
+}
+
+.about-page-section-3-left {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .about-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page-section-3-left {
+    display: none;
+  }
+}
+
+.about-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .about-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-page-section-3-right {
+    width: 100%;
+  }
+}
+
+.about-page-section-3-right-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.about-page-section-3-right-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.about-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.about-page-section-3-right-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.about-page-section-3-right-image-container-process-horizontal {
+  width: 90%;
+}
+
+.about-page-section-3-right-image-container-process-horizontal img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-page-section-3-right-image-container-process-vertical {
+  display: none;
+}
+
+.clients-container {
+  position: relative;
+  grid-column: 1/-1;
+  background-color: #989898;
+  display: flex;
+  background: url("/images/Web Design and Development Dublin - RocketChip Web Solutions Example Projects.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.clients-container:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #989898;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.clients {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.clients-heading {
+  font-size: 1.7rem;
+}
+
+.clients-heading h2 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+.clients-heading p {
+  text-align: center;
+}
+
+.clients-grid {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.city-farm,
+.om_meats {
+  position: relative;
+  background: url("/images/cityfarmbackground.png");
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  width: 50rem;
+  transition: all 0.2s ease-in-out;
+  padding: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .city-farm,
+  .om_meats {
+    margin-bottom: 2rem;
+  }
+}
+
+.city-farm:hover,
+.om_meats:hover {
+  cursor: pointer;
+}
+
+.city-farm:hover .city-farm-pop,
+.city-farm:hover .om_meats-pop,
+.om_meats:hover .city-farm-pop,
+.om_meats:hover .om_meats-pop {
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+
+.om_meats {
+  background: url("/images/om_meatsbackground.png");
+}
+
+.city-farm-pop,
+.om_meats-pop {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00b279;
+  z-index: 100;
+  opacity: 0.1;
+}
+
+.city-farm-pop:hover,
+.om_meats-pop:hover {
+  opacity: 0.9;
+  transition: all 0.4s ease-in-out;
+}
+
+.om_meats-pop {
+  background: #823a45;
+  z-index: 100;
+}
+
+.cityfarmlogo-small {
+  margin-top: 2rem;
+  height: 8rem;
+  width: auto;
+  z-index: 100;
+}
+
+.project-btn-container {
+  margin-top: 4rem;
+}
+
+.project-btn {
+  margin-top: 7rem;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.project-btn:active,
+.project-btn:visited {
+  color: white;
+}
+
+.project-btn:hover {
+  background: white;
+  color: darkslategray;
+  border: 2px solid white;
+}
+
+.aboutfeature {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  display: flex;
+}
+
+.aboutfeature-leftPanel {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutfeature-rightPanel {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutfeature-rightPanel .about-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.aboutfeature-rightPanel .about-info {
+  font-size: 1.5rem;
+  color: slategray;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.aboutfeature-icon {
+  color: #008057;
+  font-size: 3rem;
+}
+
+.aboutfeature-icon-alt {
+  color: #b32400;
+  font-size: 3rem;
+}
+
+.services-banner {
+  grid-column: 1/-1;
+  position: relative;
+  background: url("/images/laptop-banner2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .services-banner {
+    height: 15rem;
+  }
+}
+
+.services-banner::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00b279, #004d34);
+  opacity: 0.5;
+}
+
+.services-banner h1 {
+  align-self: center;
+  justify-self: center;
+  font-size: 6rem;
+  color: #f8f8f8;
+  z-index: 5;
+}
+
+.services-header {
+  grid-column: 1/-1;
+  background-color: #00b279;
+  padding-bottom: 4rem;
+  display: grid;
+}
+
+.services-header h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-self: center;
+  font-size: 4rem;
+  color: #e8e8e8;
+}
+
+@media (max-width: 550px) {
+  .services-header h2 {
+    font-size: 3.5rem;
+  }
+}
+
+.services-header h2 span {
+  color: #ff9980;
+}
+
+.services-header p {
+  justify-self: center;
+  font-size: 3rem;
+  color: #e8e8e8;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 550px) {
+  .services-header p {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .services-header p {
+    font-size: 2.4rem;
+  }
+}
+
+.svg-divider-services {
+  grid-column: 1/-1;
+  width: 100vw;
+  margin-top: -1rem;
+  z-index: 5;
+}
+
+.svg-divider-services svg {
+  height: inherit;
+  width: inherit;
+}
+
+.services-summary-container {
+  grid-column: 1/-1;
+  margin-top: -3rem;
+  background-color: #f8f8f8;
+  display: grid;
+}
+
+.services-summary-container .services-summary {
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  justify-self: center;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  justify-items: center;
+}
+
+@media (max-width: 1200px) {
+  .services-summary-container .services-summary {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 4rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .services-summary-container .services-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.services-summary-container .services-summary-custom i,
+.services-summary-container .services-summary-responsive i,
+.services-summary-container .services-summary-redesign i,
+.services-summary-container .services-summary-maintenance i,
+.services-summary-container .services-summary-seo i,
+.services-summary-container .services-summary-graphic i {
+  display: block;
+  font-size: 5.5rem;
+  color: #ff4212;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services-summary-container .services-summary-custom h2,
+.services-summary-container .services-summary-responsive h2,
+.services-summary-container .services-summary-redesign h2,
+.services-summary-container .services-summary-maintenance h2,
+.services-summary-container .services-summary-seo h2,
+.services-summary-container .services-summary-graphic h2 {
+  font-size: 1.7rem;
+}
+
+.services-divider1 {
+  grid-column: 1/-1;
+  width: 100vw;
+  margin-top: -1rem;
+  z-index: 2;
+}
+
+.services-divider1 svg {
+  height: inherit;
+  width: inherit;
+}
+
+.design-process-header-container {
+  grid-column: 1/-1;
+  margin-top: -1rem;
+  display: grid;
+  background-color: #ff4212;
+}
+
+.design-process-header-container .design-process-header {
+  justify-self: center;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.design-process-header-container .design-process-header h2,
+.design-process-header-container .design-process-header p {
+  color: #f8f8f8;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.design-process-header-container .design-process-header p {
+  font-size: 1.7rem;
+  line-height: 2;
+}
+
+.design-process-header-container .design-process-header h2 {
+  font-size: 3.5rem;
+}
+
+.design-process-container {
+  grid-column: 1/-1;
+  background-color: #e8e8e8;
+  display: grid;
+}
+
+.design-process-container .design-process {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  grid-column: 1/-1;
+  width: 75%;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+}
+
+@media (max-width: 1300px) {
+  .design-process-container .design-process {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .design-process-container .design-process {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .design-process-container .design-process {
+    grid-template-columns: 1fr;
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .design-process-container .design-process {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .design-process-container .design-process {
+    width: 80%;
+  }
+}
+
+.design-process-container .design-process .design-step {
+  background-color: #f8f8f8;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: grid;
+}
+
+.design-process-container .design-process .design-step-img {
+  position: relative;
+  height: 20rem;
+}
+
+.design-process-container .design-process .design-step-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.design-process-container .design-process .design-step-img-heading {
+  position: absolute;
+  bottom: 7rem;
+  right: 0rem;
+  background-color: #00b279;
+  border-radius: 10px 0px 0px 10px;
+  width: 60%;
+  padding: 1rem 0rem 1rem 1rem;
+  color: #f8f8f8;
+  z-index: 5;
+}
+
+.design-process-container .design-process .design-step-img::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #00ffa9, 70%, #008057);
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.design-process-container .design-process .design-step-info {
+  padding: 2rem 3rem;
+}
+
+.design-process-container .design-process .design-step-info-heading {
+  color: #008057;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #004d34;
+  padding-bottom: 0.5rem;
+}
+
+.design-process-container .design-process .design-step-2 .design-step-img::after {
+  background: linear-gradient(to right, #ff9980, 70%, #b32400);
+}
+
+.design-process-container .design-process .design-step-2 .design-step-img-heading {
+  background-color: #b32400;
+}
+
+.design-process-container .design-process .design-step-3 .design-step-img::after {
+  background: linear-gradient(to right, #ff4212, 70%, #b32400);
+}
+
+.design-process-container .design-process .design-step-3 .design-step-img-heading {
+  background-color: #ff4212;
+}
+
+.design-process-container .design-process-cta {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.portfolio-banner {
+  grid-column: 1/-1;
+  position: relative;
+  background: url("/images/laptop-banner2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  display: grid;
+}
+
+.portfolio-banner::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00b279, #004d34);
+  opacity: 0.5;
+}
+
+.portfolio-banner h1 {
+  align-self: center;
+  justify-self: center;
+  font-size: 6rem;
+  color: #f8f8f8;
+  z-index: 5;
+}
+
+.portfolio-container {
+  grid-column: 1/-1;
+  background-color: #e8e8e8;
+  display: grid;
+}
+
+.portfolio-container .portfolio-item {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-self: center;
+  width: 70%;
+  color: #2f4f4f;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+@media (max-width: 1200px) {
+  .portfolio-container .portfolio-item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .portfolio-container .portfolio-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .portfolio-container .portfolio-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+.portfolio-container .portfolio-item-img {
+  display: grid;
+  border-right: 4px solid #2f4f4f;
+}
+
+@media (max-width: 800px) {
+  .portfolio-container .portfolio-item-img {
+    border-right: none;
+  }
+}
+
+.portfolio-container .portfolio-item-img a {
+  justify-self: center;
+  align-self: center;
+}
+
+.portfolio-container .portfolio-item-img a .larrys-img {
+  height: 15rem;
+  width: auto;
+}
+
+.portfolio-container .portfolio-item-img a .drumcondra-img {
+  height: 15rem;
+  width: 13rem;
+}
+
+.portfolio-container .portfolio-item-img a .islandferries-img {
+  height: 7rem;
+  width: 20rem;
+}
+
+.portfolio-container .portfolio-item-img a .om-img {
+  height: 15rem;
+  width: 15rem;
+}
+
+.portfolio-container .portfolio-item-info {
+  padding: 1rem 3rem;
+  border-bottom: 4px solid #2f4f4f;
+}
+
+@media (max-width: 800px) {
+  .portfolio-container .portfolio-item-info {
+    border-bottom: none;
+  }
+}
+
+.portfolio-container .portfolio-item-info-about {
+  margin-bottom: 2rem;
+}
+
+.portfolio-container .portfolio-item-info-about h2 {
+  margin-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-item-info-about p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-item-info-project {
+  margin-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-item-info-project h2 {
+  margin-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-item-info-project p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio-container-2 {
+  background: #b8b8b8;
+}
+
+.contact-general-container {
+  grid-column: 1/-1;
+  background: #f8f8f8;
+  display: grid;
+}
+
+.contact-general-container .contact-general {
+  justify-self: center;
+  width: 70%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: darkslategray;
+}
+
+@media (max-width: 950px) {
+  .contact-general-container .contact-general {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-general-container .contact-general {
+    width: 95%;
+  }
+}
+
+.contact-general-container .contact-general .contact-general-info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap {
+  width: 45%;
+}
+
+@media (max-width: 890px) {
+  .contact-general-container .contact-general .contact-general-info .contact-general-info-nap {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap-heading,
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap-info,
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours-info {
+  line-height: 1.4;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-info-nap .contact-general-info-hours {
+  padding-top: 1.4rem;
+}
+
+.contact-general-container .contact-general .contact-general-info .contact-general-map {
+  width: 45%;
+  align-self: center;
+}
+
+@media (max-width: 890px) {
+  .contact-general-container .contact-general .contact-general-info .contact-general-map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contact-general-container .contact-general-phone {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 900px) {
+  .contact-general-container .contact-general-phone {
+    margin-bottom: 2rem;
+  }
+}
+
+.contact-general-container .contact-general-phone i {
+  color: #ff4212;
+  margin-right: 3rem;
+  font-size: 3rem;
+}
+
+.contact-general-container .contact-general-email {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.contact-general-container .contact-general-email i {
+  color: #ff4212;
+  margin-right: 2rem;
+  font-size: 3rem;
+}
+
+.contact-general-container .contact-map {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form-container {
+  position: relative;
+  grid-column: 1/-1;
+  background: url("/images/mobile2.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+}
+
+.contact-form-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right bottom, #f8f8f8, 50%, #b8b8b8);
+  opacity: 0.5;
+}
+
+.contact-form-container .form {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background: rgba(211, 211, 211, 0.9);
+  width: 70%;
+  justify-self: center;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+@media (max-width: 1250px) {
+  .contact-form-container .form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contact-form-container .form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 850px) {
+  .contact-form-container .form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-form-container .form {
+    width: 90%;
+  }
+}
+
+.contact-form-container .form-header {
+  color: #2f4f4f;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact-form-container .form-group {
+  padding: 1rem 2rem;
+}
+
+.contact-form-container .form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.contact-form-container .form-input {
+  display: block;
+  margin-bottom: 1rem;
+  width: 70%;
+  height: 3rem;
+  border-radius: 5px;
+  background: #f8f8f8;
+  z-index: 5;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 520px) {
+  .contact-form-container .form-input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 430px) {
+  .contact-form-container .form-input {
+    width: 90%;
+  }
+}
+
+.contact-form-container .form-input:focus {
+  outline: none;
+  background: #e8e8e8;
+}
+
+.contact-form-container .form-textarea {
+  display: block;
+  margin-bottom: 1rem;
+  width: 70%;
+  border-radius: 5px;
+  background: #f8f8f8;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 520px) {
+  .contact-form-container .form-textarea {
+    width: 80%;
+  }
+}
+
+@media (max-width: 430px) {
+  .contact-form-container .form-textarea {
+    width: 90%;
+  }
+}
+
+.contact-form-container .form-textarea:focus {
+  outline: none;
+  background: #e8e8e8;
+}
+
+.contact-form-container .form-button {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.messages-container {
+  grid-column: 1/-1;
+  background: #989898;
+  display: grid;
+}
+
+.messages-container .messages {
+  justify-self: center;
+  width: 60%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Modals Layout */
+
+.window-cover {
+  grid-column: 1/-1;
+  height: 100vh;
+  width: 0vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2000;
+}
+
+.modal-responsive {
+  width: 70%;
+  height: 70%;
+  background-color: rgba(248, 248, 248, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .modal-responsive {
+    width: 90%;
+  }
+}
+
+@media (max-width: 820px) {
+  .modal-responsive {
+    height: 80vh;
+  }
+}
+
+.modal-top-section {
+  height: 95%;
+  display: flex;
+}
+
+@media (max-width: 820px) {
+  .modal-top-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.image-container {
+  width: 50%;
+  height: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: top center;
+     object-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 820px) {
+  .image-container {
+    width: 90%;
+    margin-top: -2rem;
+  }
+}
+
+.modal-image {
+  width: 90%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.content-section {
+  width: 65%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media (max-width: 820px) {
+  .content-section {
+    width: 90%;
+    height: 100%;
+    margin-top: -4rem;
+  }
+}
+
+.about-title,
+.project-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.om-about-title,
+.om-project-title {
+  color: #78303a;
+}
+
+.cf-about-title,
+.cf-project-title {
+  color: green;
+}
+
+.c4u-about-title,
+.c4u-project-title {
+  color: black;
+}
+
+.if-about-title,
+.if-project-title {
+  color: #0781a6;
+}
+
+.dc-about-title,
+.dc-project-title {
+  color: #2a3074;
+}
+
+.ld-about-title,
+.ld-project-title {
+  color: #f89539;
+}
+
+.about-content,
+.project-content {
+  line-height: 1.5;
+}
+
+.bottom-section {
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+@media (max-width: 820px) {
+  .bottom-section {
+    height: 5%;
+  }
+}
+
+.close-button {
+  width: 50%;
+  background-color: lightslategray;
+  color: #f8f8f8;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #5f6f7e;
+}
+
+.link-button {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8f8f8;
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.om-link-button {
+  background: #78303a;
+}
+
+.om-link-button:hover {
+  background: #542128;
+}
+
+.cf-link-button {
+  background: green;
+}
+
+.cf-link-button:hover {
+  background: #004d00;
+}
+
+.c4u-link-button {
+  background: black;
+}
+
+.c4u-link-button:hover {
+  background: #1a1a1a;
+}
+
+.if-link-button {
+  background: #1ec3f5;
+}
+
+.if-link-button:hover {
+  background: #0aa7d6;
+}
+
+.dc-link-button {
+  background: #2a3074;
+}
+
+.dc-link-button:hover {
+  background: #383f99;
+}
+
+.ld-link-button {
+  background: #f89539;
+}
+
+.ld-link-button:hover {
+  background: #f57b09;
+}
+
+/* Portfolio Grid */
+
+.portfolio-grid {
+  display: flex;
+  width: 100%;
+  background-color: lightgray;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-grid-inset {
+  width: 90%;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.portfolio-element {
+  margin-top: 1rem;
+  position: relative;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  .portfolio-element {
+    width: 48%;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio-element {
+    width: 90%;
+  }
+}
+
+.portfolio-element::after {
+  display: none;
+}
+
+.portfolio-element:hover {
+  cursor: pointer;
+}
+
+.portfolio-element:hover .portfolio-link-container {
+  display: flex;
+}
+
+.portfolio-element:hover .link {
+  display: inline-block;
+  opacity: 1;
+}
+
+.portfolio-element:hover .portfolio-element::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+.portfolio-element-img-container {
+  height: 20rem;
+  width: 100%;
+}
+
+.portfolio-element-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio-heading-container {
+  padding: 1rem;
+}
+
+.heading {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.portfolio-link-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 1s ease-in-out;
+  z-index: 1;
+}
+
+.link {
+  display: none;
+  background: green;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  color: white;
+  z-index: 200;
+  opacity: 1;
+}
+
+.om_link {
+  background: #78303a;
+}
+
+.c4u_link {
+  background: black;
+}
+
+.if_link {
+  background: #1ec3f5;
+}
+
+.dc_link {
+  background: #2a3074;
+}
+
+.ld_link {
+  background: #f89539;
+}
+
+.test-modal-window-close {
+  height: 100vh;
+  width: 0vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.test-modal-window-open {
+  height: 100vh;
+  width: 0vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.index-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e8e8e8;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.index-services-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.index-service {
+  width: 30%;
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  background: #f8f8f8;
+  border-radius: 5px;
+  border: #008057 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 4px 4px;
+}
+
+@media (max-width: 1400px) {
+  .index-service {
+    width: 40%;
+  }
+}
+
+@media (max-width: 920px) {
+  .index-service {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .index-service {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .index-service {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .index-service {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .index-service {
+    width: 90%;
+  }
+}
+
+.ecommerce-website .service-top {
+  background: #b32400;
+}
+
+.service-top {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0rem;
+  background: #008057;
+}
+
+.service-top-heading {
+  font-size: 3rem;
+  color: #f8f8f8;
+}
+
+.service-hr {
+  width: 30%;
+  border-bottom: #b32400 2px solid;
+}
+
+.service-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: #b32400 1px solid;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: #2f4f4f;
+}
+
+.service-main-heading {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.service-main-from {
+  font-size: 1.2rem;
+  margin-bottom: -0.5rem;
+}
+
+.service-main-price {
+  font-size: 3.8rem;
+  margin-bottom: 3rem;
+}
+
+.service-main-icon {
+  font-size: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+.service-main-detail {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0rem 0.5rem;
+}
+
+.services-cta-top {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.review-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.review-section-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-intro h2 {
+  color: #2f4f4f;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.reviews-grid {
+  width: 90%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.review-grid-left {
+  position: absolute;
+  top: calc(50%);
+  left: 1rem;
+  z-index: 100;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1360px) {
+  .review-grid-left {
+    display: inline-block;
+  }
+}
+
+.review-grid-left-icon {
+  font-size: 4rem;
+  color: #b32400;
+}
+
+.review-grid-right {
+  position: absolute;
+  top: calc(50%);
+  right: 1rem;
+  z-index: 100;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1360px) {
+  .review-grid-right {
+    display: inline-block;
+  }
+}
+
+.review-grid-right-icon {
+  font-size: 4rem;
+  color: #b32400;
+}
+
+.review-container {
+  display: flex;
+  width: 500px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 500px) {
+  .review-container {
+    width: 450px;
+  }
+}
+
+.review {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px #b32400 solid;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .review {
+    width: 280px;
+  }
+}
+
+.review-top {
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.review-top-image {
+  height: 70%;
+  width: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.review-main {
+  border-top: 1px #b32400 solid;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.review-main p {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #2f4f4f;
+  font-size: 1.7rem;
+}
+
+.review-bottom {
+  display: flex;
+  justify-content: center;
+  color: #b32400;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.new-banner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background: url("/images/website design and development dublin rocketchip web solutions.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 550px) {
+  .new-banner {
+    height: 60vh;
+  }
+}
+
+.new-banner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(47, 79, 79, 0.7);
+}
+
+.new-banner-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 10;
+}
+
+.new-banner-text-top {
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  color: #2f4f4f;
+  font-style: italic;
+}
+
+.new-banner-text {
+  min-width: 50%;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  color: #f8f8f8;
+}
+
+.text-top {
+  font-size: 5rem;
+  color: #f8f8f8;
+}
+
+@media (max-width: 500px) {
+  .text-top {
+    font-size: 4rem;
+  }
+}
+
+.slide {
+  font-size: 5rem;
+  color: #f8f8f8;
+  -webkit-animation: tracking-in-expand 1s ease-in-out;
+          animation: tracking-in-expand 1s ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .slide {
+    font-size: 3rem;
+  }
+}
+
+.new-banner-cta {
+  margin-left: 5rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.new-banner-btn {
+  color: #f8f8f8;
+  background-color: #00b279;
+  border: #00b279 1px solid;
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  z-index: 15;
+  text-decoration: none;
+}
+
+@media (max-width: 450px) {
+  .new-banner-btn {
+    width: 70%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.new-banner-btn-offer {
+  color: #f8f8f8;
+  background-color: #ff4212;
+  border: #ff4212 1px solid;
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  z-index: 15;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+@media (max-width: 450px) {
+  .new-banner-btn-offer {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+.new-banner-btn-offer:hover {
+  background-color: #f8f8f8;
+  color: #ff4212;
+  border: #f8f8f8 1px solid;
+  cursor: pointer;
+}
+
+.new-banner-btn:hover {
+  background-color: #f8f8f8;
+  color: #00b279;
+  border: #f8f8f8 1px solid;
+  cursor: pointer;
+}
+
+@-webkit-keyframes fly-from-bottom {
+  from {
+    -webkit-transform: translateY(9rem), translateZ(9rem);
+            transform: translateY(9rem), translateZ(9rem);
+    opacity: 0;
+  }
+
+  20% {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+
+  25%, 75% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+
+  to {
+    -webkit-transform: translateY(-9rem) translateZ(-9rem);
+            transform: translateY(-9rem) translateZ(-9rem);
+    opacity: 0;
+  }
+}
+
+@keyframes fly-from-bottom {
+  from {
+    -webkit-transform: translateY(9rem), translateZ(9rem);
+            transform: translateY(9rem), translateZ(9rem);
+    opacity: 0;
+  }
+
+  20% {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+
+  25%, 75% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+  }
+
+  to {
+    -webkit-transform: translateY(-9rem) translateZ(-9rem);
+            transform: translateY(-9rem) translateZ(-9rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fly-from-btm {
+  0% {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+
+  30% {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+
+  40% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+
+  70% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+
+  90% {
+    -webkit-transform: translateY(-4rem);
+            transform: translateY(-4rem);
+  }
+
+  100% {
+    -webkit-transform: translateY(-5rem);
+            transform: translateY(-5rem);
+  }
+}
+
+@keyframes fly-from-btm {
+  0% {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+  }
+
+  30% {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+
+  40% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+
+  70% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+  }
+
+  90% {
+    -webkit-transform: translateY(-4rem);
+            transform: translateY(-4rem);
+  }
+
+  100% {
+    -webkit-transform: translateY(-5rem);
+            transform: translateY(-5rem);
+  }
+}
+
+@-webkit-keyframes fly-from-right {
+  0% {
+    -webkit-transform: translateX(20rem);
+            transform: translateX(20rem);
+    opacity: 0;
+  }
+
+  20% {
+    -webkit-transform: translateX(8rem);
+            transform: translateX(8rem);
+    opacity: 0.8;
+  }
+
+  28% {
+    -webkit-transform: translateX(-5rem);
+            transform: translateX(-5rem);
+    opacity: 1;
+  }
+
+  28% {
+    -webkit-transform: translateX(-3rem);
+            transform: translateX(-3rem);
+    opacity: 1;
+  }
+
+  30% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+    opacity: 0;
+  }
+}
+
+@keyframes fly-from-right {
+  0% {
+    -webkit-transform: translateX(20rem);
+            transform: translateX(20rem);
+    opacity: 0;
+  }
+
+  20% {
+    -webkit-transform: translateX(8rem);
+            transform: translateX(8rem);
+    opacity: 0.8;
+  }
+
+  28% {
+    -webkit-transform: translateX(-5rem);
+            transform: translateX(-5rem);
+    opacity: 1;
+  }
+
+  28% {
+    -webkit-transform: translateX(-3rem);
+            transform: translateX(-3rem);
+    opacity: 1;
+  }
+
+  30% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+    opacity: 0;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-8-31 14:48:33
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation flip-horizontal-bottom
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+
+  100% {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+}
+
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+
+  100% {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-8-31 14:50:27
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info.
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.servicesnav {
+  background: #e8e8e8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .servicesnav {
+    display: none;
+  }
+}
+
+.servicesnav-top,
+.servicesnav-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.servicesnav-top {
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .servicesnav-top {
+    margin-top: 0;
+    margin-right: 1rem;
+  }
+}
+
+.servicesnav-link {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.servicesnav-link-top {
+  color: #00b279;
+  padding: 1rem 3rem;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #00b279;
+}
+
+.servicesnav-link-top:hover,
+.servicesnav-link-top-active {
+  background: #00b279;
+  color: white;
+  cursor: pointer;
+}
+
+.servicesnav-link-bottom {
+  color: #b32400;
+  padding: 1rem 3rem;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #b32400;
+}
+
+.servicesnav-link-bottom:hover,
+.servicesnav-link-bottom-active {
+  background: #b32400;
+  color: white;
+  cursor: pointer;
+}
+
+.service-content-header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #e8e8e8;
+}
+
+.service-content-header {
+  background: #e8e8e8;
+  display: flex;
+  width: 80%;
+}
+
+@media (max-width: 1050px) {
+  .service-content-header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .service-content-header {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+.service-content-header-left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .service-content-header-left {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.service-content-header-right {
+  width: 30%;
+}
+
+@media (max-width: 900px) {
+  .service-content-header-right {
+    width: 100%;
+  }
+}
+
+.webdesign-page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.webdesign-page-header-heading {
+  color: darkslategray;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-header-subheading {
+  color: #00b279;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-header-subheading-alt {
+  color: #b32400;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-header-info {
+  color: darkslategray;
+  font-size: 1.8rem;
+}
+
+.webdesign-page-header-hr {
+  margin-top: 4rem;
+  width: 50%;
+  align-self: center;
+  border-bottom: 1px solid #00b279;
+}
+
+.webdesign-page-header-hr-alt {
+  margin-top: 4rem;
+  width: 50%;
+  align-self: center;
+  border-bottom: 1px solid #b32400;
+}
+
+.ecommerce-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/ecommerce website dublin rocketchip web solutions.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ecommerce-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.2);
+}
+
+.ecommerce-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .ecommerce-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ecommerce-page-section-1 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .ecommerce-page-section-1 {
+    width: 100%;
+  }
+}
+
+.ecommerce-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.8);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .ecommerce-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ecommerce-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .ecommerce-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.ecommerce-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.ecommerce-page-section-1-left-heading span {
+  color: #00b279;
+}
+
+.ecommerce-page-section-1-left-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.ecommerce-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .ecommerce-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ecommerce-page-section-1-right {
+    display: none;
+  }
+}
+
+.ecommerce-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/ecommerce website dublin rocketchip web solutions details.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ecommerce-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 248, 248, 0.8);
+}
+
+.ecommerce-page-section-3 {
+  display: flex;
+  width: 80%;
+  z-index: 50;
+}
+
+@media (max-width: 1200px) {
+  .ecommerce-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ecommerce-page-section-3 {
+    width: 95%;
+  }
+}
+
+.ecommerce-page-section-3-left {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: rgba(248, 248, 248, 0.8);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .ecommerce-page-section-3-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ecommerce-page-section-3-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .ecommerce-page-section-3-left {
+    width: 100%;
+  }
+}
+
+.ecommerce-page-section-3-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.ecommerce-page-section-3-left-heading span {
+  color: #00b279;
+  font-size: 2.7rem;
+}
+
+.ecommerce-page-section-3-left-info {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.ecommerce-page-section-3-left-points {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.ecommerce-page-section-3-left-points-point {
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.ecommerce-page-section-3-left-points-point i {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #00b279;
+  text-align: center;
+  vertical-align: center;
+}
+
+.ecommerce-page-section-3-left-points-point span {
+  margin-left: 2.7rem;
+}
+
+.ecommerce-page-section-3-left-more {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.ecommerce-page-section-3-left-more-heading {
+  font-size: 2rem;
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.ecommerce-page-section-3-left-more-info {
+  margin-bottom: 1rem;
+}
+
+.ecommerce-page-section-3-left-more-info a {
+  text-decoration: none;
+  color: #00b279;
+}
+
+.ecommerce-page-section-3-left-more-info a:hover {
+  text-decoration: underline;
+}
+
+.ecommerce-page-section-3-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .ecommerce-page-section-3-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .ecommerce-page-section-3-right {
+    display: none;
+  }
+}
+
+.webapp-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/web application development dublin rocketchip web solutions.jpg");
+  background-position: left;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.webapp-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.webapp-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .webapp-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webapp-page-section-1 {
+    width: 95%;
+  }
+}
+
+.webapp-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .webapp-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webapp-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .webapp-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.webapp-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.webapp-page-section-1-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.webapp-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .webapp-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webapp-page-section-1-right {
+    display: none;
+  }
+}
+
+.redesign-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website redesign dublin rocketchip web solutions.jpg");
+  background-position: left;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.redesign-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.redesign-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .redesign-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .redesign-page-section-1 {
+    width: 95%;
+  }
+}
+
+.redesign-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .redesign-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .redesign-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700pc) {
+  .redesign-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.redesign-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.redesign-page-section-1-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.redesign-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #00b279;
+}
+
+.redesign-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .redesign-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .redesign-page-section-1-right {
+    display: none;
+  }
+}
+
+.redesign-page-section-2-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website redesign process dublin rocketchip web solutions.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.redesign-page-section-2-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.redesign-page-section-2 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .redesign-page-section-2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .redesign-page-section-2 {
+    width: 95%;
+  }
+}
+
+.redesign-page-section-2-left {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .redesign-page-section-2-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .redesign-page-section-2-left {
+    display: none;
+  }
+}
+
+.redesign-page-section-2-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .redesign-page-section-2-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .redesign-page-section-2-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .redesign-page-section-2-right {
+    width: 100%;
+  }
+}
+
+.redesign-page-section-2-right-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.redesign-page-section-2-right-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.redesign-page-section-2-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #00b279;
+}
+
+.seo-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/search engine optimisation services dublin rocket chip web solutions.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.seo-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.seo-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .seo-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .seo-page-section-1 {
+    width: 95%;
+  }
+}
+
+.seo-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.7);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .seo-page-section-1-left {
+    width: 90%;
+    background: rgba(248, 248, 248, 0.85);
+  }
+}
+
+@media (max-width: 900px) {
+  .seo-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .seo-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.seo-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.seo-page-section-1-left-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.seo-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.seo-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .seo-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .seo-page-section-1-right {
+    display: none;
+  }
+}
+
+.seo-page-section-2-wrapper,
+.seo-page-section-4-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #b32400;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.seo-page-section-2-wrapper .seo-page-section-2,
+.seo-page-section-2-wrapper .seo-page-section-4,
+.seo-page-section-4-wrapper .seo-page-section-2,
+.seo-page-section-4-wrapper .seo-page-section-4 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.seo-page-section-2-wrapper .seo-page-section-2-button,
+.seo-page-section-2-wrapper .seo-page-section-4-button,
+.seo-page-section-4-wrapper .seo-page-section-2-button,
+.seo-page-section-4-wrapper .seo-page-section-4-button {
+  border: 2px solid #f8f8f8;
+  background: #b32400;
+  padding: 1rem 2rem;
+  color: #f8f8f8;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.seo-page-section-2-wrapper .seo-page-section-2-button:hover,
+.seo-page-section-2-wrapper .seo-page-section-4-button:hover,
+.seo-page-section-4-wrapper .seo-page-section-2-button:hover,
+.seo-page-section-4-wrapper .seo-page-section-4-button:hover {
+  border: 2px #b32400 solid;
+  background: #f8f8f8;
+  color: #b32400;
+  cursor: pointer;
+}
+
+.seo-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/search engine optimisation services dublin rocket chip web solutions process.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.seo-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.seo-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .seo-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .seo-page-section-3 {
+    width: 95%;
+  }
+}
+
+.seo-page-section-3-left {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .seo-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .seo-page-section-3-left {
+    display: none;
+  }
+}
+
+.seo-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .seo-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .seo-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .seo-page-section-3-right {
+    width: 100%;
+  }
+}
+
+.seo-page-section-3-right-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.seo-page-section-3-right-info {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.seo-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.hosting-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website hosting and maintenance dublin rocket chip web solutions.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hosting-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.hosting-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-1 {
+    width: 95%;
+  }
+}
+
+.hosting-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.85);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hosting-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.hosting-page-section-1-left-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: darkslategray;
+}
+
+.hosting-page-section-1-left-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.hosting-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.hosting-page-section-1-left-info a {
+  text-decoration: none;
+  color: #b32400;
+}
+
+.hosting-page-section-1-left-info a:hover {
+  text-decoration: underline;
+}
+
+.hosting-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-1-right {
+    display: none;
+  }
+}
+
+.hosting-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website hosting and maintenance dublin rocket chip web solutions details.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hosting-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.hosting-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-3 {
+    width: 95%;
+  }
+}
+
+.hosting-page-section-3-left {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-3-left {
+    display: none;
+  }
+}
+
+.hosting-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .hosting-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hosting-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hosting-page-section-3-right {
+    width: 100%;
+  }
+}
+
+.hosting-page-section-3-right-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: darkslategray;
+}
+
+.hosting-page-section-3-right-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.hosting-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.design-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.design-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00b279;
+}
+
+.design-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .design-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-1 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 750px) {
+  .design-page-section-1 {
+    flex-wrap: wrap;
+  }
+}
+
+.design-page-section-1-left {
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .design-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.design-page-section-1-left-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+
+.design-page-section-1-left-info {
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.design-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: whitesmoke;
+}
+
+.design-page-section-1-left-info a {
+  text-decoration: none;
+  color: #b32400;
+}
+
+.design-page-section-1-left-info a:hover {
+  text-decoration: underline;
+}
+
+.design-page-section-1-right {
+  width: 50%;
+  background: rgba(248, 248, 248, 0.9);
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 750px) {
+  .design-page-section-1-right {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40rem;
+    margin-left: 0;
+  }
+}
+
+.design-page-section-1-right-image {
+  width: 80%;
+  height: auto;
+  padding: 5rem;
+  position: absolute;
+}
+
+.design-page-section-2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #f8f8f8;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.design-page-section-2-wrapper .design-page-section-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.design-page-section-2-wrapper .design-page-section-2-button {
+  border: 2px solid #00b279;
+  background: #f8f8f8;
+  padding: 1rem 2rem;
+  color: #00b279;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.design-page-section-2-wrapper .design-page-section-2-button:hover {
+  border: 2px #00b279 solid;
+  background: #00b279;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.design-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/graphic design services dublin rocket chip web solutions consistency.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.design-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.design-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .design-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-3 {
+    width: 95%;
+  }
+}
+
+.design-page-section-3-left {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .design-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-3-left {
+    display: none;
+  }
+}
+
+.design-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .design-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .design-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .design-page-section-3-right {
+    width: 100%;
+  }
+}
+
+.design-page-section-3-right-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: darkslategray;
+}
+
+.design-page-section-3-right-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.design-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.logo-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logo-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00b279;
+}
+
+.logo-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .logo-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-1 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1 {
+    flex-wrap: wrap;
+  }
+}
+
+.logo-page-section-1-left {
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.logo-page-section-1-left-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+
+.logo-page-section-1-left-info {
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.logo-page-section-1-left-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: whitesmoke;
+}
+
+.logo-page-section-1-left-info a {
+  text-decoration: none;
+  color: #b32400;
+}
+
+.logo-page-section-1-left-info a:hover {
+  text-decoration: underline;
+}
+
+.logo-page-section-1-right {
+  width: 50%;
+  background: rgba(248, 248, 248, 0.9);
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1-right {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40rem;
+    margin-left: 0;
+  }
+}
+
+.logo-page-section-1-right-image {
+  width: 70%;
+  height: auto;
+  padding: 5rem;
+  position: absolute;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 750px) {
+  .logo-page-section-1-right-image {
+    width: auto;
+    height: 80%;
+  }
+}
+
+.logo-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/logo design services dublin rocket chip web solutions process.jpg");
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.logo-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.4);
+}
+
+.logo-page-section-3 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .logo-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-3 {
+    width: 95%;
+  }
+}
+
+.logo-page-section-3-left {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .logo-page-section-3-left {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-3-left {
+    display: none;
+  }
+}
+
+.logo-page-section-3-right {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.9);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .logo-page-section-3-right {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo-page-section-3-right {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo-page-section-3-right {
+    width: 100%;
+  }
+}
+
+.logo-page-section-3-right-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: darkslategray;
+}
+
+.logo-page-section-3-right-info {
+  color: darkslategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.logo-page-section-3-right-info i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b32400;
+}
+
+.webfeature {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.webfeature-leftPanel {
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.webfeature-rightPanel {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: darkslategrey;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
+.webfeature-small {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 40%;
+  display: flex;
+  margin-right: 1rem;
+}
+
+@media (max-width: 900px) {
+  .webfeature-small {
+    width: 80%;
+  }
+}
+
+.webfeature-small-leftPanel {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.webfeature-small-rightPanel {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-small-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-small-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: darkslategrey;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-small-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-small-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
+.webfeature-mid {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 90%;
+  display: flex;
+}
+
+.webfeature-mid-leftPanel {
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.webfeature-mid-rightPanel {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-mid-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-mid-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: darkslategrey;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-mid-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-mid-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
+.webfeature-mid-dark {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  width: 90%;
+  display: flex;
+}
+
+.webfeature-mid-dark-leftPanel {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-mid-dark-rightPanel {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.webfeature-mid-dark-rightPanel .service-title {
+  font-size: 2rem;
+  color: darkslategray;
+}
+
+.webfeature-mid-dark-rightPanel .service-info {
+  font-size: 1.5rem;
+  color: darkslategray;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.webfeature-mid-dark-rightPanel .service-link-container {
+  margin-top: 1rem;
+}
+
+.webfeature-mid-dark-rightPanel .service-link-container .service-link {
+  color: #00b279;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-mid-dark-rightPanel .service-link-container .service-link:hover {
+  text-decoration: underline;
+}
+
+.webfeature-mid-dark-rightPanel .service-link-container .service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.webfeature-mid-dark-rightPanel .service-link-container .service-link-alt:hover {
+  text-decoration: underline;
+}
+
+.service-link-alt {
+  color: #b32400;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.service-link-alt:hover {
+  text-decoration: underline;
+}
+
+.webfeature-icon {
+  color: #008057;
+  font-size: 3rem;
+}
+
+.webfeature-icon-alt {
+  color: #b32400;
+  font-size: 3rem;
+}
+
+.design-callout {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 8px 5px -1px rgba(0, 0, 0, 0.52);
+}
+
+.design-callout-top {
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.design-callout-image {
+  border-radius: 10px 10px 0px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.design-callout-main {
+  padding: 2rem;
+  background: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.design-callout-main-heading {
+  font-family: "Gothic A1", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.design-callout-main p {
+  color: slategray;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-1-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/Website Design and Development Rocketchip Web Solutions.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.webdesign-page-section-1-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 232, 232, 0.2);
+}
+
+.webdesign-page-section-1 {
+  z-index: 50;
+  width: 80%;
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .webdesign-page-section-1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webdesign-page-section-1 {
+    width: 95%;
+  }
+}
+
+.webdesign-page-section-1-left {
+  width: 80%;
+  background: rgba(248, 248, 248, 0.7);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .webdesign-page-section-1-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webdesign-page-section-1-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .webdesign-page-section-1-left {
+    width: 100%;
+  }
+}
+
+.webdesign-page-section-1-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.webdesign-page-section-1-left-info {
+  color: darkslategrey;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-1-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .webdesign-page-section-1-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webdesign-page-section-1-right {
+    display: none;
+  }
+}
+
+.webdesign-page-section-2-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #00b279;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.webdesign-page-section-2-wrapper .webdesign-page-section-2 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.webdesign-page-section-2-wrapper .webdesign-page-section-2-button {
+  border: 2px solid #f8f8f8;
+  background: #00b279;
+  padding: 1rem 2rem;
+  color: #f8f8f8;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.webdesign-page-section-2-wrapper .webdesign-page-section-2-button:hover {
+  border: 2px #00b279 solid;
+  background: #f8f8f8;
+  color: #00b279;
+  cursor: pointer;
+}
+
+.webdesign-page-section-3-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("/images/website design and development dublin rocketchip web solutions offer.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.webdesign-page-section-3-wrapper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 248, 248, 0.8);
+}
+
+.webdesign-page-section-3 {
+  display: flex;
+  width: 80%;
+  z-index: 50;
+}
+
+@media (max-width: 1200px) {
+  .webdesign-page-section-3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webdesign-page-section-3 {
+    width: 95%;
+  }
+}
+
+.webdesign-page-section-3-left {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: rgba(248, 248, 248, 0.7);
+  padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .webdesign-page-section-3-left {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .webdesign-page-section-3-left {
+    width: 95%;
+  }
+}
+
+@media (max-width: 700px) {
+  .webdesign-page-section-3-left {
+    width: 100%;
+  }
+}
+
+.webdesign-page-section-3-left-heading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkslategray;
+}
+
+.webdesign-page-section-3-left-heading span {
+  color: #00b279;
+  font-size: 2.7rem;
+}
+
+.webdesign-page-section-3-left-info {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-3-left-points {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.webdesign-page-section-3-left-points-point {
+  font-size: 1.6rem;
+  margin-bottom: 0.7rem;
+}
+
+.webdesign-page-section-3-left-points-point i {
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #00b279;
+  text-align: center;
+  vertical-align: center;
+}
+
+.webdesign-page-section-3-left-points-point span {
+  margin-left: 2.7rem;
+}
+
+.webdesign-page-section-3-left-more {
+  color: #5a6773;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.webdesign-page-section-3-left-more-heading {
+  font-size: 2rem;
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-3-left-more-info {
+  margin-bottom: 1rem;
+}
+
+.webdesign-page-section-3-left-more-info a {
+  text-decoration: none;
+  color: #00b279;
+}
+
+.webdesign-page-section-3-left-more-info a:hover {
+  text-decoration: underline;
+}
+
+.webdesign-page-section-3-right {
+  width: 20%;
+}
+
+@media (max-width: 1200px) {
+  .webdesign-page-section-3-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 900pz) {
+  .webdesign-page-section-3-right {
+    display: none;
+  }
+}
+
