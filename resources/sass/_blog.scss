@@ -1,10 +1,12 @@
 .blog-banner {
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 80vh;
     // background: url("/images/main-header2.png");
-    background: url("/images/website design and development dublin rocketchip web solutions.jpg");
+    background: url("/images/web design and development dublin rocket.chip webs solutions blog.jpg");
     background-position: center;
     background-size: cover;
 
@@ -22,4 +24,103 @@
         // background-color: rgba($color-primary, 0.7);
         background-color: rgba(darkslategray, 0.7);
     }
+}
+
+.blog-heading-text {
+    font-size: 5rem;
+    color: $grey1;
+    z-index: 20;
+    @media (max-width: 500px) {
+        font-size: 4rem;
+    }
+}
+
+.featured-article-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    background: $grey2;
+}
+
+.featured-article {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30rem;
+    position: relative;
+}
+
+.featured-article-picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        // background-color: rgba($color-primary, 0.7);
+        background-color: rgba(darkslategray, 0.7);
+    }
+}
+
+.featured-article-featured {
+    z-index: 10;
+    color: $grey1;
+    margin-left: 1rem;
+}
+
+.featured-article-title-container {
+    background: rgba($grey1, 0.7);
+    z-index: 10;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.featured-article-title {
+    margin-left: 1rem;
+    color: darkslategray;
+}
+
+.main-section-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    background: $grey2;
+}
+
+.main-section {
+    width: 80%;
+    display: flex;
+    border: 1px solid #000;
+}
+
+.articles-container {
+    width: 70%;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-bar-container {
+    width: 30%;
+    height: 10rem;
+    border: 1px solid #000;
 }

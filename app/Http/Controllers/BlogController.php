@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Wink\WinkPost;
 
 class BlogController extends Controller
 {
@@ -13,7 +14,31 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('blog');
+
+        $posts = collect([
+            [
+                'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
+                'category' => 'news',
+                'title' => 'Post 1'
+            ],
+            [
+                'img' => '',
+                'category' => 'opinion',
+                'title' => 'Post 2'
+            ],
+            [
+                'img' => '',
+                'category' => 'advice',
+                'title' => 'Post 3',
+            ]
+        ]);
+
+        $blogPosts = WinkPost::with('tags')
+            ->live()
+            ->orderBy('publish_date', 'DESC')
+            ->simplePaginate(12);
+        return view('blog')->with('posts', $posts)
+            ->with('blogPosts', $blogPosts);
     }
 
     /**

@@ -9,7 +9,33 @@
 
 @section('content')
 <div class="blog-banner">
+    <h1 class="blog-heading-text">Blog: News, Opinion &amp; Advice from the team at <br> Rocket.Chip Web Solutions</h1>
+</div>
+<div class="featured-article-container">
+    <div class="featured-article">
+        <div class="featured-article-picture">
+                <img src="/images/web design and development dublin rocket.chip webs solutions blog.jpg" alt="">
+        </div>
+        <h2 class="featured-article-featured">Featured Article</h2>
 
+        <div class="featured-article-title-container">
+            <h2 class="featured-article-title">Article Title</h2>
+        </div>
+    </div>
+</div>
+<div class="main-section-container">
+    <div class="main-section">
+        <div class="articles-container">
+            @foreach ($blogPosts as $blogPost)
+            @component('partials.blog-card', ['post' => $blogPost])
+
+            @endcomponent
+            @endforeach
+        </div>
+        <div class="side-bar-container">
+
+        </div>
+    </div>
 </div>
 
 @endsection
