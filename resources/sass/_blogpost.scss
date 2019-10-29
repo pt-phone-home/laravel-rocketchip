@@ -68,5 +68,107 @@
     margin-left: 1rem;
 }
 
+.blog-article-main-section-container {
+    display: flex;
+    justify-content: center;
+    background: $grey1;
+}
+
+.blog-article-main-section {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .blog-article-output-container {
+    width: 70%;
+    padding: 2rem;
+}
+
+.blog-article-output {
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        li {
+            color: darkslategray;
+            font-size: 1.9rem;
+            margin-bottom: 1.3rem;
+        }
+    }
+
+    h2 {
+        font-size: 2.7rem;
+        color: darkslategray;
+        margin-bottom: 1.5rem;
+        border-bottom: 2px solid $complementary;
+        padding-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 2.1rem;
+        color: darkslategray;
+        margin-bottom: 1.3rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+        color: darkslategray;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+
+    .embedded_image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 25rem;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        p {
+            align-self: center;
+            font-size: 1.3rem;
+            color: darkslategray;
+        }
+    }
+
+    blockquote {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        // border: darkslategray solid 2px;
+        position: relative;
+        border-left: 4px solid $complementary;
+
+        span {
+            font-size: 2.2rem;
+            padding-left: 3rem;
+            padding-right: 2rem;
+        }
+
+        // :before {
+        //     content: '"';
+        //     font-size: 7rem;
+        //     position: absolute;
+        //     top: -1rem;
+        //     left: -1rem;
+        //     color: lightslategray;
+        //     font-family: cursive;
+        // }
+
+        // :after {
+        //     content: '"';
+        //     font-size: 7rem;
+        //     position: absolute;
+        //     bottom: -1rem;
+        //     right: 3rem;
+        //     color: lightslategray;
+        //     font-family: cursive;
+        // }
+    }
 }

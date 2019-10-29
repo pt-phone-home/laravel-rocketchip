@@ -30,9 +30,16 @@
         <h3 class="blog-article-date">{{ ($post->updated_at)->diffForHumans() }}</h3>
     </div>
 </div>
-<div class="blog-article-output-container">
-    <div class="blog-article-output">
-{!! $post->body !!}
+<div class="blog-article-main-section-container">
+    <div class="blog-article-main-section">
+        <div class="blog-article-output-container">
+            <div class="blog-article-output">
+            {!! $post->body !!}
+            </div>
+        </div>
+    </div>
+    <div class="blog-article-side-bar-container">
+
     </div>
 </div>
 
