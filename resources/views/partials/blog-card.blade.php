@@ -5,7 +5,8 @@
         </div>
         <div class="blog-card-bottom">
             <div class="blog-card-category">{{ $post->categories }}</div>
-            <div class="blog-card-title">{{ $post->title }}</div>
+            <div class="blog-card-title"><a href="{{ route('blog.show', ['slug' => $post->slug])}}">{{ $post->title }}</a></div>
+
         </div>
     </div>
 </div>
