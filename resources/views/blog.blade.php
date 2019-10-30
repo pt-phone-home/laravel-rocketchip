@@ -19,7 +19,7 @@
         <h2 class="featured-article-featured">Featured Article</h2>
 
         <div class="featured-article-title-container">
-            <h2 class="featured-article-title">{{ $featuredPost->title }}</h2>
+            <h2 class="featured-article-title">{{ $testPost->posts->first()->title}}</h2>
         </div>
     </div>
 </div>

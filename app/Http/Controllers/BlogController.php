@@ -38,7 +38,11 @@ class BlogController extends Controller
         $blogPosts = WinkPost::with('tags')
             ->live()
             ->orderBy('publish_date', 'DESC')
-            ->simplePaginate(12);
+            ->skip(1)
+            ->take(12)
+            ->get();
+
+        $testPost = WinkTag::with('posts')->where('name', 'featured')->first();
 
         $featuredPost = WinkPost::with('tags')
             ->live()
@@ -47,7 +51,8 @@ class BlogController extends Controller
 
         return view('blog')->with('posts', $posts)
             ->with('blogPosts', $blogPosts)
-            ->with('featuredPost', $featuredPost);
+            ->with('featuredPost', $featuredPost)
+            ->with('testPost', $testPost);
     }
 
     /**

@@ -11,9 +11,9 @@
 @section('content')
 <div class="categories-navbar-container">
     <div class="categories-navbar">
-        <a href="{{ url()->previous() }}">Back</a>
+        <a href="{{ url()->previous() }}" class="categories-navbar-back">Back</a>
         @foreach ($tags as $tag)
-            <p>{{ $tag->name }}</p>
+            <a href="/blog/{{ strtolower($tag->name) }}">{{ $tag->name }}</a>
         @endforeach
     </div>
 </div>

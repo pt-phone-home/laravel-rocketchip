@@ -8,6 +8,18 @@
 .categories-navbar {
     width: 95%;
     display: flex;
+    justify-content: flex-start;
+}
+
+.categories-navbar a,
+.categories-navbar p {
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+}
+
+.categories-navbar-back {
+    // background: $complementary;
+    padding: 1rem 2rem;
 }
 
 .blog-article-hero {
