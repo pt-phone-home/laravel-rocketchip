@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Wink\WinkPost;
 use Carbon\Carbon;
+use Wink\WinkTag;
 
 class BlogController extends Controller
 {
@@ -38,8 +39,15 @@ class BlogController extends Controller
             ->live()
             ->orderBy('publish_date', 'DESC')
             ->simplePaginate(12);
+
+        $featuredPost = WinkPost::with('tags')
+            ->live()
+            ->orderBy('publish_date', 'DESC')
+            ->first();
+
         return view('blog')->with('posts', $posts)
-            ->with('blogPosts', $blogPosts);
+            ->with('blogPosts', $blogPosts)
+            ->with('featuredPost', $featuredPost);
     }
 
     /**
@@ -71,9 +79,10 @@ class BlogController extends Controller
      */
     public function show($slug)
     {
-        $post = WinkPost::live()->whereSlug($slug)->firstOrFail();
+        $post = WinkPost::with('tags')->live()->whereSlug($slug)->firstOrFail();
+        $tags = WinkTag::all();
 
-        return view('blogpost')->with('post', $post);
+        return view('blogpost')->with('post', $post)->with('tags', $tags);
     }
 
     /**

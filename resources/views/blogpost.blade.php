@@ -12,11 +12,9 @@
 <div class="categories-navbar-container">
     <div class="categories-navbar">
         <a href="{{ url()->previous() }}">Back</a>
-        <p>Tag1</p>
-        <p>Tag1</p>
-        <p>Tag1</p>
-        <p>Tag1</p>
-        <p>Tag1</p>
+        @foreach ($tags as $tag)
+            <p>{{ $tag->name }}</p>
+        @endforeach
     </div>
 </div>
 <div class="blog-article-hero">
