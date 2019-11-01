@@ -1,0 +1,43 @@
+.blog-card-small-container {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.blog-card-small {
+    width: 100%;
+    display: flex;
+    border: 1px solid $complementary;
+    justify-content: space-between;
+}
+
+.blog-card-small-image-container {
+    height: 4rem;
+    width: 4rem;
+    padding: 0.2rem;
+}
+
+.blog-card-small-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.blog-card-small-main-container,
+.blog-card-small-main-container {
+    padding: 0.2rem;
+    flex-grow: 1;
+}
+
+.blog-card-small-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card-small-views-container {
+    padding: 0.2rem;
+}
+
+.blog-card-small-views {
+    color: darkslategray;
+}

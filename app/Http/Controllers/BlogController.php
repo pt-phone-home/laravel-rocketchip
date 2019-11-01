@@ -17,19 +17,19 @@ class BlogController extends Controller
     public function index()
     {
 
-        $posts = collect([
+        $latestArticles = collect([
             [
                 'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
                 'category' => 'news',
                 'title' => 'Post 1'
             ],
             [
-                'img' => '',
+                'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
                 'category' => 'opinion',
                 'title' => 'Post 2'
             ],
             [
-                'img' => '',
+                'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
                 'category' => 'advice',
                 'title' => 'Post 3',
             ]
@@ -42,17 +42,11 @@ class BlogController extends Controller
             ->take(12)
             ->get();
 
-        $testPost = WinkTag::with('posts')->where('name', 'featured')->first();
+        $featuredPost = WinkTag::with('posts')->where('name', 'featured')->first();
 
-        $featuredPost = WinkPost::with('tags')
-            ->live()
-            ->orderBy('publish_date', 'DESC')
-            ->first();
-
-        return view('blog')->with('posts', $posts)
+        return view('blog')->with('latestArticles', $latestArticles)
             ->with('blogPosts', $blogPosts)
-            ->with('featuredPost', $featuredPost)
-            ->with('testPost', $testPost);
+            ->with('featuredPost', $featuredPost);
     }
 
     /**
@@ -90,6 +84,13 @@ class BlogController extends Controller
         return view('blogpost')->with('post', $post)->with('tags', $tags);
     }
 
+
+    public function tag($tag)
+    {
+        $posts = WinkTag::with('posts')->where('name', $tag);
+
+        return view('blog-category')->with('blogPosts', $posts);
+    }
     /**
      * Show the form for editing the specified resource.
      *

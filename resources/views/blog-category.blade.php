@@ -34,9 +34,6 @@
         </div>
         <div class="side-bar-container">
 
-            @component('partials.blog-sidebar', ['latestArticles' => $latestArticles])
-
-            @endcomponent
         </div>
     </div>
 </div>
