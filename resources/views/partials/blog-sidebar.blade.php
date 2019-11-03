@@ -8,6 +8,10 @@
                 @endcomponent
             @endforeach
         </div>
+        <h2>Most Popular</h2>
+        <div class="sidebar-popular-container">
+
+        </div>
         <h2>Categories</h2>
         <div class="sidebar-categories-container">
             <a href="{{ route('blog.index') }}">All</a>
