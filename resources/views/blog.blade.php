@@ -16,10 +16,10 @@
         <div class="featured-article-picture">
                 <img src="/images/web design and development dublin rocket.chip webs solutions blog.jpg" alt="">
         </div>
-        <h2 class="featured-article-featured">Featured Article</h2>
+        <h2 class="featured-article-featured">Latest Article</h2>
 
         <div class="featured-article-title-container">
-            <h2 class="featured-article-title">{{ $featuredPost->posts->first()->title}}</h2>
+            <h2 class="featured-article-title">{{ $latestPost->first()->title}}</h2>
         </div>
     </div>
 </div>
@@ -27,14 +27,14 @@
     <div class="main-section">
         <div class="articles-container">
             @foreach ($blogPosts as $blogPost)
-            @component('partials.blog-card', ['post' => $blogPost])
+                @component('partials.blog-card', ['post' => $blogPost])
 
-            @endcomponent
+                @endcomponent
             @endforeach
         </div>
         <div class="side-bar-container">
 
-            @component('partials.blog-sidebar', ['latestArticles' => $latestArticles])
+            @component('partials.blog-sidebar', ['recentArticles' => $recentArticles, 'tags' => $tags])
 
             @endcomponent
         </div>

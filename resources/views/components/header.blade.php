@@ -80,6 +80,7 @@
             </div>
         </li>
         <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/blog">Blog</a></li>
         <li><a href="/contact" class="contact_us">Contact Us</a></li>
     </div>
     <div class="sidenavbutton" id="sidenavbutton">
@@ -105,6 +106,7 @@
             </ul>
         </li>
         <li class="sidenav-item"><a href="/portfolio" class="sidenav-item-link">Portfolio</a></li>
+        <li class="sidenav-item"><a href="/blog" class="sidenav-item-link">Blog</a></li>
         <li class="sidenav-item"><a href="/contact" class="contact_us sidenav-item-link">Contact Us</a></li>
     </div>
 </div>

@@ -37,7 +37,7 @@
         </div>
     </div>
     <div class="blog-article-side-bar-container">
-
+        @include('partials.blog-sidebar', ['tags' => $tags])
     </div>
 </div>
 

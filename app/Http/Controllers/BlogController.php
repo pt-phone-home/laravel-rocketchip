@@ -42,11 +42,15 @@ class BlogController extends Controller
             ->take(12)
             ->get();
 
-        $featuredPost = WinkTag::with('posts')->where('name', 'featured')->first();
+        $latestPost = WinkPost::with('tags')->live()->first()->get();
 
-        return view('blog')->with('latestArticles', $latestArticles)
+        $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
+        $tags = WinkTag::all();
+
+        return view('blog')->with('recentArticles', $recentArticles)
             ->with('blogPosts', $blogPosts)
-            ->with('featuredPost', $featuredPost);
+            ->with('latestPost', $latestPost)
+            ->with('tags', $tags);
     }
 
     /**
@@ -79,17 +83,27 @@ class BlogController extends Controller
     public function show($slug)
     {
         $post = WinkPost::with('tags')->live()->whereSlug($slug)->firstOrFail();
+        $post->increment('views');
         $tags = WinkTag::all();
+        $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
 
-        return view('blogpost')->with('post', $post)->with('tags', $tags);
+        return view('blogpost')->with('post', $post)->with('tags', $tags)->with('recentArticles', $recentArticles);
     }
 
 
     public function tag($tag)
     {
-        $posts = WinkTag::with('posts')->where('name', $tag);
+        // $posts = WinkTag::with('posts')->where('name', $tag);
+        $posts = WinkPost::with('tags')->live()->get();
+        $latestPost = WinkPost::with('tags')->live()->first()->get();
+        $tags = WinkTag::all();
+        $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
 
-        return view('blog-category')->with('blogPosts', $posts);
+        return view('blog-category')->with('posts', $posts)
+            ->with('latestPost', $latestPost)
+            ->with('tags', $tags)
+            ->with('recentArticles', $recentArticles)
+            ->with('tag', $tag);
     }
     /**
      * Show the form for editing the specified resource.

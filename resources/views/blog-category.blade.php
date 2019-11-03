@@ -19,21 +19,28 @@
         <h2 class="featured-article-featured">Featured Article</h2>
 
         <div class="featured-article-title-container">
-            <h2 class="featured-article-title">{{ $featuredPost->posts->first()->title}}</h2>
+            <h2 class="featured-article-title">{{ $latestPost->first()->title}}</h2>
         </div>
     </div>
 </div>
 <div class="main-section-container">
     <div class="main-section">
         <div class="articles-container">
-            @foreach ($blogPosts as $blogPost)
-            @component('partials.blog-card', ['post' => $blogPost])
+            @foreach ($posts as $post)
+                @foreach ($post->tags as $postTag)
+                    @if (strtolower($postTag->name) == $tag)
+                        @component('partials.blog-card', ['post' => $post])
 
-            @endcomponent
+                        @endcomponent
+                    @endif
+                @endforeach
+
             @endforeach
         </div>
         <div class="side-bar-container">
+                @component('partials.blog-sidebar', ['recentArticles' => $recentArticles, 'tags' => $tags])
 
+                @endcomponent
         </div>
     </div>
 </div>
