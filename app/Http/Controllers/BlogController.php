@@ -16,25 +16,6 @@ class BlogController extends Controller
      */
     public function index()
     {
-
-        $latestArticles = collect([
-            [
-                'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
-                'category' => 'news',
-                'title' => 'Post 1'
-            ],
-            [
-                'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
-                'category' => 'opinion',
-                'title' => 'Post 2'
-            ],
-            [
-                'img' => '/images/search engine optimisation services dublin rocket chip web solutions.jpg',
-                'category' => 'advice',
-                'title' => 'Post 3',
-            ]
-        ]);
-
         $blogPosts = WinkPost::with('tags')
             ->live()
             ->orderBy('publish_date', 'DESC')
@@ -42,7 +23,7 @@ class BlogController extends Controller
             ->take(12)
             ->get();
 
-        $latestPost = WinkPost::with('tags')->live()->first()->get();
+        $latestPost = WinkPost::with('tags')->live()->first();
 
         $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
         $tags = WinkTag::all();
@@ -95,7 +76,7 @@ class BlogController extends Controller
     {
         // $posts = WinkTag::with('posts')->where('name', $tag);
         $posts = WinkPost::with('tags')->live()->get();
-        $latestPost = WinkPost::with('tags')->live()->first()->get();
+        $latestPost = WinkPost::with('tags')->live()->first();
         $tags = WinkTag::all();
         $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
 

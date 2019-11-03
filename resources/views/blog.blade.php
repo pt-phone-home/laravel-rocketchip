@@ -12,16 +12,16 @@
     <h1 class="blog-heading-text">Blog: News, Opinion &amp; Advice from the team at <br> Rocket.Chip Web Solutions</h1>
 </div>
 <div class="featured-article-container">
-    <div class="featured-article">
+    <a class="featured-article" href="{{ route('blog.show', ['slug' => $latestPost->slug]) }}">
         <div class="featured-article-picture">
-                <img src="/images/web design and development dublin rocket.chip webs solutions blog.jpg" alt="">
+                <img src="{{ $latestPost->featured_image }}" alt="">
         </div>
         <h2 class="featured-article-featured">Latest Article</h2>
 
         <div class="featured-article-title-container">
-            <h2 class="featured-article-title">{{ $latestPost->first()->title}}</h2>
+            <h2 class="featured-article-title">{{ $latestPost->title}}</h2>
         </div>
-    </div>
+    </a>
 </div>
 <div class="main-section-container">
     <div class="main-section">
