@@ -5,15 +5,17 @@
         </div>
         <div class="blog-card-small-main-container">
             <div class="blog-card-small-main">
-                <p>{{ $post->title }}</p>
-                @foreach ($post->tags as $tag)
-                <span>{{ $tag->name }}</span>
-                @endforeach
+                <h3>{{ $post->title }}</h3>
+                <div class="blog-card-small-main-tags-container">
+                    @foreach ($post->tags as $tag)
+                    <h5>{{ $tag->name }}</h5>
+                    @endforeach
+                </div>
             </div>
         </div>
         <div class="blog-card-small-views-container">
             <div class="blog-card-small-views">
-                {{ $post->views }}
+               <p>{{ $post->views }}</p>
             </div>
         </div>
     </a>

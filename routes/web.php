@@ -21,7 +21,7 @@ Route::get('/contact', 'PagesController@contact')->name('contact');
 Route::post('/contact', 'PagesController@sendMail');
 Route::get('/blog', 'BlogController@index')->name('blog.index');
 Route::get('/blog/{slug}', 'BlogController@show')->name('blog.show');
-Route::get('/{tag}', 'BlogController@tag')->name('blog.tag');
+Route::get('/category/{tag}/', 'BlogController@tag')->name('blog.tag');
 
 Route::get('/web-design-development', 'PagesController@webdesign')->name('webdesign');
 Route::get('/ecommerce-design-development', 'PagesController@ecommerce')->name('ecommerce');

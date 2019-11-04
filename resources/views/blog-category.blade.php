@@ -14,9 +14,9 @@
 <div class="featured-article-container">
     <a class="featured-article" href="{{ route('blog.show', ['slug' => $latestPost->slug]) }}">
         <div class="featured-article-picture">
-                <img src="/images/web design and development dublin rocket.chip webs solutions blog.jpg" alt="">
+                <img src="{{ $latestPost->featured_image }}" alt="{{ $latestPost->featured_image_caption }}" title="{{ $latestPost->featured_image_caption }}">
         </div>
-        <h2 class="featured-article-featured">Featured Article</h2>
+        <h2 class="featured-article-featured">Latest Article</h2>
 
         <div class="featured-article-title-container">
             <h2 class="featured-article-title">{{ $latestPost->title}}</h2>
@@ -38,7 +38,7 @@
             @endforeach
         </div>
         <div class="side-bar-container">
-                @component('partials.blog-sidebar', ['recentArticles' => $recentArticles, 'tags' => $tags])
+                @component('partials.blog-sidebar', ['recentArticles' => $recentArticles, 'tags' => $tags, 'popular' => $popular])
 
                 @endcomponent
         </div>

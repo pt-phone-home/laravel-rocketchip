@@ -28,10 +28,17 @@ class BlogController extends Controller
         $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
         $tags = WinkTag::all();
 
+        $popular = WinkPost::with('tags')
+            ->live()
+            ->orderBy('views', 'DESC')
+            ->take(4)
+            ->get();
+
         return view('blog')->with('recentArticles', $recentArticles)
             ->with('blogPosts', $blogPosts)
             ->with('latestPost', $latestPost)
-            ->with('tags', $tags);
+            ->with('tags', $tags)
+            ->with('popular', $popular);
     }
 
     /**
@@ -67,8 +74,14 @@ class BlogController extends Controller
         $post->increment('views');
         $tags = WinkTag::all();
         $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
+        $popular = WinkPost::with('tags')
+            ->live()
+            ->orderBy('views', 'DESC')
+            ->take(4)
+            ->get();
 
-        return view('blogpost')->with('post', $post)->with('tags', $tags)->with('recentArticles', $recentArticles);
+        return view('blogpost')->with('post', $post)->with('tags', $tags)->with('recentArticles', $recentArticles)
+            ->with('popular', $popular);
     }
 
 
@@ -79,12 +92,18 @@ class BlogController extends Controller
         $latestPost = WinkPost::with('tags')->live()->first();
         $tags = WinkTag::all();
         $recentArticles = WinkPost::with('tags')->live()->take(3)->get();
+        $popular = WinkPost::with('tags')
+            ->live()
+            ->orderBy('views', 'DESC')
+            ->take(4)
+            ->get();
 
         return view('blog-category')->with('posts', $posts)
             ->with('latestPost', $latestPost)
             ->with('tags', $tags)
             ->with('recentArticles', $recentArticles)
-            ->with('tag', $tag);
+            ->with('tag', $tag)
+            ->with('popular', $popular);
     }
     /**
      * Show the form for editing the specified resource.

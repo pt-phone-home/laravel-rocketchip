@@ -3,6 +3,7 @@
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background: $grey1;
 }
 
 .categories-navbar {
@@ -11,15 +12,27 @@
     justify-content: flex-start;
 }
 
-.categories-navbar a,
-.categories-navbar p {
+.categories-navbar-link {
     margin-right: 1rem;
     padding: 1rem 2rem;
+    color: darkslategray;
+    text-decoration: none;
+
+    &:hover {
+        color: $complementary;
+    }
 }
 
 .categories-navbar-back {
     // background: $complementary;
     padding: 1rem 2rem;
+    color: darkslategray;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+        color: $color-primary;
+    }
 }
 
 .blog-article-hero {

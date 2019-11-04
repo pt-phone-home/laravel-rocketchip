@@ -1,11 +1,11 @@
 @extends('master')
 
 @section('title')
-
+    {{ $post->title }} | Rocket.Chip Web Solutions Blog
 @endsection
 
 @section('pageDescription')
-
+<meta name="description" content="{{ $post->meta_description }}">
 @endsection
 
 @section('content')
@@ -13,7 +13,7 @@
     <div class="categories-navbar">
         <a href="{{ route('blog.index') }}" class="categories-navbar-back">Back</a>
         @foreach ($tags as $tag)
-            <a href="{{ route('blog.tag', ['tag' => strtolower($tag->name)]) }}">{{ $tag->name }}</a>
+            <a href="{{ route('blog.tag', ['tag' => strtolower($tag->name)]) }}" class="categories-navbar-link">{{ $tag->name }}</a>
         @endforeach
     </div>
 </div>

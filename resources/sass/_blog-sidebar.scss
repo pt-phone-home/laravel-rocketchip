@@ -1,4 +1,35 @@
 .blog-sidebar {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+}
+
+.sidebar-latest-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-latest-articles h2 {
+    color: darkslategray;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar-latest-articles-container,
+.sidebar-popular-container,
+.sidebar-categories-container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-categories-container a {
+    color: darkslategray;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+    &:hover {
+        color: $complementary;
+    }
 }

@@ -10,7 +10,11 @@
         </div>
         <h2>Most Popular</h2>
         <div class="sidebar-popular-container">
+            @foreach ($popular as $pop)
+                @component('partials.blog-card-small', ['post' => $pop])
 
+                @endcomponent
+            @endforeach
         </div>
         <h2>Categories</h2>
         <div class="sidebar-categories-container">
