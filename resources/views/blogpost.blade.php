@@ -33,7 +33,11 @@
         <div class="blog-article-output-container">
             <div class="blog-article-output">
             {!! $post->body !!}
+            @component('partials.social-sharing', ['post' => $post])
+
+            @endcomponent
             </div>
+
         </div>
         <div class="blog-article-side-bar-container">
             @include('partials.blog-sidebar', ['tags' => $tags])
