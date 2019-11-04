@@ -1,6 +1,12 @@
 .blog-card-container {
     width: 50%;
     padding: 2rem;
+
+    @media (max-width: 600px) {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .blog-card {
@@ -10,6 +16,10 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #000;
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 }
 
 .blog-card-top {

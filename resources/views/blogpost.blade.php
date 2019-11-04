@@ -5,7 +5,7 @@
 @endsection
 
 @section('pageDescription')
-<meta name="description" content="{{ $post->meta_description }}">
+<meta name="description" content="{{ $post->meta['meta_description'] }}">
 @endsection
 
 @section('content')

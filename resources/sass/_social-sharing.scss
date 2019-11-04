@@ -1,0 +1,26 @@
+.social-sharing-container {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 2px solid $complementary;
+}
+
+.social-sharing {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.social-sharing-link {
+    text-decoration: none;
+    color: unset;
+    margin-right: 1.5rem;
+}
+
+.social-sharing-link-icon {
+    font-size: 3.5rem;
+    color: $complementary;
+
+    &:hover {
+        color: darken($color: $complementary, $amount: 10%);
+    }
+}
