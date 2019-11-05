@@ -5992,7 +5992,7 @@ body {
 }
 
 .blog-article-main-section {
-  width: 100%;
+  width: 95%;
   display: flex;
 }
 
@@ -6052,15 +6052,19 @@ body {
 }
 
 .blog-article-output .embedded_image {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 25rem;
+  height: 30rem;
 }
 
 .blog-article-output .embedded_image img {
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   height: 100%;
   width: 100%;
 }
@@ -6077,6 +6081,9 @@ body {
   padding: 2rem;
   position: relative;
   border-left: 4px solid #00b279;
+  font-size: 2rem;
+  color: darkslategray;
+  line-height: 1.7;
 }
 
 .blog-article-output blockquote span {
