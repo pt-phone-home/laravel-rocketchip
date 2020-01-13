@@ -58,7 +58,7 @@
     <div class="webdesign-page-section-3">
         <div class="webdesign-page-section-3-left">
             <h2 class="webdesign-page-section-3-left-heading" id="offer">
-                Complete Website for SME’s / Sole Traders from <span>€349</span>
+                Complete Website for SME’s / Sole Traders from <span>€499</span>
             </h2>
             <p class="webdesign-page-section-3-left-info">
                     All businesses need a website that can attract customers and inform them about your products and services. A professional website is an essential part of any modern marketing or sales strategy. Rocket.Chip Web Solutions can work with you to create a sleek, feature-rich website that promotes your work and gives customers access to your portfolio.

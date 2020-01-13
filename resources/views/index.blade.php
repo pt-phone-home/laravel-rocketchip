@@ -48,7 +48,7 @@ Innovative Online Solutions | Rocket.Chip Web Solutions
         </div>
         <div class="new-banner-cta">
             <a href="/contact" class="btn new-banner-btn">Work with us today</a>
-            {{-- <a href="/web-design-development#offer" class="btn new-banner-btn-offer">€349 Website Offer</a> --}}
+            <a href="/web-design-development#offer" class="btn new-banner-btn-offer">€499 Website Offer</a>
          </div>
     </div>
 

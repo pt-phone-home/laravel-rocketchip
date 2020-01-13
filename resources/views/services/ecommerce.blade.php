@@ -44,7 +44,7 @@
             @endcomponent
 
             <div>
-                <h3 class="ecommerce-page-section-1-left-heading">Talk to us today to start an online store from as little as <span>€599</span></h3>
+                <h3 class="ecommerce-page-section-1-left-heading">Talk to us today to start an online store from as little as <span>€649</span></h3>
             </div>
 
         </div>
