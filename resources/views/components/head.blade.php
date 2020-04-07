@@ -56,3 +56,5 @@
 
   gtag('config', 'UA-125112334-3');
 </script>
+<script type="text/javascript" src="https://secure.cuba7tilt.com/js/189622.js" ></script>
+<noscript><img alt="" src="https://secure.cuba7tilt.com/189622.png" style="display:none;" /></noscript>
