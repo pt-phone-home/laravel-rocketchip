@@ -12,6 +12,7 @@
     <h1 class="blog-heading-text">Blog: News, Opinion &amp; Advice from the team at <br> Rocket.Chip Web Solutions</h1>
 </div>
 <div class="featured-article-container">
+    @if($latestPost) {
     <a class="featured-article" href="{{ route('blog.show', ['slug' => $latestPost->slug]) }}">
         <div class="featured-article-picture">
                 <img src="{{ $latestPost->featured_image }}" alt="{{ $latestPost->featured_image_caption }}">
@@ -22,6 +23,8 @@
             <h2 class="featured-article-title">{{ $latestPost->title}}</h2>
         </div>
     </a>
+    }
+    @endif
 </div>
 <div class="main-section-container">
     <div class="main-section">
